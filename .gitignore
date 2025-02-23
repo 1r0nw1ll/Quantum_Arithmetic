@@ -1,0 +1,3 @@
+qa_env/       # Ignore virtual environment
+__pycache__/  # Ignore Python cache files
+*.log         # Ignore log files
