@@ -20,8 +20,6 @@ It:
 - **Acoustic Modeling**:
   - `qa_accoustic_collab_v2.odt` — Dome resonance via QA ellipses and mod-24 standing waves
 
-- **New Discoveries**:
-  - `harmonic_mirror_plane.txt` — Redefines the complex plane as a harmonic reflection framework
 
 ## 🧠 Who Is This For?
 
