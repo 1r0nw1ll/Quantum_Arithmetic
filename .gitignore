@@ -1,0 +1,131 @@
+# ============================================================
+# QA Research Swarm - Git Ignore Configuration
+# ============================================================
+
+# --- Python / Build Artifacts ---
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+build/
+dist/
+*.pyc
+*.pyo
+
+# --- Virtualenvs ---
+venv/
+.venv/
+qa_venv/
+.env/
+.envrc
+env/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+.DS_Store
+*.bak
+*.tmp
+.pytest_cache/
+.mypy_cache/
+
+# --- Syncthing Metadata ---
+.stfolder
+.stignore
+.syncthing*
+*.sync-conflict-*
+.stversions/
+
+# --- Swarm Runtime State (HUGE, Ephemeral) ---
+# These are synced via Syncthing but not tracked in Git
+tasks/inbox/*.yaml
+tasks/active/*.yaml
+tasks/completed/*.yaml
+tasks/rejected/*.yaml
+tasks/archive/
+
+# Keep the directory structure but ignore contents
+!tasks/inbox/.gitkeep
+!tasks/active/.gitkeep
+!tasks/completed/.gitkeep
+
+# Artifacts (results, plots, logs)
+artifacts/evals/*.json
+artifacts/proofs/*.txt
+artifacts/ingestion/*.md
+artifacts/*.tar.gz
+plots/*.png
+plots/*.pdf
+logs/*.log
+logs/*.json
+logs/*.txt
+
+# Keep important documentation
+!artifacts/OPTIMIZE_PLAYER4.md
+!artifacts/SYNC_NOW_WORKING.md
+!artifacts/DISTRIBUTED_SWARM_ONLINE.md
+!artifacts/SWARM_EVOLUTION_ROADMAP.md
+
+# --- Large Data Files ---
+data/
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.csv.gz
+*.parquet
+
+# --- Temporary / Cache ---
+tmp/
+cache/
+.cache/
+*.pid
+
+# --- Docker ---
+docker-data/
+.docker/
+
+# --- Node Config (runtime state) ---
+.node_config.json
+.node_config_*.json
+node_optimization_report.txt
+
+# --- Makefile Overrides (generated) ---
+Makefile.node.optimized
+Makefile.local
+
+# --- Test Coverage ---
+.coverage
+htmlcov/
+coverage.xml
+
+# --- OS-Specific ---
+Thumbs.db
+desktop.ini
+
+# --- Secrets (CRITICAL - Never commit) ---
+*.key
+*.pem
+*.secret
+config.xml
+.syncthing/config.xml
+.local/state/syncthing/
+
+# --- Keep Examples and Templates ---
+# These SHOULD be tracked:
+# !tasks/templates/
+# !experiment_templates/
+# !qa_mcp_servers/
+
+# --- Keep Core Code ---
+# Everything in these dirs IS tracked:
+# qa_agents/
+# qa_fast_eval.py
+# qa_equations.py
+# scripts/
+# Makefile
+# *.md (documentation)

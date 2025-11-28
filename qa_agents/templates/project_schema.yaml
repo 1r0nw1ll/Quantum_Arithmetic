@@ -1,0 +1,49 @@
+# QA Project Schema v4.0
+# Defines the structure for project definitions in projects/*.yaml
+
+id: "PRJ-001"  # Unique project identifier
+title: "Project title"
+description: "Detailed project description and goals"
+
+owner: "will"  # Primary responsible person
+status: "active"  # planning, active, paused, completed, cancelled
+
+outcomes:
+  - "Primary deliverable 1"
+  - "Primary deliverable 2"
+
+deadlines:
+  soft: "2025-11-08"  # Target completion date
+  hard: "2025-11-15"  # Must-complete-by date
+
+scope:
+  includes:
+    - "In scope item 1"
+  excludes:
+    - "Out of scope item 1"
+
+dependencies: []  # Other project IDs this depends on
+
+labels:
+  - "math"  # Domain tags
+  - "proof"
+  - "geometry"
+
+tasks:
+  - "T-001"  # Associated task IDs
+  - "T-002"
+
+progress:
+  completed_tasks: 0
+  total_tasks: 5
+  percent_complete: 0.0
+
+risks:
+  - description: "Potential risk"
+    impact: "high"  # high, medium, low
+    mitigation: "How to address"
+
+metadata:
+  created_at: "2025-10-29T17:00:00Z"
+  updated_at: "2025-10-29T17:00:00Z"
+  version: "4.0"

@@ -1,0 +1,29 @@
+# QA Agent Run Ledger Schema v4.0
+# JSONL format for logs/runs.jsonl - one JSON object per line
+
+{
+  "timestamp": "2025-10-29T18:00:00Z",
+  "agent": "Scout",
+  "task_id": "T-001",
+  "project_id": "PRJ-001",
+  "action": "task_discovery",
+  "status": "success",
+  "duration_ms": 1500,
+  "input_tokens": 1200,
+  "output_tokens": 300,
+  "llm_provider": "claude_code",
+  "inputs": {
+    "files_scanned": 15,
+    "commits_analyzed": 5
+  },
+  "outputs": {
+    "tasks_created": 3,
+    "inbox_count": 8
+  },
+  "errors": null,
+  "metadata": {
+    "version": "4.0",
+    "lane": "green",
+    "priority": 4.2
+  }
+}

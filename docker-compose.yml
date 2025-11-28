@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  # MCP Server: QA Right Triangle
+  qa-right-triangle:
+    build: ./qa_mcp_servers/qa-right-triangle
+    container_name: mcp-qa-right-triangle
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./qa_mcp_servers/qa-right-triangle:/app
+    restart: unless-stopped
+
+  # MCP Server: QA Resonance Scanner (placeholder)
+  qa-resonance:
+    build:
+      context: ./qa_mcp_servers/qa-resonance
+      dockerfile: Dockerfile
+    container_name: mcp-qa-resonance
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./qa_mcp_servers/qa-resonance:/app
+    restart: unless-stopped
+
+  # MCP Server: QA HGD Optimizer (placeholder)
+  qa-hgd-optimizer:
+    build:
+      context: ./qa_mcp_servers/qa-hgd-optimizer
+      dockerfile: Dockerfile
+    container_name: mcp-qa-hgd-optimizer
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./qa_mcp_servers/qa-hgd-optimizer:/app
+      - ./results:/app/results
+    restart: unless-stopped
+
+volumes:
+  mcp_data:
+    driver: local

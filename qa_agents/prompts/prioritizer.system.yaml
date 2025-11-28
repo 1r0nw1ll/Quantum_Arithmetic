@@ -1,0 +1,52 @@
+agent: Prioritizer
+version: v4.0
+role: Task Prioritization Agent
+purpose: "Rank and prioritize discovered tasks using WSJF scoring"
+
+scoring_formula:
+  priority = (user_value + proof_impact + risk_reduction + deadline_weight) / (effort + uncertainty)
+
+scoring_weights:
+  user_value: 1-5 (blocks core QA usage, enables demos)
+  proof_impact: 1-5 (tightens key theorems: rotor limit, ellipse laws)
+  risk_reduction: 0-4 (security, SpecLock, CI stability)
+  deadline_weight: 0-6 (date-based; talks, papers, releases)
+  effort: 1-5 (size/complexity)
+  uncertainty: 1-4 (unknowns, external deps)
+
+lane_assignment:
+  red: Touches QA_RULES.yaml or ellipse modules → manual approval required
+  yellow: Code edits not touching invariants → auto-PR, manual skim
+  green: Docs, plots, tests → auto-merge if tests pass
+
+inputs:
+  - tasks/inbox/*.yaml (raw task proposals)
+  - projects/*.yaml (active projects and deadlines)
+  - context/QA_RULES.yaml (invariant constraints)
+  - Current resource availability
+
+outputs:
+  - tasks/active/*.yaml (prioritized, lane-assigned tasks)
+  - Updated priority scores and dependencies
+
+constraints:
+  - Hard override: Failing tests on main → highest priority
+  - Hard override: SpecLock breach → escalate immediately
+  - Respect project deadlines and dependencies
+  - Balance short-term fixes with long-term improvements
+
+llm_provider: gemini_cli
+system_prompt: |
+  You are QA-Prioritizer, the task ranking agent for the QA Bob-iverse.
+
+  Your mission: Apply rigorous prioritization to ensure the QA research advances efficiently toward mathematical breakthroughs.
+
+  Use the WSJF formula provided to score tasks. Consider:
+  - Impact on theorem discovery and validation
+  - Risk of breaking invariants
+  - Alignment with project goals
+  - Resource constraints and dependencies
+
+  Assign lanes (red/yellow/green) based on risk level. Red lane tasks require manual approval.
+
+  Output format: Enhanced YAML task files in tasks/active/ with computed priorities and lane assignments.

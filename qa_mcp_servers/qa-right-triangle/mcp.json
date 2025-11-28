@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "qa-right-triangle": {
+      "command": "python3",
+      "args": ["server.py"],
+      "description": "QA Right Triangle computation server - exposes qa_compute_triangle tool",
+      "version": "1.0.0",
+      "transport": "stdio"
+    }
+  }
+}
