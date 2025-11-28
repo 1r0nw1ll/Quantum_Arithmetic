@@ -247,6 +247,73 @@ qa_lab_init: init
 clean:
 	rm -rf artifacts/plots/* artifacts/evals/* artifacts/proofs/* logs/*.log
 
+# ============================================================
+# GitHub Integration (Network Chuck style automation)
+# ============================================================
+
+# Create git snapshot (local only)
+git-snapshot:
+	@echo "📸 Creating local git snapshot..."
+	@./scripts/git_autosnapshot.sh
+
+# Push current snapshot to GitHub
+git-push:
+	@echo "📤 Pushing to GitHub..."
+	@QA_GIT_PUSH=1 ./scripts/git_autosnapshot.sh "manual push"
+
+# Start GitHub sync daemon (continuous background sync)
+github-daemon-start:
+	@echo "🔄 Starting GitHub sync daemon..."
+	@./scripts/github_sync_daemon.sh &
+	@echo "✅ Daemon started (PID: $$!)"
+	@echo "   Stop with: make github-daemon-stop"
+
+# Stop GitHub sync daemon
+github-daemon-stop:
+	@echo "🛑 Stopping GitHub sync daemon..."
+	@pkill -f github_sync_daemon || echo "No daemon running"
+
+# Check GitHub sync status
+github-status:
+	@echo "📊 GitHub Sync Status"
+	@echo "===================="
+	@echo "Remote: $$(git remote -v | grep origin | head -1 || echo 'No remote configured')"
+	@echo "Branch: $$(git rev-parse --abbrev-ref HEAD)"
+	@echo "Local commits ahead: $$(git rev-list --count origin/$$(git rev-parse --abbrev-ref HEAD)..$$(git rev-parse --abbrev-ref HEAD) 2>/dev/null || echo '0')"
+	@echo "Remote commits behind: $$(git rev-list --count $$(git rev-parse --abbrev-ref HEAD)..origin/$$(git rev-parse --abbrev-ref HEAD) 2>/dev/null || echo '0')"
+	@echo ""
+	@if pgrep -f github_sync_daemon > /dev/null; then \
+		echo "🔄 Sync daemon: RUNNING"; \
+	else \
+		echo "💤 Sync daemon: STOPPED"; \
+	fi
+
+# Pull latest from GitHub
+github-pull:
+	@echo "📥 Pulling from GitHub..."
+	@git pull --rebase origin $$(git rev-parse --abbrev-ref HEAD)
+	@echo "✅ Synced with GitHub"
+
+# Initial setup: configure GitHub remote
+github-setup:
+	@echo "🔧 GitHub Setup"
+	@echo "==============="
+	@echo "Repository: https://github.com/1r0nw1ll/Quantum_Arithmetic"
+	@echo ""
+	@if git remote | grep -q origin; then \
+		echo "✅ Remote already configured"; \
+		git remote -v; \
+	else \
+		echo "Adding GitHub remote..."; \
+		git remote add origin https://github.com/1r0nw1ll/Quantum_Arithmetic.git; \
+		echo "✅ Remote configured"; \
+	fi
+	@echo ""
+	@echo "💡 Next steps:"
+	@echo "   1. Authenticate: gh auth login"
+	@echo "   2. Push: make git-push"
+	@echo "   3. Auto-sync: make github-daemon-start"
+
 # Help
 help:
 	@echo "QA Bob-iverse Autonomic Research Lab v4.0"
@@ -287,6 +354,15 @@ help:
 	@echo "  graph-build      - Build QA knowledge graph (KG)"
 	@echo "  graph-viz        - Render graph visualization (KG)"
 	@echo "  phase1-kg        - Run full Phase 1 KG pipeline"
+	@echo ""
+	@echo "GitHub Integration:"
+	@echo "  git-snapshot         - Create local git snapshot"
+	@echo "  git-push             - Push snapshot to GitHub"
+	@echo "  github-status        - Check sync status"
+	@echo "  github-pull          - Pull latest from GitHub"
+	@echo "  github-daemon-start  - Start continuous sync daemon"
+	@echo "  github-daemon-stop   - Stop sync daemon"
+	@echo "  github-setup         - Configure GitHub remote"
 	@echo "  clean        - Clean artifacts"
 	@echo "  help         - Show this help"
 
