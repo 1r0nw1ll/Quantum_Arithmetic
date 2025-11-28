@@ -1,0 +1,86 @@
+# QA MCP Server Configuration
+# Defines endpoints and capabilities for all MCP servers
+
+mcp_servers:
+  qa-right-triangle:
+    url: "http://localhost:7001"
+    container: "mcp_qa_right_triangle"
+    capabilities:
+      - triangle
+      - geometry
+      - qa-triangle
+      - modular-arithmetic
+    tools:
+      - compute_qa_tuple
+      - find_orbit
+      - check_e8_alignment
+    description: "QA Right Triangle - Geometric computations using QA system"
+
+  qa-resonance:
+    url: "http://localhost:7002"
+    container: "mcp_qa_resonance"
+    capabilities:
+      - resonance
+      - mod24
+      - mod9
+      - qa-resonance
+      - signal-processing
+    tools:
+      - scan_signal_resonance
+      - compute_harmonic_index
+      - detect_coherence_manifold
+    description: "QA Resonance Scanner - Signal resonance pattern analysis"
+
+  qa-hgd-optimizer:
+    url: "http://localhost:7003"
+    container: "mcp_qa_hgd_optimizer"
+    capabilities:
+      - optimizer
+      - hgd
+      - training
+      - neural-network
+    tools:
+      - optimize_hgd_params
+      - compute_stress_metric
+      - suggest_lr_adjustment
+    description: "HGD Optimizer - Hyperbolic Geometry Descent for neural networks"
+
+  qa-collab:
+    url: "http://localhost:7004"
+    container: "mcp_qa_collab"
+    capabilities:
+      - collab
+      - llm-orchestrator
+      - agent
+      - messaging
+    tools:
+      - broadcast_message
+      - get_agent_state
+      - sync_shared_memory
+    description: "QA Collab - Collaborative agent messaging and state sharing"
+
+# Global MCP settings
+settings:
+  timeout_seconds: 30
+  retry_attempts: 3
+  health_check_interval: 60
+  log_level: INFO
+
+# Capability routing hints for dispatcher
+routing_hints:
+  # Route tasks with these requirements to specific MCP servers
+  geometry_tasks:
+    requires: [triangle, geometry]
+    preferred_server: qa-right-triangle
+
+  signal_tasks:
+    requires: [resonance, signal-processing]
+    preferred_server: qa-resonance
+
+  optimization_tasks:
+    requires: [optimizer, hgd, neural-network]
+    preferred_server: qa-hgd-optimizer
+
+  collaboration_tasks:
+    requires: [collab, agent, messaging]
+    preferred_server: qa-collab
