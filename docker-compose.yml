@@ -1,40 +1,70 @@
-version: '3.8'
+version: '3.9'
 
 services:
   # MCP Server: QA Right Triangle
   qa-right-triangle:
     build: ./qa_mcp_servers/qa-right-triangle
-    container_name: mcp-qa-right-triangle
-    stdin_open: true
-    tty: true
+    container_name: mcp_qa_right_triangle
+    restart: unless-stopped
+    environment:
+      - MCP_SERVER_NAME=qa-right-triangle
+    ports:
+      - "7001:7000"   # internal 7000 → exposed 7001
     volumes:
       - ./qa_mcp_servers/qa-right-triangle:/app
-    restart: unless-stopped
+    networks:
+      - qa_mcp_net
 
-  # MCP Server: QA Resonance Scanner (placeholder)
+  # MCP Server: QA Resonance Scanner
   qa-resonance:
     build:
       context: ./qa_mcp_servers/qa-resonance
       dockerfile: Dockerfile
-    container_name: mcp-qa-resonance
-    stdin_open: true
-    tty: true
+    container_name: mcp_qa_resonance
+    restart: unless-stopped
+    environment:
+      - MCP_SERVER_NAME=qa-resonance
+    ports:
+      - "7002:7000"   # internal 7000 → exposed 7002
     volumes:
       - ./qa_mcp_servers/qa-resonance:/app
-    restart: unless-stopped
+    networks:
+      - qa_mcp_net
 
-  # MCP Server: QA HGD Optimizer (placeholder)
+  # MCP Server: QA HGD Optimizer
   qa-hgd-optimizer:
     build:
       context: ./qa_mcp_servers/qa-hgd-optimizer
       dockerfile: Dockerfile
-    container_name: mcp-qa-hgd-optimizer
-    stdin_open: true
-    tty: true
+    container_name: mcp_qa_hgd_optimizer
+    restart: unless-stopped
+    environment:
+      - MCP_SERVER_NAME=qa-hgd-optimizer
+    ports:
+      - "7003:7000"   # internal 7000 → exposed 7003
     volumes:
       - ./qa_mcp_servers/qa-hgd-optimizer:/app
-      - ./results:/app/results
+      - ./artifacts:/app/results
+    networks:
+      - qa_mcp_net
+
+  # MCP Server: QA Collab (Collaborative Agent Messaging)
+  qa-collab:
+    build: ./qa_mcp_servers/qa-collab
+    container_name: mcp_qa_collab
     restart: unless-stopped
+    environment:
+      - MCP_SERVER_NAME=qa-collab
+    ports:
+      - "7004:7000"   # internal 7000 → exposed 7004
+    volumes:
+      - ./qa_mcp_servers/qa-collab:/app
+    networks:
+      - qa_mcp_net
+
+networks:
+  qa_mcp_net:
+    driver: bridge
 
 volumes:
   mcp_data:
