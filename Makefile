@@ -227,7 +227,7 @@ swarm-daemon:
 	@echo "🔁 Starting autonomous swarm (Ctrl+C to stop)..."
 	@while true; do \
 		$(MAKE) agent_loop || true; \
-		sleep 3600; \
+		sleep 300; \
 	done
 
 # QA CLI entrypoint
