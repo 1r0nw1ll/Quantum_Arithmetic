@@ -123,7 +123,7 @@ class QAPrioritizer:
 
     def move_to_active(self, task: Dict):
         """Move prioritized task to active queue"""
-        task_id = task['id']
+        task_id = task.get('id', task.get('_source_file', 'unknown').replace('.yaml', ''))
         source_filename = task.get('_source_file', f"{task_id}.yaml")
         source_file = self.tasks_inbox / source_filename
         target_file = self.tasks_active / f"{task_id}.yaml"
