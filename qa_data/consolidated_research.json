@@ -1,0 +1,82 @@
+{
+  "data": {
+    "qa_1_1": {
+      "b": 1,
+      "e": 1,
+      "d": 2,
+      "a": 3,
+      "e8": 1.0
+    },
+    "qa_1_2": {
+      "b": 1,
+      "e": 2,
+      "d": 3,
+      "a": 5,
+      "e8": 0.9922778767136676
+    },
+    "qa_1_3": {
+      "b": 1,
+      "e": 3,
+      "d": 4,
+      "a": 7,
+      "e8": 0.9838699100999073
+    },
+    "qa_2_1": {
+      "b": 2,
+      "e": 1,
+      "d": 3,
+      "a": 4,
+      "e8": 0.9899494936611665
+    },
+    "qa_2_2": {
+      "b": 2,
+      "e": 2,
+      "d": 4,
+      "a": 6,
+      "e8": 1.0
+    },
+    "qa_2_3": {
+      "b": 2,
+      "e": 3,
+      "d": 5,
+      "a": 8,
+      "e8": 0.9970544855015816
+    },
+    "qa_3_1": {
+      "b": 3,
+      "e": 1,
+      "d": 4,
+      "a": 5,
+      "e8": 0.9761870601839527
+    },
+    "qa_3_2": {
+      "b": 3,
+      "e": 2,
+      "d": 5,
+      "a": 7,
+      "e8": 0.9965457582448796
+    },
+    "qa_3_3": {
+      "b": 3,
+      "e": 3,
+      "d": 6,
+      "a": 9,
+      "e8": 1.0
+    }
+  },
+  "texts": [
+    "Cross-modal E8 alignment (text + image in shared E8 space)",
+    "TS-JEPA with E8 forecasting (time series resonance detection)",
+    "Apply QA arithmetic to audio signal classification",
+    "Full 240-root E8 system (currently using simplified single root)",
+    "Explore E8 Lie algebra connections to QA arithmetic",
+    "Evaluate QALM performance against commercial LLMs",
+    "E8 as training objective (maximize alignment)",
+    "Multi-scale E8 (mod-24, mod-72, mod-144 hierarchies)",
+    "V-JEPA with E8 temporal coherence (video frame prediction)",
+    "E8 alignment analysis for mod 24 QA system",
+    "Integrate GraphRAG knowledge base with QA/E8 encodings",
+    "I-JEPA with E8 guidance (image patch prediction)",
+    "Complete E8 alignment integration - **NEXT PHASE**"
+  ]
+}

@@ -231,6 +231,8 @@ class QAExecutor:
                 topics.append(topic)
 
         return topics[:3]  # Limit to 3 topics
+
+    def _execute_with_qalm_multimodal(self, task: Dict) -> Dict:
         """Execute task using QALM Multimodal Agent"""
         try:
             agent = self._ensure_qalm_multimodal()
@@ -289,6 +291,9 @@ class QAExecutor:
 
         except Exception as e:
             return {"status": "error", "error": f"qalm_multimodal_execution_failed: {str(e)}"}
+
+    def _execute_with_qalm(self, task: Dict) -> Dict:
+        """Execute task using QALM agent"""
         import os, json, hashlib
         from pathlib import Path
         base = _BASE_DIR
@@ -433,219 +438,6 @@ class QAExecutor:
         response = qalm.generate_response(content or "Analyze this QA task", qa_tuple=None)
         return {"status": "ok", "response": response}
 
-    def _execute_rust_bin_experiment(self, task: Dict) -> Dict:
-        """Execute Rust bin experiment (e.g., benchmarks, demos)"""
-        metadata = task.get('metadata', {})
-        bin_name = metadata.get('bin')
-        makefile_target = metadata.get('makefile_target')
-
-        print(f"🦀 Running Rust bin experiment: {bin_name}")
-
-        try:
-            # Option 1: Use Makefile target if provided (preferred)
-            if makefile_target:
-                cmd = ['make', makefile_target]
-                print(f"   Running: {' '.join(cmd)}")
-                result = subprocess.run(
-                    cmd,
-                    cwd=self.base_dir,
-                    capture_output=True,
-                    text=True,
-                    timeout=600  # 10 minutes
-                )
-            # Option 2: Run Rust bin directly
-            else:
-                cmd = ['cargo', 'run', '--release', '--bin', bin_name]
-                print(f"   Running: {' '.join(cmd)}")
-                result = subprocess.run(
-                    cmd,
-                    cwd=self.base_dir,
-                    capture_output=True,
-                    text=True,
-                    timeout=600
-                )
-
-            if result.returncode == 0:
-                print(f"✅ Experiment completed: {bin_name}")
-
-                # Check for output artifacts (CSV, JSON, plots)
-                artifacts = self._collect_experiment_artifacts(bin_name)
-
-                # Update qa_paper.json if applicable
-                self._update_qa_paper_json(artifacts)
-
-                return {
-                    "status": "ok",
-                    "bin": bin_name,
-                    "artifacts": artifacts,
-                    "stdout": result.stdout[-1000:] if result.stdout else "",
-                }
-            else:
-                print(f"❌ Experiment failed: {bin_name}")
-                print(f"   stderr: {result.stderr[:500]}")
-                return {
-                    "status": "error",
-                    "error": f"Rust bin failed: {result.stderr[:500]}",
-                    "bin": bin_name,
-                }
-
-        except subprocess.TimeoutExpired:
-            return {"status": "error", "error": "Experiment timeout (>10min)", "bin": bin_name}
-        except Exception as e:
-            return {"status": "error", "error": str(e), "bin": bin_name}
-
-    def _execute_ingestion_paper(self, task: Dict) -> Dict:
-        """Process ingestion paper using Gemini/Claude analysis"""
-        metadata = task.get('metadata', {})
-        paper_path = Path(metadata.get('paper_path', ''))
-        output_analysis = metadata.get('output_analysis', '')
-
-        print(f"📚 Processing ingestion paper: {paper_path.name}")
-
-        if not paper_path.exists():
-            return {"status": "error", "error": f"Paper not found: {paper_path}"}
-
-        try:
-            # Extract ODT content to text
-            text_output = self.base_dir / "tmp" / f"{paper_path.stem}.txt"
-            text_output.parent.mkdir(parents=True, exist_ok=True)
-
-            # Extract using unzip + xmllint
-            cmd = [
-                'sh', '-c',
-                f'unzip -p "{paper_path}" content.xml | xmllint --format - > "{text_output}"'
-            ]
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
-
-            if result.returncode != 0:
-                print(f"⚠️ ODT extraction warning: {result.stderr[:200]}")
-                # Try simpler extraction without xmllint
-                cmd = ['sh', '-c', f'unzip -p "{paper_path}" content.xml > "{text_output}"']
-                result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
-
-            if not text_output.exists():
-                return {"status": "error", "error": "Failed to extract ODT content"}
-
-            # Read extracted text
-            content = text_output.read_text(encoding='utf-8', errors='ignore')
-
-            # Limit to first 50KB for analysis
-            content = content[:50000]
-
-            print(f"   Extracted {len(content)} chars from {paper_path.name}")
-
-            # Save analysis prompt
-            analysis_dir = Path(output_analysis).parent if output_analysis else self.base_dir / "artifacts" / "ingestion"
-            analysis_dir.mkdir(parents=True, exist_ok=True)
-            analysis_file = analysis_dir / f"{paper_path.stem}_ANALYSIS.md"
-
-            # Write initial analysis structure
-            analysis_content = f"""# Analysis: {paper_path.name}
-
-**Date:** {datetime.now().isoformat()}
-**Source:** {paper_path}
-**Extracted Content Length:** {len(content)} chars
-
-## Extraction Status
-✅ Successfully extracted ODT content
-
-## Content Preview
-```
-{content[:2000]}
-...
-```
-
-## Analysis Required
-This paper needs analysis by Gemini/Claude to:
-1. Extract key concepts and map to QA framework
-2. Identify potential experiments
-3. Generate follow-up tasks
-
-## TODO
-- [ ] Run external AI analysis (Gemini/Claude)
-- [ ] Map concepts to QA tuples
-- [ ] Generate experiment tasks
-
-## Extracted Text
-Full extracted text available at: {text_output}
-"""
-
-            analysis_file.write_text(analysis_content, encoding='utf-8')
-
-            print(f"✅ Analysis scaffold created: {analysis_file}")
-            print(f"   TODO: Run Gemini/Claude analysis on extracted content")
-
-            return {
-                "status": "ok",
-                "paper": str(paper_path),
-                "extracted_text": str(text_output),
-                "analysis_file": str(analysis_file),
-                "content_length": len(content),
-                "next_step": "Run external AI analysis (Gemini/Claude API)",
-            }
-
-        except subprocess.TimeoutExpired:
-            return {"status": "error", "error": "ODT extraction timeout"}
-        except Exception as e:
-            return {"status": "error", "error": str(e), "paper": str(paper_path)}
-
-    def _collect_experiment_artifacts(self, bin_name: str) -> Dict:
-        """Collect artifacts generated by experiment (CSV, JSON, plots)"""
-        artifacts = {"csv": [], "json": [], "plots": []}
-
-        # Check target directory for experiment outputs
-        target_dir = self.base_dir / "target"
-        plots_dir = self.base_dir / "plots"
-
-        # Find CSV files
-        for csv_file in target_dir.rglob("*.csv"):
-            if bin_name in str(csv_file):
-                artifacts["csv"].append(str(csv_file))
-
-        # Find JSON files
-        for json_file in target_dir.rglob("*.json"):
-            if bin_name in str(json_file):
-                artifacts["json"].append(str(json_file))
-
-        # Find plots
-        if plots_dir.exists():
-            for plot_file in plots_dir.glob("*.png"):
-                if bin_name in plot_file.stem:
-                    artifacts["plots"].append(str(plot_file))
-
-        return artifacts
-
-    def _update_qa_paper_json(self, artifacts: Dict) -> None:
-        """Update qa_paper.json with new experiment results"""
-        json_path = self.base_dir / "artifacts" / "overleaf" / "qa_paper.json"
-
-        try:
-            if json_path.exists():
-                data = json.loads(json_path.read_text(encoding='utf-8'))
-            else:
-                data = {}
-
-            # Add artifacts to tracking
-            data.setdefault("experiments", {})
-            timestamp = datetime.now().isoformat()
-
-            # Log this experiment run
-            data["experiments"][timestamp] = {
-                "artifacts": artifacts,
-                "csv_count": len(artifacts.get("csv", [])),
-                "json_count": len(artifacts.get("json", [])),
-                "plots_count": len(artifacts.get("plots", [])),
-            }
-
-            # Save updated JSON
-            json_path.parent.mkdir(parents=True, exist_ok=True)
-            json_path.write_text(json.dumps(data, indent=2), encoding='utf-8')
-
-            print(f"   Updated: {json_path}")
-
-        except Exception as e:
-            print(f"⚠️ Failed to update qa_paper.json: {e}")
-
     def _execute_training(self, task: Dict) -> Dict:
         """Execute model training on accumulated research data (self-improvement!)"""
         import subprocess
@@ -717,9 +509,6 @@ Full extracted text available at: {text_output}
         assignee = (task.get("assignee") or "").lower()
         lane = task.get("lane", "green")
         state = task.get("state", "queued")
-        # Allow rust_porter to process queued tasks (treat as assigned)
-        if assignee == 'rust' and state in (None, '', 'queued'):
-            state = 'assigned'
 
         # Do not re-execute tasks that were explicitly reviewed and rejected
         rev = task.get('review') or {}
@@ -752,19 +541,7 @@ Full extracted text available at: {text_output}
                 return result
 
             # No proposed changes; delegate
-
-            # Check for experiment tasks with Rust bins
-            metadata = task.get('metadata', {})
-            if metadata.get('bin'):
-                result = self._execute_rust_bin_experiment(task)
-                status = 'ok' if result.get('status') == 'ok' else 'failed'
-
-            # Check for ingestion paper tasks
-            elif metadata.get('paper_path'):
-                result = self._execute_ingestion_paper(task)
-                status = 'ok' if result.get('status') == 'ok' else 'failed'
-
-            elif assignee == "trainer":
+            if assignee == "trainer":
                 # SELF-IMPROVEMENT: Train model on accumulated research
                 result = self._execute_training(task)
                 status = 'ok' if result.get('status') == 'ok' else 'failed'
@@ -795,7 +572,7 @@ Full extracted text available at: {text_output}
             elif assignee == "rust":
                 result = self._execute_with_rust_porter(task)
                 status = 'ok' if result.get('status') == 'ok' else 'failed'
-            
+
             elif assignee in {"codex", "gemini", "claude"}:
                 # Fallback to local collab_broadcast if no external command configured
                 cmd = os.getenv(f"{assignee.upper()}_CMD")

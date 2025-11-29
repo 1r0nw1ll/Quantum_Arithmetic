@@ -1,0 +1,51 @@
+[package]
+name = "qa-lab"
+version = "4.0.0"
+edition = "2021"
+authors = ["QA Research Team"]
+description = "QA Bob-iverse Autonomic Research Lab - Rust Port"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Core numerical and scientific computing
+ndarray = "0.15" # Equivalent to NumPy for N-dimensional arrays
+nalgebra = "0.32" # For linear algebra, equivalent to parts of SciPy
+pyo3 = { version = "0.21", features = ["extension-module", "abi3-py39" ] }
+rand = "0.8" # Random number generation
+numpy = "0.21"
+rayon = "1"
+
+# Machine Learning (pure Rust, no libtorch needed)
+linfa = "0.7" # Rust ML framework, similar to scikit-learn
+linfa-clustering = "0.7" # Clustering algorithms
+linfa-nn = "0.7" # Nearest neighbors
+
+# Note: tch (PyTorch bindings) disabled to avoid libtorch dependency
+# tch = "0.14" # Requires libtorch installation - commented out
+
+# Serialization / Deserialization
+serde = { version = "1.0", features = ["derive"] } # For serialization and deserialization
+serde_yaml = "0.9" # For YAML, similar to PyYAML
+serde_json = "1.0" # JSON support for data collection
+
+# Utilities
+chrono = { version = "0.4", features = ["serde"] } # Date/time for timestamps
+
+# Documentation - Rust has built-in documentation generation with `cargo doc`.
+# mdbook can be used for creating online books, similar to mkdocs.
+# It's installed via `cargo install mdbook`.
+
+# Testing - Rust has a built-in testing framework.
+# No need for a separate dependency like pytest.
+
+[dev-dependencies]
+# Add development-time dependencies here, e.g., for benchmarking or additional tests.
+criterion = "0.5" # For benchmarking
+
+[lib]
+name = "qa_lab_rs"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+portable_simd = []

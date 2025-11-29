@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/openspecy/raman-data-examples/main/Si_520cm-1_example.csv
+https://raw.githubusercontent.com/openspecy/raman-data-examples/main/Diamond_1332cm-1_example.csv
+https://raw.githubusercontent.com/openspecy/raman-data-examples/main/Quartz_example.csv

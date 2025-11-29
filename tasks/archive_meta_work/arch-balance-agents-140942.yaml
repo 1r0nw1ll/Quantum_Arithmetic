@@ -1,0 +1,151 @@
+id: arch-balance-agents-140942
+project: architecture
+title: Load-balance trainer (481 tasks)
+description: 'Agent overload detected: trainer has 481 queued tasks.
+
+
+  Recommendation: Implement load balancing or agent parallelization
+
+
+  Options:
+
+  1. Implement parallel task processing
+
+  2. Split agent into specialized sub-agents
+
+  3. Redistribute tasks to underutilized agents
+
+  4. Optimize agent execution speed'
+source: qa_architect
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-27T14:09:42.117992'
+tags:
+- architecture
+- performance
+- load_balancing
+metadata:
+  issue_type: agent_overload
+  overloaded_agent: trainer
+  task_count: 481
+  target_node: Player2
+  cluster_dispatched: true
+  updated_at: '2025-11-29T15:51:33.095762'
+execution:
+  history:
+  - stage: cluster_dispatch
+    timestamp: '2025-11-27T14:29:48.364065'
+    node_id: Player2
+    dispatcher: cluster_dispatcher
+  - agent: qalm
+    started_at: '2025-11-28T22:20:08.488864'
+    completed_at: '2025-11-28T22:20:08.488910'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T22:23:29.169417'
+    completed_at: '2025-11-28T22:23:29.169445'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T23:25:00.909827'
+    completed_at: '2025-11-28T23:25:00.909876'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T00:26:29.224648'
+    completed_at: '2025-11-29T00:26:29.224679'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T01:28:00.249747'
+    completed_at: '2025-11-29T01:28:00.249784'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T02:29:31.460725'
+    completed_at: '2025-11-29T02:29:31.460760'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T03:31:05.536934'
+    completed_at: '2025-11-29T03:31:05.536971'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T04:32:38.609200'
+    completed_at: '2025-11-29T04:32:38.609257'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T05:34:13.499062'
+    completed_at: '2025-11-29T05:34:13.499092'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T06:35:48.676200'
+    completed_at: '2025-11-29T06:35:48.676234'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T07:37:24.436357'
+    completed_at: '2025-11-29T07:37:24.436387'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T08:39:01.984041'
+    completed_at: '2025-11-29T08:39:01.984087'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T09:40:40.653128'
+    completed_at: '2025-11-29T09:40:40.653166'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T10:42:14.127090'
+    completed_at: '2025-11-29T10:42:14.127117'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T10:42:20.148156'
+    completed_at: '2025-11-29T10:42:20.148189'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T11:44:02.715911'
+    completed_at: '2025-11-29T11:44:02.715948'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:45:47.375284'
+    completed_at: '2025-11-29T12:45:47.375296'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:47:25.332307'
+    completed_at: '2025-11-29T13:47:25.332319'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:47:39.511374'
+    completed_at: '2025-11-29T13:47:39.511385'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:49:34.542442'
+    completed_at: '2025-11-29T14:49:34.542454'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:51:33.095746'
+    completed_at: '2025-11-29T15:51:33.095758'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+plan:
+  steps:
+  - description: Research and understand the problem domain
+    acceptance: Clear problem statement and success criteria defined
+    tools:
+    - literature_review
+    - code_analysis
+    effort: 1 hour
+  - description: Design and implement solution approach
+    acceptance: Working prototype or proof of concept
+    tools:
+    - python
+    - mathematical_tools
+    effort: 3 hours
+  - description: Test and validate the implementation
+    acceptance: All tests pass, invariants preserved
+    tools:
+    - pytest
+    - validation_scripts
+    effort: 1 hour
+  risks:
+  - Technical complexity higher than estimated
+  - Mathematical assumptions might not hold
+  dependencies: []
+state: failed
+retry_count: 3

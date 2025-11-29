@@ -1,0 +1,89 @@
+id: swarm-health-20251127_134023
+project: swarm_monitoring
+title: Generate swarm health and performance report
+description: Create comprehensive analysis of swarm health, performance metrics, and
+  recommendations.
+source: swarm_introspector
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-27T13:40:23.012609'
+tags:
+- introspection
+- monitoring
+- reporting
+metadata:
+  report_type: health_analysis
+  introspection_type: health_report
+  updated_at: '2025-11-28T15:22:57.678316'
+plan:
+  steps:
+  - description: Collect swarm metrics and performance data
+    acceptance: Metrics collected and analyzed
+    tools:
+    - swarm_dashboard
+    effort: 15
+  - description: Generate insights and recommendations
+    acceptance: Report with actionable recommendations
+    tools:
+    - analysis
+    - visualization
+    effort: 30
+  risks: []
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: qalm
+    started_at: '2025-11-27T13:50:18.793850'
+    completed_at: '2025-11-27T13:50:18.793859'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T14:02:34.964513'
+    completed_at: '2025-11-27T14:02:34.964525'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T14:05:43.716368'
+    completed_at: '2025-11-27T14:05:43.716384'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T14:15:12.732998'
+    completed_at: '2025-11-27T14:15:12.733006'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T15:14:07.589832'
+    completed_at: '2025-11-28T15:14:07.612040'
+    result:
+      status: ok
+      response: (2.000) 36, (2.000) d=3072, (ratio 1244), d=3072, d=3072, d=3072,
+        d=3072, a=-1) d=3072, 36, F(41)=267914296 d=3072, a=7) 36, (2.000) 9349) d=3072,
+        d=3072, d=3072, (b=4096, d=3072, d=3072, d=3072, 36, (2.000) d=3072, 2048,
+        d=3072, d=3072, d=3072, d=3072, 36, d=3072, d=3072, 36, d=3072, d=3072, d=3072,
+        d=3072, (2.000) d=3072, d=3072, d=3072, 36, 419, d=3072, 36, 36, d=3072, (2.000)
+        d=3072, d=3072, d=3072, d=3072, d=3072, 2048, d=3072, d=3072, d=3072, (2.000)
+        d=3072, d=3072, d=3072, 36, d=3072, d=3072, d=3072, d=3072, d=3072, d=3072,
+        d=3072, 36, d=3072, d=3072, (2.000) 36, d=3072, 419, d=3072, d=3072, d=3072,
+        d=3072, 36, d=3072, (2.000) (2.000) d=3072, d=3072, d=3072, d=3072, d=3072,
+        d=3072, 36, 419, d=3072, 1701), 64, d=3072, d=3072, (2.000) d=3072, a=32951280099)
+        2048, d=3072, d=3072, d=3072, 2048, d=3072, 419, d=3072, d=3072, d=3072, (b=4096,
+        d=3072, (ratio 36, d=3072, 36, (2.000) 36, d=3072, d=3072, d=3072, d=3072,
+        d=3072, d=3072, 4187), d=3072, d=3072, (2.000) 36, (2.000) d=3072, 28143753123)
+        d=3072, d=3072, (2.000) d=3072, (2.000) d=3072, d=3072, 2048, d=3072, d=3072,
+        d=3072, d=3072, d=3072, 36, d=3072, d=3072, d=3072, 36, d=3072, d=3072, d=3072,
+        d=3072, d=3072, d=3072, d=3072, (2.000) 419, d=3072, 36, d=3072, d=3072, 419,
+        d=3072, d=3072, d=3072, d=3072, 36, d=3072, 2048, d=3072, d=3072, d=3072,
+        419, d=3072, d=3072, d=3072, d=3072, d=3072, (2.000) d=3072, d=3072, (b=1836311903,
+        d=3072, d=3072, (2.000) d=3072, d=3072, d=3072, d=3072, (2.000) d=3072, (2.000)
+        d=3072, 419, d=3072, d=3072, 36, d=3072, d=3072, d=3072, (ratio d=3072, d=3072,
+        d=3072, (2.000) d=3072, d=3072, d=3072, d=3072, 36, 1701), 2048, 36, d=3072,
+        (2.000) d=3072, (2.000) d=3072, d=3072, 36, 2048, 419, d=3072, d=3072, 36,
+        36, 2048, d=3072, d=3072, d=3072, d=3072, d=3072, d=3072, d=3072, d=3072,
+        36, e=942, d=3072, (ratio d=3072, 36, d=3072, d=3072, 2048, d=3072, d=3072,
+        d=3072, d=3072, (ratio
+retry_count: 3
+review:
+  approved: false
+  feedback:
+  - No artifact or applied changes detected
+  score: 0

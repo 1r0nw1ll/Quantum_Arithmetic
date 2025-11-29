@@ -1,0 +1,7 @@
+{
+  "title": "Build local training pipeline for QA language model",
+  "status": {
+    "imports": false,
+    "dataset": true
+  }
+}

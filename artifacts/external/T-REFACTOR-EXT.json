@@ -1,0 +1,7 @@
+{
+  "task_id": "T-REFACTOR-EXT",
+  "title": "Refactor qa_agents/cli/qa_agent_base.py (header)",
+  "agent": "opencode",
+  "timestamp": "2025-11-21T18:14:03.754163",
+  "note": "External ACK generated artifact"
+}

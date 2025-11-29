@@ -1,0 +1,14 @@
+{
+  "texts": [
+    "The quick brown fox jumps over the lazy dog.",
+    "Machine learning is a subset of artificial intelligence.",
+    "Natural language processing helps computers understand human language.",
+    "Deep learning uses neural networks with multiple layers.",
+    "Transformers are powerful models for sequence processing.",
+    "Attention mechanisms help models focus on relevant information.",
+    "Tokenization breaks text into smaller units for processing.",
+    "Embeddings represent words as dense vectors.",
+    "Fine-tuning adapts pre-trained models to specific tasks.",
+    "Evaluation metrics measure model performance accurately."
+  ]
+}

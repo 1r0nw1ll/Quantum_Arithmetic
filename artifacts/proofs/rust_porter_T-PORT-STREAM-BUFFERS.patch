@@ -1,0 +1,14 @@
+*** Begin Patch
+*** Update File: qa_lab/src/lib.rs
+@@
++/// Streaming buffers (stubs)
++#[pyfunction]
++fn stream_buffers_init_py(size: usize) -> PyResult<bool> { Ok(false) }
++#[pyfunction]
++fn stream_buffers_release_py() -> PyResult<bool> { Ok(true) }
+@@
+     m.add_function(wrap_pyfunction!(triangle_residual_batch_numpy_py, m)?)?;
+@@
++    m.add_function(wrap_pyfunction!(stream_buffers_init_py, m)?)?;
++    m.add_function(wrap_pyfunction!(stream_buffers_release_py, m)?)?;
+*** End Patch

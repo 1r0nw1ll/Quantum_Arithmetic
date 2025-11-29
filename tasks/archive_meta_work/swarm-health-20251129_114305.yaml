@@ -1,0 +1,74 @@
+id: swarm-health-20251129_114305
+project: swarm_monitoring
+title: Generate swarm health and performance report
+description: Create comprehensive analysis of swarm health, performance metrics, and
+  recommendations.
+source: swarm_introspector
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-29T11:43:05.564188'
+tags:
+- introspection
+- monitoring
+- reporting
+metadata:
+  report_type: health_analysis
+  introspection_type: health_report
+  updated_at: '2025-11-29T15:52:03.378149'
+plan:
+  steps:
+  - description: Collect swarm metrics and performance data
+    acceptance: Metrics collected and analyzed
+    tools:
+    - swarm_dashboard
+    effort: 15
+  - description: Generate insights and recommendations
+    acceptance: Report with actionable recommendations
+    tools:
+    - analysis
+    - visualization
+    effort: 30
+  risks: []
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: qalm
+    started_at: '2025-11-29T11:53:38.121492'
+    completed_at: '2025-11-29T11:53:38.121501'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:07:33.830434'
+    completed_at: '2025-11-29T12:07:33.830444'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:22:02.590213'
+    completed_at: '2025-11-29T12:22:02.590221'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:35:56.426356'
+    completed_at: '2025-11-29T12:35:56.426376'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:46:16.032226'
+    completed_at: '2025-11-29T12:46:16.032238'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:47:54.298499'
+    completed_at: '2025-11-29T13:47:54.298510'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:48:09.495982'
+    completed_at: '2025-11-29T13:48:09.495994'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:50:05.684522'
+    completed_at: '2025-11-29T14:50:05.684533'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:52:03.378131'
+    completed_at: '2025-11-29T15:52:03.378145'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+retry_count: 3

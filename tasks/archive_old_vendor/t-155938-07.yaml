@@ -1,0 +1,44 @@
+id: t-155938-07
+project: null
+title: Address TODO/FIXME in scout_collaborative.py
+description: Found TODO or FIXME comments in scout_collaborative.py
+source: scout(code_scan:qa_agents/cli/scout_collaborative.py)
+touches_invariants: []
+state: awaiting_external
+lane: green
+assignee: opencode
+priority: 2.0
+estimates:
+  effort: 1
+  uncertainty: 2
+impact:
+  user_value: 3
+  proof_impact: 2
+  risk_reduction: 1
+  deadline_weight: 0
+plan:
+  steps:
+  - description: Investigate and implement solution
+    acceptance: Task requirements satisfied
+    tools:
+    - various
+    effort: 2 hours
+  risks: []
+  dependencies: []
+metadata:
+  created_at: '2025-11-21T15:59:38.018077'
+  updated_at: '2025-11-21T15:59:40.469861'
+  version: '4.0'
+execution:
+  history:
+  - agent: opencode
+    started_at: '2025-11-21T15:59:40.393204'
+    completed_at: '2025-11-21T15:59:40.469825'
+    result:
+      status: deferred
+      external: opencode
+      detail:
+        status: error
+        error: nonzero_exit:1
+        stderr: ''
+        agent: opencode

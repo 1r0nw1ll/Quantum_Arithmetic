@@ -12,6 +12,9 @@ Enhanced QALM with:
 Integration with QA lab for advanced knowledge processing and reasoning.
 """
 
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
 from typing import Dict, List, Tuple, Optional, Any, Set
 import numpy as np
 import json
@@ -34,6 +37,7 @@ class KnowledgeNode:
     connections: Set[str] = field(default_factory=set)
     access_count: int = 0
     last_accessed: float = field(default_factory=time.time)
+    embeddings: Optional[torch.Tensor] = None
 
 @dataclass
 class ReasoningChain:
@@ -104,7 +108,7 @@ class CIMMemoryManager:
             return None
 
     def find_similar_tuples(self, qa_tuple: Tuple[int, int, int, int],
-                            max_distance: int = 3) -> List[Tuple[KnowledgeNode, int]]:
+                           max_distance: int = 3) -> List[Tuple[KnowledgeNode, int]]:
         """Find knowledge nodes with similar QA tuples"""
         results = []
         target = np.array(qa_tuple)
@@ -194,7 +198,7 @@ class CIMReasoningEngine:
                 if isinstance(connected_tuple, str) and '_' in connected_tuple:
                     try:
                         parts = connected_tuple.split('_')
-                        to_tuple = (int(parts[0]), int(parts[1]), int(parts[2]), int(parts[3]))
+                        to_tuple = tuple(int(p) for p in parts[:4])
                         to_key = self.memory._get_node_key(to_tuple)
 
                         # Update transition probability
@@ -216,7 +220,7 @@ class CIMReasoningEngine:
                     self.transition_matrix[from_key][to_key] /= total
 
     def reason_from_tuple(self, start_tuple: Tuple[int, int, int, int],
-                          max_steps: int = 10) -> ReasoningChain:
+                         max_steps: int = 10) -> ReasoningChain:
         """Perform Markovian reasoning from starting QA tuple"""
 
         cache_key = f"{start_tuple[0]}_{start_tuple[1]}_{start_tuple[2]}_{start_tuple[3]}"
@@ -258,7 +262,7 @@ class CIMReasoningEngine:
 
             # Parse next tuple from key
             parts = next_key.split('_')
-            next_tuple = (int(parts[0]), int(parts[1]), int(parts[2]), int(parts[3]))
+            next_tuple = tuple(int(p) for p in parts[:4])
 
             chain.steps.append(next_tuple)
             chain.current_tuple = next_tuple
@@ -270,7 +274,7 @@ class CIMReasoningEngine:
         return chain
 
     def find_convergence(self, start_tuple: Tuple[int, int, int, int],
-                         max_iterations: int = 100) -> ReasoningChain:
+                        max_iterations: int = 100) -> ReasoningChain:
         """Find convergence point through iterative reasoning"""
 
         chain = self.reason_from_tuple(start_tuple, max_steps=1)
@@ -381,11 +385,9 @@ class CIMQALMAgent:
                         tuple_str = line[start+1:end]
                         parts = [p.strip() for p in tuple_str.split(',')]
                         if len(parts) == 4:
-                            try:
-                                qa_tuple = (int(parts[0]), int(parts[1]), int(parts[2]), int(parts[3]))
+                            qa_tuple = tuple(int(p) for p in parts if p.isdigit())
+                            if len(qa_tuple) == 4:
                                 knowledge.append((qa_tuple, line))
-                            except ValueError:
-                                continue
                 except (ValueError, IndexError):
                     continue
 
@@ -546,13 +548,13 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='CIM-QALM Agent v2.0')
     parser.add_argument('--base-path', type=str, default='.',
-                        help='Base path for agent data')
+                       help='Base path for agent data')
     parser.add_argument('--command', choices=['process_kb', 'reason', 'analyze', 'stats'],
-                        default='stats', help='Command to execute')
+                       default='stats', help='Command to execute')
     parser.add_argument('--vault-paths', nargs='+', help='Paths to knowledge vaults')
     parser.add_argument('--qa-tuple', type=str, help='QA tuple for reasoning (format: b,e,d,a)')
     parser.add_argument('--analysis-type', choices=['invariants', 'connectivity'],
-                        default='invariants', help='Type of analysis to perform')
+                       default='invariants', help='Type of analysis to perform')
 
     args = parser.parse_args()
 
@@ -565,11 +567,7 @@ if __name__ == "__main__":
 
     elif args.command == 'reason' and args.qa_tuple:
         try:
-            parts = args.qa_tuple.split(',')
-            if len(parts) != 4:
-                print("Error: QA tuple must have exactly 4 comma-separated integers")
-                sys.exit(1)
-            qa_tuple = (int(parts[0]), int(parts[1]), int(parts[2]), int(parts[3]))
+            qa_tuple = tuple(int(x) for x in args.qa_tuple.split(','))
             result = agent.reason_on_knowledge(qa_tuple)
             print(json.dumps(result, indent=2, default=str))
         except ValueError:

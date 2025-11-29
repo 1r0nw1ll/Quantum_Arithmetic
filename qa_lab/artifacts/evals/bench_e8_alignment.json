@@ -1,0 +1,7 @@
+{
+  "N": 200000,
+  "M": 240,
+  "D": 8,
+  "time_sec": 0.38745356900108163,
+  "notes": "prenorm roots; SIMD+Rayon path"
+}

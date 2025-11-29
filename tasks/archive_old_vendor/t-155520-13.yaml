@@ -1,0 +1,44 @@
+id: t-155520-13
+project: null
+title: Address TODO/FIXME in _methods.py
+description: Found TODO or FIXME comments in _methods.py
+source: scout(code_scan:qa_venv/lib/python3.13/site-packages/numpy/_core/_methods.py)
+touches_invariants: []
+state: awaiting_external
+lane: green
+assignee: opencode
+priority: 0.5
+estimates:
+  effort: 1
+  uncertainty: 2
+impact:
+  user_value: 3
+  proof_impact: 2
+  risk_reduction: 1
+  deadline_weight: 0
+plan:
+  steps:
+  - description: Investigate and implement solution
+    acceptance: Task requirements satisfied
+    tools:
+    - various
+    effort: 2 hours
+  risks: []
+  dependencies: []
+metadata:
+  created_at: '2025-11-21T15:55:20.281197'
+  updated_at: '2025-11-21T16:01:19.458110'
+  version: '4.0'
+execution:
+  history:
+  - agent: opencode
+    started_at: '2025-11-21T16:01:19.383811'
+    completed_at: '2025-11-21T16:01:19.458079'
+    result:
+      status: deferred
+      external: opencode
+      detail:
+        status: error
+        error: nonzero_exit:1
+        stderr: ''
+        agent: opencode

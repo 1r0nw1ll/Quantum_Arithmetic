@@ -1,0 +1,62 @@
+id: swarm-health-20251129_134929
+project: swarm_monitoring
+title: Generate swarm health and performance report
+description: Create comprehensive analysis of swarm health, performance metrics, and
+  recommendations.
+source: swarm_introspector
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-29T13:49:29.933608'
+tags:
+- introspection
+- monitoring
+- reporting
+metadata:
+  report_type: health_analysis
+  introspection_type: health_report
+  updated_at: '2025-11-29T15:52:03.508649'
+plan:
+  steps:
+  - description: Collect swarm metrics and performance data
+    acceptance: Metrics collected and analyzed
+    tools:
+    - swarm_dashboard
+    effort: 15
+  - description: Generate insights and recommendations
+    acceptance: Report with actionable recommendations
+    tools:
+    - analysis
+    - visualization
+    effort: 30
+  risks: []
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: qalm
+    started_at: '2025-11-29T14:01:00.251674'
+    completed_at: '2025-11-29T14:01:00.251683'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:15:21.739293'
+    completed_at: '2025-11-29T14:15:21.739302'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:29:42.692637'
+    completed_at: '2025-11-29T14:29:42.692659'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:44:58.677632'
+    completed_at: '2025-11-29T14:44:58.677654'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:50:05.800133'
+    completed_at: '2025-11-29T14:50:05.800144'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:52:03.508633'
+    completed_at: '2025-11-29T15:52:03.508645'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+retry_count: 3

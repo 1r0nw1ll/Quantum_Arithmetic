@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-11-20T22:10:18.572898",
+  "dataset": "training",
+  "configuration": {
+    "encoding_mode": "patch",
+    "modulus": 24,
+    "n_candidates": 10
+  },
+  "summary": {
+    "n_tasks": 100,
+    "ensemble_correct": 0,
+    "ensemble_accuracy": 0.0,
+    "ensemble_avg_rank": 9.51,
+    "e8_correct": 0,
+    "e8_accuracy": 0.0,
+    "e8_avg_rank": 9.56,
+    "improvement": 0.0,
+    "n_improved": 10,
+    "improvement_rate": 10.0
+  },
+  "results": [
+    {
+      "task_name": "007bbfb7",
+      "ensemble_correct": false,
+      "ensemble_rank": 10,
+      "e8_correct": false,
+      "e8_rank": 10,
+      "improved": 

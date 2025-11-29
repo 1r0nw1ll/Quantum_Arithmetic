@@ -1,0 +1,41 @@
+id: "PRJ-001"
+title: "Discrete modular rotor → GA rotor limit"
+description: "Prove convergence of discrete modular rotors to continuous geometric algebra rotors"
+owner: "qa-research-team"
+status: "active"
+outcomes:
+  - "Formal proof with doctests"
+  - "Convergence visualizations"
+  - "Geometric algebra integration"
+deadlines:
+  soft: "2025-11-08"
+  hard: "2025-11-15"
+scope:
+  includes:
+    - "Rotor limit theorem"
+    - "Modular to continuous mapping"
+    - "Geometric algebra compatibility"
+  excludes:
+    - "Physical implementations"
+    - "Performance optimization"
+dependencies: []
+labels:
+  - "math"
+  - "proof"
+  - "geometry"
+  - "geometric-algebra"
+tasks:
+  - "T-001"
+  - "T-002"
+progress:
+  completed_tasks: 0
+  total_tasks: 2
+  percent_complete: 0.0
+risks:
+  - description: "Complex algebraic manipulations"
+    impact: "medium"
+    mitigation: "Use computer algebra system verification"
+metadata:
+  created_at: "2025-10-29T18:00:00Z"
+  updated_at: "2025-10-29T18:00:00Z"
+  version: "4.0"

@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{wileyRaman}
+John~R. Ferraro, Kazuo Nakamoto, and Chris~W. Brown.
+\newblock {\em Introductory Raman Spectroscopy}.
+\newblock Academic Press, 2nd edition, 2003.
+
+\bibitem{speccnn}
+GenTeML.
+\newblock Spec-cnn: Convolutional models for raman spectra.
+\newblock \url{https://github.com/GenTeML/Spec-CNN}.
+\newblock Accessed 2025-11-25.
+
+\bibitem{rruff}
+Rruff project: Raman, x-ray, infrared, and chemistry data.
+\newblock \url{https://rruff.info/}.
+\newblock Accessed 2025-11-25.
+
+\end{thebibliography}

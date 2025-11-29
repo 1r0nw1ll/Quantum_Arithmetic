@@ -1,0 +1,97 @@
+id: swarm-fix-123813-4033
+project: swarm_improvement
+title: 'Fix common failure pattern: No artifact or applied changes detected...'
+description: 'Investigate and fix the failure pattern affecting 360 tasks: No artifact
+  or applied changes detected'
+source: swarm_introspector
+priority: 1.0
+status: pending
+lane: green
+assignee: opencode
+created: '2025-11-29T12:38:13.766298'
+tags:
+- introspection
+- bug_fix
+- high_impact
+metadata:
+  failure_count: 360
+  failure_reason: No artifact or applied changes detected
+  introspection_type: failure_pattern
+  updated_at: '2025-11-29T15:52:02.893162'
+plan:
+  steps:
+  - description: Analyze root cause of failure pattern
+    acceptance: Root cause identified and documented
+    tools:
+    - grep
+    - code_analysis
+    effort: 30
+  - description: Implement fix for failure pattern
+    acceptance: Fix tested and prevents recurrence
+    tools:
+    - python
+    - pytest
+    effort: 60
+  risks:
+  - Fix may have unintended side effects
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: opencode
+    started_at: '2025-11-29T12:50:03.100237'
+    completed_at: '2025-11-29T12:50:03.100256'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:04:10.491721'
+    completed_at: '2025-11-29T13:04:10.491733'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:17:48.014288'
+    completed_at: '2025-11-29T13:17:48.014305'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:32:28.247677'
+    completed_at: '2025-11-29T13:32:28.247689'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:47:53.930297'
+    completed_at: '2025-11-29T13:47:53.930311'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:48:09.109403'
+    completed_at: '2025-11-29T13:48:09.109425'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T14:50:05.259096'
+    completed_at: '2025-11-29T14:50:05.259112'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T15:52:02.893142'
+    completed_at: '2025-11-29T15:52:02.893158'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+retry_count: 3

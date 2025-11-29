@@ -1,0 +1,18 @@
+active_tuples: []
+chat_history: []
+created: '2025-11-20T11:22:20.850828'
+experiments: []
+mcp_servers:
+- qa-right-triangle
+- qa-resonance
+- qa-hgd-optimizer
+modulus_inner: 9
+modulus_outer: 24
+project_name: QA Research Session
+qa_invariants:
+  core_invariants:
+  - "J = b\xB7d"
+  - "K = d\xB7a"
+  - "X = e\xB7d"
+  modular_arithmetic: true
+  tuple_structure: (b, e, d, a) where d = b+e, a = b+2e

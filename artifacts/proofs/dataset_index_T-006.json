@@ -1,0 +1,8 @@
+{
+  "title": "Collect and curate comprehensive QA training dataset",
+  "files": {
+    "qa_training_dataset.json": 238241,
+    "consolidated_research.json": 1654,
+    "volk_triangle_dataset.jsonl": 2990
+  }
+}

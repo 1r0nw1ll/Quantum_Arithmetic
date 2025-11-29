@@ -1,0 +1,19 @@
+Vault Mining Suggestions (fast-path)
+=
+Signals:
+- curvature: 0 occurrences
+- eisenstein: 0 occurrences
+- fibonacci: 0 occurrences
+- ideal: 0 occurrences
+- lucas: 0 occurrences
+- positivity: 0 occurrences
+- triangle: 0 occurrences
+- wheel: 0 occurrences
+
+Recommended toggles/weights:
+- QA_FP_ENABLE_WHEEL=1
+- QA_FP_ENABLE_FAMILY=1
+- QA_FP_FAMILY_TOL=0.05
+- QA_FP_POS_MIN=0.0
+- QA_QE_CURV_WEIGHT=0.25
+- QA_QE_IDEAL_WEIGHT=0.0

@@ -32,6 +32,7 @@ import io
 import base64
 import cv2
 import wave
+import audioop
 import sys
 import os
 
@@ -163,18 +164,12 @@ class MultimodalEncoder(nn.Module):
             # Default embedding for empty input
             embeddings.append(torch.zeros(self.text_dim))
 
-        # Concatenate all available embeddings
+        # Concatenate and project to unified space
         combined = torch.cat(embeddings, dim=-1)
-
-        # Pad or truncate to match projection input size (text_dim + vision_dim + audio_dim)
-        expected_size = self.text_dim + self.vision_dim + self.audio_dim
-        if combined.shape[-1] < expected_size:
-            # Pad with zeros
-            padding = torch.zeros(expected_size - combined.shape[-1])
-            combined = torch.cat([combined, padding], dim=-1)
-        elif combined.shape[-1] > expected_size:
-            # Truncate
-            combined = combined[:expected_size]
+        if combined.shape[-1] > self.text_dim:
+            combined = combined[:self.text_dim]  # Truncate if too long
+        elif combined.shape[-1] < self.text_dim:
+            combined = torch.cat([combined, torch.zeros(self.text_dim - combined.shape[-1])], dim=-1)
 
         return self.unified_projection(combined.unsqueeze(0)).squeeze(0)
 
@@ -336,14 +331,6 @@ class ComputerUseTools:
                         error="Path is not a directory",
                         execution_time=time.time() - start_time
                     )
-            else:
-                return ToolResult(
-                    tool_name="file_operations",
-                    success=False,
-                    output=None,
-                    error=f"Unsupported operation: {operation}",
-                    execution_time=time.time() - start_time
-                )
 
         except Exception as e:
             return ToolResult(
@@ -604,28 +591,6 @@ class QALMMultimodalAgent(CIMQALMAgent):
             "autonomous_success": evaluation["overall_success"]
         }
 
-    def generate_response(self, prompt: str, qa_tuple: Optional[Tuple[int, int, int, int]] = None, max_length: int = 100) -> str:
-        """Generate text response using CIM-QALM reasoning"""
-        if qa_tuple:
-            reasoning_result = self.reason_on_knowledge(qa_tuple)
-            response = f"QA Analysis for {qa_tuple}: {reasoning_result.get('analysis', 'No analysis available')}"
-        else:
-            # Check if this is a planning prompt
-            if "plan" in prompt.lower() or "step" in prompt.lower():
-                # Generate a simple planning response
-                response = """1. Analyze the goal and gather requirements
-2. Identify available tools and resources
-3. Create a step-by-step execution plan
-4. Execute each step systematically
-5. Verify completion and adjust as needed"""
-            else:
-                # Use multimodal processing for other text prompts
-                multimodal_input = MultimodalQAInput(text=prompt)
-                result = self.process_multimodal_input(multimodal_input)
-                response = f"Multimodal Analysis: {result.get('reasoning_chain', {}).get('final_tuple', 'No result')}"
-
-        return response[:max_length] if len(response) > max_length else response
-
     def get_capabilities_summary(self) -> Dict:
         """Get summary of all capabilities"""
 
@@ -691,12 +656,9 @@ if __name__ == "__main__":
         # Test agential planning
         context = MultimodalQAInput(text=f"Goal: {args.goal}")
         plan = agent.create_agential_plan(args.goal, context)
-        print(f"Created plan with {len(plan.steps)} steps for goal: {plan.goal}")
-        print(f"Plan reasoning: {plan.reasoning}")
+        print(f"Created plan with {len(plan.steps)} steps:")
         for i, step in enumerate(plan.steps):
-            print(f"  {i+1}. {step['description']} (tool: {step.get('tool', 'none')})")
-        if not plan.steps:
-            print("  No steps generated - checking QALM response...")
+            print(f"  {i+1}. {step['description']}")
 
     elif args.command == 'computer' and args.tool:
         # Test computer tools

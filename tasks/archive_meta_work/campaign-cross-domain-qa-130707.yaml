@@ -1,0 +1,93 @@
+id: campaign-cross-domain-qa-130707
+project: research_campaigns
+title: Cross-Domain QA Validation Campaign
+description: 'Validate QA framework across multiple domains to establish generality.
+
+
+  Available domains: other, vision_ai, compilation, statistical_physics, quantum
+
+
+  This campaign tests whether QA modular arithmetic and HGD optimizer
+
+  show consistent benefits across vision, quantum, compilation, and statistical domains.'
+source: research_director
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-29T13:07:07.611363'
+tags:
+- campaign
+- validation
+- cross_domain
+metadata:
+  campaign_type: validation
+  domains:
+  - other
+  - vision_ai
+  - compilation
+  - statistical_physics
+  - quantum
+  expected_duration: 4-6 cycles
+  success_criteria:
+  - Run QA experiments in 3+ domains
+  - Document QA invariants per domain
+  - Compare HGD vs baseline per domain
+  - Identify domain-specific patterns
+  updated_at: '2025-11-29T15:51:33.859323'
+plan:
+  steps:
+  - description: Research and understand the problem domain
+    acceptance: Clear problem statement and success criteria defined
+    tools:
+    - literature_review
+    - code_analysis
+    effort: 1 hour
+  - description: Design and implement solution approach
+    acceptance: Working prototype or proof of concept
+    tools:
+    - python
+    - mathematical_tools
+    effort: 3 hours
+  - description: Test and validate the implementation
+    acceptance: All tests pass, invariants preserved
+    tools:
+    - pytest
+    - validation_scripts
+    effort: 1 hour
+  risks:
+  - Technical complexity higher than estimated
+  - Mathematical assumptions might not hold
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: qalm
+    started_at: '2025-11-29T13:17:53.071153'
+    completed_at: '2025-11-29T13:17:53.071162'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:32:04.920236'
+    completed_at: '2025-11-29T13:32:04.920245'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:46:13.795813'
+    completed_at: '2025-11-29T13:46:13.795822'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:47:25.867955'
+    completed_at: '2025-11-29T13:47:25.867965'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:47:40.199303'
+    completed_at: '2025-11-29T13:47:40.199315'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:49:35.241740'
+    completed_at: '2025-11-29T14:49:35.241750'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:51:33.859310'
+    completed_at: '2025-11-29T15:51:33.859319'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+retry_count: 3

@@ -1,0 +1,112 @@
+id: swarm-error-224253-2993
+project: swarm_improvement
+title: 'Fix recurring error: qalm_data_collector_execution_failed: ''D...'
+description: 'Resolve error affecting 7 tasks: qalm_data_collector_execution_failed:
+  ''DummyDataCollector'' object has no attribute ''enhance_qalm_tra'
+source: swarm_introspector
+priority: 1.0
+status: pending
+lane: green
+assignee: opencode
+created: '2025-11-28T22:42:53.468534'
+tags:
+- introspection
+- error_fix
+metadata:
+  error_count: 7
+  affected_tasks:
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  error_message: 'qalm_data_collector_execution_failed: ''DummyDataCollector'' object
+    has no attribute ''enhance_qalm_tra'
+  introspection_type: recurring_error
+  updated_at: '2025-11-29T15:52:02.720343'
+plan:
+  steps:
+  - description: Analyze the TODO/FIXME comments in codebase
+    acceptance: All TODO items identified and categorized
+    tools:
+    - grep
+    - code_analysis
+    effort: 30 minutes
+  - description: Implement fixes for identified issues
+    acceptance: All TODO comments resolved or updated
+    tools:
+    - editor
+    - pytest
+    effort: 2 hours
+  - description: Verify fixes work and don't break existing functionality
+    acceptance: Tests pass, SpecLock intact
+    tools:
+    - pytest
+    - speclock
+    effort: 30 minutes
+  risks:
+  - Fixing one TODO might introduce new issues
+  - Some TODOs might be obsolete or no longer relevant
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: opencode
+    started_at: '2025-11-29T12:50:03.019386'
+    completed_at: '2025-11-29T12:50:03.019411'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:04:10.410118'
+    completed_at: '2025-11-29T13:04:10.410139'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:18:16.975464'
+    completed_at: '2025-11-29T13:18:16.975493'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:32:28.166885'
+    completed_at: '2025-11-29T13:32:28.166909'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:47:53.791747'
+    completed_at: '2025-11-29T13:47:53.791761'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:48:08.914355'
+    completed_at: '2025-11-29T13:48:08.914412'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T14:50:05.101533'
+    completed_at: '2025-11-29T14:50:05.101549'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T15:52:02.720322'
+    completed_at: '2025-11-29T15:52:02.720338'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+retry_count: 3

@@ -1,0 +1,107 @@
+---
+# Proton Radius QA Research Context
+# Specialized context for proton radius quantization experiments
+
+project_name: "Proton Radius Ellipse Quantization via QA"
+created: "2025-11-19T00:00:00"
+last_updated: "2025-11-19T00:00:00"
+
+# QA System Parameters
+modulus_outer: 24
+modulus_inner: 9
+
+# Core QA Invariants
+qa_invariants:
+  tuple_structure: "(b, e, d, a) where d = b+e, a = b+2e"
+  core_invariants:
+    - "J = b·d (perigee)"
+    - "K = d·a (apogee)"
+    - "X = e·d (focal half-distance)"
+  modular_arithmetic: true
+  ellipse_mapping:
+    - "Semi-major axis A = 2·d"
+    - "Semi-minor axis B = 2·√(b·e)·d"
+    - "Eccentricity e = √(1 - (b·e)/d²)"
+
+# Physical Constants
+physical_constants:
+  proton_charge_radius_CODATA: 0.8414  # femtometers (fm)
+  proton_charge_radius_muonic: 0.84087  # fm
+  planck_length: 1.616255e-35  # meters
+  fine_structure_constant: 0.0072973525693
+
+# Available MCP Servers
+mcp_servers:
+  - qa-right-triangle
+  - qa-resonance
+  - qa-hgd-optimizer
+
+# Active QA Tuples for Proton Radius
+active_tuples:
+  - tuple: [1, 2, 3, 5]
+    name: "Fibonacci canonical"
+    e8_alignment: 0.868
+    classification: "Cosmos-24-cycle"
+    ellipse_properties:
+      semi_major: 6.0
+      semi_minor: 4.898979
+      eccentricity: 0.816497
+    notes: "Highest E8 alignment in mod-24 system"
+
+  - tuple: [3, 5, 8, 13]
+    name: "Fibonacci growth"
+    e8_alignment: 0.744
+    classification: "Satellite-8-cycle"
+    ellipse_properties:
+      semi_major: 16.0
+      semi_minor: 13.856406
+      eccentricity: 0.661438
+
+# Experiments
+experiments:
+  - name: "QA Ellipse Quantization of Proton Radius"
+    status: "active"
+    started: "2025-11-19"
+    description: |
+      Testing hypothesis that QA ellipse geometries can encode proton charge radius
+      when scaled appropriately. Using E8 alignment as resonance metric.
+    approach:
+      - Generate QA tuples across mod-24 space
+      - Compute ellipse parameters from QA invariants
+      - Scale to proton radius range (0.84 fm)
+      - Measure E8 alignment as quantization quality
+    tuples_tested: 576  # 24 x 24 grid
+    best_candidates:
+      - tuple: [1, 2, 3, 5]
+        scaled_radius: 0.8401  # fm
+        error_vs_CODATA: 0.16%  # |measured - predicted| / measured
+      - tuple: [12, 5, 17, 22]
+        scaled_radius: 0.8389
+        error_vs_CODATA: 0.30%
+    results_path: "results/proton_radius_quantization_2025-11-19.json"
+
+# Chat History
+chat_history: []
+
+# Research Notes
+notes:
+  - "QA tuples with high E8 alignment (>0.85) produce ellipses that match proton radius within 0.5%"
+  - "The (1,2,3,5) tuple appears to be a geometric attractor for fundamental particle structure"
+  - "Scaling factor ~0.14 fm/unit converts QA ellipse dimensions to nuclear scale"
+  - "Need to test against neutron radius (0.8751 ± 0.0095 fm) for comparison"
+
+# Key References
+references:
+  - title: "CODATA 2018 proton charge radius"
+    value: "0.8414(19) fm"
+    source: "https://physics.nist.gov/cgi-bin/cuu/Value?rp"
+  - title: "Muonic hydrogen proton radius puzzle"
+    value: "0.84087(39) fm"
+    source: "Pohl et al., Nature 466, 213 (2010)"
+
+# Tags
+tags:
+  - proton-radius
+  - ellipse-quantization
+  - nuclear-physics
+  - fundamental-constants

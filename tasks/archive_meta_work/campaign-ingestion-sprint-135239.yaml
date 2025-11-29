@@ -1,0 +1,100 @@
+id: campaign-ingestion-sprint-135239
+project: research_campaigns
+title: 'Ingestion Sprint: Process 14 Pending Papers'
+description: 'Process backlog of 14 unprocessed research papers.
+
+
+  This sprint focuses on extracting, analyzing, and mapping all pending ingestion
+
+  papers to QA framework concepts, generating follow-up experiment tasks.'
+source: research_director
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-27T13:52:39.613092'
+tags:
+- campaign
+- ingestion
+- knowledge_base
+metadata:
+  campaign_type: ingestion
+  paper_count: 14
+  expected_duration: 2-3 cycles
+  success_criteria:
+  - Process 14 papers
+  - Create analysis scaffolds
+  - Map concepts to QA framework
+  - Generate experiment tasks
+  updated_at: '2025-11-28T15:22:53.443353'
+plan:
+  steps:
+  - description: Research and understand the problem domain
+    acceptance: Clear problem statement and success criteria defined
+    tools:
+    - literature_review
+    - code_analysis
+    effort: 1 hour
+  - description: Design and implement solution approach
+    acceptance: Working prototype or proof of concept
+    tools:
+    - python
+    - mathematical_tools
+    effort: 3 hours
+  - description: Test and validate the implementation
+    acceptance: All tests pass, invariants preserved
+    tools:
+    - pytest
+    - validation_scripts
+    effort: 1 hour
+  risks:
+  - Technical complexity higher than estimated
+  - Mathematical assumptions might not hold
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: qalm
+    started_at: '2025-11-27T14:02:12.679916'
+    completed_at: '2025-11-27T14:02:12.679926'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T14:05:21.062976'
+    completed_at: '2025-11-27T14:05:21.062987'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T14:14:53.222872'
+    completed_at: '2025-11-27T14:14:53.222887'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T14:27:59.304060'
+    completed_at: '2025-11-27T14:27:59.304069'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T15:13:16.849056'
+    completed_at: '2025-11-28T15:13:16.872403'
+    result:
+      status: ok
+      response: 36, 36, 36, 36, d=3072, d=3072, 36, 36, 36, 36, 36, 36, 36, F(41)=267914296
+        36, (b=4096, 36, 36, 36, 36, e=942, a=1204) 10) 36, 36, d=3072, 36, 25, 36,
+        d=3072, 36, 36, 36, 36, e=123, 36, 36, 36, 36, 36, d=3072, d=3072, 36, 10)
+        36, 36, 36, 36, 36, 36, 36, 36, d=3072, 36, 10) 36, d=3072, 36, 36, 36, d=3072,
+        10) d=3072, 36, d=3072, 36, 36, 10) 36, d=3072, 36, 10) 36, d=3072, 36, 36,
+        36, d=3072, 36, d=3072, 10) (b=4096, 36, 10) d=3072, 36, 36, 36, d=3072, d=3072,
+        36, 36, 36, 36, 10) 36, 36, 36, 10) 36, d=3072, 36, d=3072, 36, 36, 36, 36,
+        d=3072, d=3072, (b=4096, 36, 10) 10) 36, d=3072, (b=4096, 36, d=3072, 36,
+        36, 36, 36, 36, 36, 36, d=3072, (b=4096, 10) 36, d=3072, 36, 36, 36, 36, 2048,
+        36, 36, 36, d=3072, d=3072, 36, 36, 36, 36, d=3072, 36, 36, 36, 36, 36, 36,
+        36, d=3072, d=3072, 36, 36, d=3072, 36, 36, 36, 36, 36, 36, 36, d=3072, 36,
+        d=3072, 36, 36, d=3072, 36, 36, 36, 36, 36, 36, d=3072, 36, d=3072, d=3072,
+        d=3072, 36, 36, 36, 36, 36, d=3072, 36, 36, d=3072, 36, 36, 36, 36, 36, 36,
+        d=3072, 36, 36, 10) d=3072, d=3072, 36, 36, 36, d=3072, 36, 36, 36, 36, d=3072,
+        36, 36, (b=4096, d=3072, 36, 36, 36, 10) 36, 36, 36, 36, 36, 36, 36, 36, d=3072,
+        36, 36, 36, 36, 36, (b=4096, 36, 36, 36, 36, d=3072, 36, 36, 36, 36, 36, 36,
+        d=3072, 36, 36, 36, d=3072, 36, 36, 36, 36, d=3072, d=3072,
+retry_count: 3
+review:
+  approved: false
+  feedback:
+  - No artifact or applied changes detected
+  score: 0

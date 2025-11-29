@@ -1,0 +1,4 @@
+{
+  "note": "No-op (already implemented or not recognized)",
+  "task": "Port EEG/seismic feature extractors to Rust for preprocessing acceleration"
+}

@@ -1,0 +1,16 @@
+{
+  "artifacts": [
+    "artifacts/overleaf/qa_training_compute_section.tex",
+    "plots/qa_benchmarks.png",
+    "plots/qa_pcn_theta_compare.png",
+    "plots/qa_jepa_convergence.png"
+  ],
+  "metrics": {
+    "sgd_steps_mean": 232.2,
+    "hgd_steps_mean": 111.2,
+    "step_speedup": 2.0881294964028774,
+    "compute_ratio": 1.2528776978417266
+  },
+  "step_speedup": 2.0881294964028774,
+  "compute_ratio": 1.2528776978417266
+}

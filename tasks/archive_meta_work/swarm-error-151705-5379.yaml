@@ -1,0 +1,73 @@
+id: swarm-error-151705-5379
+project: swarm_improvement
+title: 'Fix recurring error: qalm_data_collector_execution_failed: ''D...'
+description: 'Resolve error affecting 25 tasks: qalm_data_collector_execution_failed:
+  ''DummyDataCollector'' object has no attribute ''enhance_qalm_tra'
+source: swarm_introspector
+priority: 1.0
+status: pending
+lane: green
+assignee: opencode
+created: '2025-11-29T15:17:05.966610'
+tags:
+- introspection
+- error_fix
+metadata:
+  error_count: 25
+  affected_tasks:
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  error_message: 'qalm_data_collector_execution_failed: ''DummyDataCollector'' object
+    has no attribute ''enhance_qalm_tra'
+  introspection_type: recurring_error
+  updated_at: '2025-11-29T15:52:02.645155'
+plan:
+  steps:
+  - description: Analyze the TODO/FIXME comments in codebase
+    acceptance: All TODO items identified and categorized
+    tools:
+    - grep
+    - code_analysis
+    effort: 30 minutes
+  - description: Implement fixes for identified issues
+    acceptance: All TODO comments resolved or updated
+    tools:
+    - editor
+    - pytest
+    effort: 2 hours
+  - description: Verify fixes work and don't break existing functionality
+    acceptance: Tests pass, SpecLock intact
+    tools:
+    - pytest
+    - speclock
+    effort: 30 minutes
+  risks:
+  - Fixing one TODO might introduce new issues
+  - Some TODOs might be obsolete or no longer relevant
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: opencode
+    started_at: '2025-11-29T15:29:41.196293'
+    completed_at: '2025-11-29T15:29:41.196314'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T15:52:02.645134'
+    completed_at: '2025-11-29T15:52:02.645150'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+retry_count: 1

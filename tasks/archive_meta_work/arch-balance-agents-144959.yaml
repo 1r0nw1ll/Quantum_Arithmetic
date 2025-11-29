@@ -1,0 +1,77 @@
+id: arch-balance-agents-144959
+project: architecture
+title: Load-balance qalm (144 tasks)
+description: 'Agent overload detected: qalm has 144 queued tasks.
+
+
+  Recommendation: Implement load balancing or agent parallelization
+
+
+  Options:
+
+  1. Implement parallel task processing
+
+  2. Split agent into specialized sub-agents
+
+  3. Redistribute tasks to underutilized agents
+
+  4. Optimize agent execution speed'
+source: qa_architect
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-29T14:49:59.091289'
+tags:
+- architecture
+- performance
+- load_balancing
+metadata:
+  issue_type: agent_overload
+  overloaded_agent: qalm
+  task_count: 144
+  updated_at: '2025-11-29T15:51:33.183446'
+plan:
+  steps:
+  - description: Research and understand the problem domain
+    acceptance: Clear problem statement and success criteria defined
+    tools:
+    - literature_review
+    - code_analysis
+    effort: 1 hour
+  - description: Design and implement solution approach
+    acceptance: Working prototype or proof of concept
+    tools:
+    - python
+    - mathematical_tools
+    effort: 3 hours
+  - description: Test and validate the implementation
+    acceptance: All tests pass, invariants preserved
+    tools:
+    - pytest
+    - validation_scripts
+    effort: 1 hour
+  risks:
+  - Technical complexity higher than estimated
+  - Mathematical assumptions might not hold
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: qalm
+    started_at: '2025-11-29T14:59:33.129999'
+    completed_at: '2025-11-29T14:59:33.130035'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:14:16.292938'
+    completed_at: '2025-11-29T15:14:16.292973'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:29:12.360286'
+    completed_at: '2025-11-29T15:29:12.360419'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:51:33.183432'
+    completed_at: '2025-11-29T15:51:33.183442'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+retry_count: 3

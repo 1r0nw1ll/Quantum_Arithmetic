@@ -13,7 +13,7 @@ Capabilities:
 Integration with QA lab for enhanced QALM self-improvement.
 """
 
-from qa_rust_ml import RustMLHelper
+import torch
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -81,101 +81,25 @@ class DataForagingEngine:
 
         self.collected_data: List[CollectedData] = []
         self.visited_urls: Set[str] = set()
-        # Download dir for extracted files
-        self.download_dir = Path(__file__).parent.parent.parent / 'qa_data' / 'raman'
-        self.download_dir.mkdir(parents=True, exist_ok=True)
 
     def discover_data_sources(self, query: str, max_sources: int = 10) -> List[DataSource]:
-        """Discover relevant data sources for QALM training.
+        """Discover relevant data sources for QALM training"""
+        sources = []
 
-        Preference order: HuggingFace datasets, Kaggle datasets, ArXiv papers, PWC.
-        Falls back to internal mock list only if all live searches fail or return nothing.
-        """
-        sources: List[DataSource] = []
-
-        # Attempt real searches first
-        try:
-            hf = self._search_huggingface(query)
-            print(f"HuggingFace results: {len(hf)} for query '{query}'")
-            sources.extend(hf)
-        except Exception as e:
-            print(f"HuggingFace search error: {e}")
-
-        try:
-            kg = self._search_kaggle(query)
-            print(f"Kaggle results: {len(kg)} for query '{query}'")
-            sources.extend(kg)
-        except Exception as e:
-            print(f"Kaggle search error: {e}")
-
-        try:
-            ax = self._search_arxiv(query)
-            print(f"ArXiv results: {len(ax)} for query '{query}'")
-            sources.extend(ax)
-        except Exception as e:
-            print(f"ArXiv search error: {e}")
-
-        try:
-            pwc = self._search_paperswithcode(query)
-            print(f"PapersWithCode results: {len(pwc)} for query '{query}'")
-            sources.extend(pwc)
-        except Exception as e:
-            print(f"PapersWithCode search error: {e}")
-
-        # Fallback to mock sources if nothing found
-        if not sources:
-            mock_sources = [
-                DataSource(
-                    url="https://arxiv.org/pdf/quant-ph/9705052.pdf",
-                    title="Quantum Computation and Quantum Information",
-                    description="Comprehensive introduction to quantum computing and information theory",
-                    data_type='paper',
-                    relevance_score=0.1,
-                    metadata={'authors': 'Nielsen, Chuang'}
-                ),
-                DataSource(
-                    url="https://arxiv.org/pdf/1308.5424.pdf",
-                    title="Quantum Machine Learning",
-                    description="Review of quantum algorithms for machine learning applications",
-                    data_type='paper',
-                    relevance_score=0.1,
-                    metadata={'year': 2013}
-                ),
-            ]
-
-            for source in mock_sources:
-                relevance = self._calculate_relevance(query, source.title + " " + source.description)
-                print(f"Mock source '{source.title[:30]}...' relevance: {relevance:.3f}")
-                if relevance > 0.1:
-                    sources.append(source)
-
-        # Deduplicate by URL, keep highest relevance
-        dedup: Dict[str, DataSource] = {}
-        for s in sources:
-            if s.url not in dedup or s.relevance_score > dedup[s.url].relevance_score:
-                dedup[s.url] = s
-
-        # Rank by relevance and trim
-        out = sorted(dedup.values(), key=lambda x: x.relevance_score, reverse=True)
-        return out[:max_sources]
-
-    def discover_from_seeds(self, seed_urls: List[str]) -> List[DataSource]:
-        """Create DataSource entries from a list of URLs (seed file support)."""
-        sources: List[DataSource] = []
-        for url in seed_urls:
-            url = url.strip()
-            if not url:
+        # Search academic repositories
+        for base_url in self.academic_sources:
+            try:
+                search_results = self._search_repository(base_url, query)
+                sources.extend(search_results)
+                if len(sources) >= max_sources:
+                    break
+            except Exception as e:
+                print(f"Error searching {base_url}: {e}")
                 continue
-            sources.append(
-                DataSource(
-                    url=url,
-                    title=url,
-                    description="seed",
-                    data_type='dataset',
-                    relevance_score=1.0,
-                )
-            )
-        return sources
+
+        # Rank by relevance
+        sources.sort(key=lambda x: x.relevance_score, reverse=True)
+        return sources[:max_sources]
 
     def _search_repository(self, base_url: str, query: str) -> List[DataSource]:
         """Search a specific repository for relevant content"""
@@ -198,51 +122,24 @@ class DataForagingEngine:
         search_url = f"https://arxiv.org/search/?query={query}&searchtype=all"
 
         try:
-            print(f"Searching ArXiv for: {query}")
             response = self.session.get(search_url, timeout=10)
-            print(f"ArXiv response status: {response.status_code}")
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            results = soup.find_all('li', class_='arxiv-result')[:5]
-            print(f"Found {len(results)} ArXiv results")
+            for result in soup.find_all('li', class_='arxiv-result')[:5]:
+                title_elem = result.find('p', class_='title')
+                abstract_elem = result.find('p', class_='abstract')
 
-
-
-            for result in results:
-                # Look for the title - it might be in different elements
-                title_elem = result.find('h1') or result.find('h2') or result.find('h3') or result.find('a', class_='title')
-                if not title_elem:
-                    # Try to find any link that might contain the title
-                    links = result.find_all('a')
-                    for link in links:
-                        href = link.get('href', '')
-                        if '/abs/' in href and 'arxiv.org' in href:
-                            title_elem = link
-                            break
-
-                abstract_elem = result.find('span', class_='abstract') or result.find('p', class_='abstract')
-
-                if title_elem:
-                    title_text = title_elem.get_text().strip()
-                    # Clean up the title
-                    title = re.sub(r'\[.*?\]', '', title_text).strip()  # Remove [pdf, ps, etc]
-                    title = re.sub(r'arXiv:\d+\.\d+', '', title).strip()
-
-                    # If title is still empty or just links, skip
-                    if not title or len(title) < 10:
-                        continue
-
-                    abstract = abstract_elem.get_text().strip() if abstract_elem else ""
+                if title_elem and abstract_elem:
+                    title = title_elem.get_text().strip()
+                    abstract = abstract_elem.get_text().strip()
 
                     # Calculate relevance
                     relevance = self._calculate_relevance(query, title + " " + abstract)
-                    print(f"ArXiv paper: '{title[:50]}...' relevance: {relevance:.3f}")
 
                     if relevance > 0.3:  # Minimum relevance threshold
-                        # Get the PDF link
-                        pdf_link = result.find('a', href=re.compile(r'/pdf/'))
-                        if pdf_link:
-                            url = urljoin("https://arxiv.org", pdf_link['href'])
+                        link = result.find('a', href=True)
+                        if link:
+                            url = urljoin("https://arxiv.org", link['href'])
 
                             sources.append(DataSource(
                                 url=url,
@@ -330,39 +227,29 @@ class DataForagingEngine:
     def _search_kaggle(self, query: str) -> List[DataSource]:
         """Search Kaggle datasets"""
         sources = []
-        # Note: Kaggle API requires authentication, using web scraping instead
-        search_url = f"https://www.kaggle.com/datasets?search={query}"
+        search_url = f"https://www.kaggle.com/api/v1/datasets/list?search={query}&size=5"
 
         try:
             response = self.session.get(search_url, timeout=10)
-            soup = BeautifulSoup(response.content, 'html.parser')
+            datasets = response.json()
 
-            # Find dataset cards
-            dataset_cards = soup.find_all('div', class_='sc-fzoNJl')[:3]  # Limit results
+            for dataset in datasets:
+                title = dataset.get('title', '')
+                description = dataset.get('description', '') or dataset.get('subtitle', '')
 
-            for card in dataset_cards:
-                title_elem = card.find('h6') or card.find('a')
-                desc_elem = card.find('p')
+                relevance = self._calculate_relevance(query, title + " " + description)
 
-                if title_elem:
-                    title = title_elem.get_text().strip()
-                    description = desc_elem.get_text().strip() if desc_elem else ""
+                if relevance > 0.3:
+                    url = dataset.get('url', '')
 
-                    relevance = self._calculate_relevance(query, title + " " + description)
-
-                    if relevance > 0.3:
-                        # Extract URL
-                        link = card.find('a', href=True)
-                        if link:
-                            url = urljoin("https://www.kaggle.com", link['href'])
-
-                            sources.append(DataSource(
-                                url=url,
-                                title=title,
-                                description=description[:500],
-                                data_type='dataset',
-                                relevance_score=relevance
-                            ))
+                    sources.append(DataSource(
+                        url=url,
+                        title=title,
+                        description=description[:500],
+                        data_type='dataset',
+                        relevance_score=relevance,
+                        metadata={'size': dataset.get('totalBytes', 0)}
+                    ))
 
         except Exception as e:
             print(f"Kaggle search error: {e}")
@@ -407,24 +294,6 @@ class DataForagingEngine:
     def _collect_from_source(self, source: DataSource) -> Optional[CollectedData]:
         """Collect data from a specific source"""
         try:
-            # For mock data, create synthetic content instead of real network requests
-            if 'mock' in source.url or source.url.startswith('https://arxiv.org') or source.url.startswith('https://huggingface.co'):
-                # Create mock content for testing
-                mock_content = f"This is mock content for: {source.title}. {source.description} This content contains information about {source.data_type} that could be useful for training QA systems."
-
-                # Generate some mock QA pairs
-                mock_qa_pairs = [
-                    (f"What is {source.title}?", f"{source.title} is {source.description}"),
-                    (f"What type of content is this?", f"This is {source.data_type} content."),
-                ]
-
-                return CollectedData(
-                    source=source,
-                    content=mock_content,
-                    qa_pairs=mock_qa_pairs
-                )
-
-            # Real network requests for non-mock URLs
             response = self.session.get(source.url, timeout=15)
             response.raise_for_status()
 
@@ -448,13 +317,6 @@ class DataForagingEngine:
 
                 text_content = soup.get_text(separator=' ', strip=True)
 
-                # Domain-specific: try to extract dataset file links and download
-                try:
-                    self._extract_and_download_assets(source.url, soup)
-                except Exception as _e:
-                    # Non-fatal; continue with text extraction
-                    pass
-
                 # Extract QA pairs if possible
                 qa_pairs = self._extract_qa_pairs(text_content)
 
@@ -474,61 +336,7 @@ class DataForagingEngine:
 
         except Exception as e:
             print(f"Collection error for {source.url}: {e}")
-            # Return mock data on failure
-            mock_content = f"Mock content for {source.title}: {source.description}"
-            return CollectedData(
-                source=source,
-                content=mock_content,
-                qa_pairs=[(f"What is {source.title}?", source.description)]
-            )
-
-    def _extract_and_download_assets(self, base_url: str, soup: BeautifulSoup) -> None:
-        """Find likely spectrum/data links on known domains and download them."""
-        domain = urlparse(base_url).netloc.lower()
-        links = [a.get('href') for a in soup.find_all('a', href=True)]
-        if not links:
-            return
-
-        def is_data_link(href: str) -> bool:
-            href_l = href.lower()
-            return any(
-                href_l.endswith(ext)
-                for ext in ('.txt', '.csv', '.jdx', '.zip')
-            ) or ('download' in href_l and ('txt' in href_l or 'csv' in href_l or 'jdx' in href_l))
-
-        # RRUFF: prefer explicit data links
-        if 'rruff.info' in domain:
-            cand = [h for h in links if is_data_link(h)]
-            self._download_many(base_url, cand[:3])
-            return
-
-        # ODR / NASA pages: attempt obvious data links
-        if 'odr.io' in domain or 'ahed.nasa.gov' in domain:
-            cand = [h for h in links if is_data_link(h)]
-            self._download_many(base_url, cand[:3])
-            return
-
-    def _download_many(self, base_url: str, hrefs: List[str]) -> None:
-        for href in hrefs:
-            try:
-                self._download_link(base_url, href)
-            except Exception:
-                continue
-
-    def _download_link(self, base_url: str, href: str) -> None:
-        url = urljoin(base_url, href)
-        parsed = urlparse(url)
-        name = os.path.basename(parsed.path) or 'download.bin'
-        # Sanitize filename and ensure uniqueness
-        safe = re.sub(r'[^A-Za-z0-9._-]', '_', name)
-        dest = self.download_dir / safe
-        # Skip if already exists
-        if dest.exists() and dest.stat().st_size > 0:
-            return
-        r = self.session.get(url, timeout=20)
-        r.raise_for_status()
-        with open(dest, 'wb') as f:
-            f.write(r.content)
+            return None
 
     def _extract_qa_pairs(self, text: str) -> List[Tuple[str, str]]:
         """Extract potential Q&A pairs from text"""
@@ -579,15 +387,10 @@ class DataValidationEngine:
             return False
 
         # Use QALM to assess relevance
-        try:
-            relevance_prompt = f"Assess if this content is relevant for QA learning: {data.content[:500]}"
-            assessment = self.qalm.generate_response(relevance_prompt)
-            is_relevant = 'relevant' in assessment.lower() or 'useful' in assessment.lower()
-        except Exception as e:
-            print(f"QALM assessment failed: {e}, assuming relevant")
-            is_relevant = True  # Default to relevant if QALM fails
+        relevance_prompt = f"Assess if this content is relevant for QA learning: {data.content[:500]}"
+        assessment = self.qalm.generate_response(relevance_prompt)
 
-        return is_relevant
+        return 'relevant' in assessment.lower() or 'useful' in assessment.lower()
 
     def preprocess_for_training(self, data: CollectedData) -> Dict[str, Any]:
         """Preprocess data for QALM training"""
@@ -646,24 +449,10 @@ class QALMDataCollectorAgent(CIMQALMAgent):
         # Thread pool for concurrent operations
         self.executor = ThreadPoolExecutor(max_workers=4)
 
-    def autonomous_data_collection(self, topics: List[str], max_sources: int = 10, seeds_file: Optional[str] = None) -> Dict[str, Any]:
+    def autonomous_data_collection(self, topics: List[str], max_sources: int = 10) -> Dict[str, Any]:
         """Perform autonomous data collection for given topics"""
         all_collected = []
         all_sources = []
-
-        # Optional: use seed URLs if provided
-        if seeds_file:
-            p = Path(seeds_file)
-            if p.exists():
-                try:
-                    seed_urls = [ln.strip() for ln in p.read_text(encoding='utf-8').splitlines()]
-                    seed_sources = self.foraging_engine.discover_from_seeds(seed_urls)
-                    all_sources.extend(seed_sources)
-                    collected_seed = self.foraging_engine.collect_data(seed_sources)
-                    all_collected.extend(collected_seed)
-                    print(f"Loaded {len(seed_sources)} seed sources from {seeds_file}")
-                except Exception as e:
-                    print(f"Failed to load seeds from {seeds_file}: {e}")
 
         for topic in topics:
             print(f"Collecting data for topic: {topic}")
@@ -740,21 +529,6 @@ class QALMDataCollectorAgent(CIMQALMAgent):
             'training_data': training_data[:100]  # Limit for preview
         }
 
-    def generate_response(self, prompt: str, qa_tuple: Optional[Tuple[int, int, int, int]] = None, max_length: int = 100) -> str:
-        """Generate text response using CIM-QALM reasoning"""
-        if qa_tuple:
-            reasoning_result = self.reason_on_knowledge(qa_tuple)
-            response = f"QA Analysis for {qa_tuple}: {reasoning_result.get('analysis', 'No analysis available')}"
-        else:
-            # For data collection prompts, provide relevant responses
-            if "relevant" in prompt.lower() or "useful" in prompt.lower():
-                response = "This content appears relevant for QA learning and training data collection."
-            else:
-                # Use multimodal processing for other text prompts
-                response = f"Data collection analysis: {prompt[:100]}"
-
-        return response[:max_length] if len(response) > max_length else response
-
     def get_collection_stats(self) -> Dict[str, Any]:
         """Get statistics about collected data"""
         collections = list(self.data_dir.glob("collection_*.json"))
@@ -799,7 +573,6 @@ if __name__ == "__main__":
                         default='stats', help='Command to execute')
     parser.add_argument('--topics', nargs='+', help='Topics to collect data for')
     parser.add_argument('--max-sources', type=int, default=10, help='Maximum sources to discover')
-    parser.add_argument('--seeds-file', type=str, help='Optional file of seed URLs to fetch (one per line)')
 
     args = parser.parse_args()
 
@@ -808,7 +581,7 @@ if __name__ == "__main__":
 
     if args.command == 'collect' and args.topics:
         # Autonomous data collection
-        result = agent.autonomous_data_collection(args.topics, args.max_sources, args.seeds_file)
+        result = agent.autonomous_data_collection(args.topics, args.max_sources)
         print(json.dumps(result, indent=2))
 
     elif args.command == 'enhance':

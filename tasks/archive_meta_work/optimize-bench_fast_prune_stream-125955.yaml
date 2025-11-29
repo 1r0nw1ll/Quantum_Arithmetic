@@ -1,0 +1,107 @@
+id: optimize-bench_fast_prune_stream-125955
+project: rust_optimization
+title: 'Optimize slow benchmark: bench_fast_prune_stream'
+description: 'Benchmark ''bench_fast_prune_stream'' shows slow performance (5.17s).
+
+
+  Consider:
+
+  1. Port to Rust
+
+  2. Add caching/memoization
+
+  3. Parallelize with rayon
+
+  4. Optimize algorithm complexity
+
+
+  Benchmark file: /home/player2/signal_experiments/qa_lab/artifacts/evals/bench_fast_prune_stream.json'
+source: rust_promoter
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-27T12:59:55.207023'
+tags:
+- optimization
+- benchmark
+- performance
+metadata:
+  benchmark_file: /home/player2/signal_experiments/qa_lab/artifacts/evals/bench_fast_prune_stream.json
+  current_time_sec: 5.174449408019427
+  promotion_type: benchmark_optimization
+  target_speedup: 2-5x
+  updated_at: '2025-11-28T15:22:59.503506'
+plan:
+  steps:
+  - description: Research and understand the problem domain
+    acceptance: Clear problem statement and success criteria defined
+    tools:
+    - literature_review
+    - code_analysis
+    effort: 1 hour
+  - description: Design and implement solution approach
+    acceptance: Working prototype or proof of concept
+    tools:
+    - python
+    - mathematical_tools
+    effort: 3 hours
+  - description: Test and validate the implementation
+    acceptance: All tests pass, invariants preserved
+    tools:
+    - pytest
+    - validation_scripts
+    effort: 1 hour
+  risks:
+  - Technical complexity higher than estimated
+  - Mathematical assumptions might not hold
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: qalm
+    started_at: '2025-11-27T13:38:13.140191'
+    completed_at: '2025-11-27T13:38:13.140200'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T13:50:18.510785'
+    completed_at: '2025-11-27T13:50:18.510805'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T14:02:34.620373'
+    completed_at: '2025-11-27T14:02:34.620385'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T14:05:43.342093'
+    completed_at: '2025-11-27T14:05:43.342115'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T15:14:05.648103'
+    completed_at: '2025-11-28T15:14:05.674025'
+    result:
+      status: ok
+      response: 36, 36, 36, 36, d=3072, 1244), 36, 10) 36, 10) 36, 10) 36, F(41)=267914296
+        d=3072, d=3072, 36, 36, 36, d=3072, d=55, a=1204) 10) 10) 10) 10) 10) 33385282)
+        10) d=3072, (b=4096, (b=4096, d=3072, 10) 10) 36, (b=4096, 36, 10) 10) d=3072,
+        d=3072, 36, 10) d=3072, 36, 10) 10) (b=4096, 10) 36, 36, (b=4096, 36, 10)
+        10) d=3072, (b=4096, d=3072, 36, (b=4096, 10) (b=4096, d=3072, d=3072, 36,
+        36, 10) 10) (b=4096, d=3072, 36, 36, d=39088169, 36, (b=4096, 10) d=3072,
+        36, d=3072, 10) (b=4096, 10) d=3072, 10) 10) 36, 36, d=3072, d=3072, 10) (b=4096,
+        36, 10) 10) 36, 36, 10) 10) 36, d=3072, 10) d=3072, d=3072, 10) d=3072, 36,
+        36, 10) 10) 10) 10) d=3072, (b=4096, d=3072, d=3072, 36, d=3072, 36, 10) 36,
+        (b=4096, 36, 10) 10) d=3072, (b=4096, 10) 10) d=3072, (b=4096, d=3072, 10)
+        36, 10) 10) 10) 36, d=3072, 10) 10) 10) 10) 36, d=3072, 10) 36, 36, 10) d=3072,
+        10) 36, d=3072, 10) 10) 10) d=3072, 10) d=3072, 36, 36, 10) d=3072, d=3072,
+        (b=4096, 36, d=3072, 36, 36, d=3072, 36, 10) (b=4096, 10) 36, 10) d=3072,
+        (b=4096, d=3072, 10) d=3072, 10) (b=4096, 36, d=3072, 36, d=3072, 10) 36,
+        (b=4096, 10) 36, d=3072, d=3072, 36, d=3072, 10) d=3072, 36, 10) d=3072, d=3072,
+        10) 36, 10) d=3072, (b=4096, 10) 36, 10) d=3072, d=3072, 10) (b=4096, 10)
+        10) 36, 10) 10) 10) 36, 36, 10) 10) 36, 36, 10) (b=4096, d=3072, 36, d=3072,
+        36, 36, (b=4096, (b=4096, (b=4096, 36, d=3072, d=3072, 10) (b=4096, 10) 10)
+        10) d=3072, d=3072, 10) 10) 10) d=3072, 10) 36, 36, (b=4096, 10) d=3072,
+retry_count: 3
+review:
+  approved: false
+  feedback:
+  - No artifact or applied changes detected
+  score: 0

@@ -1,0 +1,123 @@
+---
+# QA Theorem Discovery Context
+# Context for automated theorem generation from QA patterns
+
+project_name: "QA Theorem Discovery - Mod-24 Resonance"
+created: "2025-11-19T00:00:00"
+last_updated: "2025-11-19T00:00:00"
+
+# QA System Parameters
+modulus_outer: 24
+modulus_inner: 9
+
+# Core QA Invariants
+qa_invariants:
+  tuple_structure: "(b, e, d, a) where d = b+e, a = b+2e"
+  core_invariants:
+    - "J = b·d"
+    - "K = d·a"
+    - "X = e·d"
+    - "W = b·e"
+    - "Y = e·a"
+    - "Z = b·a"
+  derived_invariants:
+    - "L = J + K = (b·d) + (d·a) = d·(b+a)"
+    - "H = W + X + Y = b·e + e·d + e·a = e·(b+d+a)"
+    - "C = J + X = b·d + e·d = d·(b+e) = d²"
+    - "F = J + X + K = d·(b+e+a)"
+    - "G = K - J = d·(a-b) = d·(2e)"
+  modular_arithmetic: true
+
+# Available MCP Servers
+mcp_servers:
+  - qa-right-triangle
+  - qa-resonance
+  - qa-hgd-optimizer
+
+# Active QA Tuples (high-resonance candidates)
+active_tuples: []
+
+# Discovered Theorems (candidates for proof)
+discovered_theorems:
+  - theorem_id: "QA-T001"
+    statement: "For any QA tuple (b,e,d,a), C = d² always holds"
+    proof_status: "proven"
+    proof_method: "algebraic"
+    proof: |
+      Given: d = b + e
+      C = J + X = b·d + e·d = d·(b+e) = d·d = d²
+      QED
+    significance: "Fundamental geometric identity linking invariants to tuple structure"
+
+  - theorem_id: "QA-T002"
+    statement: "G = 2·X for all QA tuples"
+    proof_status: "proven"
+    proof_method: "algebraic"
+    proof: |
+      G = K - J = d·a - b·d = d·(a-b)
+      Since a = b + 2e, we have a - b = 2e
+      Therefore: G = d·(2e) = 2·(e·d) = 2·X
+      QED
+    significance: "Links growth parameter (G) to focal distance (X)"
+
+  - theorem_id: "QA-T003"
+    statement: "E8 alignment peaks at (1,2,3,5) with value ≈0.868"
+    proof_status: "conjecture"
+    proof_method: "computational_search"
+    evidence: |
+      Exhaustive search over mod-24 space shows (1,2,3,5) has maximal
+      cosine similarity to E8 root system. No other tuple exceeds 0.87.
+    significance: "Suggests (1,2,3,5) is geometrically privileged in QA system"
+    next_steps:
+      - "Prove analytically why (1,2,3,5) is extremal"
+      - "Test in higher moduli (mod-72, mod-144)"
+
+  - theorem_id: "QA-T004"
+    statement: "Fibonacci tuples form a closed orbit under QA evolution"
+    proof_status: "conjecture"
+    proof_method: "pattern_observation"
+    evidence: |
+      Starting from (1,1,2,3), applying recurrence b'=e, e'=d produces:
+      (1,1) → (1,2) → (2,3) → (3,5) → (5,8) → (8,13) → ...
+      This is exactly the Fibonacci sequence in (b,e) coordinates.
+    significance: "Links QA to classical number theory (Fibonacci)"
+    next_steps:
+      - "Prove this is the unique Fibonacci-generating orbit"
+      - "Find Lucas orbit analog"
+
+# Experiments
+experiments:
+  - name: "Exhaustive theorem search in mod-24"
+    status: "active"
+    started: "2025-11-19"
+    description: |
+      Systematically test all 576 QA tuples (24×24 grid) for:
+      - Invariant identities
+      - Modular recurrence patterns
+      - E8 resonance peaks
+      - Fibonacci/Lucas embeddings
+    approach:
+      - Use MCP qa_scan_resonance for batch computation
+      - Apply pattern detection algorithms
+      - Validate candidates with symbolic algebra
+      - Submit theorems to QALM for verification
+    theorems_discovered: 4
+    theorems_proven: 2
+    theorems_pending: 2
+
+# Chat History
+chat_history: []
+
+# Research Notes
+notes:
+  - "QA invariants satisfy polynomial identities that may encode deep symmetries"
+  - "E8 alignment metric appears to select 'harmonic' tuples"
+  - "Mod-24 and mod-9 interact in interesting ways (24 = 8×3, 9 = 3²)"
+  - "Consider extending to Universal Hyperbolic Geometry (UHG) framework"
+
+# Tags
+tags:
+  - theorem-discovery
+  - automated-reasoning
+  - pattern-recognition
+  - symbolic-algebra

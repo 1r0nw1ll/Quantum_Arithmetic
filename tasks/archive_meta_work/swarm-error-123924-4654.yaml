@@ -1,0 +1,297 @@
+id: swarm-error-123924-4654
+project: swarm_improvement
+title: 'Fix recurring error: qalm_data_collector_execution_failed: ''T...'
+description: 'Resolve error affecting 169 tasks: qalm_data_collector_execution_failed:
+  ''TorchFreeDataCollector'' object has no attribute ''enhance_qalm'
+source: swarm_introspector
+priority: 1.0
+status: pending
+lane: green
+assignee: opencode
+created: '2025-11-27T12:39:24.555105'
+tags:
+- introspection
+- error_fix
+metadata:
+  error_count: 169
+  affected_tasks:
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  - obsd-005900-47b100
+  error_message: 'qalm_data_collector_execution_failed: ''TorchFreeDataCollector''
+    object has no attribute ''enhance_qalm'
+  introspection_type: recurring_error
+  updated_at: '2025-11-29T15:52:01.901746'
+plan:
+  steps:
+  - description: Analyze the TODO/FIXME comments in codebase
+    acceptance: All TODO items identified and categorized
+    tools:
+    - grep
+    - code_analysis
+    effort: 30 minutes
+  - description: Implement fixes for identified issues
+    acceptance: All TODO comments resolved or updated
+    tools:
+    - editor
+    - pytest
+    effort: 2 hours
+  - description: Verify fixes work and don't break existing functionality
+    acceptance: Tests pass, SpecLock intact
+    tools:
+    - pytest
+    - speclock
+    effort: 30 minutes
+  risks:
+  - Fixing one TODO might introduce new issues
+  - Some TODOs might be obsolete or no longer relevant
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: opencode
+    started_at: '2025-11-27T13:01:32.283461'
+    completed_at: '2025-11-27T13:01:32.283474'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-27T13:13:59.494697'
+    completed_at: '2025-11-27T13:13:59.494711'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-27T13:26:05.526972'
+    completed_at: '2025-11-27T13:26:05.526993'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-27T13:38:13.314294'
+    completed_at: '2025-11-27T13:38:13.314311'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T15:14:06.949373'
+    completed_at: '2025-11-28T15:14:06.949423'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T15:20:43.138379'
+    completed_at: '2025-11-28T15:20:43.138418'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T15:22:10.057721'
+    completed_at: '2025-11-28T15:22:10.057768'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T15:25:47.747519'
+    completed_at: '2025-11-28T15:25:47.747559'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T18:12:21.004058'
+    completed_at: '2025-11-28T18:12:21.004074'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T18:12:36.063417'
+    completed_at: '2025-11-28T18:12:36.063435'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T18:18:09.790391'
+    completed_at: '2025-11-28T18:18:09.790407'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T19:19:33.366200'
+    completed_at: '2025-11-28T19:19:33.366216'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T20:20:59.877560'
+    completed_at: '2025-11-28T20:20:59.877576'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T21:22:26.559753'
+    completed_at: '2025-11-28T21:22:26.559768'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T22:23:54.463562'
+    completed_at: '2025-11-28T22:23:54.463577'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-28T23:25:25.917387'
+    completed_at: '2025-11-28T23:25:25.917403'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T00:26:54.815316'
+    completed_at: '2025-11-29T00:26:54.815332'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T01:28:25.809777'
+    completed_at: '2025-11-29T01:28:25.809794'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T02:29:56.945370'
+    completed_at: '2025-11-29T02:29:56.945386'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T03:31:30.946685'
+    completed_at: '2025-11-29T03:31:30.946707'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T04:33:04.743658'
+    completed_at: '2025-11-29T04:33:04.743675'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T05:34:38.727697'
+    completed_at: '2025-11-29T05:34:38.727713'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T06:36:14.273661'
+    completed_at: '2025-11-29T06:36:14.273677'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T07:37:50.117174'
+    completed_at: '2025-11-29T07:37:50.117190'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T08:39:27.379378'
+    completed_at: '2025-11-29T08:39:27.379394'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T09:41:06.148669'
+    completed_at: '2025-11-29T09:41:06.148685'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T10:42:39.165539'
+    completed_at: '2025-11-29T10:42:39.165553'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T10:42:46.567805'
+    completed_at: '2025-11-29T10:42:46.567820'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T11:44:28.514294'
+    completed_at: '2025-11-29T11:44:28.514309'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T12:46:15.153289'
+    completed_at: '2025-11-29T12:46:15.153305'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:47:53.224324'
+    completed_at: '2025-11-29T13:47:53.224338'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T13:48:08.279685'
+    completed_at: '2025-11-29T13:48:08.279701'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T14:50:04.403006'
+    completed_at: '2025-11-29T14:50:04.403022'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+  - agent: opencode
+    started_at: '2025-11-29T15:52:01.901726'
+    completed_at: '2025-11-29T15:52:01.901742'
+    result:
+      agent: opencode
+      changes:
+      - no-op
+retry_count: 3

@@ -1,0 +1,7 @@
+{
+  "task_id": "t-si-175646-8fc177",
+  "title": "Refactor qa_agents/cli/self_improver.py (normalize header/whitespace)",
+  "agent": "opencode",
+  "timestamp": "2025-11-21T18:14:24.474825",
+  "note": "External ACK generated artifact"
+}

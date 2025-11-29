@@ -1,0 +1,4 @@
+{
+  "note": "No-op (already implemented or not recognized)",
+  "task": "Port QE invariants (Y,Z,C,F,G) to Rust batch APIs and expose via PyO3"
+}

@@ -1,0 +1,4 @@
+{
+  "note": "No-op (already implemented or not recognized)",
+  "task": "Port qa_inner_product_matrix.py to Rust for faster QA graph adjacency"
+}

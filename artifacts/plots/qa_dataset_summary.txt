@@ -1,0 +1,11 @@
+QA Graphsmith Report @ 2025-11-23T12:28:26.217743
+
+QA dataset items: 233
+  - fibonacci_qa: 49
+  - lucas_qa: 49
+  - geometric_qa: 36
+  - e8_geometry_qa: 36
+  - signal_processing_qa: 60
+  - extracted_theorems: 0
+  - qa_reasoning_examples: 3
+LM dataset items: 50

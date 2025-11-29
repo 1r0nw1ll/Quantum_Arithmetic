@@ -1,0 +1,25 @@
+*** Begin Patch
+*** Update File: qa_lab/src/lib.rs
+@@
++/// Harmonic loss / index (simple batch)
++#[pyfunction]
++fn harmonic_index_batch_numpy_py<'py>(
++    py: Python<'py>,
++    e8: PyReadonlyArray1<'py, f64>,
++    loss: PyReadonlyArray1<'py, f64>,
++    k: f64,
++) -> PyResult<Py<PyArray1<f64>>> {
++    let e8 = e8.as_array();
++    let loss = loss.as_array();
++    let n = e8.len();
++    let mut out = Vec::with_capacity(n);
++    for i in 0..n {
++        out.push(e8[i] * (-(k * loss[i])).exp());
++    }
++    Ok(PyArray1::from_vec_bound(py, out).unbind())
++}
+@@
+     m.add_function(wrap_pyfunction!(triangle_residual_batch_numpy_py, m)?)?;
+@@
++    m.add_function(wrap_pyfunction!(harmonic_index_batch_numpy_py, m)?)?;
+*** End Patch

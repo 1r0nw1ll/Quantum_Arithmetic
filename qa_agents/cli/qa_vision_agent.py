@@ -90,10 +90,6 @@ class VisionQAAgent(CIMQALMAgent):
         self.labels = None
         self.is_trained = False
 
-        # Swarm capabilities
-        if hasattr(self, 'register_swarm_capability'):
-            self.register_swarm_capability("vision")
-
     def load_vision_data(self) -> bool:
         """Load vision training data"""
         try:
@@ -247,60 +243,6 @@ class VisionQAAgent(CIMQALMAgent):
                 return "Vision agent not trained. Please train first."
 
             return f"Visual analysis: {prompt[:50]}... QA-based image processing ready."
-
-        return "Vision agent: Query not related to visual analysis."
-
-    # Swarm Coordination Methods
-    def coordinate_multimodal_analysis(self, task_description: str) -> Dict[str, Any]:
-        """Coordinate with other agents for multimodal analysis"""
-        if not hasattr(self, 'request_coordination'):
-            return {"error": "Swarm capabilities not available"}
-
-        # Request coordination for multimodal task
-        self.request_coordination(
-            task_description,
-            ["lidar", "spectral", "audio"]  # Request other modalities
-        )
-
-        return {
-            "status": "coordination_requested",
-            "task": task_description,
-            "agent": "vision",
-            "capabilities_offered": ["image_classification", "visual_qa_analysis"]
-        }
-
-    def share_visual_qa_context(self, qa_tuple: Dict) -> Dict[str, Any]:
-        """Share visual QA context with swarm"""
-        if not hasattr(self, 'send_qa_tuple'):
-            return {"error": "Swarm capabilities not available"}
-
-        # Send QA tuple to other agents
-        self.send_qa_tuple(qa_tuple)
-
-        return {
-            "status": "qa_context_shared",
-            "shared_tuple": qa_tuple,
-            "context": "visual_analysis"
-        }
-
-    def process_swarm_task(self, task_data: Dict) -> Dict[str, Any]:
-        """Process task delegated from swarm coordinator"""
-        task_type = task_data.get("task_type", "unknown")
-
-        if task_type == "image_analysis":
-            # Process image analysis task
-            image_data = task_data.get("image_data")
-            if image_data is not None:
-                return self.analyze_visual_signature(image_data)
-            else:
-                return {"error": "No image data provided"}
-
-        elif task_type == "multimodal_fusion":
-            # Participate in multimodal fusion
-            return self.coordinate_multimodal_analysis("Multimodal scene understanding")
-
-        else:
-            return {"error": f"Unknown task type: {task_type}"}
 
         # Use parent class for other prompts
         return super().generate_response(prompt, qa_tuple, max_length)

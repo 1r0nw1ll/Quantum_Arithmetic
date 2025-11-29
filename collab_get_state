@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+"""
+CLI wrapper for getting shared state
+Usage: echo '{"key": "..."}' | collab_get_state
+   Or: collab_get_state --key "..."
+"""
+
+import sys
+import json
+import argparse
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent / "qa_agents" / "cli"))
+
+from qa_agent_base import CollaborativeAgent
+
+def main():
+    parser = argparse.ArgumentParser(description='Get value from shared state')
+    parser.add_argument('--key', help='State key')
+    parser.add_argument('--agent-name', default='cli_state', help='Agent name')
+
+    args = parser.parse_args()
+
+    # Read from stdin if no args provided
+    if not args.key:
+        try:
+            input_data = json.load(sys.stdin)
+            key = input_data.get('key')
+        except:
+            print(json.dumps({"status": "error", "error": "No key provided"}))
+            sys.exit(1)
+    else:
+        key = args.key
+
+    # Connect and get state
+    try:
+        agent = CollaborativeAgent(args.agent_name, auto_connect=True)
+
+        if not agent.connected:
+            print(json.dumps({"status": "error", "error": "Not connected to bus"}))
+            sys.exit(1)
+
+        value = agent.get_state(key)
+
+        result = {
+            "status": "ok",
+            "key": key,
+            "value": value,
+            "exists": value is not None
+        }
+
+        print(json.dumps(result))
+
+        agent.disconnect()
+        sys.exit(0)
+
+    except Exception as e:
+        print(json.dumps({"status": "error", "error": str(e)}))
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()

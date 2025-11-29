@@ -1,0 +1,4 @@
+{
+  "note": "No-op (already implemented or not recognized)",
+  "task": "Port qa_tuple_engine.py and digital-root families (Fibonacci/Lucas) to Rust"
+}

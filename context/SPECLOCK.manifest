@@ -1,0 +1,9 @@
+# QA SpecLock Manifest v4.0
+# Critical files that must not be modified without explicit override
+# Format: <sha256sum> <filepath>
+
+# Core QA Rules - NEVER MODIFY WITHOUT MANUAL APPROVAL
+ce51a1dd4c620a3b9c369febd5f059173d58c4ec0db0838f41796580c9ca3fc8 context/QA_RULES.yaml
+
+# Update this manifest after any approved changes using:
+# ./scripts/update_speclock.py

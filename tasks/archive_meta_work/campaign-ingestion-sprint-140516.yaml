@@ -1,0 +1,139 @@
+id: campaign-ingestion-sprint-140516
+project: research_campaigns
+title: 'Ingestion Sprint: Process 14 Pending Papers'
+description: 'Process backlog of 14 unprocessed research papers.
+
+
+  This sprint focuses on extracting, analyzing, and mapping all pending ingestion
+
+  papers to QA framework concepts, generating follow-up experiment tasks.'
+source: research_director
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-27T14:05:16.113594'
+tags:
+- campaign
+- ingestion
+- knowledge_base
+metadata:
+  campaign_type: ingestion
+  paper_count: 14
+  expected_duration: 2-3 cycles
+  success_criteria:
+  - Process 14 papers
+  - Create analysis scaffolds
+  - Map concepts to QA framework
+  - Generate experiment tasks
+  target_node: Player2
+  cluster_dispatched: true
+  updated_at: '2025-11-29T15:51:34.417951'
+execution:
+  history:
+  - stage: cluster_dispatch
+    timestamp: '2025-11-27T14:29:48.399133'
+    node_id: Player2
+    dispatcher: cluster_dispatcher
+  - agent: qalm
+    started_at: '2025-11-28T22:20:08.820098'
+    completed_at: '2025-11-28T22:20:08.820123'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T22:23:29.467908'
+    completed_at: '2025-11-28T22:23:29.467919'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T23:25:01.214632'
+    completed_at: '2025-11-28T23:25:01.214643'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T00:26:29.529857'
+    completed_at: '2025-11-29T00:26:29.529867'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T01:28:00.561359'
+    completed_at: '2025-11-29T01:28:00.561369'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T02:29:31.778860'
+    completed_at: '2025-11-29T02:29:31.778873'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T03:31:05.860881'
+    completed_at: '2025-11-29T03:31:05.860892'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T04:32:38.941696'
+    completed_at: '2025-11-29T04:32:38.941713'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T05:34:13.836007'
+    completed_at: '2025-11-29T05:34:13.836017'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T06:35:49.015004'
+    completed_at: '2025-11-29T06:35:49.015014'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T07:37:24.782658'
+    completed_at: '2025-11-29T07:37:24.782668'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T08:39:02.340354'
+    completed_at: '2025-11-29T08:39:02.340364'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T09:40:41.016329'
+    completed_at: '2025-11-29T09:40:41.016340'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T10:42:20.517575'
+    completed_at: '2025-11-29T10:42:20.517584'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T11:44:03.093359'
+    completed_at: '2025-11-29T11:44:03.093369'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:45:48.206889'
+    completed_at: '2025-11-29T12:45:48.206902'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:47:40.692302'
+    completed_at: '2025-11-29T13:47:40.692312'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:49:35.752362'
+    completed_at: '2025-11-29T14:49:35.752371'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:51:34.417938'
+    completed_at: '2025-11-29T15:51:34.417947'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+plan:
+  steps:
+  - description: Research and understand the problem domain
+    acceptance: Clear problem statement and success criteria defined
+    tools:
+    - literature_review
+    - code_analysis
+    effort: 1 hour
+  - description: Design and implement solution approach
+    acceptance: Working prototype or proof of concept
+    tools:
+    - python
+    - mathematical_tools
+    effort: 3 hours
+  - description: Test and validate the implementation
+    acceptance: All tests pass, invariants preserved
+    tools:
+    - pytest
+    - validation_scripts
+    effort: 1 hour
+  risks:
+  - Technical complexity higher than estimated
+  - Mathematical assumptions might not hold
+  dependencies: []
+state: failed
+retry_count: 3

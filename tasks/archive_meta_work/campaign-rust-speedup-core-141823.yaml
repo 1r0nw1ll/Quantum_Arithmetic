@@ -1,0 +1,139 @@
+id: campaign-rust-speedup-core-141823
+project: research_campaigns
+title: "Rust Kernel Speedup Campaign (Target: 2\xD7)"
+description: "Achieve consistent 2\xD7 speedup on core QA/HGD kernels through Rust\
+  \ optimization.\n\nCurrent average speedup: 1.00\xD7\nTarget: 2.0\xD7\n\nThis campaign\
+  \ focuses on identifying, porting, and optimizing the hottest code paths\nin the\
+  \ QA system to Rust with PyO3 bindings."
+source: research_director
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-27T14:18:23.603355'
+tags:
+- campaign
+- rust
+- performance
+- optimization
+metadata:
+  campaign_type: optimization
+  current_speedup: 1.0
+  target_speedup: 2.0
+  expected_duration: 2-4 cycles
+  success_criteria:
+  - Identify top 5 slowest kernels
+  - Port at least 3 to Rust
+  - "Achieve >=2\xD7 speedup on each"
+  - Update Python code to use Rust paths
+  target_node: Player2
+  cluster_dispatched: true
+  updated_at: '2025-11-29T15:51:34.935391'
+plan:
+  steps:
+  - description: Profile Python code and identify top 5 hotspots
+    acceptance: Profiling report with timing data
+    effort: 60
+  - description: Port identified hotspots to Rust
+    acceptance: 3+ Rust implementations with PyO3
+    effort: 180
+  - description: Benchmark Rust vs Python versions
+    acceptance: "Benchmark showing >=2\xD7 speedup"
+    effort: 60
+  risks:
+  - PyO3 overhead may limit speedup for small arrays
+  dependencies:
+  - Rust toolchain
+  - maturin build working
+execution:
+  history:
+  - stage: cluster_dispatch
+    timestamp: '2025-11-27T14:29:48.421444'
+    node_id: Player2
+    dispatcher: cluster_dispatcher
+  - agent: qalm
+    started_at: '2025-11-28T22:20:08.935640'
+    completed_at: '2025-11-28T22:20:08.935663'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T22:23:29.574522'
+    completed_at: '2025-11-28T22:23:29.574532'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T23:25:01.331248'
+    completed_at: '2025-11-28T23:25:01.331259'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T00:26:29.647715'
+    completed_at: '2025-11-29T00:26:29.647725'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T01:28:00.683027'
+    completed_at: '2025-11-29T01:28:00.683037'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T02:29:31.904369'
+    completed_at: '2025-11-29T02:29:31.904380'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T03:31:05.987568'
+    completed_at: '2025-11-29T03:31:05.987579'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T04:32:39.071796'
+    completed_at: '2025-11-29T04:32:39.071806'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T05:34:13.981309'
+    completed_at: '2025-11-29T05:34:13.981320'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T06:35:49.149334'
+    completed_at: '2025-11-29T06:35:49.149344'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T07:37:24.923334'
+    completed_at: '2025-11-29T07:37:24.923344'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T08:39:02.483208'
+    completed_at: '2025-11-29T08:39:02.483218'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T09:40:41.163492'
+    completed_at: '2025-11-29T09:40:41.163502'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T10:42:14.620073'
+    completed_at: '2025-11-29T10:42:14.620083'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T10:42:20.668583'
+    completed_at: '2025-11-29T10:42:20.668593'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T11:44:03.246044'
+    completed_at: '2025-11-29T11:44:03.246054'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:45:48.519932'
+    completed_at: '2025-11-29T12:45:48.519942'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:47:26.605609'
+    completed_at: '2025-11-29T13:47:26.605619'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:47:41.142457'
+    completed_at: '2025-11-29T13:47:41.142469'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:49:36.217567'
+    completed_at: '2025-11-29T14:49:36.217577'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:51:34.935378'
+    completed_at: '2025-11-29T15:51:34.935388'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+state: failed
+retry_count: 3

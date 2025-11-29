@@ -1,0 +1,11 @@
+{
+  "n_successes": 346,
+  "n_failures": 54,
+  "success_e8_mean": 0.663779135653651,
+  "success_e8_std": 0.44161561318819453,
+  "failure_e8_mean": 0.9217865779521498,
+  "failure_e8_std": 0.07178372257357782,
+  "t_statistic": -4.2736862790193415,
+  "p_value": 2.4086362085333826e-05,
+  "anomaly_count": 41
+}

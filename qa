@@ -1,0 +1,13 @@
+#!/bin/bash
+# QA Bob-iverse CLI Wrapper v4.0
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Source environment configuration if it exists
+if [ -f "$SCRIPT_DIR/.env" ]; then
+    source "$SCRIPT_DIR/.env"
+fi
+
+# Run the Python CLI
+exec python3 "$SCRIPT_DIR/qa_agents/cli/qa_cli.py" "$@"

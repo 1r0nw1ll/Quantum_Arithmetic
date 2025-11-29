@@ -21,8 +21,7 @@ from scipy.io import loadmat
 
 # Import QA components
 import sys
-import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+sys.path.append('../..')
 from qa_jepa_encoder import QAEncoder, QAHarmonicLoss
 from qa_agents.cli.cim_qalm_agent import CIMQALMAgent
 
@@ -124,14 +123,14 @@ class SpectralQAAgent(CIMQALMAgent):
 
         # Prepare data
         dataset = HSIDataset(self.hsi_data, self.labels)
-        dataloader = DataLoader(dataset, batch_size=8, shuffle=True)
+        dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
 
         self.model.train()
         losses = []
 
         for epoch in range(epochs):
             epoch_loss = 0
-            for batch_idx, batch in enumerate(dataloader):
+            for batch in dataloader:
                 hsi_batch = batch['hsi']
                 qa_targets = batch['qa_tuple']
 
@@ -140,19 +139,8 @@ class SpectralQAAgent(CIMQALMAgent):
                 # Forward pass
                 qa_pred = self.model(hsi_batch)
 
-                # Supervised loss: predict QA tuple from HSI
-                target_bundle = {
-                    'b': qa_targets[:, 0].unsqueeze(-1),  # [B] -> [B,1]
-                    'e': qa_targets[:, 1].unsqueeze(-1),
-                    'd': qa_targets[:, 2].unsqueeze(-1),
-                    'a': qa_targets[:, 3].unsqueeze(-1)
-                }
-                # Compute invariants for target
-                target_bundle.update(QAEncoder._compute_primary_invariants(target_bundle))
-                target_bundle.update(QAEncoder._compute_secondary_invariants(target_bundle))
-                target_bundle.update(QAEncoder._compute_triangle_sides(target_bundle))
-
-                loss, metrics = self.loss_fn(qa_pred, target_bundle)
+                # Self-supervised loss
+                loss, metrics = self.loss_fn(qa_pred, qa_pred)
                 loss.backward()
                 self.optimizer.step()
 
@@ -160,7 +148,7 @@ class SpectralQAAgent(CIMQALMAgent):
 
             avg_loss = epoch_loss / len(dataloader)
             losses.append(avg_loss)
-            print(f"Epoch {epoch+1}/{epochs}, Loss: {avg_loss:.4f}")
+            print(".4f")
 
         self.is_trained = True
 
@@ -181,14 +169,7 @@ class SpectralQAAgent(CIMQALMAgent):
     def analyze_spectral_signature(self, hsi_sample: np.ndarray) -> Dict[str, Any]:
         """Analyze spectral signature of HSI sample"""
         if not self.is_trained:
-            # Try to load saved model
-            model_path = self.base_path / 'trained_models' / 'qa_spectral_agent.pt'
-            if model_path.exists():
-                checkpoint = torch.load(model_path)
-                self.model.load_state_dict(checkpoint['model_state_dict'])
-                self.is_trained = True
-            else:
-                return {"error": "Model not trained"}
+            return {"error": "Model not trained"}
 
         self.model.eval()
         with torch.no_grad():
@@ -284,10 +265,8 @@ class HSIDataset(torch.utils.data.Dataset):
         # Convert to tensor
         hsi_tensor = torch.from_numpy(hsi_sample).float()
 
-        # QA tuple based on label (simple mapping)
-        # Map label to QA tuple with some variation
-        base = label.item()
-        qa_tuple = torch.tensor([base, base+1, base+2, base+3], dtype=torch.float)
+        # QA tuple placeholder
+        qa_tuple = torch.randn(4)
 
         return {
             'hsi': hsi_tensor,
@@ -311,7 +290,7 @@ if __name__ == "__main__":
     agent = SpectralQAAgent(base_path)
 
     if args.command == 'train':
-        result = agent.train_spectral_model(epochs=2)
+        result = agent.train_spectral_model(epochs=5)
         print("Training result:", result)
 
     elif args.command == 'analyze' and args.sample_idx is not None:

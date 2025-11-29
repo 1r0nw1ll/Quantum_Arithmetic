@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qa-lab"
+version = "4.0.0"
+description = "QA Bob-iverse Autonomic Research Lab"
+authors = [
+    {name = "QA Research Team"},
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "torch",
+    "torchvision",
+    "tqdm",
+    "pytest",
+    "mkdocs",
+    "mkdocs-material",
+    "networkx",
+    "scipy",
+    "scikit-learn",
+    "PyYAML",
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+qa = "qa_agents.cli.qa_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["qa_core*", "qa_agents*", "qa_domains*", "qa_experiments*", "qa_docs*", "qa_ci*", "qa_data*", "qa_papers*", "qa_dashboard*"]
+
+[tool.pytest.ini_options]
+testpaths = ["qa_core/tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

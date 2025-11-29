@@ -1,0 +1,111 @@
+id: campaign-cross-domain-qa-123549
+project: research_campaigns
+title: Cross-Domain QA Validation Campaign
+description: 'Validate QA framework across multiple domains to establish generality.
+
+
+  Available domains: other, vision_ai, compilation, statistical_physics, quantum
+
+
+  This campaign tests whether QA modular arithmetic and HGD optimizer
+
+  show consistent benefits across vision, quantum, compilation, and statistical domains.'
+source: research_director
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-27T12:35:49.201855'
+tags:
+- campaign
+- validation
+- cross_domain
+metadata:
+  campaign_type: validation
+  domains:
+  - other
+  - vision_ai
+  - compilation
+  - statistical_physics
+  - quantum
+  expected_duration: 4-6 cycles
+  success_criteria:
+  - Run QA experiments in 3+ domains
+  - Document QA invariants per domain
+  - Compare HGD vs baseline per domain
+  - Identify domain-specific patterns
+  updated_at: '2025-11-28T15:22:54.111183'
+plan:
+  steps:
+  - description: Research and understand the problem domain
+    acceptance: Clear problem statement and success criteria defined
+    tools:
+    - literature_review
+    - code_analysis
+    effort: 1 hour
+  - description: Design and implement solution approach
+    acceptance: Working prototype or proof of concept
+    tools:
+    - python
+    - mathematical_tools
+    effort: 3 hours
+  - description: Test and validate the implementation
+    acceptance: All tests pass, invariants preserved
+    tools:
+    - pytest
+    - validation_scripts
+    effort: 1 hour
+  risks:
+  - Technical complexity higher than estimated
+  - Mathematical assumptions might not hold
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: qalm
+    started_at: '2025-11-27T12:48:23.419288'
+    completed_at: '2025-11-27T12:48:23.419297'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T12:56:33.781218'
+    completed_at: '2025-11-27T12:56:33.781227'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T13:01:11.667649'
+    completed_at: '2025-11-27T13:01:11.667667'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-27T13:13:40.025999'
+    completed_at: '2025-11-27T13:13:40.026008'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-28T15:13:16.143774'
+    completed_at: '2025-11-28T15:13:16.164897'
+    result:
+      status: ok
+      response: 36, 36, a=4807526976) 36, d=3072, 1244), (b=125, 36, d=3072, 36, d=3072,
+        36, 36, F(41)=267914296 d=3072, d=3072, 36, 36, 36, 36, d=55, 36, (b=4096,
+        10) d=3072, L(31)=3010349, 10) 36, 36, d=3072, d=3072, 10) 36, 36, 36, 36,
+        33385282) 36, 10) 10) d=3072, d=3072, 36, 36, 36, a=-5) 36, e=2048, 36, 36,
+        36, 36, 36, 36, 36, 36, d=3072, 36, 36, 36, d=3072, d=39088169, d=3072, d=3072,
+        d=3072, 36, 36, 36, 36, d=39088169, d=3072, 36, 36, d=39088169, 36, d=30,
+        36, d=3072, 36, d=3072, quantum 36, 36, d=3072, d=3072, 36, 36, 36, (b=49,
+        d=3072, 36, d=3072, 36, e=2048, d=39088169, 36, d=39088169, 36, 36, 36, d=3072,
+        10) d=3072, 36, 36, 6765 d=3072, d=3072, 10) d=3072, 36, revealing d=3072,
+        36, d=3072, (b=4096, 36, d=3072, 36, 36, 36, e=2048, 10) 36, 36, d=3072, 36,
+        10) 36, d=3072, 36, d=3072, 36, 36, 2048, 36, 36, d=3072, d=3072, F(42)=433494437
+        d=3072, 36, 10) L(49)=17393796001 d=3072, e=2048, 36, 36, (b=4096, d=3072,
+        36, 36, 1244), d=3072, 36, d=3072, d=3072, 36, 36, 36, d=3072, 36, d=3072,
+        (b=49, 491, 36, d=3072, 36, 36, d=3072, 36, 36, d=3072, 36, 36, d=3072, d=3072,
+        36, d=3072, 36, d=3072, d=3072, 36, 36, 36, 36, d=3072, d=3072, 36, d=3072,
+        36, 36, 36, d=3072, 36, d=3072, d=3072, d=3072, 36, d=3072, d=3072, d=3072,
+        d=3072, 36, d=3072, d=3072, 36, 36, 36, e=2048, d=3072, 36, 10) 36, 10) 36,
+        36, 36, 36, 10) 36, 36, 36, (2.000) 36, 36, 36, 36, d=39088169, d=3072, d=3072,
+        36, 36, (b=4096, d=3072, d=55, 36, 36, (b=125, d=3072, (b=4096, e=589, 36,
+        (b=49, 36, d=3072, 36, L(49)=17393796001 36, d=3072, 36, 36, 36, 36, 10) 36,
+retry_count: 3
+review:
+  approved: false
+  feedback:
+  - No artifact or applied changes detected
+  score: 0

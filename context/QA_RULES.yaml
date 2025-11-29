@@ -1,0 +1,24 @@
+# QA Bob-iverse Core Rules v4.0
+# Sacred mathematical invariants - NEVER MODIFY
+
+invariants:
+  J: "b·d"  # First fundamental invariant
+  K: "d·a"  # Second fundamental invariant
+  X: "e·d"  # Third fundamental invariant
+
+ellipse_laws:
+  inner_ellipse: "a² = d² + 2*d*e + e²"
+  quantum_ellipse: "distinct from inner ellipse per rules"
+
+closure:
+  b_plus_e: "d"
+  e_plus_d: "a"
+
+rationals_allowed: true
+modular_arithmetic: "mod 9, 24, 72, 288"
+
+notes:
+  - Inner ellipse and quantum ellipse formulas must remain distinct
+  - All operations preserve invariants J, K, X
+  - Rational numbers permitted for enhanced precision
+  - Modular arithmetic reveals hidden structure

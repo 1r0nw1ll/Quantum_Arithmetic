@@ -1,0 +1,94 @@
+id: optimize-bench_fast_prune_stream-121044
+project: rust_optimization
+title: 'Optimize slow benchmark: bench_fast_prune_stream'
+description: 'Benchmark ''bench_fast_prune_stream'' shows slow performance (4.88s).
+
+
+  Consider:
+
+  1. Port to Rust
+
+  2. Add caching/memoization
+
+  3. Parallelize with rayon
+
+  4. Optimize algorithm complexity
+
+
+  Benchmark file: /home/player2/signal_experiments/qa_lab/artifacts/evals/bench_fast_prune_stream.json'
+source: rust_promoter
+priority: 1.0
+status: pending
+lane: green
+assignee: qalm
+created: '2025-11-29T12:10:44.741748'
+tags:
+- optimization
+- benchmark
+- performance
+metadata:
+  benchmark_file: /home/player2/signal_experiments/qa_lab/artifacts/evals/bench_fast_prune_stream.json
+  current_time_sec: 4.882300939000743
+  promotion_type: benchmark_optimization
+  target_speedup: 2-5x
+  updated_at: '2025-11-29T15:52:00.407665'
+plan:
+  steps:
+  - description: Research and understand the problem domain
+    acceptance: Clear problem statement and success criteria defined
+    tools:
+    - literature_review
+    - code_analysis
+    effort: 1 hour
+  - description: Design and implement solution approach
+    acceptance: Working prototype or proof of concept
+    tools:
+    - python
+    - mathematical_tools
+    effort: 3 hours
+  - description: Test and validate the implementation
+    acceptance: All tests pass, invariants preserved
+    tools:
+    - pytest
+    - validation_scripts
+    effort: 1 hour
+  risks:
+  - Technical complexity higher than estimated
+  - Mathematical assumptions might not hold
+  dependencies: []
+state: failed
+execution:
+  history:
+  - agent: qalm
+    started_at: '2025-11-29T12:22:01.389252'
+    completed_at: '2025-11-29T12:22:01.389265'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:35:55.199797'
+    completed_at: '2025-11-29T12:35:55.199805'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:46:14.027634'
+    completed_at: '2025-11-29T12:46:14.027645'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T12:50:01.930946'
+    completed_at: '2025-11-29T12:50:01.930960'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:47:51.967479'
+    completed_at: '2025-11-29T13:47:51.967490'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T13:48:06.951888'
+    completed_at: '2025-11-29T13:48:06.951917'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T14:50:03.035626'
+    completed_at: '2025-11-29T14:50:03.035638'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+  - agent: qalm
+    started_at: '2025-11-29T15:52:00.407649'
+    completed_at: '2025-11-29T15:52:00.407660'
+    error: '''QAExecutor'' object has no attribute ''_execute_with_qalm'''
+retry_count: 3

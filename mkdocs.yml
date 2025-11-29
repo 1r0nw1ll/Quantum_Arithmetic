@@ -1,0 +1,9 @@
+site_name: QA Lab
+repo_url: https://example.local/qa_lab
+docs_dir: qa_docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Agents:
+      - Runs: agents/runs.md

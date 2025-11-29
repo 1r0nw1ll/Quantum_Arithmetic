@@ -1,0 +1,24 @@
+*** Begin Patch
+*** Update File: qa_lab/src/lib.rs
+@@
++/// Digital-root family check (stub) and simple QA tuple generator (stub)
++#[pyfunction]
++fn digital_root_family_check_py<'py>(
++    _py: Python<'py>,
++    b: PyReadonlyArray1<'py, f64>,
++    e: PyReadonlyArray1<'py, f64>,
++) -> PyResult<Py<bool>> {
++    // Stub returns false; replace with Fibonacci/Lucas family checks
++    Python::with_gil(|py| Ok(false.into_py(py)))
++}
++#[pyfunction]
++fn generate_qa_tuples_py(count: usize) -> PyResult<Vec<(f64,f64,f64,f64)>> {
++    // Stub: generate degenerate tuples
++    Ok((0..count).map(|_| (0.0,0.0,0.0,0.0)).collect())
++}
+@@
+     m.add_function(wrap_pyfunction!(triangle_residual_batch_numpy_py, m)?)?;
+@@
++    m.add_function(wrap_pyfunction!(digital_root_family_check_py, m)?)?;
++    m.add_function(wrap_pyfunction!(generate_qa_tuples_py, m)?)?;
+*** End Patch

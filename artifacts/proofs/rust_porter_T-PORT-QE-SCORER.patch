@@ -1,0 +1,24 @@
+*** Begin Patch
+*** Update File: qa_lab/src/lib.rs
+@@
++/// QE scorer (stub): computes composite QE score from invariants with weights.
++#[pyfunction]
++fn qe_score_batch_numpy_py<'py>(
++    py: Python<'py>,
++    b: PyReadonlyArray1<'py, f64>,
++    e: PyReadonlyArray1<'py, f64>,
++    d: PyReadonlyArray1<'py, f64>,
++    a: PyReadonlyArray1<'py, f64>,
++    w_curv: f64, w_phi: f64, w_phi_eb: f64, w_family: f64, w_ideal: f64,
++) -> PyResult<Py<PyArray1<f64>>> {
++    let len = b.len()?;
++    let out: Vec<f64> = (0..len).map(|_| 0.0).collect();
++    // NOTE: Stub implementation returns zeros; replace with real scorer.
++    Ok(PyArray1::from_vec_bound(py, out).unbind())
++}
++
+@@
+     m.add_function(wrap_pyfunction!(triangle_residual_batch_numpy_py, m)?)?;
+@@
++    m.add_function(wrap_pyfunction!(qe_score_batch_numpy_py, m)?)?;
+*** End Patch

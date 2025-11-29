@@ -1,0 +1,4195 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta name="description" content="Open Data Repository">
+    <meta name="author" content="Open Data Repository (opendatarepository.org)">
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- iPhone: Don't render numbers as call links -->
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="shortcut icon" href="favicon.ico" />
+
+
+    <!-- Load the ODR JS Bundle -->
+        <script src="//odr.io/js/bundle.js"></script>
+
+    <!-- Pure Layout -->
+    <!-- <link rel="stylesheet" href="//odr.io/css/external/pure-min.css">
+    <!--[if gt IE 8]><!--><link rel="stylesheet" href="//odr.io/css/external/pure-grids-responsive-min.css"><!--<![endif]-->
+
+    <!-- Icon Styles -->
+    <link rel="stylesheet" href="//odr.io/css/fonts/font-awesome-4.6.3/css/font-awesome.css">
+
+    <!-- External Styles -->
+    <link rel="stylesheet" href="//odr.io/css/external/jquery-ui-1.12.0.css">
+    <link rel="stylesheet" href="//odr.io/css/external/jquery.switchButton.css">
+    <link rel="stylesheet" href="//odr.io/css/external/introjs.min.css">
+    <link rel="stylesheet" href="//odr.io/css/external/jquery.jgrowl.css">
+    <!-- Hands on table -->
+    <!-- Dynamic Tables -->
+    <link rel="stylesheet" href="//odr.io/js/mylibs/DataTables/datatables.min.css">
+    <!-- Remodal -->
+    <link rel="stylesheet" href="//odr.io/js/mylibs/remodal-master/dist/remodal.css">
+    <link rel="stylesheet" href="//odr.io/js/mylibs/remodal-master/dist/remodal-default-theme.css">
+    <!-- Overhang -->
+    <link rel="stylesheet" href="//odr.io/js/mylibs/overhang/overhang.min.css">
+
+    <!-- Symfony Stylesheets -->
+    <link href="//odr.io/css/odr.1.8.0.css" type="text/css" rel="stylesheet">
+
+    <!-- Plotly Bars Stylesheet -->
+    <link rel="stylesheet" href="//odr.io/css/external/plotly_bars.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="//odr.io/css/themes/css_smart/smart.1.8.0.css" >
+
+    <!-- OpenLayers -->
+    <link rel="stylesheet" href="//odr.io/css/external/ol.css">
+
+    <!-- TODO Use Stylsheets block to load theme -->
+    
+    <!-- Essential polyfills -->
+    <script src="//odr.io/js/mylibs/polyfills/modernizr-2.6.1.min.js"></script>
+    <!--[if lt IE 9]><script src="//odr.io/js/mylibs/polyfills/selectivizr.js"></script><![endif]-->
+    <!--[if lt IE 10]><script src="//odr.io/js/mylibs/polyfills/excanvas.js"></script><![endif]-->
+    <!--[if lt IE 10]><script src="//odr.io/js/mylibs/polyfills/classlist.js"></script><![endif]-->
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="//odr.io/js/libs/jquery-3.3.1.min.js"></script>
+    <!-- Do the same with jQuery UI -->
+    <script src="//odr.io/js/libs/jquery-ui-1.12.0.min.js"></script>
+    <script src="//odr.io/js/libs/lo-dash.min.js"></script>
+
+    <!-- General Scripts -->
+    <script src="//odr.io/js/mylibs/jquery.hashchange.js"></script>
+    <script src="//odr.io/js/mylibs/jquery.idle-timer.js"></script>
+    <script src="//odr.io/js/mylibs/jquery.jgrowl.js"></script>
+    <script src="//odr.io/js/mylibs/jquery.scrollTo.js"></script>
+    <script src="//odr.io/js/mylibs/jquery.ui.touch-punch.js"></script>
+    <script src="//odr.io/js/mylibs/jquery.switchButton.js"></script>
+    <script src="//odr.io/js/mylibs/introjs.min.js"></script>
+    <script src="//odr.io/js/libs/plugins/md5/jquery.md5.js"></script>
+
+    <!-- Tooltips -->
+    <script src="//odr.io/js/mylibs/tooltips/jquery.tipsy.js"></script>
+
+    <!-- Multiple/Large File Uploads -->
+    <script src="//odr.io/js/mylibs/flow.js/dist/flow.min.js"></script>
+
+    <!-- What is this for? -->
+    <script src="//odr.io/js/mylibs/jquery.plusplus.js"></script>
+
+    <!-- Probably not used -->
+    <script src="//odr.io/js/mylibs/jquery.ui.multiaccordion.js"></script>
+
+    <!-- TODO Ancient - is this needed. -->
+    <script src="//odr.io/js/mylibs/number-functions.js"></script>
+
+    <!-- Forms -->
+    <script src="//odr.io/js/libs/plugins/validate/jquery.validate.min.js"></script>
+
+    <!-- Fullstats -->
+    <script src="//odr.io/js/mylibs/fullstats/jquery.css-transform.js"></script>
+    <script src="//odr.io/js/mylibs/fullstats/jquery.animate-css-rotate-scale.js"></script>
+    <script src="//odr.io/js/mylibs/fullstats/jquery.sparkline.js"></script>
+
+    <!-- Dynamic Tables -->
+    <script src="//odr.io/js/mylibs/DataTables/datatables.min.js"></script>
+    <script src="//odr.io/js/mylibs/DataTables/datatables.input.js"></script>
+
+
+    <!-- Images Loaded -->
+    <script src="//odr.io/js/mylibs/imagesloaded/imagesloaded.pkgd.js"></script>
+
+    <!-- In-browser Markdown -->
+    <script src="//odr.io/js/mylibs/markdown-it-8.4.0/dist/markdown-it.min.js"></script>
+
+    <!-- Ajax File Downloads -->
+    <script src="//odr.io/js/mylibs/jquery.fileDownload.js"></script>
+
+    <!-- Plot.ly JS Plots Based on D3 -->
+    <script type="text/javascript" src="//odr.io/js/mylibs/d3.v4.min.js"></script>
+    <script type="text/javascript" src="//odr.io/js/mylibs/plotly-1.58.5.min.js"></script>
+    <script type="text/javascript" src="//odr.io/js/mylibs/d3-queue.v3.min.js"></script>
+    <script type="text/javascript" src="//odr.io/js/mylibs/odr_plotly_graphs.js"></script>
+
+    <script src="//odr.io/js/mylibs/remodal-master/dist/remodal.js"></script>
+
+    <!-- Overhang -->
+    <script src="//odr.io/js/mylibs/overhang/overhang.min.js"></script>
+
+    <!-- App JS -->
+    <script src="//odr.io/js/app.js"></script>
+
+    <!-- Openlayers -->
+    <script type="text/javascript" src="//odr.io/js/mylibs/ol.js"></script>
+
+    <!-- Render Plugins -->
+    <script type="text/javascript" src="//odr.io/js/mylibs/odr_cellparam_plugin.js"></script>
+    <script type="text/javascript" src="//odr.io/js/mylibs/odr_chemistry_plugin.js"></script>
+    <script type="text/javascript" src="//odr.io/js/mylibs/odr_graph_plugin.js"></script>
+    <script type="text/javascript" src="//odr.io/js/mylibs/odr_gcms_plugin.js"></script>
+    <script type="text/javascript" src="//odr.io/js/mylibs/odr_filter_graph_plugin.js"></script>
+
+    <!-- end scripts -->
+</head>
+
+<body class="pure-skin-odr">
+<!-- START BODY -->
+<!-- main menu -->
+<div class="pure-skin-odr">
+
+    <div class="ODRMenuWrapper pure-g" id="ODRMainMenu">
+        <div class="pure-menu pure-menu-horizontal odr-custom-can-transform pure-u-1 pure-u-md-7-24 pure-u-lg-7-24">
+            <span class="odr-custom-toggle" id="toggle"><i class="fa fa-lg fa-bars"></i> Menu</span>
+            <ul class="pure-menu-list">
+                
+                                    <li class="pure-menu-item"><a class="pure-menu-link" href="/MLROD">Search</a></li>
+                            </ul>
+        </div>
+
+                    <div class="pure-menu pure-menu-horizontal odr-hide-small odr-custom-can-transform odr-menu-center pure-u-1 pure-u-md-6-24 pure-u-lg-7-24 pure-u-xl-8-24"></div>
+        
+        <div class="pure-menu pure-menu-horizontal odr-hide-small odr-custom-menu-3 odr-custom-can-transform pure-u-1 pure-u-md-6-24 pure-u-lg-6-24">
+            <ul class="pure-menu-list">
+                            </ul>
+        </div>
+
+        <div class="pure-menu pure-menu-horizontal odr-hide-small odr-custom-menu-3 odr-custom-can-transform pure-u-1 pure-u-md-1-24 pure-u-lg-1-24">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                <span class="pure-menu-heading">
+                    <i id="ODRMessages" class="Pointer fa fa-lg fa-bell-o"></i>
+                </span>
+                </li>
+            </ul>
+        </div>
+
+                    <div class="pure-menu pure-menu-horizontal odr-hide-small odr-custom-menu-3 odr-custom-can-transform pure-u-1 pure-u-md-2-24 pure-u-lg-2-24 pure-u-xl-1-24">
+                <ul class="pure-menu-list">
+                    <li id="ODRLoginLink" class="pure-menu-item">
+                        <a class="pure-menu-link"  onclick="ODRLogin();">Login</a>
+                    </li>
+                </ul>
+            </div>
+        
+        <div class="pure-menu pure-menu-horizontal odr-hide-small odr-custom-menu-3 odr-custom-can-transform pure-u-1 pure-u-md-2-24 pure-u-lg-1-24">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                <span class="pure-menu-heading">
+                    <i id="ODRHelpButton" class="Pointer fa fa-lg fa-question-circle"></i>
+                </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <ul id="ODRMessageList" class="ODRHidden"></ul>
+    <!-- End of #ODRMainMenu -->
+
+    <script>
+
+    /**
+     * Periodically checks whether the user has a job that has finished.
+     */
+    function checkMyJobs() {
+        var checkJobs = false;
+        
+        var url = "/jobs/my";
+        if (checkJobs) {
+            $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: 'json',
+                success: function (data) {
+                    if (data.r == 0) {
+
+                        // Determine unviewed number
+                        var badge_num = 0;
+                        var jobs = data.d;
+                        for (var x in jobs) {
+                            if (jobs[x].viewed !== undefined && jobs[x].viewed === null) {
+                                // Unviewed Job
+                                badge_num++;
+                            }
+                        }
+                        var messages = $("#ODRMessages");
+
+                        messages.removeClass('badge');
+                        if (badge_num > 0) {
+                            messages.addClass('badge');
+
+                            if (badge_num > 9) {
+                                badge_num = '9+';
+                            }
+                            messages.append('<style>.badge:after{content: \'' + badge_num + '\' !important;}</style>');
+                        }
+
+                        // TODO Switch to Interval
+                        setTimeout(checkMyJobs, 10000);
+                    } else {
+                        // TODO Alerts need to use the overlay
+                        alert(data.d);
+                    }
+                },
+                complete: function (jqXHR, textStatus) {
+                    // Get the xdebugToken from response headers
+                    var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                    // If the Sfjs object exists
+                    if (typeof Sfjs !== "undefined") {
+                        // Grab the toolbar element
+                        var currentElement = $('.sf-toolbar')[0];
+
+                        // Load the data of the given xdebug token into the current toolbar wrapper
+                        Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                    }
+                }
+            });
+        }
+    }
+
+    /**
+     * Displays a slideout with the user's completed jobs.
+     */
+    function showMessageList() {
+        if ( !$("#ODRMessageList").hasClass('ODRHidden') ) {
+            // Message list is already visible, hide it
+            $("#ODRMessageList").fadeOut().addClass('ODRHidden').removeAttr('style');
+        }
+        else {
+            var url = "/jobs/my";
+            $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: 'json',
+                success: function (data) {
+                    if (data.r == 0) {
+                        var jobs = data.d;
+
+                        $('#ODRMessageList').html('');
+                        var list_elements = '';
+                        for (var x in jobs) {
+                            switch (jobs[x].job_type) {
+                                case 'mass_edit':
+                                    if (jobs[x].viewed !== null) {
+                                        var html = '<li class="ODRTrackedJob viewed" rel="' + jobs[x].id + '">' +
+                                            '<h3>Mass Edit</h3>' +
+                                            '<p>Your edits have been completed.</p>' +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    else {
+                                        var html = '<li class="ODRTrackedJob" rel="' + jobs[x].id + '">' +
+                                            '<h3>Mass Edit</h3>' +
+                                            '<p>Your edits have been completed.</p>' +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    break;
+
+                                case 'csv_export':
+                                    var url = "/csvexport/download/0/0";
+                                    url = url.substr(0, url.length-1);
+                                    url += jobs[x].id;
+
+                                    var download_html = '<div class="JobDownloadLink"><a onclick="fadeAfterDownload(this)" class="pure-button pure-button-primary" href="' + url + '">Download</a></div>';
+
+                                    if (jobs[x].viewed !== null) {
+                                        var html = '<li class="ODRTrackedJob viewed" rel="' + jobs[x].id + '">' +
+                                            '<h3>CSV Export</h3>' +
+                                            '<p>Your export is ready.</p>' + download_html +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    else {
+                                        var html = '<li class="ODRTrackedJob" rel="' + jobs[x].id + '">' +
+                                            '<h3>CSV Export</h3>' +
+                                            '<p>Your export is ready.</p>' + download_html +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    break;
+
+                                case 'csv_import_validate':
+                                    var url = "/beanstalk/csv_import/validate_results/0";
+                                    url = url.substr(0, url.length-1);
+                                    url += jobs[x].id;
+
+                                    var import_html = '<div class="JobDownloadLink"><a onclick="fadeAfterDownload(this)" class="pure-button pure-button-primary" href="#' + url + '">Import</a></div>';
+
+                                    if (jobs[x].viewed !== null) {
+                                        var html = '<li class="ODRTrackedJob viewed" rel="' + jobs[x].id + '">' +
+                                            '<h3>CSV Import Validation</h3>' +
+                                            '<p>Your CSV import validation is ready for review.<br />Click import to continue.</p>' + import_html +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    else {
+                                        var html = '<li class="ODRTrackedJob" rel="' + jobs[x].id + '">' +
+                                            '<h3>CSV Import Validation</h3>' +
+                                            '<p>Your CSV import validation is ready for review.<br />Click import to continue.</p>' + import_html +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    break;
+
+                                case 'csv_import':
+                                    if (jobs[x].viewed !== null) {
+                                        var html = '<li class="ODRTrackedJob viewed" rel="' + jobs[x].id + '">' +
+                                            '<h3>CSV Import</h3>' +
+                                            '<p>Your CSV Import is complete.  Search your data to see the new record(s).</p>' +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    else {
+                                        var html = '<li class="ODRTrackedJob" rel="' + jobs[x].id + '">' +
+                                            '<h3>CSV Import</h3>' +
+                                            '<p>Your CSV Import is complete.  Search your data to see the new record(s).</p>' +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    break;
+
+                                case 'migrate':
+                                    if (jobs[x].viewed !== null) {
+                                        var html = '<li class="ODRTrackedJob viewed" rel="' + jobs[x].id + '">' +
+                                            '<h3>Migration Complete</h3>' +
+                                            '<p>Your field migration has been completed.</p>' +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    else {
+                                        var html = '<li class="ODRTrackedJob" rel="' + jobs[x].id + '">' +
+                                            '<h3>Migration Complete</h3>' +
+                                            '<p>Your field migration has been completed.</p>' +
+                                            '<i class="fa fa-2x fa-times" onclick="messageDeleteJob(this)"></i>' +
+                                            '</li>';
+                                    }
+                                    break;
+                            }
+
+                            list_elements += html;
+                        }
+
+                        if (list_elements === '')
+                            list_elements = '<li><h3>No messages</h3></li>';
+
+                        $('#ODRMessageList').html(list_elements).removeClass('ODRHidden').fadeIn('fast');
+
+                        setTimeout(markViewed, 1500);
+
+                        // Click outside to close
+                        $('body').mouseup(function(e) {
+                            var container = $("#ODRMessageList");
+                            // if the target of the click isn't the container nor a descendant of the container
+                            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                                container.fadeOut('fast').addClass('ODRHidden').removeAttr('style');
+                                $('body').unbind('mouseup');
+                            }
+                        });
+
+                    } else {
+                        // TODO Alerts need to use the overlay
+                        alert(data.d);
+                    }
+                },
+                complete: function (jqXHR, textStatus) {
+                    // Get the xdebugToken from response headers
+                    var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                    // If the Sfjs object exists
+                    if (typeof Sfjs !== "undefined") {
+                        // Grab the toolbar element
+                        var currentElement = $('.sf-toolbar')[0];
+
+                        // Load the data of the given xdebug token into the current toolbar wrapper
+                        Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                    }
+                }
+            });
+        }
+    }
+
+    /**
+     * @param {HTMLElement} elem
+     */
+    function fadeAfterDownload(elem) {
+        $.when( $(elem).parent().parent().fadeOut('slow').remove() ).then(
+            function() {
+                if ( $("#ODRMessageList").html() == '' ) {
+                    $("#ODRMessageList").html('<li><h3>No messages</h3></li>');
+                    setTimeout( $("#ODRMessageList").fadeOut('fast').addClass('ODRHidden').removeAttr('style'), 1000);
+                }
+            }
+        );
+    }
+
+    /**
+     * Mark a job as viewed.
+     */
+    function markViewed() {
+        // Mark visible jobs as viewed
+        var job_ids = '';
+
+        $("#ODRMessageList .ODRTrackedJob").each(function(i, obj) {
+            if ( !$(obj).hasClass('viewed') )
+                job_ids += $(obj).attr('rel') + ',';
+        });
+
+        if ( job_ids.match(/,$/) ) {
+            job_ids = job_ids.substr(0, job_ids.length - 1);
+
+            var url = "/jobs/viewed/0";
+            url = url.substr(0, url.length-1) + job_ids;
+
+            $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: 'json',
+                success: function (data) {
+                    if (data.r == 0) {
+                        $("#ODRMessageList .ODRTrackedJob").each(function(i, obj) {
+                            $(obj).addClass('viewed');
+                        });
+                    }
+                },
+                complete: function (jqXHR, textStatus) {
+                    // Get the xdebugToken from response headers
+                    var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                    // If the Sfjs object exists
+                    if (typeof Sfjs !== "undefined") {
+                        // Grab the toolbar element
+                        var currentElement = $('.sf-toolbar')[0];
+
+                        // Load the data of the given xdebug token into the current toolbar wrapper
+                        Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                    }
+                }
+            });
+        }
+    }
+
+    /**
+     * Delete a job.
+     * @param {HTMLElement} elem
+     */
+    function messageDeleteJob(elem) {
+
+        var job_id = $(elem).parent().attr('rel');
+        if ( $(elem).parent().hasClass('JobDownloadLink') ) {
+            job_id = $(elem).parent().parent().attr('rel');
+        }
+
+        var url = "/jobs/delete/0";
+        url = url.substr(0, url.length-1) + job_id;
+
+        $.ajax({
+            type: 'GET',
+            url: url,
+            dataType: 'json',
+            success: function (data) {
+                if (data.r == 0) {
+                    $.when( $(elem).parent().fadeOut('slow').remove() ).then(
+                        function() {
+                            if ( $("#ODRMessageList").html() == '' ) {
+                                $("#ODRMessageList").html('<li><h3>No messages</h3></li>');
+                                setTimeout( $("#ODRMessageList").fadeOut('fast').addClass('ODRHidden').removeAttr('style'), 1000);
+                            }
+                        }
+                    );
+                }
+            },
+            complete: function (jqXHR) {
+                // Get the xdebugToken from response headers
+                var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                // If the Sfjs object exists
+                if (typeof Sfjs !== "undefined") {
+                    // Grab the toolbar element
+                    var currentElement = $('.sf-toolbar')[0];
+
+                    // Load the data of the given xdebug token into the current toolbar wrapper
+                    Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                }
+            }
+        });
+    }
+</script>
+    <script>
+        (function (window, document) {
+            var menu = document.getElementById('ODRMainMenu')
+            var WINDOW_CHANGE_EVENT = ('onorientationchange' in window) ? 'orientationchange':'resize'
+
+            // Add Click handler for all menu LI
+            jQuery("#ODRMainMenu .pure-menu-heading").unbind('click').click(function() {
+                if(jQuery(document).width() < 768) {
+                    jQuery(this).parent().toggleClass('show');
+                }
+            });
+
+            // jQuery("#ODRMainMenu li .pure-menu-heading").unbind('mouseenter');
+            jQuery("#ODRMainMenu li").mouseenter(function() {
+                if(jQuery(document).width() >= 768) {
+                    var elem = jQuery(this).children().first();
+                    if (jQuery(elem).hasClass("pure-menu-heading")) {
+                        jQuery(elem).parent().addClass('show');
+                    }
+                }
+            });
+
+            jQuery("#ODRMainMenu li").mouseleave(function() {
+                if(jQuery(document).width() >= 768) {
+                    var elem  = jQuery(this).children().first()
+                    if(jQuery(elem).hasClass("pure-menu-heading")) {
+                        jQuery(elem).parent().removeClass('show');
+                    }
+                }
+            });
+
+            // Close menus on click
+            jQuery("#ODRMainMenu a").click(function(){
+                // Close menu
+                closeMenu();
+                jQuery("#ODRMainMenu").find(".show").toggleClass('show');
+            });
+
+            function toggleHorizontal() {
+                [].forEach.call(
+                    document.getElementById('ODRMainMenu').querySelectorAll('.odr-custom-can-transform'),
+                    function(el){
+                        el.classList.toggle('pure-menu-horizontal');
+                    }
+                );
+                if(jQuery(".ODRMenuWrapper").hasClass("overflow-visible")) {
+                    jQuery(".ODRMenuWrapper").removeClass("overflow-visible")
+                }
+                else {
+                    jQuery(".ODRMenuWrapper").addClass("overflow-visible")
+                }
+            }
+
+            function toggleMenu() {
+                // set timeout so that the panel has a chance to roll up
+                // before the menu switches states
+                if (menu.classList.contains('open')) {
+                    setTimeout(toggleHorizontal, 500);
+                }
+                else {
+                    toggleHorizontal();
+                }
+                menu.classList.toggle('open');
+                document.getElementById('toggle').classList.toggle('x');
+            }
+
+            function closeMenu() {
+                if (menu.classList.contains('open')) {
+                    toggleMenu();
+                }
+            }
+
+            document.getElementById('toggle').addEventListener('click', function (e) {
+                toggleMenu();
+            });
+
+
+            window.addEventListener(WINDOW_CHANGE_EVENT, closeMenu);
+
+            $('#ODRMessages').unbind('click');
+            $('#ODRMessages').click(function() {
+                showMessageList()
+            });
+            checkMyJobs();
+
+
+            /*
+            $('#ODRMessageList').on('wheel', function(e) {
+                var d = e.originalEvent.deltaY,
+                    dir = d < 0 ? 'up' : 'down',
+                    stop = (dir == 'up' && this.scrollTop == 0) ||
+                        (dir == 'down' && this.scrollTop == this.scrollHeight-this.offsetHeight);
+                stop && e.preventDefault();
+            });
+             */
+
+
+
+        })(this, this.document);
+    </script>
+
+    <!-- main content -->
+    <div role="main" id="main" class="pure-form pure-g remodal-bg">
+        <div id="ODRSearchKeyWarning" class="pure-u-1 ODRHidden">The amount of criteria in the current search has forced the use of a temporary URL.  This link should not be saved or shared as part of long-term use.</div>
+
+        <section id="left-spacer" class="pure-u-md-1-24"></section>
+
+                <section id="odr_content" class="pure-u-1 pure-u-md-22-24" data-sort=true>
+            <div id="ODRSearchSidebar" class="pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-xl-1-4 ODRContentWrapper ODRSearchHidden ODRHidden"><div class="ODRThemeElement"><input id="ODRSidebarSearchKey" type="hidden" value="" /><input id="ODRSearchIntent" type="hidden" value="searching" /><div class="ODRInnerBox"><span><i class="ODRSearchToggle fa fa-lg"></i></span><form id="ODRSearchPageNotes_form"><input type="hidden" id="upper_old" name="upper_old" value="# Welcome to The Machine Learning Raman Open Dataset (MLROD).
+The latest version of the machine learning code developed alongside the original MLROD can be accessed on **[GitHub](https://github.com/GenTeML/Spec-CNN)** or **[Zenodo](https://zenodo.org/record/7036374)**.
+Source code and datasets are copyrighted under Creative Commons BY-NC
+
+# DATASET REFERENCE:
+Berlanga, G., Williams, Q., &amp; Temiquel, N. (2022). Machine Learning Raman Open Dataset (MLROD) [Data set]. Open Data Repository. [https://doi.org/10.48484/PWRB-R137](https://doi.org/10.48484/PWRB-R137).
+
+# PUBLICATION REFERENCE:
+Berlanga, G., Williams, Q., &amp; Temiquel, N. (2022). Convolutional neural networks as a tool for Raman spectral mineral classification under low signal, dusty Mars conditions. Earth and Space Science, 9, e2021EA002125. [https://doi.org/10.1029/2021EA002125](https://doi.org/10.1029/2021EA002125)
+" /><input type="hidden" id="upper_value" name="upper_value" value="# Welcome to The Machine Learning Raman Open Dataset (MLROD).
+The latest version of the machine learning code developed alongside the original MLROD can be accessed on **[GitHub](https://github.com/GenTeML/Spec-CNN)** or **[Zenodo](https://zenodo.org/record/7036374)**.
+Source code and datasets are copyrighted under Creative Commons BY-NC
+
+# DATASET REFERENCE:
+Berlanga, G., Williams, Q., &amp; Temiquel, N. (2022). Machine Learning Raman Open Dataset (MLROD) [Data set]. Open Data Repository. [https://doi.org/10.48484/PWRB-R137](https://doi.org/10.48484/PWRB-R137).
+
+# PUBLICATION REFERENCE:
+Berlanga, G., Williams, Q., &amp; Temiquel, N. (2022). Convolutional neural networks as a tool for Raman spectral mineral classification under low signal, dusty Mars conditions. Earth and Space Science, 9, e2021EA002125. [https://doi.org/10.1029/2021EA002125](https://doi.org/10.1029/2021EA002125)
+" /><input type="hidden" id="lower_old" name="lower_old" value="" /><input type="hidden" id="lower_value" name="lower_value" value="" /></form><div id="ODRSearchPageNotes_upper" class="ODRSearchPageNotes_wrapper pure-u-1"><div id="upper_rendered" class="ODRSearchPageNotes_rendered pure-u-1"><h1>Welcome to The Machine Learning Raman Open Dataset (MLROD).</h1><p>The latest version of the machine learning code developed alongside the original MLROD can be accessed on <strong><a href="https://github.com/GenTeML/Spec-CNN">GitHub</a></strong> or <strong><a href="https://zenodo.org/record/7036374">Zenodo</a></strong>.
+Source code and datasets are copyrighted under Creative Commons BY-NC</p><h1>DATASET REFERENCE:</h1><p>Berlanga, G., Williams, Q., &amp; Temiquel, N. (2022). Machine Learning Raman Open Dataset (MLROD) [Data set]. Open Data Repository. <a href="https://doi.org/10.48484/PWRB-R137">https://doi.org/10.48484/PWRB-R137</a>.</p><h1>PUBLICATION REFERENCE:</h1><p>Berlanga, G., Williams, Q., &amp; Temiquel, N. (2022). Convolutional neural networks as a tool for Raman spectral mineral classification under low signal, dusty Mars conditions. Earth and Space Science, 9, e2021EA002125. <a href="https://doi.org/10.1029/2021EA002125">https://doi.org/10.1029/2021EA002125</a></p></div></div><form id="search_form" class="pure-form pure-u-23-24 pure-form-stacked"><input type="hidden" id="search_type" value="collapsed" /><input type="hidden" id="datatype_id" name="dt_id" value="600"/><input type="hidden" id="selected_theme_id" value="1348"/><fieldset id="ODRSearchControls_top" class="ODRHidden"><div><div class="pure-u-1"><a class="ODRSearchFieldsToggle Pointer pure-u-1" onclick="changeSearch();">
+                            Open Expanded Search
+                        </a></div><div class="pure-u-1"><button class="pure-button pure-button ODRResetButton" type="button" onclick="doReset();">Reset</button><button class="pure-button pure-button-primary ODRSearchButton" type="submit">Search</button></div></div></fieldset><fieldset class="ODRSearchBoxWrapper"><div class="pure-u-1"><label class="pure-u-1 ODRPrimarySearchLabel">
+                        Search:
+                                                <i class="fa fa-lg fa-question-circle ODRSearchHelp" title="Search Help"></i><i class="fa fa-lg fa-cog ODRChooseSidebarLayout" title="Choose Sidebar Layout"></i><i class="fa fa-lg fa-caret-right ODRSearchSidebar_AdvancedOptionsToggle FRight" title="Show Advanced Options"></i></label><div id="ODRSearchHelp_div" class="pure-u-1 ODRHidden"><div class="ODRTableWrap"><table class="pure-table pure-table-striped display"><thead><tr><th style="white-space: nowrap;">Search Term</th><th>Definition</th></tr></thead><tbody><tr><td>item</td><td>Searches for datafields containing the word "item".</td></tr><tr><td>"item"</td><td>Searches for datafields containing only the word "item" and nothing else.</td></tr><tr><td>!item</td><td>Searches for datafields that does not contain "item".</td></tr><tr><td>!"item"</td><td>Searches for datafields that contain anything other than just the word "item".</td></tr><tr><td>""</td><td>Searches for datafields that contain nothing. (empty)</td></tr><tr><td>!""</td><td>Searches for datafields that contain anything at all. (not empty)</td></tr><tr><td>","<br>"!"</td><td>Searches for datafields that contain a comma character or an exclamation point character.</td></tr><tr><td>abc xyz<br>abc && xyz</td><td>Searches for datafields containing both "abc" and "xyz".</td></tr><tr><td>"abc xyz"</td><td>Searches for datafields containing the phrase "abc xyz".</td></tr><tr><td>abc, xyz<br>abc OR xyz<br>abc || xyz</td><td>Searches for datafields containing either "abc", or "xyz", or both.</td></tr><tr><td>&gt;123</td><td>Searches for datafields containing a number greater than 123.</td></tr><tr><td>&gt;=123</td><td>Searches for datafields containing a number greater than or equal to 123.</td></tr><tr><td>&lt;123</td><td>Searches for datafields containing a number less than 123.</td></tr><tr><td>&lt;=123</td><td>Searches for datafields containing a number less than or equal to 123.</td></tr><tr><td>&gt;123 &lt;456</td><td>Searches for datafields containing a number between 123 and 456.</td></tr></tbody></table></div></div><div class="ODRSearchSidebar_AdvancedOptions ODRHidden"><i class="fa fa-lg fa-th-list ODRChangeSearchedDescendants" title="Temporarily change which descendants are searched."></i></div><div id="ODRChangeSearchedDescendants_div" class="pure-u-1 ODRHidden"><div class="ODRChangeSearchedDescendants_wrapper"><input id="ODRIgnoredPrefix_list" type="hidden" name="ignore" value="" /><label>Use the checkboxes below to change which databases get searched:</label><li class="ODRTagItem"><label>MLROD</label><ul class="ODRTagGroup"><li class="ODRTagItem"  title="Include results from this descendant"><label id="ODRSearchPrefix_600_602" for="ODRSearchDescendant_600_602"><span id="ODRSearchDescendant_600_602" class="ODRTwostateCheckbox"><i class="fa fa-check"></i><input type="hidden" value="600_602" /></span>
+        XRF
+    </label></li><li class="ODRTagItem"  title="Include results from this descendant"><label id="ODRSearchPrefix_600_603" for="ODRSearchDescendant_600_603"><span id="ODRSearchDescendant_600_603" class="ODRTwostateCheckbox"><i class="fa fa-check"></i><input type="hidden" value="600_603" /></span>
+        XRD
+    </label></li><li class="ODRTagItem"  title="Include results from this descendant"><label id="ODRSearchPrefix_600_604" for="ODRSearchDescendant_600_604"><span id="ODRSearchDescendant_600_604" class="ODRTwostateCheckbox"><i class="fa fa-check"></i><input type="hidden" value="600_604" /></span>
+        Average Raman Spectrum
+    </label></li></ul></li></div></div><div class="ODRSearchSidebar_AdvancedOptions ODRHidden"><div class="ODRSearchSidebar_MergeOption"><input id="ODRSearchSidebar_Merge_AND" class="Pointer" type="radio" name="merge" value="AND" checked /><label for="ODRSearchSidebar_Merge_AND" class="Pointer">&nbsp;Results match all entered criteria</label><br><input id="ODRSearchSidebar_Merge_OR" class="Pointer" type="radio" name="merge" value="OR" /><label for="ODRSearchSidebar_Merge_OR" class="Pointer">&nbsp;Results match at least one entered criteria</label></div></div></div></fieldset><fieldset><label for="textbox_general">
+                        All Fields:
+                                                                                <span id="textbox_general_blurb" title="Search in all possible fields, including descendant databases">
+                                (include descendants)
+                            </span></label><input id="textbox_general" class="ODRInput pure-u-1" type="text"
+                        name="gen"
+                                                                    /></fieldset><fieldset class="ODRSearchSidebar_extended ODRHidden"><div class="ODRAdvSearch_header"><span>MLROD</span><span class="ODRAdvSearch_caret"><i class="fa fa-lg fa-caret-up"></i></span></div><div class="ODRAdvSearch_default"><div class="ODRAdvSearch_datafield pure-u-1"><span class="pure-u-1"><label class="pure-u-1"
+                ><span title="Field description.">
+                            Data Set:
+                        </span><input id="df_6028_filter" class="ODRSearchDatafieldFilter fa" type="text"
+                   title="Filter Radio field" rel="Radio"
+                   placeholder="&#xf002;"                       size="10" maxlength="10"             /><span class="ODRSelectAllOption_span"><span class="ODRSelectAll ODRSelectAllOption" rel="6028" title="Select all options"><span class="ODRTristateCheckbox" rel="multiple"><i class="fa fa-check"></i></span></span><span class="ODRDeselectAll ODRSelectAllOption" rel="6028" title="Deselect all options"><span class="ODRTristateCheckbox" rel="multiple"><i class="fa fa-ban"></i></span></span><span class="ODRClearAll ODRSelectAllOption" rel="6028" title="Clear all selections"><span class="ODRTristateCheckbox" rel="multiple"><i class="fa"></i></span></span></span></label></span><span class="pure-u-1 ODRRadioSearchDiv ODRSearchScrollbox " id="Input_6028" rel="600"><input type="hidden" id="datafield_6028" class="ODRInput" name="6028" value="" /><label id="Label_5478" for="RadioOption_5478" class="ODRRadioLabel pure-u-1"><span id="RadioOption_5478" class="ODRTristateCheckbox" rel="single"><i class="fa "></i><input type="hidden" rel="5478" value="" /></span>
+                Test
+            </label><label id="Label_5479" for="RadioOption_5479" class="ODRRadioLabel pure-u-1"><span id="RadioOption_5479" class="ODRTristateCheckbox" rel="single"><i class="fa "></i><input type="hidden" rel="5479" value="" /></span>
+                Training
+            </label></span></div><div class="ODRAdvSearch_datafield pure-u-1"><span class="pure-u-1"><label class="pure-u-1"
+                    for="datafield_6026"
+                ><span title="Field description.">
+                            Location:
+                        </span></label></span><input type="text" class="ODRInput pure-u-1" id="datafield_6026" name="6026" rel="600"   /></div><div class="ODRAdvSearch_datafield pure-u-1"><span class="pure-u-1"><label class="pure-u-1"
+                    for="datafield_6024"
+                ><span title="Field description.">
+                            Mineral group:
+                        </span></label></span><input type="text" class="ODRInput pure-u-1" id="datafield_6024" name="6024" rel="600"   /></div><div class="ODRAdvSearch_datafield pure-u-1"><span class="pure-u-1"><label class="pure-u-1"
+                    for="datafield_6023"
+                ><span title="Field description.">
+                            Mineral name:
+                        </span></label></span><input type="text" class="ODRInput pure-u-1" id="datafield_6023" name="6023" rel="600"   /></div><div class="ODRAdvSearch_datafield pure-u-1"><span class="pure-u-1"><label class="pure-u-1"
+                    for="datafield_6025"
+                ><span title="Field description.">
+                            Type:
+                        </span></label></span><input type="text" class="ODRInput pure-u-1" id="datafield_6025" name="6025" rel="600"   /></div></div></fieldset><fieldset id="ODRSearchControls_bottom"><div class="pure-u-1"><a class="ODRSearchFieldsToggle Pointer pure-u-1" onclick="changeSearch();">Open Expanded Search</a></div><div class="pure-u-1"><button class="pure-button pure-button ODRResetButton" type="button" onclick="doReset();">Reset</button><button class="pure-button pure-button-primary ODRSearchButton" type="submit">Search</button></div></fieldset></form><div id="ODRSearchPageNotes_lower" class="ODRSearchPageNotes_wrapper pure-u-1 ODRHidden"><div id="lower_rendered" class="ODRSearchPageNotes_rendered pure-u-1"></div></div></div></div><script>
+    /**
+     * Initializes the search sidebar.
+     *
+     * @param {HTMLElement} [context] If provided, will initialize the search sidebar inside the given HTMLElement
+     */
+    function InitSearchSidebar(context = undefined) {
+                // console.log('InitSearchSidebar()', context);
+        if (context == undefined )
+            context = $("#odr_content").children("#ODRSearchSidebar").first();
+
+        // Prevent normal form behavior
+        $(context).find("#search_form").unbind('submit').submit(function (event) {
+            event.preventDefault();
+                        doSearch('/search/results');
+                    });
+
+        $(context).find("#inverse_dt_select").unbind('change').change(function() {
+            var current_search_key = $("#ODRSidebarSearchKey").val();
+            var search_theme_id = $("#selected_theme_id").val();
+            var inverse_datatype_id = $(this).val();
+
+            var url = '/search/reload_inverse_search_key/0//0';
+            url = url.substr(0, url.length - 4);
+            url += search_theme_id + '/' + current_search_key;
+            if (inverse_datatype_id != '-1')
+                url += '/' + inverse_datatype_id;
+            // alert(url); return;
+
+            showSearchOverlay();
+
+            $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: 'json',
+                success: function (data) {
+                    UpdateURL(data.d);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    // Shouldn't need to do anything specific on error?
+                },
+                complete: function (jqXHR, textStatus) {
+                    // Get the xdebugToken from response headers
+                    var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                    // If the Sfjs object exists
+                    if (typeof Sfjs !== "undefined") {
+                        // Grab the toolbar element
+                        var currentElement = $('.sf-toolbar')[0];
+
+                        // Load the data of the given xdebug token into the current toolbar wrapper
+                        Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                    }
+                }
+            });
+        });
+
+        // Toggle general search between only searching in the immediate datatype, or searching in
+        //  all descendants
+        $(context).find("#textbox_general_blurb").unbind('click').click(function() {
+            var input = $("#textbox_general");
+            if ( $(input).attr('name') === 'gen_lim' ) {
+                $(input).attr('name', 'gen');
+                $(this).html('(include descendants)').attr('title', 'Search in all possible fields, including descendant databases');
+            }
+            else {
+                $(input).attr('name', 'gen_lim')
+                $(this).html('(current database)').attr('title', 'Search each field in the current database');
+            }
+        });
+
+        $(context).find(".ODRSearchSidebar_AdvancedOptionsToggle").unbind('click').click(function() {
+            if ( $(this).hasClass('fa-caret-right') ) {
+                $(context).find('.ODRSearchSidebar_AdvancedOptions').removeClass('ODRHidden');
+                $(this).removeClass('fa-caret-right').addClass('fa-caret-down').prop('title', 'Hide Advanced Options');
+            }
+            else {
+                $(context).find('.ODRSearchSidebar_AdvancedOptions').addClass('ODRHidden');
+                $(this).addClass('fa-caret-right').removeClass('fa-caret-down').prop('title', 'Show Advanced Options');
+            }
+        });
+
+        // Setup accordions
+        $(context).find(".ODRAdvSearch_header").unbind('click').click(function () {
+            var content_div = $(this).next();
+
+            if ($(content_div).hasClass('ODRCollapse')) {
+                // Show all textfields
+                $(content_div).removeClass('ODRCollapse');
+                $(content_div).children().each(function () {
+                    $(this).slideDown(200);
+                });
+
+                $(this).find('i').removeClass('fa-caret-down').addClass('fa-caret-up');
+            }
+            else {
+                // Hide all empty textfields
+                $(content_div).addClass('ODRCollapse');
+                $(content_div).find('.ODRAdvSearch_datafield').each(function (index,df) {
+                    var empty = true;
+
+                    $(df).find('.ODRInput').each(function (index,elem) {
+                        if ( $(elem).hasClass("ODRFileDatafieldName")
+                            || $(elem).hasClass("ODRDateDatafieldExist")
+                            || $(elem).hasClass('ODRXYZData')
+                        ) {
+                            // ignore this input for the purpose of visibility checking...a different
+                            //  element will handle it
+                        }
+                        else if ( $(elem).hasClass("ODRFileDatafieldExist") ) {
+                            // The file/image inputs need to be checked simultaneously
+                            var name_value = $(elem).parent().children(".ODRFileDatafieldName").val();
+                            var exist_value = $(elem).val();
+
+                            // If either value exists, then don't hide this datafield
+                            if ( name_value !== '' || exist_value !== '' )
+                                empty = false;
+                        }
+                        else if ( $(this).hasClass("ODRDatePicker") ) {
+                            // Datepickers need to check both start/end fields...
+                            var id = $(elem).attr('id');
+                            var id_data = id.split('_');
+
+                            var start_id = '';
+                            var end_id = '';
+                            var no_val_id = '';
+                            var has_val_id = '';
+                            if (id_data.length == 3) {
+                                start_id = '#' + id_data[0] + '_' + id_data[1] + '_start';
+                                end_id = '#' + id_data[0] + '_' + id_data[1] + '_end';
+                                no_val_id = '#df_' + id_data[1] + '_no_val';
+                                has_val_id = '#df_' + id_data[1] + '_with_val';
+                            }
+                            else if (id_data.length == 4) {
+                                start_id = '#' + id_data[0] + '_' + id_data[1] + '_' + id_data[2] + '_start';
+                                end_id = '#' + id_data[0] + '_' + id_data[1] + '_' + id_data[2] + '_end';
+                            }
+
+                            // If either start or end has something, then don't hide this datafield
+                            if ( $(start_id).val() !== '' || $(end_id).val() !== '' )
+                                empty = false;
+                            // If this is a conventional datetime field, then also don't hide this
+                            //  datafield when the "has_val" or "no_val" related checkboxes are checked
+                            if ( no_val_id !== '' ) {
+                                if ( $(no_val_id).is(':checked') || $(has_val_id).is(':checked') )
+                                    empty = false;
+                            }
+                        }
+                        else if ( $(elem).parent().hasClass('ODRRadioSearchDiv') ) {
+                            // Search for a selection made in this radio field
+                            var selected = false;
+                            $(elem).parent().find('i').each(function () {
+                                if ( $(this).hasClass('fa-check') || $(this).hasClass('fa-ban')
+                                    || $(this).hasClass('ODRFourstate_OR') || $(this).hasClass('ODRFourstate_AND')
+                                ) {
+                                    selected = true;
+                                    return false;
+                                }
+                            });
+
+                            // If something is selected, then don't hide this datafield
+                            if (selected)
+                                empty = false;
+                        }
+                        else if ( $(elem).parent().hasClass('ODRTagSearchDiv') ) {
+                            // Search for a selection made in this tag field
+                            var selected = false;
+                            $(elem).parent().find('i').each(function () {
+                                if ( $(this).hasClass('fa-check') || $(this).hasClass('fa-ban')
+                                    || $(this).hasClass('ODRFourstate_OR') || $(this).hasClass('ODRFourstate_AND')
+                                ) {
+                                    selected = true;
+                                    return false;
+                                }
+                            });
+
+                            // If something is selected, then don't hide this datafield
+                            if (selected)
+                                empty = false;
+                        }
+                        else if ( $(elem).hasClass('ODRXYZData_select') ) {
+                            // XYZData shouldn't be hidden when there's at least one "option" in there
+                            if ( $(elem).find('option').length > 0 )
+                                empty = false;
+                        }
+                        else if ( $(elem).val() !== '' ) {
+                            // All other inputs  should not be hidden when they have a value
+                            empty = false;
+                        }
+                    });
+
+                    // Hide the datafield when it doesn't have a value
+                    if (empty)
+                        $(df).slideUp(200);
+                });
+
+                $(this).find('i').removeClass('fa-caret-up').addClass('fa-caret-down');
+            }
+        });
+
+        // File/Image stuff
+        $(context).find(".ODRFileDatafieldName").unbind('change keyup paste').on('keyup paste', function () {
+            var datafield_id_data = $(this).attr('id').split(/_/);
+            var datafield_id = datafield_id_data[1];
+
+            var value = $(this).val();
+            var dropdown = $(this).parent().find("#datafield_" + datafield_id + "_ex");
+            if (value != '')
+                $(dropdown).prop('selectedIndex', '1').change();
+            else
+                $(dropdown).prop('selectedIndex', '0').change();
+        });
+        $(context).find(".ODRFileDatafieldExist").unbind('change').change(function () {
+            var datafield_id_data = $(this).attr('id').split(/_/);
+            var datafield_id = datafield_id_data[1];
+
+            var value = $(this).val();
+            var input = $(this).parent().find("#datafield_" + datafield_id + "_fn");
+            if (value != 1)
+                $(input).val('');
+        });
+
+        // Radio Tristate checkbox
+        $(context).find(".ODRRadioLabel > .ODRTristateCheckbox").unbind('click').click(function () {
+            // Grab data about the option being clicked
+            var icon_div = $(this).children('i').first();
+            var input_div = $(this).children('input').first();
+            var radio_option_id = $(input_div).attr('rel');
+
+            if ( $(this).parent().hasClass("ODRSelectAllOption") )
+                return;
+
+            if ($(icon_div).hasClass('fa-check')) {
+                // Currently selected, change to deselected
+                $(this).attr('title', 'Search for Datarecords where this option is unselected');
+                $(icon_div).removeClass('fa-check').addClass('fa-ban');
+                $(input_div).val('-' + radio_option_id);
+            }
+            else if ($(icon_div).hasClass('fa-ban')) {
+                // Currently deselected, change to blank
+                $(this).removeAttr('title');
+                $(icon_div).removeClass('fa-ban');
+                $(input_div).val('');
+            }
+            else {
+                // Currently blank, change to selected
+                $(this).attr('title', 'Search for Datarecords where this option is selected');
+                $(icon_div).addClass('fa-check');
+                $(input_div).val(radio_option_id);
+            }
+        });
+        // Tag Tristate checkbox
+        $(context).find(".ODRTagLabel > .ODRTristateCheckbox").unbind('click').click(function () {
+            // Grab data about the tag being clicked
+            var icon_div = $(this).children('i').first();
+            var input_div = $(this).children('input').first();
+            var tag_id = $(input_div).attr('rel');
+
+            // Ensure this tag being clicked no longer has the "partial" class
+            $(icon_div).removeClass('partial');
+
+            if ( $(icon_div).hasClass('fa-check') ) {
+                // Currently "selected", change this tag to "deselected"
+                $(this).attr('title', 'Search for Datarecords where this tag is unselected');
+                $(icon_div).removeClass('fa-check').addClass('fa-ban');
+                $(input_div).val('-' + tag_id);
+            }
+            else if ( $(icon_div).hasClass('fa-ban') ) {
+                // Currently "deselected", change this tag to "blank"
+                $(this).removeAttr('title');
+                $(icon_div).removeClass('fa-ban');
+                $(input_div).val('');
+            }
+            else {
+                // Currently "blank", change this tag to "selected"
+                $(this).attr('title', 'Search for Datarecords where this tag is selected');
+                $(icon_div).addClass('fa-check');
+                $(input_div).val(tag_id);
+            }
+
+            // Update any parents of this tag to indicate the status of their descendant tags
+            var tag_item = $(this).parent().parent();
+            applyToTagParents( $(tag_item) );
+
+            // Also need to wipe any status of the children of this tag
+            applyToTagChildren( $(tag_item) );
+        });
+
+        // Radio fourstate checkbox
+        $(context).find(".ODRRadioLabel > .ODRFourstateCheckbox").unbind('click').click(function () {
+            // Grab data about the tag being clicked
+            var default_merge_AND = $(this).parents('.ODRRadioSearchDiv').first().hasClass('ODRDefaultMerge_AND');
+            var icon_div = $(this).children('i').first();
+            var input_div = $(this).children('input').first();
+            var radio_option_id = $(input_div).attr('rel');
+
+            if ( $(this).parent().hasClass("ODRSelectAllOption") )
+                return;
+
+            if ( $(icon_div).hasClass('ODRFourstate_AND') ) {
+                // Currently set to merge by AND...
+                $(icon_div).removeClass('ODRFourstate_AND');
+
+                if ( default_merge_AND ) {
+                    // ...since default is to merge by AND, next step is to merge by OR
+                    $(this).attr('title', 'Search for Datarecords where this option is selected');
+                    $(icon_div).addClass('ODRFourstate_OR');
+                    $(input_div).val('~' + radio_option_id);
+                }
+                else {
+                    // ...since default is to merge by OR, next step is to "deselect" the option
+                    $(this).attr('title', 'Search for Datarecords where this option is unselected');
+                    $(icon_div).addClass('fa-ban');
+                    $(input_div).val('-' + radio_option_id);
+                }
+            }
+            else if ( $(icon_div).hasClass('ODRFourstate_OR') ) {
+                // Currently set to merge by OR...
+                $(icon_div).removeClass('ODRFourstate_OR');
+
+                if ( default_merge_AND ) {
+                    // ...since default is to merge by AND, next step is to "deselect" the option
+                    $(this).attr('title', 'Search for Datarecords where this option is unselected');
+                    $(icon_div).addClass('fa-ban');
+                    $(input_div).val('-' + radio_option_id);
+                }
+                else {
+                    // ...since default is to merge by OR, next step is to merge by AND
+                    $(this).attr('title', 'Search for Datarecords where this option is selected');
+                    $(icon_div).addClass('ODRFourstate_AND');
+                    $(input_div).val('~' + radio_option_id);
+                }
+            }
+            else if ( $(icon_div).hasClass('fa-ban') ) {
+                // Currently "deselected", change to "doesn't matter"
+                $(this).removeAttr('title');
+                $(icon_div).removeClass('fa-ban');
+                $(input_div).val('');
+            }
+            else {
+                // Currently "blank"...
+                if ( default_merge_AND ) {
+                    // ...default is to merge by AND
+                    $(this).attr('title', 'Search for Datarecords where this option is selected');
+                    $(icon_div).addClass('ODRFourstate_AND');
+                }
+                else {
+                    // ...default is to merge by OR
+                    $(this).attr('title', 'Search for Datarecords where this option is selected');
+                    $(icon_div).addClass('ODRFourstate_OR');
+                }
+                $(input_div).val(radio_option_id);
+            }
+        });
+        // Tag fourstate checkbox
+        $(context).find(".ODRTagLabel > .ODRFourstateCheckbox").unbind('click').click(function () {
+            // Grab data about the tag being clicked
+            var default_merge_AND = $(this).parents('.ODRTagSearchDiv').first().hasClass('ODRDefaultMerge_AND');
+            var icon_div = $(this).children('i').first();
+            var input_div = $(this).children('input').first();
+            var tag_id = $(input_div).attr('rel');
+
+            // Ensure this tag being clicked no longer has the "partial" class
+            $(icon_div).removeClass('partial');
+
+            if ( $(icon_div).hasClass('ODRFourstate_AND') ) {
+                // Currently set to merge by AND...
+                $(icon_div).removeClass('ODRFourstate_AND');
+
+                if ( default_merge_AND ) {
+                    // ...since default is to merge by AND, next step is to merge by OR
+                    $(this).attr('title', 'Search for Datarecords where this tag is selected');
+                    $(icon_div).addClass('ODRFourstate_OR');
+                    $(input_div).val('~' + tag_id);
+                }
+                else {
+                    // ...since default is to merge by OR, next step is to "deselect" the tag
+                    $(this).attr('title', 'Search for Datarecords where this tag is unselected');
+                    $(icon_div).addClass('fa-ban');
+                    $(input_div).val('-' + tag_id);
+                }
+            }
+            else if ( $(icon_div).hasClass('ODRFourstate_OR') ) {
+                // Currently set to merge by OR...
+                $(icon_div).removeClass('ODRFourstate_OR');
+
+                if ( default_merge_AND ) {
+                    // ...since default is to merge by AND, next step is to "deselect" the tag
+                    $(this).attr('title', 'Search for Datarecords where this tag is unselected');
+                    $(icon_div).addClass('fa-ban');
+                    $(input_div).val('-' + tag_id);
+                }
+                else {
+                    // ...since default is to merge by OR, next step is to merge by AND
+                    $(this).attr('title', 'Search for Datarecords where this tag is selected');
+                    $(icon_div).addClass('ODRFourstate_AND');
+                    $(input_div).val('~' + tag_id);
+                }
+            }
+            else if ( $(icon_div).hasClass('fa-ban') ) {
+                // Currently "deselected", change to "doesn't matter"
+                $(this).removeAttr('title');
+                $(icon_div).removeClass('fa-ban fa-check');    // non-leaf tags could have the fa-check class at this point
+                $(input_div).val('');
+            }
+            else {
+                // Currently "blank"...
+                if ( default_merge_AND ) {
+                    // ...default is to merge by AND
+                    $(this).attr('title', 'Search for Datarecords where this tag is selected');
+                    $(icon_div).addClass('ODRFourstate_AND');
+                }
+                else {
+                    // ...default is to merge by OR
+                    $(this).attr('title', 'Search for Datarecords where this tag is selected');
+                    $(icon_div).addClass('ODRFourstate_OR');
+                }
+                $(input_div).val(tag_id);
+            }
+
+            // Update any parents of this tag to indicate the status of their descendant tags
+            var tag_item = $(this).parent().parent();
+            applyToTagParents( $(tag_item) );
+
+            // Also need to wipe any status of the children of this tag
+            applyToTagChildren( $(tag_item) );
+        });
+
+        // Attach expand/collapse handlers to the tags in just the search sidebar
+        setupTagTree( $("#ODRSearchSidebar"), 2);
+
+        // Update the parents of all initially selected/deselected tags
+        $(context).find(".ODRTagLabel > .ODRTristateCheckbox > .fa-check,.fa-ban").each(function() {
+            var tag_item = $(this).parent().parent().parent();
+            applyToTagParents( tag_item );
+        });
+        $(context).find(".ODRTagLabel > .ODRFourstateCheckbox > .ODRFourstate_OR,.ODRFourstate_AND,.fa-ban").each(function() {
+            var tag_item = $(this).parent().parent().parent();
+            applyToTagParents( tag_item );
+        });
+
+        // Shortcut to select all options of a Multiple Radio/Select datafield
+        $(context).find(".ODRSelectAll").unbind('click').click(function () {
+            var div = $(this).parents('.ODRAdvSearch_datafield').find('.ODRRadioSearchDiv').first();
+            var fa_class = 'fa-check';
+            if ( $(div).hasClass('ODRDefaultMerge_AND') )
+                fa_class = 'ODRFourstate_AND';
+            else if ( $(div).hasClass('ODRDefaultMerge_OR') )
+                fa_class = 'ODRFourstate_OR';
+
+            var datafield_id = $(this).attr('rel');
+            var search_div = $(this).parents(".ODRAdvSearch_datafield").find("#Input_" + datafield_id);
+
+            $(search_div).find('i.fa').each(function () {
+                if ( !($(this).hasClass('fa-check') || $(this).hasClass('ODRFourstate_AND') || $(this).hasClass('ODRFourstate_OR')) ) {
+                    $(this).parent().attr('title', 'Search for Datarecords where this option is selected');
+                    $(this).removeClass('fa-ban').addClass(fa_class);
+                    $(this).next().val($(this).next().attr('rel'));
+                }
+            });
+        });
+        // Shortcut to deselect all options of a Radio/Select datafield
+        $(context).find(".ODRDeselectAll").unbind('click').click(function () {
+            var datafield_id = $(this).attr('rel');
+            var search_div = $(this).parents(".ODRAdvSearch_datafield").find("#Input_" + datafield_id);
+
+            $(search_div).find('i.fa').each(function () {
+                if ( !$(this).hasClass('fa-ban') ) {
+                    $(this).parent().attr('title', 'Search for Datarecords where this option is unselected');
+                    $(this).removeClass('fa-check ODRFourstate_AND ODRFourstate_OR').addClass('fa-ban');
+                    $(this).next().val('-' + $(this).next().attr('rel'));
+                }
+            });
+        });
+        // Shortcut to clear all options of a Radio/Select datafield
+        $(context).find(".ODRClearAll").unbind('click').click(function () {
+            var datafield_id = $(this).attr('rel');
+            var search_div = $(this).parents(".ODRAdvSearch_datafield").find("#Input_" + datafield_id);
+
+            $(search_div).find('i.fa').each(function () {
+                if ( $(this).hasClass('fa-check') || $(this).hasClass('fa-ban') || $(this).hasClass('ODRFourstate_AND') || $(this).hasClass('ODRFourstate_OR') ) {
+                    $(this).parent().removeAttr('title');
+                    $(this).removeClass('fa-check fa-ban ODRFourstate_AND ODRFourstate_OR');
+                    $(this).next().val('');
+                }
+            });
+        });
+
+        // Trigger filtering of Radio/Tag fields
+        var search_sidebar_filter_interval = null;
+        $(context).find(".ODRSearchDatafieldFilter").unbind('change').unbind('keyup').unbind('paste').on('keyup paste', function() {
+            var df_id_data = $(this).attr('id').split(/_/);
+            var df_id = df_id_data[1];
+
+            clearTimeout( search_sidebar_filter_interval );
+            search_sidebar_filter_interval = setTimeout(function() {
+                filterSearchSidebarField(context, df_id);
+            }, 750);
+        });
+
+        // Set up datepicker datafields
+        $(context).find(".ODRDatePicker").datepicker({
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            changeMonth: true,
+            changeYear: true,
+            dateFormat: 'yy-mm-dd',
+            yearRange: '1800:+10',
+
+            onSelect: function (dateText, inst) {
+
+                var field_id = $(this).attr('rel');
+                var start_date = $(context).find("#" + field_id + "_start");
+                var end_date = $(context).find("#" + field_id + "_end");
+
+                var start_date_value = $(start_date).val();
+                var end_date_value = $(end_date).val();
+
+                if (end_date_value !== '' && start_date_value !== '') {
+                    if (start_date_value > end_date_value)
+                        $(end_date).datepicker("setDate", start_date_value);
+                    else if (end_date_value < start_date_value)
+                        $(start_date).datepicker("setDate", end_date_value);
+
+                    $(start_date).datepicker("option", "maxDate", end_date_value);
+                    $(end_date).datepicker("option", "minDate", start_date_value);
+                }
+                else if (start_date_value === '') {
+                    $(start_date).datepicker("option", "maxDate", end_date_value);
+                    $(end_date).datepicker("option", "minDate", null);
+                }
+                else if (end_date_value === '') {
+                    $(start_date).datepicker("option", "maxDate", null);
+                    $(end_date).datepicker("option", "minDate", start_date_value);
+                }
+
+            },
+            onClose: function () {
+                $(this).blur();
+
+                var field_id = $(this).attr('rel');
+                $(context).find("#" + field_id + "_no_val").prop('checked', false);
+                $(context).find("#" + field_id + "_with_val").prop('checked', false);
+            },
+            beforeShow: function (input, inst) {
+            }
+        });
+        $(context).find(".ODRDatePickerSearch_clear").unbind('click').click(function() {
+            var id_data = $(this).attr('id').split(/_/);
+
+            var inputs = [];
+            if ( id_data.length == 3 ) {
+                inputs.push( $(context).find("#df_" + id_data[1] + "_start") );
+                inputs.push( $(context).find("#df_" + id_data[1] + "_end") );
+
+                $(context).find("#df_" + id_data[1] + "_no_val").prop('checked', false);
+                $(context).find("#df_" + id_data[1] + "_with_val").prop('checked', false);
+            }
+            else if ( id_data.length == 4 ) {
+                inputs.push( $(context).find("#dt_" + id_data[1] + "_" + id_data[2] + "_start") );
+                inputs.push( $(context).find("#dt_" + id_data[1] + "_" + id_data[2] + "_end") );
+            }
+            // console.log(inputs);
+
+            // Ensure the related datepicker elements are empty
+            $.each(inputs, function(index,elem) {
+                $(elem).datepicker("setDate", null);
+                $(elem).datepicker("option", "minDate", null);
+                $(elem).datepicker("option", "maxDate", null);
+                $(elem).datepicker('refresh');
+            });
+        });
+        $(context).find(".ODRDatePicker_value").unbind('change').change(function() {
+            var id_data = $(this).attr('id').split(/_/);
+            var df_id = id_data[1];
+
+            // Ensure the other option is unchecked
+            if ( id_data[2] === 'no' )
+                $(context).find("#df_" + df_id + "_with_val").prop('checked', false);
+            else
+                $(context).find("#df_" + df_id + "_no_val").prop('checked', false);
+
+            // Ensure the related datepicker elements are empty
+            var inputs = [];
+            inputs.push( $(context).find("#df_" + df_id + "_start") );
+            inputs.push( $(context).find("#df_" + df_id + "_end") );
+            $.each(inputs, function(index,elem) {
+                $(elem).datepicker("setDate", null);
+                $(elem).datepicker("option", "minDate", null);
+                $(elem).datepicker("option", "maxDate", null);
+                $(elem).datepicker('refresh');
+            });
+        });
+
+        // Set up XYZData controls
+                $(context).find(".ODRXYZData").unbind('change keyup paste').on('keyup paste', function() {
+            var value = $(this).val();
+            var warn_span = $('#' + $(this).attr('id') + '-error');
+
+            if ( value.match(/[^0-9\.\>\<\=\s]/) ) {
+                $(this).addClass('ODRInputError').attr('style', "border: 1px solid red;");
+                $(warn_span).removeClass('ODRHidden');
+            }
+            else {
+                $(this).removeClass('ODRInputError').attr('style', '');
+                $(warn_span).addClass('ODRHidden');
+            }
+        });
+        $(context).find(".ODRXYZData_add").unbind('click').click(function(event) {
+            event.preventDefault();
+
+            var df_id = $(this).attr('id').split(/_/)[1];
+            var x_input = $("#datafield_" + df_id + "_x");
+            var y_input = $("#datafield_" + df_id + "_y");
+            var z_input = $("#datafield_" + df_id + "_z");
+            // console.log(x_input,y_input,z_input);
+
+                        var x_val = $(x_input).val().trim().replaceAll(/[^0-9\.\>\<\=\s]/g, '');
+            var y_val = '';
+            if ( $(y_input).length > 0 )
+                y_val = $(y_input).val().trim().replaceAll(/[^0-9\.\>\<\=\s]/g, '');
+            var z_val = '';
+            if ( $(z_input).length > 0 )
+                z_val = $(z_input).val().trim().replaceAll(/[^0-9\.\>\<\=\s]/g, '');
+            // console.log(x_val, y_val, z_val);
+
+            if ( x_val == '' && y_val == '' && z_val == '' )
+                return false;
+
+            var str = '(' + x_val;
+            if ( $(y_input).length > 0 )
+                str += ',' + y_val;
+            if ( $(z_input).length > 0 )
+                str += ',' + z_val;
+            str += ')';
+            // console.log(str);
+
+            $('<option>', {}).html(str).appendTo( $("#datafield_" + df_id + "_select") );
+        });
+        $(context).find(".ODRXYZData_remove").unbind('click').click(function(event) {
+            event.preventDefault();
+
+            var df_id = $(this).attr('id').split(/_/)[1];
+            var selected = $("#datafield_" + df_id + "_select").find(':selected');
+
+            if ( selected.length > 0 ) {
+                $.each(selected, function(index,elem) {
+                    $(elem).remove();
+                });
+            }
+        });
+        $(context).find(".ODRXYZData_clear").unbind('click').click(function(event) {
+            event.preventDefault();
+
+            var df_id = $(this).attr('id').split(/_/)[1];
+            $("#datafield_" + df_id + "_select").empty();
+        });
+
+                $(context).find(".ODRInput.ODRXYZData_spacer").unbind('change').unbind('keyup').unbind('paste').on('keyup paste', function() {
+            if ( $(this).val().indexOf('!') !== -1 ) {
+                $(this).addClass('ODRInputError');
+                $(this).next().removeClass('ODRHidden');
+            }
+            else {
+                $(this).removeClass('ODRInputError');
+                $(this).next().addClass('ODRHidden');
+            }
+        });
+
+        // Slide out the help menu
+        $(context).find(".ODRSearchHelp").unbind('click').click(function () {
+            var search_help_div = $(context).find("#ODRSearchHelp_div");
+            $(search_help_div).toggleClass('ODRHidden');
+        });
+        $(context).find(".ODRGeneralSearchList").unbind('click').click(function () {
+            $(context).find("#ODRGeneralSearchList_div").slideToggle();
+        });
+
+        $(context).find(".ODRChooseSidebarLayout").unbind('click').click(function() {
+            openChooseSidebarLayoutRemodal(600, 'searching');
+        });
+
+
+        $(context).find(".ODRChangeSearchedDescendants").unbind('click').click(function() {
+            $("#ODRChangeSearchedDescendants_div").toggleClass('ODRHidden');
+        });
+        $(context).find("#ODRChangeSearchedDescendants_div").find(".ODRTwostateCheckbox").unbind('click').click(function() {
+            var icon_div = $(this).children('i').first();
+            var li_parent = $(this).parent().parent();
+
+            if ( $(icon_div).hasClass('fa-check') ) {
+                // Ensure this checkbox's deactivation also deactivates its descendants
+                $(li_parent).find(".ODRTwostateCheckbox").each(function(index,elem) {
+                    $(elem).children('i').first().removeClass('fa-check');
+                    $(elem).parent().parent().prop('title', 'Ignore results from this descendant');
+                });
+            }
+            else {
+                // Ensure this checkbox's activation also activates its parents
+                $(this).parents(".ODRTagItem").each(function(index,elem) {
+                    $(elem).children('label').children('span').children('i').first().addClass('fa-check');
+                    $(elem).prop('title', 'Include results from this descendant');
+                });
+                // Feels a lot better if activating a parent also activates its descendants
+                $(li_parent).find(".ODRTwostateCheckbox").each(function(index,elem) {
+                    $(elem).children('i').first().addClass('fa-check');
+                    $(elem).parent().parent().prop('title', 'Include results from this descendant');
+                });
+            }
+        });
+
+        // Close all accordions...
+        $(context).find(".ODRAdvSearch_header").trigger('click');
+                // ... then re-open the first one (target datatype)
+        $(".ODRAdvSearch_default").prev().trigger('click');
+        
+        // "Expanded" search fieldsets are hidden by default...
+            }
+
+</script></div><div id="ODRSearchContent" class="pure-u-1 pure-u-sm-2-3 pure-u-md-2-3 pure-u-xl-3-4 ODRSearchResultsWide"><div id="markdown_help_dialog_wrapper"><script>
+    /**
+     * Opens ODR's modal to display a couple pages of Markdown syntax help.
+     */
+    function openMarkdownHelpDialog() {
+        /** @type {odr_remodal_options} modal_options */
+        var modal_options = {
+            title: 'Markdown Help',
+        };
+        openODRRemodal(modal_options);
+
+        var url  = '/design/displaytemplate/markdownhelp';
+
+        $.ajax({
+            cache: false,
+            type: 'GET',
+            url: url,
+            dataType: "json",
+            success: function(data) {
+                updateODRRemodalBody(data.d.html);
+
+                setupMarkdownTabs();
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                // Close the dialog so it's not in some half-initialized state
+                closeODRRemodal();
+            },
+            complete: function(jqXHR) {
+                // Get the xdebugToken from response headers
+                var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                // If the Sfjs object exists
+                if (typeof Sfjs !== "undefined") {
+                    // Grab the toolbar element
+                    var currentElement = $('.sf-toolbar')[0];
+
+                    // Load the data of the given xdebug token into the current toolbar wrapper
+                    Sfjs.load(currentElement.id, '/app_dev.php/_wdt/'+ xdebugToken);
+                }
+            }
+        });
+    }
+
+    /**
+     * Applies the markdown parser to the relevant parts of the help dialog.
+     */
+    function setupMarkdownTabs() {
+        //
+        var markdown_header_buttons = $("#ODRMarkdown_tabheader > .ODRTabButton");
+        var markdown_help_contents = $("#ODRMarkdown_content > .ODRFieldArea");
+
+        // Apply the markdown plugin
+        var md = window.markdownit();
+        md.disable(['table', 'strikethrough', 'blockquote']);
+
+        $(".ODRMarkdown_source").each(function() {
+            var pieces = $(this).attr('id').split(/_/);
+            var dest_id = '#' + pieces[0] + '_' + pieces[1] + '_result';
+
+            var markdown_text = md.render( $(this).val() );
+            $(dest_id).html(markdown_text);
+        });
+
+        // Attach click handlers to the tab buttons
+        markdown_header_buttons.each(function() {
+            $(this).unbind('click').click(function() {
+
+                var header = $(this).attr('rel');
+
+                if ( $("#ODRMarkdown_" + header).hasClass('ODRHidden') ) {
+                    //
+                    $(markdown_help_contents).addClass('ODRHidden');
+                    $("#ODRMarkdown_" + header).removeClass('ODRHidden');
+
+                    //
+                    $(markdown_header_buttons).removeClass('pure-button-active');
+                    $(this).addClass('pure-button-active');
+                }
+            })
+        });
+
+        // Do the initial selection
+        $(markdown_help_contents).addClass('ODRHidden');
+        $(markdown_header_buttons).first().trigger('click');
+    }
+</script></div><script>
+    $(function () {
+        // Need to ensure the sidebar is initialized properly...
+        InitSearchSidebar();            // ...but don't need to ensure it's enabled...the display/edit/search results page will take
+        //  care of that
+        // enableSearchSidebar('', 'expanded');
+
+        // If user is on the base search page for a datatype...
+        if (window.location.hash.length === 0) {
+            // ...then immediately trigger a search with "default" criteria
+            doSearch('/search/results');
+
+            // Don't immediately return...the search controls need initialization
+            // return;
+        }
+    });
+
+    /**
+     * Toggles the search sidebar between "collapsed" and "extended" modes.  By default, the sidebar
+     * starts out in "collapsed" mode.
+     */
+    function changeSearch() {
+        // If this element doesn't exist, then there's nothing to do
+        if ( $("#ODRSearchControls_top") === undefined )
+            return;
+
+        if ($("#search_type").val() === 'collapsed') {
+            // Show all expanded search datafields
+            $("#search_type").val('extended');
+            $(".ODRSearchFieldsToggle").each(function () {
+                $(this).html('Close Expanded Search');
+            });
+
+            $(".ODRSearchSidebar_extended").removeClass('ODRHidden');
+
+            $("#ODRSearchControls_top").removeClass('ODRHidden');
+        }
+        else {
+            // Hide all expanded search datafields
+            $("#search_type").val('collapsed');
+            $(".ODRSearchFieldsToggle").each(function () {
+                $(this).html('Open Expanded Search');
+            });
+
+            $(".ODRSearchSidebar_extended").addClass('ODRHidden');
+
+            $("#ODRSearchControls_top").addClass('ODRHidden');
+        }
+    }
+
+    /**
+     * Reloads the page so the default search is guaranteed to display.
+     */
+    function doReset() {
+        var context = $("#odr_content").find("#ODRSearchSidebar").first();
+        var intent = $(context).find("#ODRSearchIntent").val();
+
+        if ( intent === 'searching' ) {
+                        window.location.href = '/MLROD';
+        }
+        else {
+            window.location.reload();
+        }
+    }
+
+    /**
+     * Serializes the search sidebar and POSTs the data to the given URL.
+     *
+     * If the given URL is equivalent to the path for the route 'odr_search_results', then
+     * a regular search is triggered, and the user is redirected to the search results afterwards.
+     *
+     * If a callback function is provided, then it will be given whatever the POST returned.
+     *
+     * @param {String} target_url
+     * @param {HTMLElement} context
+     * @param {Function} callback
+     */
+    function doSearch(target_url, context = undefined, callback = undefined) {
+        // console.log('doSearch()', target_url, context, callback);
+
+        // ----------------------------------------
+        var is_actual_search = true;
+        if ( target_url != '/search/results' )
+            is_actual_search = false;
+
+        if (context == undefined)
+            context = $("#odr_content").find("#ODRSearchSidebar").first();
+
+        if (callback == undefined)
+            callback = function() {}
+
+        // ----------------------------------------
+        var top_level_tag_group = $(context).find(".ODRChangeSearchedDescendants_wrapper").children("li.ODRTagItem").children("ul.ODRTagGroup").first();
+        var ignored_prefixes = determineIgnoredPrefixes(top_level_tag_group);
+        if ( ignored_prefixes.length > 0 )
+            $("#ODRIgnoredPrefix_list").val( ignored_prefixes.join(',') ).prop('disabled', false);
+        else
+            $("#ODRIgnoredPrefix_list").val('').prop('disabled', true);    // TODO - won't be the case when default ignored prefixes exist
+
+        // Values for Radio datafields need to be manually set
+        $(context).find(".ODRRadioSearchDiv").each(function () {
+            var data = $(this).attr('id').split(/_/);
+            var datafield_id = data[1];
+
+            // Reset the input's value since this is rebuilding the search value from scratch
+            var datafield = $(this).children("#datafield_" + datafield_id);
+            datafield.val('');
+
+            var str = '';
+            var first_selection = true;
+            var has_selections = false;
+
+            $(this).children('.ODRRadioLabel').find('input').each(function () {
+                // Grab the radio_option_id
+                var value = $(this).val().trim();
+                if (value == '')
+                    return;
+
+                has_selections = true;
+                if ( !first_selection ) {
+                    str += ',' + value;
+                }
+                else {
+                    first_selection = false;
+                    str += value;
+                }
+            });
+
+            if (has_selections)
+                datafield.val(str);
+        });
+
+        // ...same for tag datafields
+        $(context).find(".ODRTagSearchDiv").each(function () {
+            var data = $(this).attr('id').split(/_/);
+            var datafield_id = data[1];
+
+            // Reset the input's value since this is rebuilding the search value from scratch
+            var datafield = $(this).children("#datafield_" + datafield_id);
+            datafield.val('');
+
+            var str = '';
+            var first_selection = true;
+            var has_selections = false;
+
+            $(this).children('.ODRTagWrapper').find('input').each(function () {
+                // Grab the tag
+                var value = $(this).val().trim();
+                if (value == '')
+                    return;
+
+                has_selections = true;
+                if ( !first_selection ) {
+                    str += ',' + value;
+                }
+                else {
+                    first_selection = false;
+                    str += value;
+                }
+            });
+
+            if (has_selections)
+                $(datafield).val(str);
+        });
+
+        // ...and for XYZData
+        $(context).find(".ODRXYZData_select").each(function() {
+            // Reset the input's value since this is rebuilding the search value from scratch
+            var datafield_id = $(this).attr('id').split(/_/)[1];
+            var input = $("#datafield_" + datafield_id + "_input");
+
+            // Reset the input's value since this is rebuilding the search value from scratch
+            $(input).val('');
+
+            var str = '';
+            var first_entry = true;
+            var has_entries = false;
+
+            $(this).children('option').each(function () {
+                var value = $(this).val().trim();
+                if (value == '')
+                    return;
+
+                has_entries = true;
+                if ( !first_entry ) {
+                    str += '|' + value;
+                }
+                else {
+                    first_entry = false;
+                    str += value;
+                }
+            });
+
+            if (has_entries)
+                $(input).val(str);
+        });
+
+        // Ensure the two parts of the search criteria for a file/image match
+        $(context).find(".ODRFileDatafieldName").each(function () {
+            var df_id_data = $(this).attr('id').split(/_/);
+            var df_id = df_id_data[1];
+
+            var value = $(this).val().trim();
+            var exist_value = $("#datafield_" + df_id + "_ex option:selected").val();
+
+            if (exist_value == '') {
+                $(this).val('');
+            }
+            else if (exist_value == 0) {
+                $(this).val('""');   // If user wanted datarecords that do not have files/images, set this datafield's value to empty string
+            }
+            else if (exist_value == 1 && (value == '' || value == '""')) {
+                $(this).val('!""');  // If user wanted datarecords that do have files/images, but didn't specify a filename, set this datafield's value to 'not empty'
+            }
+        });
+        // Don't need to do anything specific for the file/image's public status or quality
+
+        $(context).find(".ODRPluginSearchField").each(function(index,elem) {
+            var id = '#' + $(elem).attr("id");
+            var main_value = $(id + "_main").val();
+            var alt_value = $(id + "_alt").val();
+
+            if ( alt_value === '' ) {
+                $(elem).val(main_value);
+            }
+            else {
+                var new_value = '';
+                if ( main_value !== '' )
+                    new_value = main_value;
+
+                new_value += ":" + alt_value;
+                $(elem).val(new_value);
+            }
+        });
+
+        var search_form = $(context).find("#search_form");
+        // console.log(search_form);
+
+        // ----------------------------------------
+        var search_theme_id = $(context).find("#selected_theme_id").val();
+        var intent = $(context).find("#ODRSearchIntent").val();
+
+        var post_data = $(search_form).serialize();
+        post_data += '&search_theme_id=' + search_theme_id + '&intent=' + intent;
+
+        var df_values = post_data.split(/&/);
+        var cleaned = [];
+        $.each(df_values, function(index, elem) {
+            if ( elem.charAt(elem.length-1) !== '=' )
+                cleaned.push(elem);
+        });
+        post_data = cleaned.join('&');
+        // console.log(post_data);
+        // Don't want the default merge type, or the default inverse value in here
+        post_data = post_data.replace('&merge=AND', '').replace('&inverse=-1', '');
+        // console.log(post_data);
+        // return;
+
+        // ----------------------------------------
+        // TODO - need to allow user to change which theme to use as part of this submission?
+
+        // Request search results
+        if ( is_actual_search )
+            showSearchOverlay('Searching...', intent);
+
+        $.ajax({
+            type: 'POST',
+            url: target_url,
+            dataType: 'json',
+            data: post_data,
+            cache: false,
+            success: function (data, textStatus, jqXHR) {
+                // If this wasn't a "regular" search request, then execute the given callback
+                if ( !is_actual_search ) {
+                    callback(data);
+                    return true;
+                }
+
+                // ----------------------------------------
+                // If this was a "regular" search request, then do required setup before redirecting
+                //  the user
+                if ( intent === 'searching' ) {
+                    // Overwrite any currently existing tab id, since a new search was performed
+                    if (window.sessionStorage.getItem('odr_tab_id')) {
+                        // Tell the server to stop storing data for the old tab
+                        // TODO - transfer page length?
+                        var url = '/beanstalk/datatables/state_destroy/';
+                        url += window.sessionStorage.getItem('odr_tab_id');
+
+                        $.ajax({
+                            type: 'GET',
+                            url: url,
+                            dataType: 'json',
+                        });
+                    }
+                    window.sessionStorage.setItem('odr_tab_id', 'n788Qh9ikDnFmkc');
+
+                    // ODR will return a URL to get the search result
+                    window.location = data.url;
+                }
+                else if ( intent === 'linking' ) {
+                    // ODR will return a URL to get the result, but we're not going to redirect to it...
+                    url = data.url;
+                    // ...instead, want to render its html into the #ODRSearchBoxContent div on this page
+                    $.ajax({
+                        type: 'GET',
+                        url: url,
+                        dataType: 'json',
+                        success: function (data, textStatus, jqXHR) {
+                            $(context).find("#ODRSidebarSearchKey").val(data.d.search_key);
+                            $("#ODRSearchBoxContent").html(data.d.html);
+
+                            // Linking does need the search overlay to be hidden though, since the
+                            //  results are spliced onto the page
+                            hideSearchOverlay();
+                        }
+                    });
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                // TODO - should everything get reset on an error?
+                // doReset();
+
+                // If an error was encountered and this wasn't a real search, it was most likely
+                //  a request from one of ODR's modals...close the modal so the error can be seen
+                if ( !is_actual_search )
+                    closeODRRemodal();
+            },
+            complete: function (jqXHR, textStatus) {
+
+                // Get the xdebugToken from response headers
+                var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                // If the Sfjs object exists
+                if (typeof Sfjs !== "undefined") {
+                    // Grab the toolbar element
+                    var currentElement = $('.sf-toolbar')[0];
+
+                    // Load the data of the given xdebug token into the current toolbar wrapper
+                    Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                }
+            }
+        });
+    }
+
+    /**
+     * When a tag is clicked, it's useful to visually notify the state of the tag's parent too...
+     * @param {HTMLElement} source_element
+     */
+    function applyToTagParents(source_element) {
+        var parent_tag = $(source_element).parent().parent().not('div');
+        if ( $(parent_tag).length === 0)
+            return;
+
+        // $(parent_tag) should be a <li class="ODRTagItem"> element
+        var parent_checkbox_icon = $(parent_tag).children('label').children('.ODRTristateCheckbox,.ODRFourstateCheckbox').first().children('i');
+        var selected_count = $(parent_tag).children('ul').find('.fa-check, .ODRFourstate_OR, .ODRFourstate_AND').length;
+        var unselected_count = $(parent_tag).children('ul').find('.fa-ban').length;
+        // var total_count = $(parent_tag).children('ul').find('.fa').length;
+        // NOTE: intentionally not differentiating between OR/AND here
+
+        if (selected_count === 0 && unselected_count === 0) {
+            // No children selected, so this one should be unselected too
+            $(parent_checkbox_icon).removeClass('fa-check fa-ban partial ODRFourstate_OR ODRFourstate_AND');
+        }
+        /*
+        else if (selected_count === total_count) {
+            // All children selected, so this one should be selected too
+            $(parent_checkbox_icon).removeClass('fa-ban partial').addClass('fa-check');
+        }
+        else if (unselected_count === total_count) {
+            // All children selected, so this one should be selected too
+            $(parent_checkbox_icon).removeClass('fa-check partial').addClass('fa-ban');
+        }
+        */
+        else if (selected_count > 0) {
+            // Some children selected, so this one should be partially selected
+            $(parent_checkbox_icon).removeClass('fa-ban ODRFourstate_OR ODRFourstate_AND').addClass('fa-check partial');
+        }
+        else if (unselected_count > 0) {
+            // No children are selected, but at least one child is unselected...so this one
+            //  should be partially unselected
+            $(parent_checkbox_icon).removeClass('fa-check ODRFourstate_OR ODRFourstate_AND').addClass('fa-ban partial');
+        }
+
+        // The parent tag should no longer have a selection of its own
+        $(parent_tag).children('label').find('input').val('');
+
+        // Need to recursively apply this stuff to the parent tag as well
+        applyToTagParents( $(parent_tag) );
+    }
+
+    /**
+     * When a tag is clicked, all of its children need to have their selections cleared...
+     * @param {HTMLElement} source_element
+     */
+    function applyToTagChildren(source_element) {
+        var child_tag_group = $(source_element).children('.ODRTagGroup').first();
+        if ( $(child_tag_group).length === 0 )
+            return;
+
+        $(child_tag_group).find('i').each(function() {
+            $(this).removeClass('fa-check fa-ban partial ODRFourstate_AND ODRFourstate_OR');
+        });
+        $(child_tag_group).find('input').each(function() {
+            $(this).val('');
+        });
+    }
+
+    /**
+     * Filters the displayed options/tags for a field in the search sidebar.
+     * @param {HTMLElement} context
+     * @param {number} df_id
+     */
+    function filterSearchSidebarField(context, df_id) {
+        var filter_element = $(context).find("#df_" + df_id + "_filter").first();
+        var fieldtype = $(filter_element).attr('rel');
+        var filter_text = $(filter_element).val().trim().toLowerCase();
+
+        if ( fieldtype == 'Radio' ) {
+            // Radio fields are simpler to filter...
+            var radio_options = $(context).find("#Input_" + df_id).children(".ODRRadioLabel");
+
+            if ( filter_text == '' ) {
+                // If no text in the filter, ensure all radio options are visible
+                $(radio_options).each(function(index,elem) {
+                    $(elem).removeClass('ODRHidden');
+                });
+            }
+            else {
+                $(radio_options).each(function(index,elem) {
+                    // Otherwise, need to convert each radio option to lower case...
+                    var option_name = $(elem).text().toLowerCase();
+
+                    // ...so it can get compared against the provided filter text
+                    if ( option_name.indexOf(filter_text) === -1 )
+                        $(elem).addClass('ODRHidden');
+                    else
+                        $(elem).removeClass('ODRHidden');
+                });
+            }
+        }
+        else if ( fieldtype == 'Tag' ) {
+            // Tag fields could have a hierarchy...
+            var tags = $(context).find("#Input_" + df_id).find(".ODRTagItem");
+
+            if ( filter_text == '' ) {
+                // If no text in the filter, ensure all tags are visible
+                $(tags).each(function(index,elem) {
+                    $(elem).removeClass('ODRHidden');
+                });
+            }
+            else {
+                $(tags).each(function(index,elem) {
+                    // Otherwise, need to convert each tag to lower case...
+                    var tag_name = $(elem).children('label').text().toLowerCase();
+
+                    // ...so it can get compared against the provided filter text
+                    if ( tag_name.indexOf(filter_text) === -1 )
+                        $(elem).addClass('ODRHidden');
+                    else {
+                        $(elem).removeClass('ODRHidden');
+
+                        // Also need to ensure that all parents of this tag are visible
+                        $(elem).parents('.ODRTagItem').removeClass('ODRHidden');
+                    }
+                });
+            }
+        }
+    }
+
+    /**
+     * Returns which descendants the search should ignore, if any.
+     * @param {HTMLElement} tag_group
+     * @return array
+     */
+    function determineIgnoredPrefixes(tag_group) {
+        var prefixes = [];
+
+        $(tag_group).children('li.ODRTagItem').each(function(index,elem) {
+            var info_span =  $(elem).children('label').children('span').first();
+            var icon = $(info_span).children('i');
+            var prefix_val = $(info_span).children('input').val();
+
+            if ( $(icon).hasClass('fa-check') ) {
+                // User does want to search this descendant...if it has a descendant of its own...
+                var child_tag_group = $(elem).children('ul.ODRTagGroup');
+                if ( $(child_tag_group).length > 0 ) {
+                    var child_prefixes = determineIgnoredPrefixes( $(child_tag_group) );
+                    if ( child_prefixes.length > 0 )
+                        prefixes.push(...child_prefixes);
+                }
+            }
+            else {
+                // User does not want to search this descendant...don't need to check any of this
+                //  descendant's descendants
+                prefixes.push( prefix_val );
+            }
+        });
+
+        return prefixes;
+    }
+</script></div><script>
+            $(window).on('load', function() {
+        if ( window.location.hash !== '') {
+            // window.location.hash doesn't preserve url encoding...
+            var tmp = window.location.href.split('#');
+            var url = tmp[1];
+            // console.log( 'window.onload: LoadContentFullAjax("' + url + '")' );
+            LoadContentFullAjax( url );
+        }
+    });
+
+    $(function() {
+        // Define a global error handler for ajax calls
+        // TODO - jquery 1.12 seems to be autoparsing every json response, and therefore throws ajax errors whenever ODR returns an empty response body
+        $(document).ajaxError(function( event, jqxhr, settings, exception ) {
+            // console.log('document.ajaxError()', event, jqxhr, settings, exception);
+            switch( jqxhr.status ) {
+                case 401:
+                    ODRLogin();
+                    break;
+
+                default:    /* 400, 403, 404, 405, 500, etc */
+                    if ( jqxhr.responseText !== undefined ) {
+                        var response = $.parseJSON(jqxhr.responseText);
+                        createJGrowlError(response);
+                    }
+                    break;
+            }
+        });
+
+        // Custom AJAX history stuff
+        $(window).off("hashchange");
+        $(window).on("hashchange", function(event) {
+            // Needed, unfortunately...
+            event.preventDefault();
+
+            // Close Menu
+            $("#ODRNav").hide();
+            $(".overhang").remove();
+
+            // If the hashchange event is manually triggered, event.originalEvent won't be defined...
+            var url = '';
+            if ( event.originalEvent !== undefined && event.originalEvent.newURL !== undefined ) {
+                // Grab the URL from the hashchange event
+                var new_url = event.originalEvent.newURL.split('#');
+                url = new_url[1];
+                if ( url !== undefined ) {
+                    // Load the URL as usual
+                    // console.log( 'window.hashchange: LoadContentFullAjax("' + url + '")' );
+                    LoadContentFullAjax( url );
+                }
+                else {
+                    // Attempt to move back/forward to the homepage...just refresh
+                                        // console.log( 'window.hashchange: location.replace("' + new_url[0] + '")' );
+                    location.replace( new_url[0] );
+                }
+            }
+            else {
+                // Grab the URL from the browser and reload it
+                url = window.location.hash.substr(1);
+                if ( url !== '' ) {
+                    // Load the URL as usual
+                    // console.log( 'window.hashchange (event undefined): LoadContentFullAjax("' + url + '")' );
+                    LoadContentFullAjax( url );
+                }
+                else {
+                    // Attempt to move back/forward to the homepage...just refresh
+                    // console.log( 'window.hashchange (event undefined): location.replace("<<dashboard>>")' );
+                    location.replace("/admin");
+                }
+            }
+
+            // Locate the <a> element that spawned this event
+            $("a.address").each(function() {
+                if ( $(this).attr('href') !== undefined ) {
+                    var attr_url = $(this).attr('href').substr(1);
+                    if ( attr_url == url ) {
+                        // Failsafe incase title attribute doesn't exist
+                        if ( $(this).attr('title') !== undefined )
+                            document.title = $(this).attr('title');
+                        else
+                            document.title = 'ODR Admin';
+
+                        // Abort loop
+                        return false;
+                    }
+                }
+            });
+        });
+
+        $("a.address").off("click");
+        $("a.address").on("click", function(event) {
+            // Needed?
+            event.preventDefault();
+
+            // Grab the URL
+            var data = $(event.delegateTarget).attr("href").split('/');
+            var url = data.join('/');
+            url = url.replace('#', '');
+
+            // Update the URL and hash
+            // console.log( 'a.address: UpdateUrl("' + url + '")' );
+            UpdateURL(url);
+        });
+
+        $("#ODRSearchSidebar").on("click", ".ODRSearchToggle", function() {
+            searchToggle();
+
+            // If there are any interactive graphs on the page, get plotly to resize them
+            if ( typeof page_plots !== 'undefined' ) {
+                waitForFinalEvent(function() {
+                    for(var x in page_plots) {
+                        Plotly.Plots.resize(page_plots[x]);
+                    }
+                }, 500, "plotly_window_resize")
+            }
+        });
+    });
+
+    /**
+     * Creates a notification popup from the given error response.
+     *
+     * @param {object} response
+     */
+    function createJGrowlError(response) {
+        var error_text = '<div class="ODRNotificationHeader">' + response.error.code + ' ' + response.error.status_text + ' -- ' + response.error.exception_source + "</div>";
+        error_text += '<div class="ODRNotificationText">' + response.error.message + '</div>';
+
+        $.jGrowl(
+            error_text,
+            {
+                theme: "ODRNotification",
+                sticky: true,
+                openDuration: 250,
+                closeDuration: 250
+            }
+        );
+    }
+
+    /**
+     * Creates a popup for notifying of saved changes.
+     */
+    function notifySaved() {
+        $.jGrowl('SAVED');
+    }
+
+    /**
+     * Redirects an anonymous user to ODR's login page.
+     */
+        function ODRLogin() {
+        // Extract the current base url
+        var baseurl = window.location.href;
+        var fragment = '';
+        if ( baseurl.indexOf('#') !== -1 ) {
+            var pieces = baseurl.split('#');
+            baseurl = pieces[0];
+            fragment = pieces[1];
+        }
+
+        // Save the "app_dev.php" part of the url if needed
+        var redirect_url = '/app_dev.php';
+        if ( baseurl.indexOf('app_dev.php') === -1 )
+            redirect_url = '/login';
+        else
+            redirect_url += '/login';
+
+        redirect_url = '//odr.io/login';
+        // alert(redirect_url);
+
+        // Append the fragment if it exists
+        if (fragment !== '')
+            redirect_url += '#' + fragment;
+
+        // Redirect to the login page after saving the base url
+        $.ajax({
+            cache: false,
+            type: 'GET',
+            url: '/save_url',
+            dataType: 'json',
+            data: {'url': baseurl},
+            success: function(data, textStatus, jqXHR) {
+                window.location.href = redirect_url;
+            }
+        });
+    }
+    
+    /**
+     * Forces a complete AJAX reload of the current page.
+     */
+    function reloadPage() {
+        // TODO - should check if URL has hash value...
+        var url = window.location.hash.substr(1);
+        LoadContentFullAjax( url );
+    }
+
+    /**
+     * Updates the URL hash so ODR loads content to insert into the page.
+     * i.e  going from https://odr.io/admin to https://odr.io/admin#/admin/type/list/databases
+     *
+     * @param {string} url
+     */
+    function UpdateURL(url) {
+        // Update the URL and hash
+        var current_hash = window.location.hash.substr(1);
+        if ( current_hash !== url ) {
+            // Just change the hash to the desired link
+            // console.log( 'UpdateUrl("' + url + '")' );
+            window.location.hash = url;
+        }
+        else {
+            // Force a hashchange event because we want the AJAX to fire again
+            // console.log( 'UpdateUrl(): forced hashchange' );
+            $(window).hashchange();
+        }
+    }
+
+    /**
+     * Forces a URL to open in a new tab
+     *
+     * @param {string} hash
+     */
+    function OpenURL(hash) {
+        var current_baseurl = window.location.href;
+        if ( current_baseurl.indexOf('#') !== -1 ) {
+            var pieces = window.location.href.split(/#/);
+            current_baseurl = pieces[0];
+        }
+
+        window.open(current_baseurl + '#' + hash, '_blank');
+    }
+
+    var xhr = null;
+    var timer = null;
+
+    /**
+     * Replaces all content on the page based off the given url.
+     * i.e.  going from https://odr.io/admin to https://odr.io/chemin
+     *
+     * @param {string} url
+     * @param {boolean} [use_fade]
+     */
+    function LoadContentFullAjax(url, use_fade) {
+        if (timer)
+            window.clearTimeout(timer);
+
+        // Default use_fade to 1
+        if (use_fade === undefined)
+            use_fade = true;
+
+        // TODO Determine if this HACK is needed
+        // Delete the DataTables fixed headers and bindings.
+ 	    jQuery(window).unbind('scroll');
+ 	    jQuery('.fixedHeader-floating').remove();
+
+        var faded_opacity = 0.15;
+        if (!use_fade)
+            faded_opacity = 1;
+
+        // console.log('LoadContentFullAjax()', url);
+
+        // Disable scroll handlers
+        $(window).off('scroll');
+        $("#ODRSearchContent").fadeTo(200, faded_opacity, function() {
+            // Abort any LoadContentFullAjax() call that's currently in progress
+            if (xhr != null)
+                xhr.abort();
+
+            // Append the tab's id to the get request if it exists
+            var data = '';
+            if ( window.sessionStorage.getItem('odr_tab_id') )
+                data = {'odr_tab_id': window.sessionStorage.getItem('odr_tab_id')};
+
+            // Load to Content area
+            xhr = $.ajax({
+                cache: false,
+                type: 'GET',
+                url: url,
+                dataType: "json",
+                data: data,
+                success: function(data, textStatus, jqXHR) {
+                    // console.log('LoadContentFullAjax() success', data, textStatus, jqXHR);
+                    xhr = null;
+
+                    if ( data.r == 2 ) {   // for redirects to another url
+                        UpdateURL( data.d.url );
+                    }
+                    else if ( data.r == 3 ) {  // for complete url replacements
+                        window.location = data.d.url;
+                    }
+                    else {
+                        $("#ODRSearchContent").html(data.d.html).fadeTo(200, 1.0);
+                    }
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    // console.log('LoadContentFullAjax() error', jqXHR, textStatus, errorThrown);
+                    // Don't need to do anything specific on an error
+                },
+                complete: function(jqXHR, textStatus) {
+                    // Get the xdebugToken from response headers
+                    var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                    // If the Sfjs object exists
+                    if (typeof Sfjs !== "undefined") {
+                        // Grab the toolbar element
+                        var currentElement = $('.sf-toolbar')[0];
+
+                        // Load the data of the given xdebug token into the current toolbar wrapper
+                        Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                    }
+                }
+            });
+        });
+    }
+
+    /**
+     * Hides the search sidebar so that users can't see or expand it.
+     */
+    function disableSearchSidebar() {
+        // console.log('disableSearchSidebar()');  console.trace();
+
+        var sidebar = $("#ODRSearchSidebar");
+        // var searchToggle = $(".ODRSearchToggle");
+        var searchContent = $("#ODRSearchContent");
+
+        $(searchContent).addClass("ODRSearchResultsWide");
+        $(sidebar).addClass("ODRHidden");
+
+        // Adding/removing the class .ODRSearchResultsWide triggers a 0.25s transition
+        // Have to wait for that to finish before recalculating the width of datatables objects
+        setTimeout("recalcDatatablesWidths()", 350);
+    }
+
+    /**
+     * Puts the search sidebar into a 'collapsed' state.
+     */
+    function collapseSearchSidebar() {
+        // console.log('collapseSearchSidebar()');  console.trace();
+
+        var sidebar = $("#ODRSearchSidebar");
+        var searchToggle = $(".ODRSearchToggle");
+        var searchContent = $("#ODRSearchContent");
+
+        // Ensure the sidebar is scrolled to its top first, so the collapse/expand icon is visible
+        $(sidebar).scrollTop(0);
+
+        $(sidebar).removeClass("ODRSearchVisible ODRHidden").addClass("ODRSearchHidden");
+        $(searchContent).addClass("ODRSearchResultsWide");
+        $(searchToggle).removeClass('fa-arrow-circle-left').addClass('fa-arrow-circle-right');
+
+        // Adding/removing the class .ODRSearchResultsWide triggers a 0.25s transition
+        // Have to wait for that to finish before recalculating the width of datatables objects
+        setTimeout("recalcDatatablesWidths()", 350);
+    }
+
+    /**
+     * Puts the search sidebar into an 'expanded' state.
+     */
+    function expandSearchSidebar() {
+        // console.log('expandSearchSidebar()');  console.trace();
+
+        var sidebar = $("#ODRSearchSidebar");
+        var searchToggle = $(".ODRSearchToggle");
+        var searchContent = $("#ODRSearchContent");
+
+        $(sidebar).removeClass("ODRSearchHidden ODRHidden").addClass("ODRSearchVisible");
+        $(searchContent).removeClass("ODRSearchResultsWide");
+        $(searchToggle).removeClass('fa-arrow-circle-right').addClass('fa-arrow-circle-left');
+
+        // Adding/removing the class .ODRSearchResultsWide triggers a 0.25s transition
+        // Have to wait for that to finish before recalculating the width of datatables objects
+        setTimeout("recalcDatatablesWidths()", 350);
+    }
+
+    /**
+     * Toggles the search sidebar between the 'collapsed' and 'expanded' states.  If it's currently
+     * in the 'disabled' state, then it is set to 'collapsed' instead.
+     */
+    function searchToggle() {
+        // console.log('searchToggle()');  console.trace();
+
+        var is_expanded = true;
+        if ( $("#ODRSearchContent").hasClass('ODRSearchResultsWide') )
+            is_expanded = false;
+
+        if (is_expanded)
+            collapseSearchSidebar();
+        else
+            expandSearchSidebar();
+    }
+
+    /**
+     * Ensures the search sidebar is available and that it's displaying the search layout for the
+     * given search key.
+     *
+     * @param {string} search_key
+     * @param {string} when_disabled whether to put the sidebar into a 'collapsed' or 'expanded' state if it's disabled when this function is called
+     * @param {string} [intent]
+     */
+    function enableSearchSidebar(search_key, when_disabled, intent = '') {
+        // console.log('enableSearchSidebar()', 'search_key', search_key, 'when_disabled', when_disabled, 'intent', intent);  console.trace();
+
+        // Default intent is for a search page
+        if (intent === undefined || intent === null || intent === '')
+            intent = 'searching';
+
+        // Need to ensure the sidebar is up to date first...
+        updateSearchSidebar(search_key, intent, false, function() {
+            // console.log('enableSearchSidebar_callback()', 'when_disabled', when_disabled);  console.trace();
+            // ...and only expand/collapse it afterwards if it got replaced
+            var is_hidden = false;
+            if ( $("#ODRSearchSidebar").hasClass('ODRHidden') )
+                is_hidden = true;
+            if ( !( $(".ODRSearchToggle").is('.fa-arrow-circle-right', '.fa-arrow-circle-left') ) )
+                is_hidden = true;
+
+            if ( is_hidden ) {
+                // ...then set it to 'expanded' or 'collapsed' depending on the caller
+                if ( when_disabled === 'expanded' )
+                    expandSearchSidebar();
+                else
+                    collapseSearchSidebar();
+            }
+        });
+    }
+
+    /**
+     * Reloads and reinitializes the content of the search sidebar.
+     *
+     * @param {string} search_key
+     * @param {string} intent The type of page the sidebar resides on
+     * @param {boolean} force_reload If true, then the sidebar will always be reloaded
+     * @param {function|undefined} callback
+     */
+    function updateSearchSidebar(search_key, intent, force_reload, callback) {
+        if (callback == undefined)
+            callback = function() {}
+
+        // console.log('updateSearchSidebar()', 'search_key', search_key, 'intent', intent, 'force_reload', force_reload, 'callback', callback);  console.trace();
+
+        // Don't want to always update the sidebar...
+        var can_reload = true;
+        var should_reload = false;
+
+        // If no search key was provided, then reloads can't happen at all
+        if ( search_key === undefined || search_key === '' )
+            can_reload = false;
+
+        // If the sidebar state doesn't match the current search key, then it should get reloaded if possible
+        if ( $("#ODRSidebarSearchKey").val() !== search_key || $("#ODRSearchSidebar").html() === '' )
+            should_reload = true;
+
+        // If the calling function demands a reload, then it should happen if possible
+        if (force_reload)
+            should_reload = true;
+
+        // console.log('updateSearchSidebar()', 'can_reload', can_reload, 'should_reload', should_reload);
+
+        // If the sidebar can and should be reloaded...
+        if ( can_reload && should_reload ) {
+            // Makes no sense to show the search overlay when reloading the sidebar if the sidebar is
+            //  currently hidden
+            if ( !$("#ODRSearchSidebar").hasClass('ODRHidden') )
+                showSearchOverlay();
+
+            // ...then request a new set of html
+            var url = '/search/reload_sidebar//';
+            url = url.substr(0, url.length - 1);
+            url += search_key + '/' + intent;
+
+            $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: 'json',
+                success: function (data) {
+                    if ( data.d.html !== '' ) {
+                        $("#ODRSearchSidebar").html(data.d.html);
+                        InitSearchSidebar();    
+                        callback();
+                    }
+                },
+                complete: function() {
+                    // Regardless of success or failure, hide the overlay
+                    hideSearchOverlay();
+                }
+            });
+        }
+        else {
+            // ...probably should ensure the callback fires even if the sidebar didn't get reloaded
+            callback();
+        }
+    }
+
+    /**
+     * If the current page's content includes a dataTables.js instance (i.e. search result lists),
+     * then expanding/shrinking the search sidebar requires that instance to redraw itself so it
+     * will take up the correct amount of the page width.
+     */
+    function recalcDatatablesWidths() {
+        // Force the datatables.js FixedHeader and Responsive plugins to redraw if they exist
+        var datatables_instances = $(".ODRDatatableInstance");
+        if ( datatables_instances.length > 0 ) {
+            // Could be more than one table on screen...
+            $.each(datatables_instances, function(index, elem) {
+                // The table also may not be initialized yet...
+                if ( $.fn.DataTable.isDataTable(elem) ) {
+                    // ...but if it is, redo the Responsive and FixedHeader calculations
+                    // $(elem).DataTable().responsive.recalc();
+                    // $(elem).DataTable().fixedHeader.adjust();
+                    $(elem).DataTable().columns.adjust();
+                }
+            });
+        }
+    }
+
+    /**
+     * Displays an overlay on the page so the user can't click anything while searches are running.
+     *
+     * @param {string} [text] Optional text to use for the loading spinner
+     * @param {string} [intent] If 'searching', then the page's content is cleared to prepare for new search results
+     */
+    function showSearchOverlay(text, intent) {
+        // console.log('showSearchOverlay()', 'text', text, 'intent', intent);
+        $("#loading-overlay").removeClass('ODRHidden').fadeIn('fast');
+
+        if ( text === undefined || text === null || text === '' )
+            $("#loading").html('<span>Loading...</span>');
+        else
+            $("#loading").html('<span>' + text + '</span>');
+        $("#loading").removeClass('ODRHidden').fadeIn('fast');
+
+        if (intent === undefined || intent === null)
+            intent = 'loading';
+        if ( intent === 'searching' )
+            $("#ODRSearchContent").html('');
+    }
+
+    /**
+     * Hides the search overlay.
+     */
+    function hideSearchOverlay() {
+        $("#loading-overlay").fadeOut('fast').addClass('ODRHidden');
+        $("#loading").fadeOut('fast').addClass('ODRHidden');
+    }
+
+    function setupAccordionHighlights() {
+         $("#odr_content > #ODRSearchContent > .ODRFormWrap > .ODRDataType > .ODRAccordionWrapper > .ODRFieldArea > .ODRThemeElement > .ODRInnerBox > .ODRChildDatatype > .ODRDataType > .ODRAccordionWrapper > h3")
+            .alternateNestedBgColor(".ODRThemeElement > .ODRInnerBox > .ODRChildDatatype > .ODRDataType > .ODRAccordionWrapper > h3", ['ODRAccordionPrimary', 'ODRAccordionSecondary']);
+        // console.log('accordion highlight')
+    }
+
+    /**
+     * Opens the modal for users to view/select available themes for the current page type for
+     * this datatype.
+     *
+     * @param {number} datatype_id
+     * @param {string} page_type
+     * @param {string} [search_key]
+     */
+    function openChooseViewRemodal(datatype_id, page_type, search_key = '') {
+        var page_type_title = "Choose from available layouts:";
+        if ( page_type != '' ) {
+            var pieces = page_type.split(/_/);
+            for (var key in pieces)
+                pieces[key] = pieces[key][0].toUpperCase() + pieces[key].slice(1);
+            page_type_title = "Choose from available layouts for " + pieces.join(' ') + " mode:";
+        }
+
+        /** @type {odr_remodal_options} modal_options */
+        var modal_options = {
+            title: page_type_title,
+        };
+        openODRRemodal(modal_options);
+
+        var url = '/view/getthemes/0/';
+        url = url.substring(0, url.length - 2);
+        url += datatype_id + '/' + page_type + '/' + search_key;
+        // alert(url);  return;
+
+        $.ajax({
+            cache: false,
+            type: 'GET',
+            url: url,
+            dataType: "json",
+            success: function (data, textStatus, jqXHR) {
+                updateODRRemodalBody(data.d);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                // Don't need to create a jGrowl because exception handlers will automatically
+                //  display. Close the dialog so it's not in some half-initialized state.
+                closeODRRemodal();
+            },
+            complete: function (jqXHR, textStatus) {
+                // Get the xdebugToken from response headers
+                var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                // If the Sfjs object exists
+                if (typeof Sfjs !== "undefined") {
+                    // Grab the toolbar element
+                    var currentElement = $('.sf-toolbar')[0];
+
+                    // Load the data of the given xdebug token into the current toolbar wrapper
+                    Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                }
+            }
+        });
+    }
+
+    /**
+     * Opens the modal for users to view/select available sidebar layouts for the current page type
+     * for this datatype.
+     *
+     * @param {number} datatype_id
+     * @param {string} intent
+     */
+    function openChooseSidebarLayoutRemodal(datatype_id, intent) {
+        var intent_title = "Choose from available sidebar layouts:";
+        if ( intent != '' ) {
+            var pieces = intent.split(/_/);
+            for (var key in pieces)
+                pieces[key] = pieces[key][0].toUpperCase() + pieces[key].slice(1);
+            intent_title = "Choose from available sidebar layouts for " + pieces.join(' ') + " mode:";
+        }
+
+        // Need to pull the search key from the sidebar instead of having it passed in...twig isn't
+        //  guaranteed to have it when certain parts of the page are built
+        var search_key = $("#ODRSidebarSearchKey").val();
+
+        /** @type {odr_remodal_options} modal_options */
+        var modal_options = {
+            title: intent_title,
+        };
+        openODRRemodal(modal_options);
+
+        var url = '/view/getlayouts/0/';
+        url = url.substring(0, url.length - 2);
+        url += datatype_id + '/' + intent + '/' + search_key;
+        // alert(url);  return;
+
+        $.ajax({
+            cache: false,
+            type: 'GET',
+            url: url,
+            dataType: "json",
+            success: function (data, textStatus, jqXHR) {
+                updateODRRemodalBody(data.d);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                // Don't need to create a jGrowl because exception handlers will automatically
+                //  display. Close the dialog so it's not in some half-initialized state.
+                closeODRRemodal();
+            },
+            complete: function (jqXHR, textStatus) {
+                // Get the xdebugToken from response headers
+                var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                // If the Sfjs object exists
+                if (typeof Sfjs !== "undefined") {
+                    // Grab the toolbar element
+                    var currentElement = $('.sf-toolbar')[0];
+
+                    // Load the data of the given xdebug token into the current toolbar wrapper
+                    Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                }
+            }
+        });
+    }
+
+    /**
+     * Attaches click handlers to the accordion, tabbed, and dropdown header display_types.
+     */
+    function setupAccordions() {
+        // Setup click handlers for Accordions
+        $(".ODRFormAccordion").children("h3").each(function() {
+            $(this).unbind('click').click(function() {
+                // When a header is clicked, hide each of the content divs
+                $(this).parent().children(".accordion-content").each(function() {
+                    if ( !$(this).hasClass('ODRHidden') ) {
+                        $(this).addClass('ODRHidden');
+                        // console.log( '.ODRFormAccordion: hiding', $(this) );
+                    }
+                    $(this).prev().removeClass('ODRAccordionSelected');
+                });
+
+                // After that, show the selected content div
+                $(this).next().removeClass('ODRHidden').fadeIn();
+                                $(this).addClass('ODRAccordionSelected');
+
+                setupAccordionHighlights();
+                // Resize any elements that were revealed
+                onWindowResize();
+            });
+        });
+
+        // Setup Accordion
+        $(".ODRChildDatatype").each(function() {
+            var prev_selection = false;
+            // console.log( 'child_datatype_id ' + $(this).attr('id') );
+
+            // ...hide all but the first accordion entries
+            $(this).children().children(".ODRFormAccordion").children("h3").each(function() {
+                if ( !$(this).hasClass("ODRAccordionSelected") ) {
+                    // Ensure that all child/linked records are hidden, unless user has already
+                    //  selected one of them
+                    $(this).next().addClass('ODRHidden');
+                    // console.log( '.ODRChildDatatype: hiding ', $(this).next() );
+                }
+                else {
+                    // User already selected a child/linked record for this child/linked datatype
+                    prev_selection = true;
+                }
+            });
+
+            // If the user hadn't selected a child/linked record for this child/linked datatype...
+            if ( !prev_selection ) {
+                // ...then hide all the child/linked records except the first
+                $(this).children().children(".ODRFormAccordion").children("h3").each(function(index,elem) {
+                    if ( index === 0 ) {
+                        // console.log('showing: ', $(elem).next());
+                        $(elem).next().removeClass('ODRHidden');
+                    }
+                    else {
+                        // console.log('hiding: ', $(elem).next());
+                        $(elem).next().addClass('ODRHidden');
+                    }
+                });
+            }
+        });
+
+        // Setup Tabs
+        $(".ODRTabAccordion").each(function() {
+            // Tabs are stored a level below the tab accordion
+            var wrapper_div = $(this);
+            var tab_div = $(wrapper_div).children(".ODRTabButtonHeader").first();  // should only be one tab div here
+
+            // Need to check whether a tab was already selected...
+            var prev_selection = false;
+
+            // Ensure click handlers are attached to all the buttons in this tab div
+            $(tab_div).children(".ODRTabButton").each(function() {
+                // If this button already has this class, then it was selected previously somehow
+                if ( $(this).hasClass('pure-button-active') )
+                    prev_selection = true;
+
+                $(this).unbind('click').click(function() {
+                    // Ensure the button that just got clicked is marked as "active", while all the
+                    //  other buttons are not
+                    $(tab_div).children(".ODRTabButton").removeClass('pure-button-active');
+                    $(this).addClass('pure-button-active');
+
+                    // Store which content div should be selected
+                    var selected_dr = "FieldArea_" + $(this).attr('rel');
+
+                    // Hide all the content divs except the one that was selected
+                    $(wrapper_div).children(".accordion-content").each(function() {
+                        if ( $(this).attr('id') !== selected_dr ) {
+                            $(this).addClass('ODRHidden');
+                            // console.log( '.ODRTabAccordion button: hiding ', $(this) );
+                        }
+                        else {
+                            $(this).removeClass('ODRHidden');
+                            // console.log( '.ODRTabAccordion button: showing ', $(this) );
+                        }
+                    });
+
+                    // Resize any elements that were revealed
+                    setupAccordionHighlights();
+                    onWindowResize();
+                });
+            });
+
+            // If a tab hasn't already been selected...
+            if (!prev_selection) {
+                // ...ensure the first tab is marked as "active"...
+                $(tab_div).children(".ODRTabButton").first().addClass('pure-button-active');
+
+                // ...and the first content div is the only one visible
+                $(wrapper_div).children(".accordion-content").each(function() {
+                    $(this).addClass('ODRHidden');
+                    // console.log( '.ODRTabAccordion: hiding ', $(this) );
+                });
+                $(wrapper_div).children(".accordion-content").first().removeClass('ODRHidden');
+            }
+        });
+
+        // Setup Dropdown
+        $(".ODRDropdownAccordion").each(function() {
+            // console.log('in .ODRDropdownAccordion for ' + $(this).parent().attr('id') );
+
+            // Hide all content divs except the first
+            var wrapper_div = $(this);
+            $(wrapper_div).children(".accordion-content").each(function(index,elem) {
+                if ( index > 0 ) {
+                    $(elem).addClass('ODRHidden');
+                    // console.log( '.ODRDropdownAccordion: hiding child ' + index, $(elem) );
+                }
+                else {
+                    $(elem).removeClass('ODRHidden');
+                    // console.log( '.ODRDropdownAccordion: showing child ' + index, $(elem) );
+                }
+            });
+
+            // Attach the click handler to this dropdown
+            var select = $(wrapper_div).children('h3').children("span.AccordionSelect").children('select');
+            $(select).unbind('change').change(function() {
+                // Store which content div should be selected
+                var selected_dr = "FieldArea_" + $(this).val();
+
+                // Hide all the content divs except the one that was selected
+                $(wrapper_div).children(".accordion-content").each(function() {
+                    if ( $(this).attr('id') !== selected_dr ) {
+                        $(this).addClass('ODRHidden');
+                        // console.log( '.ODRDropdownAccordion select: hiding ', $(this) );
+                    }
+                    else {
+                        $(this).removeClass('ODRHidden');
+                        // console.log( '.ODRDropdownAccordion select: showing ', $(this) );
+                    }
+                });
+
+                // Resize any elements that were revealed
+                setupAccordionHighlights();
+                onWindowResize();
+            });
+        });
+    }
+
+    var WindowResizeInterval = "";
+
+    /**
+     * Forces textarea elements to display all their contents.
+     */
+    function onWindowResize() {
+        // Clear the interval so these resizes only happen once
+        if (WindowResizeInterval != "")
+            WindowResizeInterval = window.clearInterval(WindowResizeInterval);
+
+        // Resize all textarea elements
+        $("textarea:visible").each(function() {
+            var el = $(this);
+
+            // Remove any pre-existing height/width from the textarea
+            $(el).removeAttr('style');
+
+            // Set the height of the textarea so all its content is visible
+            var scrollHeight = $(el).prop('scrollHeight') + 1;
+            $(el).height(scrollHeight);
+        });
+    }
+
+    /**
+     * Initializes the click handlers used for ODR's image gallery.
+     */
+    function setupImageGalleries() {
+        // Set up image galleries
+        $(".ODRImageGallery").not(".ODRImageGallery_ready").each(function() {
+            var id_data = $(this).attr('id').split(/_/);
+            var datafield_id = id_data[1];
+            var datarecord_id = id_data[2];
+
+            var count = 0;
+            var images_per_row = parseInt( $("#imagestorage_" + datafield_id + "_" + datarecord_id).attr('rel') );
+
+//            var width = $("#imagegallery_" + datafield_id + "_" + datarecord_id).find(".ODRImageGalleryImage").width();
+//            var height = width * 0.75;
+//            $("#imagegallery_" + datafield_id + "_" + datarecord_id).find(".ODRImageGalleryImage").css('width', width);
+//            $("#imagegallery_" + datafield_id + "_" + datarecord_id).find(".ODRImageGalleryImage").css('height', height);
+
+            $("#imagestorage_" + datafield_id + "_" + datarecord_id).children(".ODRImage").each(function() {
+//                $(this).find("img").css('max-width', width);
+//                $(this).find("img").css('max-height', height);
+
+                if ( count < images_per_row ) {
+                    $(this).remove().appendTo($("#imagegallery_" + datafield_id + "_" + datarecord_id).find(".ODRImageGalleryImage"));
+                }
+                count++;
+            });
+
+            if (count <= images_per_row) {
+                $("#ODRImageLeft_" + datafield_id + "_" + datarecord_id).addClass('ODRHidden');
+                $("#ODRImageRight_" + datafield_id + "_" + datarecord_id).addClass('ODRHidden');
+
+                if (count == 0)
+                    $(this).html('<center><strong>No Images Found</strong></center>');
+            }
+
+            $(this).addClass("ODRImageGallery_ready");
+        });
+
+        $(".ODRGalleryLeftArrow").unbind('click').click(function(event) {
+            // Stop other click events from firing when this is clicked
+            event.stopImmediatePropagation();
+
+            var id_data = $(this).attr('rel');
+            var gallery = "#imagegallery_" + id_data + " .ODRImageGalleryImage";
+            var storage = "#imagestorage_" + id_data;
+
+            $(gallery).children(".ODRImage").first().remove().prependTo(storage);
+            $(storage).children(".ODRImage").last().remove().appendTo(gallery);
+        });
+
+        $(".ODRGalleryRightArrow").unbind('click').click(function(event) {
+            // Stop other click events from firing when this is clicked
+            event.stopImmediatePropagation();
+
+            var id_data = $(this).attr('rel');
+            var gallery = "#imagegallery_" + id_data + " .ODRImageGalleryImage";
+            var storage = "#imagestorage_" + id_data;
+
+            $(gallery).children(".ODRImage").last().remove().appendTo(storage);
+            $(storage).children(".ODRImage").first().remove().prependTo(gallery);
+        });
+
+        // Need this for reloading attempts on images which aren't decrypted
+        $("div.ODRImage").find("img").on('error', function() {
+            setupDecryptWait( $(this) );
+        });
+    }
+
+    /**
+     * Initializes the click handlers used for ODR's tag datafields.
+     * @param {HTMLElement} context
+     * @param {number} states
+     */
+    function setupTagTree(context = null, states = 2) {
+        if ( context === null )
+            context = $("#odr_content");
+
+                $(context).find(".ODRTagParent").unbind('click').click(function(event) {
+            event.stopImmediatePropagation();
+
+            // The Tag Design modal needs to be able to prevent collapsing/expanding
+            var tag_item = $(this).parents(".ODRTagItem").first();
+            if ( $(tag_item).find(".ODRTagHighlight").length > 0 )
+                return false;
+
+            // This div is guaranteed to be a sibling of the div that holds child tags, but there's
+            //  an uknown number of other HTML elements "in the way"...
+            var tag_children_div = $(tag_item).children('.ODRTagGroup').first();
+            var icon_div = $(this).children(".fa").first();
+
+            if ( states === 2 ) {
+                if ( $(this).hasClass('ODRTagCollapsed') ) {
+                    $(tag_children_div).removeClass('ODRHidden');
+                    $(icon_div).removeClass("fa-caret-right").addClass("fa-caret-down");
+                }
+                else {
+                    $(tag_children_div).addClass('ODRHidden');
+                    $(icon_div).removeClass("fa-caret-down").addClass("fa-caret-right");
+                }
+
+                $(this).toggleClass('ODRTagCollapsed');
+            }
+            else if ( states === 3 ) {
+                if ( $(this).hasClass('ODRTagCollapsed') && $(this).parent().hasClass('ODRTagSelected') ) {
+                    // This tag is currently collapsed, and has selected children...go from collapsed
+                    //  to only partially collapsed
+                    $(tag_children_div).removeClass('ODRHidden');
+                    $(tag_children_div).children('li.ODRTagItem').not('.ODRTagSelected').addClass('ODRHidden');
+
+                    $(icon_div).removeClass("fa-caret-right").addClass("fa-ellipsis-h");
+
+                    $(this).removeClass('ODRTagCollapsed').addClass('ODRTagPartialCollapsed');
+                }
+                else if ( $(this).hasClass('ODRTagCollapsed') && !$(this).parent().hasClass('ODRTagSelected') ) {
+                    // This tag is currently collapsed, but has no selected children...there's no
+                    //  point going to partially collapsed, since nothing will change, so instead
+                    //  show everything
+                    $(tag_children_div).removeClass('ODRHidden');
+                    $(tag_children_div).children('li.ODRTagItem').removeClass('ODRHidden');
+                    $(icon_div).removeClass("fa-caret-right").addClass("fa-caret-down");
+
+                    $(this).removeClass('ODRTagCollapsed');
+                }
+                else if ( $(this).hasClass('ODRTagPartialCollapsed') ) {
+                    // This tag is partially collapsed...go to showing everything
+                    $(tag_children_div).children('li.ODRTagItem').removeClass('ODRHidden');
+                    $(icon_div).removeClass("fa-ellipsis-h").addClass("fa-caret-down");
+
+                    $(this).removeClass('ODRTagPartialCollapsed');
+                }
+                else {
+                    // This tag is showing everything...go back to completely collapsed
+                    $(tag_children_div).addClass('ODRHidden');
+                    $(icon_div).removeClass("fa-caret-down").addClass("fa-caret-right");
+
+                    $(this).addClass('ODRTagCollapsed');
+                }
+            }
+        });
+    }
+
+        var waitForFinalEvent = (function () {
+        var timers = {};
+        return function (callback, ms, uniqueId) {
+            if (!uniqueId) {
+                uniqueId = "Don't call this twice without a uniqueId";
+            }
+            if (timers[uniqueId]) {
+                clearTimeout (timers[uniqueId]);
+            }
+            timers[uniqueId] = setTimeout(callback, ms);
+        };
+    })();
+
+    $.fn.alternateNestedBgColor = function(subselect, colors) {
+        var l = colors.length;
+
+        // Itterate over all element in possible array
+        // jQuery best practice to handle initializing multiple elements at once
+        return this.each(function() {
+            var $sub = $(this), i = 0;
+
+            // Executes code, at least once
+            do {
+                // Set bg color for current $sub element
+                $sub.addClass(colors[i++ % l]);
+                // console.log($sub.next().attr('id'))
+                // Set $sub to direct children matching given selector
+                $sub = $sub.next().find(subselect);
+                // console.log('Found subs: ', $sub.length);
+
+                // Will repeat the do section if the condition returns true
+                // console.log('Repeat sub: ', i)
+            } while ($sub.length > 0);
+        });
+    };
+
+    /**
+     * Scrolls to the given element on the page, if possible.
+     *
+     * @param {HTMLElement} element
+     * @param {HTMLElement} [container]
+     */
+    function ScrollHighlight(element, container) {
+        var obj = $(element);
+        if (container === undefined) {
+            container = $('html, body');
+
+            // Only Scroll to element if it is not visible
+            if ( !obj.isInViewport() ) {
+                container.animate({
+                    scrollTop: obj.offset().top + obj.height() - 50
+                }, 1000)
+            }
+        }
+        else {
+            container.animate({
+                scrollTop: obj.prop('offsetTop')
+            }, 1000)
+        }
+        // Highlight after scrolling
+        obj.effect("highlight", {}, 3000);
+    }
+
+    $.fn.isInViewport = function() {
+        var elementTop = $(this).offset().top;
+        var elementBottom = elementTop + $(this).outerHeight();
+
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
+
+        return (elementBottom > viewportTop) && (elementTop < viewportBottom);
+    };
+
+    $.fn.isOverflowHiddenY = function(container) {
+        var element = $(this);
+        // console.log(element.offset());
+        // console.log(container.prop('scrollHeight'));
+        // console.log(container.height());
+        return (element.offset().top > container.height());
+    };
+
+    /**
+     * Scrolls to and displays the requested datarecord.
+     *
+     * @param {string|number} target_datarecord_id
+     * @param {string|number} parent_datarecord_id
+     */
+    function selectRecordFieldArea(target_datarecord_id, parent_datarecord_id = '') {
+        // The requested datarecord could be a descendant...if so, its ancestors need to be visible
+        //  first starting from the top
+        var dr_ids = [];
+        if ( parent_datarecord_id === '' ) {
+            $("#FieldArea_" + target_datarecord_id).parents('.ODRFieldArea').each(function(index, elem) {
+                var dr_id = $(elem).attr('id').split(/_/)[1];
+                dr_ids.push(dr_id);
+            });
+        }
+        else {
+            $("#FieldArea_" + parent_datarecord_id + " #FieldArea_" + target_datarecord_id).parents('.ODRFieldArea').each(function(index, elem) {
+                var dr_id = $(elem).attr('id').split(/_/)[1];
+                dr_ids.push(dr_id);
+            });
+        }
+
+        dr_ids = dr_ids.reverse();
+        dr_ids.push(target_datarecord_id);
+        // console.log('datarecord order', dr_ids);
+
+        dr_ids.forEach((dr_id) => {
+            var fieldarea = $("#FieldArea_" + dr_id);
+
+            if ( $(fieldarea).parent().hasClass("ODRFormAccordion") ) {
+                // Accordion displayType
+                $(fieldarea).prev().click();
+            }
+            else if ($(fieldarea).parent().hasClass("ODRTabAccordion")) {
+                // Tab displayType
+                $(fieldarea).parent().children(".ODRTabButtonHeader").find(".ODRTabButton").each(function() {
+                    if ($(this).attr('rel').toString() === dr_id.toString()) {
+                        $(this).click();
+                    }
+                });
+            }
+            else if ( $(fieldarea).parent().hasClass("ODRDropdownAccordion") ) {
+                // Dropdown displayType
+                var dropdown = $(fieldarea).parent().children(".ui-accordion-header").find(".ODRSelect");
+                $(dropdown).val(dr_id).change();
+            }
+            else {
+                // List displayType
+                ScrollHighlight( $(fieldarea) );
+            }
+        });
+    }
+
+    /**
+     * Sets up the timing/timeout for use when a decrypted version of an image doesn't exist.
+     *
+     * @param {HTMLElement} elem
+     */
+    function setupDecryptWait(elem) {
+        var parent = $(elem).closest('div');
+        var img_id = $(parent).attr('rel');
+
+        if ( !missing_images.hasOwnProperty(img_id) ) {
+            missing_images[img_id] = 1;
+
+            // Hopefully there aren't too many images that need decrypting, so try the first reload
+            //  relatively quickly...
+            setTimeout( 'waitForDecrypt("' + $(parent).attr('id') + '")', 500 );
+        }
+        else if ( missing_images[img_id] < 10 ) {
+            missing_images[img_id]++;
+
+            // If the first reload didn't work, then try again after a delay
+            // NOTE: it seems as if the browser doesn't follow the timing "to the letter"...setting
+            //  this to a short delay doesn't actually mean the timeout will load faster
+            setTimeout( 'waitForDecrypt("' + $(parent).attr('id') + '")', 2000 );
+            // NOTE: decryption is also fairly slow, so hammering the requests won't help
+        }
+    }
+
+    /**
+     * Triggers a reload of a (hopefully no longer) missing decrypted image that pheanstalk has
+     * (hopefully) already been ordered to rebuild.
+     *
+     * @param {string} image_id
+     */
+    function waitForDecrypt(image_id) {
+        var image_elem = $("#" + image_id).find('img');
+        var old_src = $(image_elem).attr('src');
+        // console.log( 'old_src: ', old_src );
+
+        var new_src = '';
+        if ( old_src.indexOf('#') === -1 )
+            new_src = old_src + '#' + new Date().getTime();
+        else
+            new_src = old_src.substring(0, old_src.indexOf('#') ) + '#' + new Date().getTime();
+        // console.log( 'new_src: ', new_src );
+
+        $(image_elem).attr( 'src', new_src );
+    }
+
+    /**
+     * Reapplies the odd/even css classes on rows in a datatables instance.
+     *
+     * @param {HTMLElement} table
+     */
+    function redoRowClasses(table) {
+        var count = 0;
+        $(table).find('tr').each(function() {
+            if ( $(this).is(':visible') ) {
+                count++;
+                if ( count % 2 === 1 )
+                    $(this).removeClass('odd').addClass('even');
+                else
+                    $(this).removeClass('even').addClass('odd');
+            }
+        });
+    }
+</script><script>
+    var initial_decrypt_check_timeout = 250;
+    var decrypt_check_timeout = 1500;
+    var encrypt_check_timeout = 1500;
+
+    var pending_file_decryptions = {};
+
+    /**
+     * Attempts to download a file from a datafield, setting up a decryption progress tracker if
+     * needed.
+     *
+     * @param {Event} event
+     * @param {number} file_id
+     */
+    function handleFileDownload(event, file_id) {
+        // Prevent a normal file download
+        event.preventDefault();
+
+        // Don't start a new download if one is already in progress
+        if ( pending_file_decryptions[file_id] != null
+            || pending_file_decryptions[file_id] != undefined
+            || file_decrypt_timeouts[file_id] != null
+            || file_decrypt_timeouts[file_id] != undefined
+        ) {
+            //alert('download in progress already');
+            return false;
+        }
+
+        var download_div = $("#ODRFileDecrypt_" + file_id + "_overlay");
+        var decrypt_progress = $("#ODRFileDecrypt_" + file_id + "_progress");
+
+        var url = '/view/downloadfilestart/0';
+        url = url.substring(0, (url.length-1));
+        url += file_id;
+
+
+        $.ajax({
+            cache: false,
+            type: 'GET',
+            url: url,
+            dataType: "json",
+            success: function (data, textStatus, jqXHR) {
+                // Handle successful responses
+                var status_code = jqXHR.status;
+                if (status_code == 200) {
+                    // Hide div for decryption progress
+                    $(download_div).css('visibility', 'hidden');
+                    $(decrypt_progress).css('width', '0');
+
+                    // File exists and is ready to download
+                    window.setTimeout( "downloadFile(" + file_id + ");", initial_decrypt_check_timeout );
+                }
+                else if (status_code == 202) {
+                    // Show div for decryption progress
+                    $(download_div).css('visibility', 'visible');
+                    $(decrypt_progress).css('width', '100%');
+
+                    // File needs to be decrypted first
+                    window.setTimeout( "createFileDecryptProgressCheck(" + file_id + ", 1);", initial_decrypt_check_timeout );  // download the file after it finishes decrypting
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                // Handle errors
+                pending_file_decryptions[ file_id ] = null;
+                file_decrypt_timeouts[ file_id ] = null;
+                file_decrypt_progress[ file_id ] = null;
+            },
+            complete: function (jqXHR, textStatus) {
+                // Get the xdebugToken from response headers
+                var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                // If the Sfjs object exists
+                if (typeof Sfjs !== "undefined") {
+                    // Grab the toolbar element
+                    var currentElement = $('.sf-toolbar')[0];
+
+                    // Load the data of the given xdebug token into the current toolbar wrapper
+                    Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                }
+            }
+        });
+    }
+
+    /**
+     * Triggers a download of the requested file from the server.
+     *
+     * @param {number} file_id
+     */
+    function downloadFile(file_id) {
+
+        var href = '/view/downloadfile/0';
+        href = href.substring(0, (href.length-1));
+        href += file_id;
+
+        var download_div = $("#ODRFileDecrypt_" + file_id + "_overlay");
+        var decrypt_progress = $("#ODRFileDecrypt_" + file_id + "_progress");
+
+        var download = $.fileDownload(href, {
+            // Instruct ODR to send any errors back as json
+            data: {
+                'error_type': 'json'
+            },
+            prepareCallback: function(url) {
+            },
+            successCallback: function (url) {
+//console.log('success for file ' + file_id);
+                // File is finished downloading
+                pending_file_decryptions[ file_id ] = null;
+                file_decrypt_timeouts[ file_id ] = null;
+                file_decrypt_progress[ file_id ] = null;
+                $(download_div).css('visibility', 'hidden');
+                $(decrypt_progress).css('width', '0');
+            },
+            failCallback: function (responseHtml, url, error) {
+//console.log('fail for file ' + file_id);
+                // Something went wrong...
+                pending_file_decryptions[ file_id ] = null;
+                file_decrypt_timeouts[ file_id ] = null;
+                file_decrypt_progress[ file_id ] = null;
+
+                // Convert response to json, and display error message
+                var response = $.parseJSON(responseHtml);
+                createJGrowlError(response);
+                $(download_div).css('visibility', 'hidden');
+                $(decrypt_progress).css('width', '0');
+            }
+        });
+    }
+
+    // TODO - All of these setTimeout calls need to be intervals. So they can be destroyed properly.
+    var file_decrypt_timeouts = {};
+    var file_decrypt_progress = {};
+
+    /**
+     * Ensure that at most a single progress request is active for a file decryption at any given
+     * time.
+     *
+     * @param {number} file_id
+     * @param {number} download_file_after If "1", then trigger a file download once the decryption
+     *                                     is complete.
+     */
+    function createFileDecryptProgressCheck(file_id, download_file_after) {
+        // Ensure that at most a single timeout is running for a given file at any given time
+        if ( file_decrypt_timeouts[ file_id ] == null || file_decrypt_timeouts[ file_id ] == undefined ) {
+            file_decrypt_timeouts[ file_id ] = download_file_after;
+            window.setTimeout( "checkFileDecryptProgress(" + file_id + ");", decrypt_check_timeout );
+        }
+    }
+
+    /**
+     * Queries the server for the decryption progress on the given file.
+     *
+     * @param {number} file_id
+     */
+    function checkFileDecryptProgress(file_id) {
+        // Get progress of file encryption from server
+        var url = "/view/decrypt_progress/file/0";
+        url = url.substr(0, url.length-1);
+        url += file_id;
+
+        $.ajax({
+            cache: false,
+            type: 'GET',
+            url: url,
+            dataType: "json",
+            success: function(data, textStatus, jqXHR) {
+                var current_value = parseFloat(data.d.current_value);   // already a percentage of max_value
+                var max_value = parseFloat(data.d.max_value);
+                var filename = data.d.filename;
+
+                // The id/class combo is needed because there's a chance of a "fake" download div
+                var download_div = $("#ODRFileDecrypt_" + file_id + "_overlay.ODRFakeProgressBar_overlay");
+                var decrypt_progress = $("#ODRFileDecrypt_" + file_id + "_progress.ODRFakeProgressBar");
+
+                if ( $(download_div).hasClass('ODRHidden') ) {
+//console.log('stopping timeout cycle for file ' + file_id);
+                    /* element got hidden already, do nothing */
+                    file_decrypt_timeouts[ file_id ] = null;
+                    file_decrypt_progress[ file_id ] = null;
+
+                    // Ensure progress bar isn't displayed anymore
+                    $(download_div).css('visibility', 'hidden');
+                    $(decrypt_progress).css('width', '0');
+                }
+                else if ( file_decrypt_timeouts[ file_id ] != null ) {
+//console.log('progress for file ' + file_id + ': ' + current_value + '%');
+
+                    // Check whether this decryption has made any progress...
+                    if ( file_decrypt_progress[ file_id ] === undefined
+                        || file_decrypt_progress[ file_id ] === null
+                        || current_value !== file_decrypt_progress[ file_id ]['value']
+                    ) {
+                        // File decryption just started, or progress was made
+                        file_decrypt_progress[ file_id ] = {
+                            'count': 0,
+                            'value': current_value,
+                        };
+                    }
+                    else {
+                        // File decryption has made no progress...keep track of how long it's
+                        //  been stalled
+                        file_decrypt_progress[ file_id ]['count'] += decrypt_check_timeout;
+
+                        // If it's been stalled for more than 15 seconds...
+                        if ( file_decrypt_progress[ file_id ]['count'] > 15000 ) {    // if no progress for 15+ seconds
+                            // ...assume that the decryption has failed, and notify the user
+                            var error_text = '<div class="ODRNotificationHeader">500 Internal Server Error -- 0xb02c7e53</div>';
+                            error_text += '<div class="ODRNotificationText">No apparent progress being made on decryption of File ' + file_id + ' "' + filename + ', aborting download</div>';
+
+                            $.jGrowl(
+                                error_text,
+                                {
+                                    theme: "ODRNotification",
+                                    sticky: true,
+                                    openDuration: 250,
+                                    closeDuration: 250
+                                }
+                            );
+
+                            // Stop querying server for progress
+                            file_decrypt_timeouts[ file_id ] = null;
+                            file_decrypt_progress[ file_id ] = null;
+
+                            // Want the css for the progressbar to remain...helps indicate something is wrong and you can't interact with the file
+                            // $(download_div).css('visibility', 'hidden');
+                            // $(decrypt_progress).css('width', 0);
+
+                            return false;
+                        }
+                    }
+
+                    if (current_value < 100) {
+                        // Update the progressbar
+                        $(download_div).css('visibility', 'visible');
+                        if ( current_value > 0 )
+                            $(decrypt_progress).css('width', current_value + '%');
+
+                        // Schedule the next decrypt check
+                        window.setTimeout( "checkFileDecryptProgress(" + file_id + ");", decrypt_check_timeout );
+                    }
+                    else {
+                        // Save whether the user needed to download this file after decryption or not
+                        var download_file_after = file_decrypt_timeouts[ file_id ];
+
+                        // File is fully decrypted, stop querying server for progress
+                        file_decrypt_timeouts[ file_id ] = null;
+                        file_decrypt_progress[ file_id ] = null;
+
+                        // Hide the css for the progressbar
+                        $(download_div).css('visibility', 'hidden');
+                        $(decrypt_progress).css('width', 0);
+
+                        if (download_file_after == 1) {
+                            // Download the file
+                            downloadFile(file_id);
+                        }
+                    }
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                // Handle errors
+            }
+        });
+    }
+
+    var file_encrypt_timeouts = {};
+    var file_encrypt_progress = {};
+
+    /**
+     * Ensure that at most a single progress request is active for a file encryption at any given
+     * time.
+     *
+     * @param {number} file_id
+     * @param {number} datarecord_id
+     * @param {number} datafield_id
+     */
+    function createFileEncryptProgressCheck(file_id, datarecord_id, datafield_id) {
+        if ( file_encrypt_timeouts[ file_id ] == null || file_encrypt_timeouts[ file_id ] == undefined ) {
+            file_encrypt_timeouts[ file_id ] = 1;
+            window.setTimeout( "checkFileEncryptProgress(" + file_id + ", " + datarecord_id + ", " + datafield_id + ");", encrypt_check_timeout );
+        }
+    }
+
+    /**
+     * Queries the server for the encryption progress on the given file
+     *
+     * @param {number} file_id
+     * @param {number} datarecord_id
+     * @param {number} datafield_id
+     */
+    function checkFileEncryptProgress(file_id, datarecord_id, datafield_id) {
+        // Get progress of file encryption from server
+        var url = "/view/encrypt_progress/file/0";
+        url = url.substr(0, url.length-1);
+        url += file_id;
+
+        $.ajax({
+            cache: false,
+            type: 'GET',
+            url: url,
+            dataType: "json",
+            success: function(data, textStatus, jqXHR) {
+                var current_value = parseInt(data.d.current_value);   // already a percentage of max_value
+                var max_value = parseInt(data.d.max_value);
+                var filename = data.d.filename;
+
+                // The id/class combo is needed because there's a chance of a "fake" download div
+                var file_encrypt_progress_div = $("#ODRFileDecrypt_" + file_id + "_overlay.ODRFakeProgressBar_overlay");
+                var file_encrypt_progress_bar = $("#ODRFileDecrypt_" + file_id + "_progress.ODRFakeProgressBar");
+
+                if (file_encrypt_progress_bar == null || file_encrypt_progress_bar == undefined || file_encrypt_progress_bar[0] == null || file_encrypt_progress_bar[0] == undefined) {
+                    // element no longer exists, reset
+                    file_encrypt_timeouts[ file_id ] = null;
+                    file_encrypt_progress[ file_id ] = null;
+
+                    $(file_encrypt_progress_bar).css('width', 0);
+                    $(file_encrypt_progress_div).css('visibility', 'hidden');
+                }
+                else if (file_encrypt_timeouts[ file_id ] != null) {
+                    // Check whether this encryption has made any progress...
+                    if ( file_encrypt_progress[ file_id ] === undefined
+                        || file_encrypt_progress[ file_id ] === null
+                        || current_value !== file_encrypt_progress[ file_id ]['value']
+                    ) {
+                        // File encryption just started, or progress was made
+                        file_encrypt_progress[ file_id ] = {
+                            'count': 0,
+                            'value': current_value,
+                        };
+                    }
+                    else {
+                        // File encryption has made no progress...keep track of how long it's
+                        //  been stalled
+                        file_encrypt_progress[ file_id ]['count'] += encrypt_check_timeout;
+
+                        // If it's been stalled for more than 15 seconds...
+                        if ( file_encrypt_progress[ file_id ]['count'] > 15000 ) {    // if no progress for 15+ seconds
+                            console.log('progress timeout exceeded, resetting');
+                            // ...assume that the encryption has failed, and notify the user
+                            var error_text = '<div class="ODRNotificationHeader">500 Internal Server Error -- 0xb02c7e54</div>';
+                            error_text += '<div class="ODRNotificationText">No apparent progress being made on encryption of File ' + file_id + ' "' + filename + '"</div>';
+                            error_text += '<div class="ODRNotificationText">Click to retry upload</div>';
+
+                            $.jGrowl(
+                                error_text,
+                                {
+                                    theme: "ODRNotification",
+                                    sticky: true,
+                                    openDuration: 250,
+                                    closeDuration: 250,
+                                    click: function(e,m,o) {
+                                        // console.log(e, m, o);
+
+                                        var url = "/view/encrypt_retry/file/0";
+                                        url = url.substr(0, url.length-1);
+                                        url += file_id;
+
+                                        $.ajax({
+                                            cache: false,
+                                            type: 'GET',
+                                            url: url,
+                                            dataType: "json",
+                                            success: function (data, textStatus, jqXHR) {
+                                                // Restart the progress checker
+                                                createFileEncryptProgressCheck(file_id, datarecord_id, datafield_id);
+                                            },
+                                            error: function (jqXHR, textStatus, errorThrown) {
+                                                // Don't need to do anything specific
+                                            },
+                                            complete: function (jqXHR, textStatus) {
+                                                // Get the xdebugToken from response headers
+                                                var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                                                // If the Sfjs object exists
+                                                if (typeof Sfjs !== "undefined") {
+                                                    // Grab the toolbar element
+                                                    var currentElement = $('.sf-toolbar')[0];
+
+                                                    // Load the data of the given xdebug token into the current toolbar wrapper
+                                                    Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                                                }
+                                            }
+                                        });
+
+                                        // Close the growl manually, since there's no function to do it
+                                        $(e).fadeOut(250, function() {
+                                            $(e).remove();
+                                        })
+                                    }
+                                }
+                            );
+
+                            // Stop querying server for progress
+                            file_encrypt_timeouts[ file_id ] = null;
+                            file_encrypt_progress[ file_id ] = null;
+
+                            // Want the css for the progressbar to remain...helps indicate something is wrong and you can't interact with the file
+                            // $(file_encrypt_progress_bar).css('width', 0);
+                            // $(file_encrypt_progress_div).css('visibility', 'hidden');
+
+                            return false;
+                        }
+                    }
+
+                    if (current_value < 100) {
+                        // Update the progressbar
+                        $(file_encrypt_progress_div).css('visibility', 'visible');
+                        if ( current_value > 0 )
+                            $(file_encrypt_progress_bar).css('width', current_value + '%');
+
+                        // Schedule the next encrypt check
+                        window.setTimeout( "checkFileEncryptProgress(" + file_id + ", " + datarecord_id + ", " + datafield_id + ");", encrypt_check_timeout );
+                    }
+                    else {
+                        // File is fully encrypted, stop querying server for progress
+                        file_encrypt_timeouts[ file_id ] = null;
+                        file_encrypt_progress[ file_id ] = null;
+
+                        // Hide the css for the progressbar
+                        $(file_encrypt_progress_bar).css('width', 0);
+                        $(file_encrypt_progress_div).css('visibility', 'hidden');
+                    }
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                // Handle errors
+            }
+        });
+    }
+
+    var zip_archive_timeouts = {};
+
+    /**
+     * Ensure that at most a single progress request is active for a given zip archive at any given
+     * time.
+     *
+     * @param {string} archive_filename
+     * @param {string} archive_size
+     * @param {string} container_id
+     */
+    function createZipArchiveProgressCheck(archive_filename, archive_size, container_id) {
+        // console.log('createZipArchiveProgressCheck()', archive_filename, archive_size, container_id);
+        if ( zip_archive_timeouts[ container_id ] == null || zip_archive_timeouts[ container_id ] == undefined || zip_archive_timeouts[ container_id ] == 0 ) {
+            zip_archive_timeouts[ container_id ] = 1;
+            window.setTimeout( "checkZipArchiveProgress('" + archive_filename + "', '" + archive_size + "', '" + container_id + "');", decrypt_check_timeout );
+        }
+    }
+
+    /**
+     * Queries the server for the progress on the construction of the requested zip archive, and
+     * triggers a download of the archive when it's complete.
+     *
+     * @param {string} archive_filename
+     * @param {string} archive_size
+     * @param {string} container_id
+     */
+    function checkZipArchiveProgress(archive_filename, archive_size, container_id) {
+        // console.log('checkZipArchiveProgress()', archive_filename, archive_size, container_id);
+
+        var container = $('#' + container_id);
+        $(container).find('.ODRFileDownloadForm_label').addClass('ODRHidden');
+        $(container).find('.ODRFileDownloadForm_progress').removeClass('ODRHidden');
+
+        archive_size = parseInt(archive_size);
+        $(container).find('.ODRFileDownloadForm_total').html(archive_size);
+
+        // Get progress of zip archive from server
+        var url = "/view/zip_archive_progress/0";
+        url = url.substr(0, url.length-1);
+        url += archive_filename;
+
+        $.ajax({
+            cache: false,
+            type: 'GET',
+            url: url,
+            dataType: "json",
+            success: function (data, textStatus, jqXHR) {
+                var archive_filecount = parseInt(data.d.archive_filecount);
+                // console.log('archive_filecount', archive_filecount);
+
+                // Update the progress indicator
+                $(container).find('.ODRFileDownloadForm_current').html(archive_filecount);
+
+                if ( archive_size == archive_filecount ) {
+                    // Reset and close the file download dialog form
+                    // console.log('archive finished, resetting');
+
+                    $(container).find('.ODRFileDownloadForm_label').removeClass('ODRHidden');
+                    $(container).find('.ODRFileDownloadForm_progress').addClass('ODRHidden');
+                    closeODRRemodal();
+
+                    $(container).find('.ODRFileDownloadForm_current').html('');
+                    $(container).find('.ODRFileDownloadForm_total').html('');
+
+                    // Construct the URL to download the archive
+                    var download_url = "/view/zip_archive_download/0";
+                    download_url = download_url.substr(0, download_url.length-1);
+                    download_url += archive_filename;
+
+                    // Start downloading the archive
+                    var download = $.fileDownload(download_url, {
+                        // Instruct ODR to send any errors back as json
+                        data: {
+                            'error_type': 'json'
+                        },
+                        prepareCallback: function(url) {
+
+                        },
+                        successCallback: function (url) {
+                            // File is finished
+                            zip_archive_timeouts[ container_id ] = null;
+                        },
+                        failCallback: function (responseHtml, url, error) {
+                            // Something went wrong...
+                            zip_archive_timeouts[ container_id ] = null;
+
+                            // Convert response to json, and display error message
+                            var response = $.parseJSON(responseHtml);
+                            createJGrowlError(response);
+                        }
+                    });
+                }
+                else {
+                    window.setTimeout( "checkZipArchiveProgress('" + archive_filename + "', '" + archive_size + "', '" + container_id + "');", decrypt_check_timeout );
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                // Reset the progress elements
+                // console.log('error, resetting');
+                $(container).find('.ODRFileDownloadForm_label').removeClass('ODRHidden');
+                $(container).find('.ODRFileDownloadForm_progress').addClass('ODRHidden');
+                $(container).find('.ODRFileDownloadForm_current').html('');
+                $(container).find('.ODRFileDownloadForm_total').html('');
+
+                zip_archive_timeouts[ container_id ] = null;
+                // Close modal
+                closeODRRemodal();
+                // Show growl
+                var response = $.parseJSON(jqXHR.responseText);
+                createJGrowlError(response);
+            },
+            complete: function (jqXHR, textStatus) {
+                // Get the xdebugToken from response headers
+                var xdebugToken = jqXHR.getResponseHeader('X-Debug-Token');
+
+                // If the Sfjs object exists
+                if (typeof Sfjs !== "undefined") {
+                    // Grab the toolbar element
+                    var currentElement = $('.sf-toolbar')[0];
+
+                    // Load the data of the given xdebug token into the current toolbar wrapper
+                    Sfjs.load(currentElement.id, '/app_dev.php/_wdt/' + xdebugToken);
+                }
+            }
+        });
+    }
+</script><script>
+    // Called by a flow.js instance when a file is slated for upload
+    function ODRFileUpload_filesAdded(files, event, target, upload_type) {
+        // Hide any current progress bars
+        //$("#ODRFileUploadProgress_" + target).html('');
+
+        // Create a progress bar div for each of the files...
+        $.each(files, function(index, file) {
+            var id = file.uniqueIdentifier + '_' + target;
+            var filename = file.name;
+            var filesize = file.size;
+
+            if (upload_type == 'file') {
+                var html =
+                    '<div id="' + id + '" class="ODRFileDatafield_file pure-u-1">' +
+                        '<span class="ODRFileSpacer ODRFileSpacer_nonpublic">&nbsp;</span>' +
+                        '<span class="ODRTruncateFilename">' +
+                            '<span class="ODRFileInfoDiv"><i class="fa fa-lg fa-info-circle"></i>' +
+//                                '<span class="ODRFileInfo">&nbsp;</span>' +
+                            '</span>Uploading "' + filename + '"...' +
+                        '</span>' +
+                        '<span class="ODRFakeProgressBar_overlay"><span class="ODRFakeProgressBar"></span></span>' +
+                    '</div>';
+
+                var anchor = $("#ODRFileUpload_" + target).parent().prev().children(".ODRFileDatafield_content").first();
+                $(anchor).find(".ODRFileDatafield_empty").remove();
+                $(anchor).append(html);
+            }
+            else {
+                var html =
+                    '<div class="pure-u-1 ODRFileUploadProgressDiv" id="' + id + '">' +
+                        '<span class="pure-u-1">' + filename + '</span>' +
+                        '<span class="pure-u-1 ODRProgressBar" value="0" max="' + filesize + '"></span>' +
+                        '<span class="ODRFileUploadCancel pure-u-1-4 cancel-button pure-button">Cancel</span>' +
+                        '<span class="pure-u-3-4 ODRUploadError"></span>' +
+                    '</div>';
+                $("#ODRFileUploadProgress_" + target).append(html);
+
+                // Attach a cancel handler for this file
+                $("#" + id + " > .ODRFileUploadCancel").unbind('click').on('click', function() {
+                    // Abort uploading this file
+                    file.cancel();
+
+                    // If cancel button clicked when file encountered some sort of error, remove the upload divs
+                    if (file.error == true)
+                        $(this).parent().remove();
+
+                    // Remove this progress div since the user cancelled the upload
+                    $("#" + id).remove();
+
+                    // Re-enable file upload on cancel
+                    //$("#ODRFileUpload_" + target + " input").removeAttr('disabled');
+                    //$("#ODRFileUpload_" + target + " .ODRUploadBlurb").show();
+
+                    // TODO - Notify server to delete all chunks of this file?
+                });
+
+                // Update progress bar div
+                ODRFileUpload_progressUpdate(id);
+            }
+        });
+    }
+
+    // Called by a flow.js instance after a group of files is added...automatically start upload
+    function ODRFileUpload_filesSubmitted(flow_instance) {
+        flow_instance.upload();
+    }
+
+    // Called by a flow.js instance when it calculates progress of an uploading file
+    function ODRFileUpload_fileProgress(file, chunk, target, upload_type) {
+        if (upload_type == 'file') {
+            // Locate target progress bar
+            var id = file.uniqueIdentifier + '_' + target;
+            var progress_bar = '#' + id + ' .ODRFakeProgressBar';
+
+            // Update width attribute of progress bar
+            var current_width = file.progress() * 100;
+            $(progress_bar).css('width', current_width + '%');
+        }
+        else {
+            // Locate target progress bar
+            var id = file.uniqueIdentifier + '_' + target;
+            var progress_bar = '#' + id + ' > .ODRProgressBar';
+
+            // Update value attribute of progress bar
+            var current_value = file.progress() * file.size;
+            $(progress_bar).attr('value', current_value);
+
+            // Update progress bar div
+            ODRFileUpload_progressUpdate(id);
+        }
+    }
+
+    // Rebuild the specified jQuery ProgressBar instance to indicate progress of file upload
+    function ODRFileUpload_progressUpdate(target) {
+        var id = "#" + target + " > .ODRProgressBar";
+        var current_value = parseInt( $(id).attr('value') );
+        var max_value = $(id).attr('max');
+
+        // if(typeof($(id).progressbar) == 'function') {
+            // $(id).progressbar('destroy');
+        // }
+        $(id).progressbar({
+            value: current_value,
+            max: max_value,
+        });
+    }
+
+    // Called by a flow.js instance when it encounters some sot of error
+    function ODRFileUpload_fileError(file, message, target, upload_type) {
+        var id = file.uniqueIdentifier + '_' + target;
+
+        if ( upload_type == 'file' || upload_type == 'csv' ) {
+            var error_text = '<div class="ODRNotificationHeader">Error</div>';
+            error_text += '<div class="ODRNotificationText">' + message + '</div>';
+
+            $.jGrowl(
+                error_text,
+                {
+                    theme: "ODRNotification",
+                    sticky: true,
+                    openDuration: 250,
+                    closeDuration: 250
+                }
+            );
+
+            $("#" + id).remove();
+        }
+        else {
+            // Locate target progress bar
+            var error_div = '#' + id + ' .ODRUploadError';
+
+            // Insert error into correct div
+            $(error_div).html(message);
+        }
+    }
+</script>        </section><!-- End of #content -->
+
+        <section id="right-spacer" class="pure-u-md-1-24"></section>
+    </div>
+    <!-- End of #main -->
+
+    <!-- The footer -->
+    <div class="odr-footer pure-u-1">
+    <span class="ODRMenuRight pure-menu pure-menu-open pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item odr-no-effects"><a class="ODRLogoImage" href="http://www.opendatarepository.org/about"><img src="//odr.io/images/ODR_Logo_Final.svg" alt="Open Data Repository" /></a></li>
+            <li class="pure-menu-heading">&copy; 2025&nbsp;&nbsp;</li>
+        </ul>
+    </span>
+    </div> <!-- End of footer -->
+
+    <!-- The loading box -->
+    <div id="loading-overlay"></div>
+    <div id="loading">
+        <span>Loading...</span>
+    </div>
+    <!-- End of loading box -->
+
+    <!-- ODR Modal based on Remodal -->
+    <!-- ODR Modal Dialog --><div class="ODRRemodal" data-remodal-id="ODRRemodal" id="ODRRemodal"><h3 class="ODRRemodalTitle"></h3><button data-remodal-action="close" class="remodal-close" onclick="closeODRRemodal();"></button><div class="ODRRemodalInner form_contents pure-u-1"><div class="ODRRemodalInnerContent"><div class="ODRRemodalLoading pure-u-1 ODRHidden"><div class="loading-container"><div class="loading"></div><div class="loading-text">Loading...</div></div></div><div class="ODRRemodalBody ODRHidden"></div></div></div><div class="ODRRemodalButtons ODRHidden"></div></div><!-- End ODR Modal Dialog --><script>
+
+    /**
+     * Shows the loading blurb of the remodal and hides the body instead
+     */
+    function showODRRemodalLoading() {
+        var modal = $('[data-remodal-id=ODRRemodal]');
+        modal.find(".ODRRemodalBody").addClass('ODRHidden');
+        modal.find(".ODRRemodalLoading").removeClass('ODRHidden');
+    }
+
+    /**
+     * Hides the loading blurb of the remodal and shows the body instead
+     */
+    function hideODRRemodalLoading() {
+        var modal = $('[data-remodal-id=ODRRemodal]');
+        modal.find(".ODRRemodalLoading").addClass('ODRHidden');
+        modal.find(".ODRRemodalBody").removeClass('ODRHidden');
+    }
+
+    /**
+     * Changes the modal dialog's "loading" message text to something else.
+     *
+     * @param {string} message
+     */
+    function setODRRemodalLoadingText(message) {
+        var loading_text = $(".ODRRemodalLoading").find(".loading-text");
+        loading_text.html(message);
+    }
+
+    /**
+     * Resets the modal dialog's "loading" message text back to the default.
+     */
+    function resetODRRemodalLoadingText() {
+        var loading_text = $(".ODRRemodalLoading").find(".loading-text");
+        loading_text.html("Loading...");
+    }
+
+    /**
+     * Closes the current modal.
+     */
+    function closeODRRemodal() {
+        var inst = $('[data-remodal-id=ODRRemodal]').remodal();
+
+        var state = inst.getState();
+        if (state === 'opened') {
+            inst.close();
+        }
+        else if (state === 'opening') {
+            // Apparently calling the close() function on a remodal that is still "opening" won't
+            //  actually do anything...so give it a moment to fully open
+            setTimeout(closeODRRemodal, 100);
+        }
+    }
+
+    /**
+     * Changes the loading message in the modal's body.
+     *
+     * @param {string} message
+     * @param {string} [message_type]
+     */
+    function setModalMessage(message, message_type = '') {
+        var modal_body = $(".ODRRemodalBody");
+        if ( message_type === undefined || message_type === '' ) {
+            modal_body.html(
+                '<br><br><h4>' + message + '<h4>'
+            );
+        }
+        else if (message_type === "raw") {
+            modal_body.html( message );
+        }
+        modal_body.removeClass('ODRHidden');
+        resetRemodalInnerHeight();
+    }
+
+    /**
+     * @typedef {Object} odr_remodal_options
+     * @type {object}
+     * @property {string} title - The title for the remodal
+     * @property {string} [body] - The body for the remodal.  If not provided, then displays the 'loading' blurb
+     * @property {boolean} [loading] - If true, then forces the 'loading' blurb to be visible
+     * @property {string} [loading_text] - If true, then forces the 'loading' blurb to be visible
+     * @property {odr_remodal_button[]} [buttons] - An optional array of buttons to be placed at the bottom of the remodal
+     * @property {boolean} [no_resize] - If true, then does not attempt to resize the modal to fit the content
+     */
+
+    /**
+     * @typedef {Object} odr_remodal_button
+     * @type {object}
+     * @property {string} id - The new button's id
+     * @property {string} text - The new button's text
+     * @property {string} [title] - If provided, the new button's 'title' attribute
+     * @property {boolean} [secondary] - If true, then the new button has the 'pure-button-secondary' class
+     * @property {boolean} [disabled] - If true, then the new button is disabled at first
+     * @property {function} [click_handler] - If provided, then the button's click handler is set to this
+     */
+
+    /**
+     * Opens ODR's modal dialog with the given options.
+     *
+     * The second parameter should almost never have anything specified...
+     *
+     * @param {odr_remodal_options} options
+     * @param {Object} [remodal_options]
+     */
+    function openODRRemodal(options, remodal_options) {
+        if (remodal_options === undefined
+            || !_.isObject(remodal_options)
+            || _.isEmpty(remodal_options)
+        ) {
+            remodal_options = {
+                hashTracking: false,
+                closeOnOutsideClick: true
+            };
+        }
+        // always disable hash tracking
+        remodal_options.hashTracking = false;
+
+
+        // Setup the modal
+        var modal = $('[data-remodal-id=ODRRemodal]');
+        var inst = modal.remodal(remodal_options);
+
+        var title_div = modal.find(".ODRRemodalTitle");
+        var loading_div = modal.find(".ODRRemodalLoading");
+        var body_div = modal.find(".ODRRemodalBody");
+        var buttons_div = modal.find(".ODRRemodalButtons");
+
+        // Set title
+        $(title_div).html(options.title);
+
+        // Set loading
+        if (options.loading_text !== undefined && options.loading_text !== '')
+            setODRRemodalLoadingText(options.loading_text)
+        else
+            resetODRRemodalLoadingText();
+
+        // Set body
+        var body_html = '';
+        if (options.body !== undefined)
+            body_html = options.body;
+        updateODRRemodalBody(body_html);
+
+        // Override body visibility if options.loading is set to true
+        if ( options.loading !== undefined && options.loading ) {
+            $(body_div).addClass('ODRHidden');
+            $(loading_div).removeClass('ODRHidden');
+        }
+
+        // Delete any existing buttons in the remodal
+        $(buttons_div).addClass('ODRHidden');
+        $(buttons_div).empty();
+
+        // Add any required buttons to the remodal
+        if (!_.isEmpty(options.buttons)) {
+            for (var i = (options.buttons.length - 1); i >= 0; i--) {
+                var button = options.buttons[i];
+
+                var button_html = '<button ' +
+                    'id="' + button.id +'" ' +
+                    'class="pure-button ODRSubmitButton ';
+
+                if (button.secondary !== undefined && button.secondary)
+                    button_html += ' pure-button-secondary"';
+                else
+                    button_html += ' pure-button-primary"';
+
+                if (button.title !== undefined)
+                    button_html += ' title="' + button.title + '"';
+
+                if (button.disabled !== undefined && button.disabled)
+                    button_html += 'disabled>' + button.text + '</button>';
+                else
+                    button_html += '>' + button.text + '</button>';
+
+//                console.log(button_html)
+                $(buttons_div).prepend(button_html);
+
+                // Setup click handler
+                if (button.click_handler !== undefined)
+                    $("#" + button.id).unbind('click').click(button.click_handler);
+            }
+
+            $(buttons_div).removeClass('ODRHidden');
+        }
+
+        // Open the modal
+        inst.open();
+
+        // Reset modal to display content
+        if (options.no_resize === undefined)
+            resetRemodalInnerHeight();
+    }
+
+    /**
+     * Updates the body of the remodal with the given html.  Shows the 'loading' blurb if given the
+     * empty string, hides the 'loading' blurb otherwise.
+     *
+     * @param {string} html
+     * @param {('normal'|'full'|'none')} [resize='normal'] - If 'normal', then attempt to fit the remodal to the contents.
+     *                                                       If 'full', then attempt to take up the entire screen.
+     *                                                       if 'none', then do not attempt to resize the remodal.
+     */
+    function updateODRRemodalBody(html, resize = 'normal') {
+        var modal = $('[data-remodal-id=ODRRemodal]');
+        var body_div = modal.find(".ODRRemodalBody");
+
+        $(body_div).html(html);
+
+        if (html.length > 0) {
+            hideODRRemodalLoading();
+
+            if (resize === 'normal')
+                resetRemodalInnerHeight();
+            else if (resize === 'full')
+                resetRemodalInnerHeight(true);
+        }
+        else {
+            setODRRemodalLoadingText('Loading...');
+            showODRRemodalLoading();
+        }
+    }
+
+    /**
+     * Resizes the currently open modal.
+     *
+     * @param {boolean} ignore_content_height if true, modal attempts to take up the entire window regardless of content size
+     *
+     * @returns {number}
+     */
+    function resetRemodalInnerHeight(ignore_content_height = false) {
+        var modal = $("#ODRRemodal");
+        var modal_inner = modal.find(".ODRRemodalInner");
+        var modal_inner_content = modal.find(".ODRRemodalInnerContent");
+
+        // Get Scroll height of inner, plus some extra for the scrollbars
+        var content_height = modal_inner_content.prop('scrollHeight') + 100;
+        // console.log('content_height:', content_height);
+
+        var modal_height = $(window).height()
+            - modal.find(".ODRRemodalButtons").height()
+            - modal.find(".ODRRemodalTitle").height();
+
+        // If not ignoring content height, then use that for modal height
+        if (!ignore_content_height && content_height < modal_height)
+            modal_height = content_height;
+        // console.log('adjusted_height:', modal_height);
+
+        // Ensure there's always enough space for the save button
+        // console.log('window.screen.availHeight:', window.screen.availHeight);
+        if ( (window.screen.availHeight-270) < modal_height ) {
+            modal_height = window.screen.availHeight - 270;
+            // console.log('adjusted modal height to (window.screen.availHeight-270)', modal_height);
+        }
+
+        // Ensure it's not too small
+        if (modal_height < 200)
+            modal_height = 200;
+        // console.log('final_height:', modal_height);
+
+        modal_inner.animate(
+            {height: modal_height},
+            {
+                duration: 400,
+                easing: "swing"
+            }
+        );
+
+        return modal_height;
+    }
+</script>    <!-- END ODR Modal based on Remodal -->
+
+    <!-- Spawn $$.loaded -->
+    <script>
+        $("#loading-overlay").hide();
+        $("#loading").hide();
+    </script>
+
+    <!-- Symfony Javascripts -->
+    </div>
+</body>
+
+</html>

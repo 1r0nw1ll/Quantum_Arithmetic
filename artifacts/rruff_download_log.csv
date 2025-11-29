@@ -1,0 +1,51 @@
+id,mineral,modality,source_url,status,final_url,local_path_or_message
+R150087,Diamond,Raman,https://rruff.info/diamond/R150087,no_link,,no .txt/.jdx link found in page
+R040031,Quartz,Raman,https://rruff.info/quartz/R040031,no_link,,no .txt/.jdx link found in page
+R150087,Diamond,Raman,https://rruff.info/diamond/R150087,error,,"page fetch error: HTTPSConnectionPool(host='rruff.info', port=443): Max retries exceeded with url: /diamond/R150087 (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f2adfa48440>: Failed to resolve 'rruff.info' ([Errno -2] Name or service not known)""))"
+R040031,Quartz,Raman,https://rruff.info/quartz/R040031,error,,"page fetch error: HTTPSConnectionPool(host='rruff.info', port=443): Max retries exceeded with url: /quartz/R040031 (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f2adfa3a0d0>: Failed to resolve 'rruff.info' ([Errno -2] Name or service not known)""))"
+R150087,Diamond,Raman,https://rruff.info/diamond/R150087,error,,"page fetch error: HTTPSConnectionPool(host='rruff.info', port=443): Max retries exceeded with url: /diamond/R150087 (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fe322530440>: Failed to resolve 'rruff.info' ([Errno -2] Name or service not known)""))"
+R040031,Quartz,Raman,https://rruff.info/quartz/R040031,error,,"page fetch error: HTTPSConnectionPool(host='rruff.info', port=443): Max retries exceeded with url: /quartz/R040031 (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7fe3225560d0>: Failed to resolve 'rruff.info' ([Errno -2] Name or service not known)""))"
+R150087,Diamond,Raman,https://rruff.info/diamond/R150087,no_link,,no .txt/.jdx link found in page or intermediate pages
+R040031,Quartz,Raman,https://rruff.info/quartz/R040031,no_link,,no .txt/.jdx link found in page or intermediate pages
+R150087,Diamond,Raman,https://rruff.info/Diamond/R150087/,no_link,,no .txt/.jdx link found in page or intermediate pages
+R040031,Quartz,Raman,https://rruff.info/Quartz/R040031/,no_link,,no .txt/.jdx link found in page or intermediate pages
+R040001,Calcite,Raman,https://rruff.info/Calcite/R040001/,no_link,,no .txt/.jdx link found in page or intermediate pages
+S060016,Silicon,Raman,https://rruff.info/Silicon/S060016/,no_link,,no .txt/.jdx link found in page or intermediate pages
+quartz,quartz,Raman,https://rruff.info/quartz,no_link,,no .txt/.jdx link found in page or intermediate pages
+albite,albite,Raman,https://rruff.info/albite,no_link,,no .txt/.jdx link found in page or intermediate pages
+orthoclase,orthoclase,Raman,https://rruff.info/orthoclase,no_link,,no .txt/.jdx link found in page or intermediate pages
+forsterite,forsterite,Raman,https://rruff.info/forsterite,no_link,,no .txt/.jdx link found in page or intermediate pages
+fayalite,fayalite,Raman,https://rruff.info/fayalite,no_link,,no .txt/.jdx link found in page or intermediate pages
+enstatite,enstatite,Raman,https://rruff.info/enstatite,no_link,,no .txt/.jdx link found in page or intermediate pages
+diopside,diopside,Raman,https://rruff.info/diopside,no_link,,no .txt/.jdx link found in page or intermediate pages
+calcite,calcite,Raman,https://rruff.info/calcite,no_link,,no .txt/.jdx link found in page or intermediate pages
+dolomite,dolomite,Raman,https://rruff.info/dolomite,no_link,,no .txt/.jdx link found in page or intermediate pages
+gypsum,gypsum,Raman,https://rruff.info/gypsum,no_link,,no .txt/.jdx link found in page or intermediate pages
+anhydrite,anhydrite,Raman,https://rruff.info/anhydrite,no_link,,no .txt/.jdx link found in page or intermediate pages
+hematite,hematite,Raman,https://rruff.info/hematite,no_link,,no .txt/.jdx link found in page or intermediate pages
+magnetite,magnetite,Raman,https://rruff.info/magnetite,no_link,,no .txt/.jdx link found in page or intermediate pages
+rutile,rutile,Raman,https://rruff.info/rutile,no_link,,no .txt/.jdx link found in page or intermediate pages
+anatase,anatase,Raman,https://rruff.info/anatase,no_link,,no .txt/.jdx link found in page or intermediate pages
+corundum,corundum,Raman,https://rruff.info/corundum,no_link,,no .txt/.jdx link found in page or intermediate pages
+kaolinite,kaolinite,Raman,https://rruff.info/kaolinite,no_link,,no .txt/.jdx link found in page or intermediate pages
+montmorillonite,montmorillonite,Raman,https://rruff.info/montmorillonite,no_link,,no .txt/.jdx link found in page or intermediate pages
+diamond,diamond,Raman,https://rruff.info/diamond,no_link,,no .txt/.jdx link found in page or intermediate pages
+quartz,quartz,Raman,https://rruff.info/quartz,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+albite,albite,Raman,https://rruff.info/albite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+orthoclase,orthoclase,Raman,https://rruff.info/orthoclase,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+forsterite,forsterite,Raman,https://rruff.info/forsterite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+fayalite,fayalite,Raman,https://rruff.info/fayalite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+enstatite,enstatite,Raman,https://rruff.info/enstatite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+diopside,diopside,Raman,https://rruff.info/diopside,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+calcite,calcite,Raman,https://rruff.info/calcite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+dolomite,dolomite,Raman,https://rruff.info/dolomite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+gypsum,gypsum,Raman,https://rruff.info/gypsum,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+anhydrite,anhydrite,Raman,https://rruff.info/anhydrite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+hematite,hematite,Raman,https://rruff.info/hematite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+magnetite,magnetite,Raman,https://rruff.info/magnetite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+rutile,rutile,Raman,https://rruff.info/rutile,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+anatase,anatase,Raman,https://rruff.info/anatase,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+corundum,corundum,Raman,https://rruff.info/corundum,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+kaolinite,kaolinite,Raman,https://rruff.info/kaolinite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+montmorillonite,montmorillonite,Raman,https://rruff.info/montmorillonite,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
+diamond,diamond,Raman,https://rruff.info/diamond,no_link,,"no .txt/.jdx link found in page, intermediate pages, or sample pages"
