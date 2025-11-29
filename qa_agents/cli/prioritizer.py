@@ -162,7 +162,9 @@ class QAPrioritizer:
         for i, task in enumerate(prioritized_tasks[:5], 1):
             priority = task['priority']
             lane = task['lane']
-            title = task['title'][:60] + "..." if len(task['title']) > 60 else task['title']
+            title = task.get('title', task.get('id', 'untitled'))[:60]
+            if len(task.get('title', task.get('id', ''))) > 60:
+                title += "..."
             print(f"  {i}. [{lane.upper()}] {priority:.2f} - {title}")
 
         # Move top tasks to active; capacity controlled by env var
@@ -182,7 +184,8 @@ class QAPrioritizer:
         if red_lane_tasks:
             print(f"🚨 {len(red_lane_tasks)} red-lane tasks require manual approval:")
             for task in red_lane_tasks:
-                print(f"  • {task['id']}: {task['title']}")
+                title = task.get('title', task.get('id', 'untitled'))
+                print(f"  • {task['id']}: {title}")
 
         # Log activity
         log_entry = {
