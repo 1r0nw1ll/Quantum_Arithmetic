@@ -168,7 +168,7 @@ class QAPrioritizer:
             print(f"  {i}. [{lane.upper()}] {priority:.2f} - {title}")
 
         # Move top tasks to active; capacity controlled by env var
-        max_active = int(os.getenv('QA_MAX_ACTIVE', '10'))
+        max_active = int(os.getenv('QA_MAX_ACTIVE', '50'))  # Increased default from 10 to 50
         active_count = 0
         for task in prioritized_tasks:
             if active_count >= max_active:
