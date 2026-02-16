@@ -15,6 +15,7 @@ import json
 import os
 import time
 from pathlib import Path
+from datetime import datetime, timezone
 import numpy as np
 
 from qa_fastpath import (
@@ -23,6 +24,10 @@ from qa_fastpath import (
     mod24_gate, digital_root_gate, closure_gate, inner_ellipse_gate, triangle_gate,
     qa_rank, build_e8_vectors, e8_scores_auto, harmonic_index,
 )
+try:
+    from qa_ebm_cert_lane import emit_fastpath_case_certs
+except Exception:
+    emit_fastpath_case_certs = None
 try:
     import qa_lab_rs as _rs  # Rust kernels for QA Bell tests
 except Exception:
@@ -255,6 +260,8 @@ def _run_eval(n: int, qe_topk: int, topk: int, seed: int = 0,
         'roots_used': int(roots.shape[0]),
         'roots_source': roots_source,
         'hi_mean_sample': hi_mean_sample,
+        'selected_indices_sample': [int(v) for v in idx[: min(16, idx.shape[0])]],
+        'selected_scores_sample': [float(v) for v in scores[: min(16, scores.shape[0])]],
         'env': {
             'QA_QE_CURV_WEIGHT': os.getenv('QA_QE_CURV_WEIGHT', ''),
             'QA_QA_CURV_WEIGHT': os.getenv('QA_QA_CURV_WEIGHT', ''),
@@ -272,6 +279,12 @@ def main():
     _ensure_dirs()
     _load_dotenv_into_environ(Path('.env'))
     results: dict[str, dict] = {}
+    emit_ebm_certs = os.getenv('QA_EMIT_EBM_CERTS', '0') == '1'
+    accept_by_verifier = os.getenv('QA_EBM_ACCEPT_BY_VERIFIER', '0') == '1'
+    validate_emitted = os.getenv('QA_VALIDATE_EBM_CERTS', '1') != '0'
+    ebm_run_id = os.getenv('QA_EBM_CERT_RUN_ID')
+    if not ebm_run_id:
+        ebm_run_id = datetime.now(timezone.utc).strftime("fastpath-%Y%m%d-%H%M%S")
 
     # If requested, compute NumPy-only baseline and exit (used by numpy-baseline target)
     if os.getenv('QA_SAVE_BASELINE_ONLY', '0') == '1':
@@ -346,6 +359,35 @@ def main():
         )
 
     # Persist
+    if emit_ebm_certs and emit_fastpath_case_certs is not None:
+        cert_status: dict[str, dict] = {}
+        for case_name in ("default", "numpy_pref", "rust_disabled"):
+            case = results.get(case_name, {})
+            cert_status[case_name] = emit_fastpath_case_certs(
+                run_id=ebm_run_id,
+                case_name=case_name,
+                selected_indices=case.get('selected_indices_sample', []),
+                selected_scores=case.get('selected_scores_sample', []),
+                accepted_by_verifier=accept_by_verifier,
+                validate=validate_emitted,
+            )
+        accepted_all = bool(accept_by_verifier) and all(
+            isinstance(v, dict) and v.get("accepted_by_verifier") is True and v.get("ok") is True
+            for v in cert_status.values()
+        )
+        results['ebm_certs'] = {
+            'enabled': True,
+            'run_id': ebm_run_id,
+            'requested_verifier_bridge': accept_by_verifier,
+            'accepted_by_verifier': accepted_all,
+            'cases': cert_status,
+        }
+    elif emit_ebm_certs:
+        results['ebm_certs'] = {
+            'enabled': False,
+            'error': 'qa_ebm_cert_lane_import_failed',
+        }
+
     with open('artifacts/evals/fastpath_eval.json', 'w') as f:
         json.dump(results, f, indent=2)
     with open('artifacts/evals/fastpath_eval.txt', 'w') as f:
