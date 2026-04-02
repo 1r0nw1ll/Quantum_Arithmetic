@@ -30,7 +30,7 @@ qa = "qa_agents.cli.qa_cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["qa_core*", "qa_agents*", "qa_domains*", "qa_experiments*", "qa_docs*", "qa_ci*", "qa_data*", "qa_papers*", "qa_dashboard*"]
+include = ["qa_core*", "qa_agents*", "qa_domains*", "qa_experiments*", "qa_docs*", "qa_ci*", "qa_data*", "qa_papers*", "qa_dashboard*", "qa_pim*", "qa_graph*", "qa_observer*"]
 
 [tool.pytest.ini_options]
 testpaths = ["qa_core/tests"]

@@ -1,0 +1,117 @@
+{
+  "karate": {
+    "graph": "karate",
+    "nodes": 34,
+    "edges": 78,
+    "k": 2,
+    "baseline": {
+      "purity": 0.9412,
+      "ARI": 0.7717,
+      "NMI": 0.7324,
+      "elapsed_s": 0.002
+    },
+    "X": {
+      "purity": 0.7059,
+      "ARI": 0.1528,
+      "NMI": 0.2859,
+      "elapsed_s": 0.002
+    },
+    "G": {
+      "purity": 0.7059,
+      "ARI": 0.1528,
+      "NMI": 0.2859,
+      "elapsed_s": 0.003
+    },
+    "F": {
+      "purity": 0.7059,
+      "ARI": 0.1528,
+      "NMI": 0.2859,
+      "elapsed_s": 0.002
+    },
+    "full": {
+      "purity": 0.7059,
+      "ARI": 0.1528,
+      "NMI": 0.2859,
+      "elapsed_s": 0.003
+    },
+    "delta_X": {
+      "purity": -0.2353,
+      "ARI": -0.6189,
+      "NMI": -0.4465
+    },
+    "delta_G": {
+      "purity": -0.2353,
+      "ARI": -0.6189,
+      "NMI": -0.4465
+    },
+    "delta_F": {
+      "purity": -0.2353,
+      "ARI": -0.6189,
+      "NMI": -0.4465
+    },
+    "delta_full": {
+      "purity": -0.2353,
+      "ARI": -0.6189,
+      "NMI": -0.4465
+    }
+  },
+  "football": {
+    "graph": "football",
+    "nodes": 115,
+    "edges": 613,
+    "k": 12,
+    "baseline": {
+      "purity": 0.9217,
+      "ARI": 0.8499,
+      "NMI": 0.9178,
+      "elapsed_s": 0.012
+    },
+    "X": {
+      "purity": 0.9043,
+      "ARI": 0.8431,
+      "NMI": 0.9092,
+      "elapsed_s": 0.013
+    },
+    "G": {
+      "purity": 0.9043,
+      "ARI": 0.8363,
+      "NMI": 0.9081,
+      "elapsed_s": 0.012
+    },
+    "F": {
+      "purity": 0.9043,
+      "ARI": 0.8363,
+      "NMI": 0.9081,
+      "elapsed_s": 0.014
+    },
+    "full": {
+      "purity": 0.9304,
+      "ARI": 0.9063,
+      "NMI": 0.9308,
+      "elapsed_s": 0.015
+    },
+    "delta_X": {
+      "purity": -0.0174,
+      "ARI": -0.0068,
+      "NMI": -0.0086
+    },
+    "delta_G": {
+      "purity": -0.0174,
+      "ARI": -0.0136,
+      "NMI": -0.0097
+    },
+    "delta_F": {
+      "purity": -0.0174,
+      "ARI": -0.0136,
+      "NMI": -0.0097
+    },
+    "delta_full": {
+      "purity": 0.0087,
+      "ARI": 0.0564,
+      "NMI": 0.013
+    }
+  },
+  "dolphins": {
+    "error": "No ground truth 'value' attribute in dolphins"
+  }
+}

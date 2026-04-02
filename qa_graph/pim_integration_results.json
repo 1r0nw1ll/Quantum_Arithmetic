@@ -1,0 +1,80 @@
+{
+  "football": {
+    "graph": "football",
+    "nodes": 115,
+    "edges": 613,
+    "k": 12,
+    "source": "topology (b=degree, e=core_number)",
+    "prime_sector_fraction": 0.6174,
+    "csr_edges": 1226,
+    "peak_sector": 18,
+    "baseline": {
+      "purity": 0.9217,
+      "ARI": 0.8499,
+      "NMI": 0.9178
+    },
+    "qa_full": {
+      "purity": 0.9304,
+      "ARI": 0.9063,
+      "NMI": 0.9308
+    },
+    "delta": {
+      "purity": 0.0087,
+      "ARI": 0.0564,
+      "NMI": 0.013
+    },
+    "total_time_s": 0.067
+  },
+  "karate": {
+    "graph": "karate",
+    "nodes": 34,
+    "edges": 78,
+    "k": 2,
+    "source": "topology (b=degree, e=core_number)",
+    "prime_sector_fraction": 0.1471,
+    "csr_edges": 156,
+    "peak_sector": 4,
+    "baseline": {
+      "purity": 0.9412,
+      "ARI": 0.7717,
+      "NMI": 0.7324
+    },
+    "qa_full": {
+      "purity": 0.7059,
+      "ARI": 0.1528,
+      "NMI": 0.2859
+    },
+    "delta": {
+      "purity": -0.2353,
+      "ARI": -0.6189,
+      "NMI": -0.4465
+    },
+    "total_time_s": 0.016
+  },
+  "raman_qa21": {
+    "graph": "raman_qa21",
+    "nodes": 831,
+    "edges": 3983,
+    "k": 12,
+    "source": "embedded QA tuples (d1=b, d2=e)",
+    "prime_sector_fraction": 0.0229,
+    "csr_edges": 7966,
+    "peak_sector": 2,
+    "baseline": {
+      "purity": 0.4368,
+      "ARI": 0.1073,
+      "NMI": 0.2704
+    },
+    "qa_full": {
+      "purity": 0.4525,
+      "ARI": 0.1136,
+      "NMI": 0.3201
+    },
+    "delta": {
+      "purity": 0.0157,
+      "ARI": 0.0063,
+      "NMI": 0.0497
+    },
+    "total_time_s": 9.554
+  }
+}
