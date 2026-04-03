@@ -1,0 +1,3 @@
+[submodule "external/Spec-CNN"]
+	path = external/Spec-CNN
+	url = https://github.com/GenTeML/Spec-CNN

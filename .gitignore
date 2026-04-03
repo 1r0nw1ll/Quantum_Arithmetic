@@ -2,6 +2,14 @@
 # QA Research Swarm - Git Ignore Configuration
 # ============================================================
 
+# --- Security: never track secrets, chat exports, or personal docs ---
+vault/
+*.odt
+*.env
+*.env.*
+*.pem
+*.key
+
 # --- Python / Build Artifacts ---
 __pycache__/
 *.py[cod]
