@@ -92,6 +92,15 @@ class QAPrioritizer:
 
                     # Calculate priority score
                     priority = self.calculate_wsjf_priority(task)
+
+                    # Boost PIM/graph tasks (foundational pipeline work)
+                    t_title = task.get('title', '').lower()
+                    if any(kw in t_title for kw in [
+                        'pim', 'graph', 'sector', 'spectral',
+                        'community', 'kernel', 'feature map',
+                    ]):
+                        priority *= 1.5
+
                     task['priority'] = priority
 
                     # Assign lane

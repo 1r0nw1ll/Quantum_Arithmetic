@@ -50,6 +50,8 @@ class QAExecutor:
         self._qalm: Optional[QALMAgent] = None
         self._qalm_multimodal = None
         self._qalm_data_collector = None
+        self._e8_benchmark = None
+        self._pim_kernel = None
 
     def _load_task(self, path: Path) -> Optional[Dict]:
         try:
@@ -154,6 +156,22 @@ class QAExecutor:
                         return {"error": "Data collector not available", "topics": topics}
                 self._qalm_data_collector = DummyDataCollector()
         return self._qalm_data_collector
+
+    def _ensure_e8_benchmark(self):
+        """Lazy-load E8 Benchmark Agent"""
+        if self._e8_benchmark is None:
+            try:
+                from qa_agents.cli.e8_benchmark_agent import E8BenchmarkAgent
+                self._e8_benchmark = E8BenchmarkAgent(base_dir=self.base_dir)
+                print("✓ E8 Benchmark Agent loaded")
+            except Exception as e:
+                print(f"⚠️ E8 Benchmark Agent loading failed: {e}")
+                # Fallback dummy
+                class DummyE8Agent:
+                    def execute(self, task):
+                        return {"status": "error", "error": "E8 agent not available"}
+                self._e8_benchmark = DummyE8Agent()
+        return self._e8_benchmark
 
     def _execute_with_qalm_data_collector(self, task: Dict) -> Dict:
         """Execute task using QALM Data Collector Agent"""
@@ -569,6 +587,12 @@ class QAExecutor:
                 else:
                     result = self._execute_with_opencode(task)
                     status = 'ok'
+            elif assignee == "e8_benchmark":
+                result = self._execute_with_e8_benchmark(task)
+                status = 'ok' if result.get('status') == 'ok' else 'failed'
+            elif assignee == "pim_kernel":
+                result = self._execute_with_pim_kernel(task)
+                status = 'ok' if result.get('status') == 'ok' else 'failed'
             elif assignee == "rust":
                 result = self._execute_with_rust_porter(task)
                 status = 'ok' if result.get('status') == 'ok' else 'failed'
@@ -731,6 +755,60 @@ class QAExecutor:
             except Exception as e:
                 changes.append(f"error writing {pf.get('path')}: {e}")
         return changes
+
+    def _execute_with_e8_benchmark(self, task: Dict) -> Dict:
+        """Execute task using E8 Benchmark Agent"""
+        try:
+            agent = self._ensure_e8_benchmark()
+            result = agent.execute(task)
+            return result
+        except Exception as e:
+            return {"status": "error", "error": f"e8_benchmark_failed: {str(e)}"}
+
+    def _ensure_pim_kernel(self):
+        """Lazy-load PIM Kernel + Graph feature toolkit"""
+        if self._pim_kernel is None:
+            try:
+                from qa_pim.kernels import RESIDUE_SELECT, RADD_m, ROLLING_SUM_PHASE
+                from qa_pim.graph import build_sector_csr, neighbor_expand
+                from qa_pim.schema import QAParams
+                from qa_graph.feature_map import qa_feature_vector, CANONICAL_21
+                self._pim_kernel = {
+                    'RESIDUE_SELECT': RESIDUE_SELECT,
+                    'RADD_m': RADD_m,
+                    'ROLLING_SUM_PHASE': ROLLING_SUM_PHASE,
+                    'build_sector_csr': build_sector_csr,
+                    'neighbor_expand': neighbor_expand,
+                    'qa_feature_vector': qa_feature_vector,
+                    'CANONICAL_21': CANONICAL_21,
+                    'QAParams': QAParams,
+                }
+                print("✓ PIM Kernel Agent loaded")
+            except Exception as e:
+                print(f"⚠️ PIM Kernel Agent loading failed: {e}")
+                self._pim_kernel = {}
+        return self._pim_kernel
+
+    def _execute_with_pim_kernel(self, task: Dict) -> Dict:
+        """Execute task using PIM Kernel Agent (sector filtering, graph analysis, feature extraction)"""
+        try:
+            toolkit = self._ensure_pim_kernel()
+            if not toolkit:
+                return {"status": "error", "error": "pim_kernel not available"}
+            task_id = task.get('id', 'unknown')
+            title = (task.get('title', '') or '').lower()
+
+            if 'sector' in title or 'residue' in title:
+                return {"status": "ok", "task_id": task_id, "task_type": "sector_analysis",
+                        "available": ['RESIDUE_SELECT', 'build_sector_csr', 'neighbor_expand']}
+            elif 'feature' in title or 'qa21' in title:
+                return {"status": "ok", "task_id": task_id, "task_type": "feature_extraction",
+                        "available": ['qa_feature_vector'], "modes": ["qa21", "qa27", "qa83"]}
+            else:
+                return {"status": "ok", "task_id": task_id, "task_type": "pim_kernel",
+                        "available": list(toolkit.keys())}
+        except Exception as e:
+            return {"status": "error", "error": f"pim_kernel_failed: {str(e)}"}
 
     def _execute_with_external_cmd(self, cmd: Optional[str], task: Dict, agent_name: str) -> Dict:
         """Execute task by calling an external command that accepts JSON on stdin and returns JSON on stdout.

@@ -80,6 +80,9 @@ class QADispatcher:
         elif any(keyword in title for keyword in ['data collection', 'data foraging', 'collect data', 'gather data', 'dataset', 'training data']):
             return 'qalm_data_collector'  # Autonomous data collection for QALM training
 
+        elif any(keyword in title for keyword in ['pim', 'sector', 'residue', 'kernel', 'graph', 'spectral', 'community', 'clustering', 'feature map']):
+            return 'pim_kernel'  # PIM graph kernel executor
+
         elif any(keyword in title for keyword in ['research', 'design', 'plan', 'theorem', 'proof', 'qa', 'invariant']):
             return 'qalm'  # Local QA reasoning agent
 

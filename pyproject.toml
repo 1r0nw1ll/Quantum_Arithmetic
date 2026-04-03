@@ -33,7 +33,7 @@ where = ["."]
 include = ["qa_core*", "qa_agents*", "qa_domains*", "qa_experiments*", "qa_docs*", "qa_ci*", "qa_data*", "qa_papers*", "qa_dashboard*", "qa_pim*", "qa_graph*", "qa_observer*"]
 
 [tool.pytest.ini_options]
-testpaths = ["qa_core/tests"]
+testpaths = ["qa_core/tests", "qa_pim/tests", "qa_graph/tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
