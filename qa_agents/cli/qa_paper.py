@@ -23,21 +23,29 @@ import argparse
 import json
 import os
 import subprocess
+from pathlib import Path
 from typing import Dict, Any
 
 
-BENCH_JSON = "target/qa_benchmarks/summary.json"
+# qa_paper.py lives at qa_lab/qa_agents/cli/qa_paper.py;
+# the Makefile with the qa-* targets lives at qa_lab/Makefile
+# (NOT the repo-root Makefile).  All `make ...` and relative path
+# lookups must happen from qa_lab/, regardless of the caller's cwd.
+_QA_LAB_DIR = Path(__file__).resolve().parent.parent.parent
+
+BENCH_JSON = str(_QA_LAB_DIR / "target/qa_benchmarks/summary.json")
 ARTIFACTS = [
-    "artifacts/overleaf/qa_training_compute_section.tex",
-    "artifacts/overleaf/qa_overleaf_bundle.tar.gz",
-    "plots/qa_benchmarks.png",
-    "plots/qa_pcn_theta_compare.png",
-    "plots/qa_jepa_convergence.png",
+    str(_QA_LAB_DIR / "artifacts/overleaf/qa_training_compute_section.tex"),
+    str(_QA_LAB_DIR / "artifacts/qa_overleaf_bundle.tar.gz"),
+    str(_QA_LAB_DIR / "plots/qa_benchmarks.png"),
+    str(_QA_LAB_DIR / "plots/qa_pcn_theta_compare.png"),
+    str(_QA_LAB_DIR / "plots/qa_jepa_convergence.png"),
 ]
 
 
 def run_make(target: str) -> None:
-    subprocess.run(["make", target], check=True)
+    """Run a make target from qa_lab/, where the qa-* targets are defined."""
+    subprocess.run(["make", target], check=True, cwd=str(_QA_LAB_DIR))
 
 
 def load_bench_metrics(path: str) -> Dict[str, Any]:
