@@ -1,0 +1,48 @@
+{
+  "hubs": [
+    "33",
+    "0"
+  ],
+  "hub_degrees": [
+    17,
+    16
+  ],
+  "n_nodes": 34,
+  "methods": [
+    {
+      "name": "hub-closer (b<e)",
+      "ARI": 0.6685,
+      "NMI": 0.6486
+    },
+    {
+      "name": "QA rule (b<2e)",
+      "ARI": 0.3291,
+      "NMI": 0.4112
+    },
+    {
+      "name": "spectral (baseline)",
+      "ARI": 0.8823,
+      "NMI": 0.8372
+    },
+    {
+      "name": "Louvain",
+      "ARI": 0.4905,
+      "NMI": 0.5942
+    },
+    {
+      "name": "QA kernel on hub-dist",
+      "ARI": 0.0724,
+      "NMI": 0.2065
+    },
+    {
+      "name": "random",
+      "ARI": -0.0272,
+      "NMI": 0.0025
+    }
+  ],
+  "best": {
+    "name": "spectral (baseline)",
+    "ARI": 0.8823,
+    "NMI": 0.8372
+  }
+}

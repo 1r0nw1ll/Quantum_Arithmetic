@@ -1,0 +1,192 @@
+{
+  "hypothesis": "hub-distance wins/ties on graphs with degree CV > 0.5",
+  "hypothesis_hits": 2,
+  "hypothesis_tests": 5,
+  "per_graph": {
+    "karate": {
+      "n_nodes": 34,
+      "n_edges": 78,
+      "k": 2,
+      "degree_cv": 0.8326,
+      "hub_dominated": true,
+      "methods": {
+        "baseline_spectral": {
+          "ARI": 0.8823,
+          "NMI": 0.8372
+        },
+        "louvain": {
+          "ARI": 0.4905,
+          "NMI": 0.5942
+        },
+        "qa_centrality_kernel": {
+          "ARI": 0.0724,
+          "NMI": 0.2065
+        },
+        "hub_distance_kmeans": {
+          "ARI": 0.6685,
+          "NMI": 0.6486
+        },
+        "hub_distance_argmin": {
+          "ARI": 0.6685,
+          "NMI": 0.6486
+        },
+        "hub_distance_1axis": {
+          "ARI": 0.7716,
+          "NMI": 0.6772
+        }
+      },
+      "best_method": "baseline_spectral",
+      "best_ari": 0.8823,
+      "hub_distance_wins": false,
+      "hub_distance_ties": false
+    },
+    "barbell": {
+      "n_nodes": 23,
+      "n_edges": 94,
+      "k": 2,
+      "degree_cv": 0.2945,
+      "hub_dominated": false,
+      "methods": {
+        "baseline_spectral": {
+          "ARI": 0.8258,
+          "NMI": 0.7838
+        },
+        "louvain": {
+          "ARI": 0.7441,
+          "NMI": 0.7243
+        },
+        "qa_centrality_kernel": {
+          "ARI": 1.0,
+          "NMI": 1.0
+        },
+        "hub_distance_kmeans": {
+          "ARI": 0.8258,
+          "NMI": 0.7838
+        },
+        "hub_distance_argmin": {
+          "ARI": 0.8258,
+          "NMI": 0.7838
+        },
+        "hub_distance_1axis": {
+          "ARI": 1.0,
+          "NMI": 1.0
+        }
+      },
+      "best_method": "qa_centrality_kernel",
+      "best_ari": 1.0,
+      "hub_distance_wins": true,
+      "hub_distance_ties": false
+    },
+    "caveman": {
+      "n_nodes": 20,
+      "n_edges": 40,
+      "k": 4,
+      "degree_cv": 0.1581,
+      "hub_dominated": false,
+      "methods": {
+        "baseline_spectral": {
+          "ARI": 1.0,
+          "NMI": 1.0
+        },
+        "louvain": {
+          "ARI": 1.0,
+          "NMI": 1.0
+        },
+        "qa_centrality_kernel": {
+          "ARI": 1.0,
+          "NMI": 1.0
+        },
+        "hub_distance_kmeans": {
+          "ARI": 1.0,
+          "NMI": 1.0
+        },
+        "hub_distance_argmin": {
+          "ARI": 0.6078,
+          "NMI": 0.7246
+        },
+        "hub_distance_1axis": {
+          "ARI": 0.5685,
+          "NMI": 0.7005
+        }
+      },
+      "best_method": "baseline_spectral",
+      "best_ari": 1.0,
+      "hub_distance_wins": false,
+      "hub_distance_ties": true
+    },
+    "florentine": {
+      "n_nodes": 15,
+      "n_edges": 20,
+      "k": 2,
+      "degree_cv": 0.5062,
+      "hub_dominated": true,
+      "methods": {
+        "baseline_spectral": {
+          "ARI": 0.3137,
+          "NMI": 0.4325
+        },
+        "louvain": {
+          "ARI": 0.3031,
+          "NMI": 0.4851
+        },
+        "qa_centrality_kernel": {
+          "ARI": -0.0515,
+          "NMI": 0.1405
+        },
+        "hub_distance_kmeans": {
+          "ARI": 0.3152,
+          "NMI": 0.2636
+        },
+        "hub_distance_argmin": {
+          "ARI": 0.507,
+          "NMI": 0.5193
+        },
+        "hub_distance_1axis": {
+          "ARI": 0.507,
+          "NMI": 0.5193
+        }
+      },
+      "best_method": "hub_distance_argmin",
+      "best_ari": 0.507,
+      "hub_distance_wins": true,
+      "hub_distance_ties": false
+    },
+    "football": {
+      "n_nodes": 115,
+      "n_edges": 613,
+      "k": 12,
+      "degree_cv": 0.0829,
+      "hub_dominated": false,
+      "methods": {
+        "baseline_spectral": {
+          "ARI": 0.8967,
+          "NMI": 0.9242
+        },
+        "louvain": {
+          "ARI": 0.8069,
+          "NMI": 0.8903
+        },
+        "qa_centrality_kernel": {
+          "ARI": 0.8916,
+          "NMI": 0.9206
+        },
+        "hub_distance_kmeans": {
+          "ARI": 0.5195,
+          "NMI": 0.7154
+        },
+        "hub_distance_argmin": {
+          "ARI": 0.1987,
+          "NMI": 0.4951
+        },
+        "hub_distance_1axis": {
+          "ARI": 0.1085,
+          "NMI": 0.3364
+        }
+      },
+      "best_method": "baseline_spectral",
+      "best_ari": 0.8967,
+      "hub_distance_wins": false,
+      "hub_distance_ties": false
+    }
+  }
+}
