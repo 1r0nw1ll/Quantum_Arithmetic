@@ -141,6 +141,12 @@ class QAPrioritizer:
         task_copy = dict(task)
         task_copy.pop('_source_file', None)
 
+        # Executor handoff fix: if an assignee is already set (e.g. by self_improver)
+        # and state is still 'queued', flip to 'assigned' so executor picks it up.
+        # Without this, tasks land in active/ but executor skips them forever.
+        if task_copy.get('assignee') and task_copy.get('state', 'queued') == 'queued':
+            task_copy['state'] = 'assigned'
+
         # Write updated task to active directory
         if _YAML_OK:
             with open(target_file, 'w') as f:

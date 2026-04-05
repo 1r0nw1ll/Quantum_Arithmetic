@@ -158,8 +158,7 @@ class QACLI:
 
         servers = [
             ("qa-right-triangle", "qa_mcp_servers/qa-right-triangle/server.py"),
-            ("qa-resonance", "qa_mcp_servers/qa-resonance/server.py"),
-            ("qa-hgd-optimizer", "qa_mcp_servers/qa-hgd-optimizer/server.py")
+            ("qa-collab", "qa_mcp_servers/qa-collab/server.py"),
         ]
 
         for server_name, server_path in servers:

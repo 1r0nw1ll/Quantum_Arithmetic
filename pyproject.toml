@@ -10,6 +10,7 @@ authors = [
     {name = "QA Research Team"},
 ]
 dependencies = [
+    "qa-arithmetic>=0.1.0",
     "numpy",
     "matplotlib",
     "torch",
