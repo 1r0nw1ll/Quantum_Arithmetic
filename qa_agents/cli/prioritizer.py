@@ -161,9 +161,49 @@ class QAPrioritizer:
         else:
             print(f"⚠️  Activated task {task_id} but source file {source_filename} not found")
 
+    def scan_active_for_stuck_queued(self) -> int:
+        """Idempotent handoff fix: scan tasks/active/ for any task that
+        was moved into active/ while still in state=queued with an
+        assignee set (e.g. from a pre-2026-04-05 prioritizer run that
+        predated the move_to_active handoff fix, or from a direct-drop
+        workflow that bypasses the inbox). Flip them to state=assigned
+        so the executor will pick them up.
+
+        Returns the number of tasks flipped.
+        """
+        if not self.tasks_active.exists():
+            return 0
+        flipped = 0
+        for task_file in self.tasks_active.glob("*.yaml"):
+            try:
+                text = task_file.read_text(encoding="utf-8")
+                task = yaml.safe_load(text) if _YAML_OK else json.loads(text)
+                if not isinstance(task, dict):
+                    continue
+                if task.get("assignee") and task.get("state") == "queued":
+                    task["state"] = "assigned"
+                    task.setdefault("metadata", {})["updated_at"] = datetime.now().isoformat()
+                    if _YAML_OK:
+                        with open(task_file, "w") as f:
+                            yaml.dump(task, f, default_flow_style=False, sort_keys=False)
+                    else:
+                        task_file.write_text(json.dumps(task, indent=2), encoding="utf-8")
+                    flipped += 1
+                    print(f"  ↗ flipped {task_file.name} queued→assigned "
+                          f"(assignee={task.get('assignee')})")
+            except Exception as exc:
+                print(f"  ⚠ failed to scan {task_file.name}: {exc}")
+                continue
+        return flipped
+
     def run(self):
         """Main prioritizer execution"""
         print("⚖️  QA Prioritizer: Ranking and prioritizing tasks...")
+
+        # Idempotent pre-pass: fix any already-moved tasks stuck in queued.
+        stuck_fixed = self.scan_active_for_stuck_queued()
+        if stuck_fixed:
+            print(f"📋 Unstuck {stuck_fixed} queued-with-assignee tasks in active/")
 
         prioritized_tasks = self.prioritize_tasks()
 

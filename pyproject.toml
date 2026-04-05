@@ -28,13 +28,14 @@ requires-python = ">=3.8"
 
 [project.scripts]
 qa = "qa_agents.cli.qa_cli:main"
+qa-reasoner = "qa_reasoner.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["qa_core*", "qa_agents*", "qa_domains*", "qa_experiments*", "qa_docs*", "qa_ci*", "qa_data*", "qa_papers*", "qa_dashboard*", "qa_pim*", "qa_graph*", "qa_observer*"]
+include = ["qa_core*", "qa_agents*", "qa_domains*", "qa_experiments*", "qa_docs*", "qa_ci*", "qa_data*", "qa_papers*", "qa_dashboard*", "qa_pim*", "qa_graph*", "qa_observer*", "qa_reasoner*"]
 
 [tool.pytest.ini_options]
-testpaths = ["qa_core/tests", "qa_pim/tests", "qa_graph/tests"]
+testpaths = ["qa_core/tests", "qa_pim/tests", "qa_graph/tests", "qa_reasoner/tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
