@@ -137,3 +137,11 @@ config.xml
 # scripts/
 # Makefile
 # *.md (documentation)
+
+# Kernel runtime session outputs (not source, regenerated each run)
+kernel/*_readout.json
+kernel/self_improvement_v2_baseline.json
+kernel/injected_context.txt
+kernel/results_log.jsonl
+kernel/orbit_transition_log.jsonl
+kernel/task_state_trace.jsonl
