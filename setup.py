@@ -10,6 +10,7 @@ setup(
     description="QA Bob-iverse Autonomic Research Lab",
     packages=find_packages(),
     install_requires=[
+        "pyzmq",
         "numpy",
         "matplotlib",
         "torch",

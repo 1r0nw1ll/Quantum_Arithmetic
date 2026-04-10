@@ -23,7 +23,7 @@
       "ARI": 0.0564,
       "NMI": 0.013
     },
-    "total_time_s": 0.067
+    "total_time_s": 0.07
   },
   "karate": {
     "graph": "karate",
@@ -61,20 +61,20 @@
     "csr_edges": 7966,
     "peak_sector": 2,
     "baseline": {
-      "purity": 0.4368,
-      "ARI": 0.1073,
-      "NMI": 0.2704
+      "purity": 0.4501,
+      "ARI": 0.1317,
+      "NMI": 0.2941
     },
     "qa_full": {
       "purity": 0.4525,
-      "ARI": 0.1136,
-      "NMI": 0.3201
+      "ARI": 0.1313,
+      "NMI": 0.3216
     },
     "delta": {
-      "purity": 0.0157,
-      "ARI": 0.0063,
-      "NMI": 0.0497
+      "purity": 0.0024,
+      "ARI": -0.0004,
+      "NMI": 0.0275
     },
-    "total_time_s": 9.554
+    "total_time_s": 2.464
   }
 }

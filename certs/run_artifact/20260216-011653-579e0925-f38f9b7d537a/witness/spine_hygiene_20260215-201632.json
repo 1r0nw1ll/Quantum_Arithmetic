@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/usr/bin/python",
+    "/home/player2/signal_experiments/qa_alphageometry_ptolemy/qa_meta_validator.py",
+    "--strict"
+  ],
+  "mode": {
+    "fast": false,
+    "strict": true
+  },
+  "returncode": 0,
+  "started_utc": "2026-02-16T01:16:37Z",
+  "stderr": {
+    "path": null,
+    "sha256": null
+  },
+  "stdout": {
+    "path": "logs/spine_hygiene_20260215-201632.stdout.txt",
+    "sha256": "b091163a61e34a0d06391a229ea978629a8054e8f6fb0caa3b2ecfce91c69777"
+  },
+  "summary": {
+    "stdout_head": [
+      "=== META-VALIDATOR SELF-TEST (TETRAD + CONJECTURES) ===",
+      "",
+      "[1] GENERATOR_INJECTION: valid=True hash=b3d96a41a14828ae",
+      "[2] DIVERSITY_COLLAPSE_OBSTRUCTION: valid=True hash=2c50aac2114aff8b",
+      "[3] FIELD_COMPUTATION_CERT: valid=True hash=fab3526d5cab19f4"
+    ],
+    "tail_marker": "[PASS]"
+  },
+  "validated": true
+}

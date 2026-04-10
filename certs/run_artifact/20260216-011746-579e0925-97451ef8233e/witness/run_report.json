@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-02-15T20:16:37.361638",
+  "completed_count": 2512,
+  "active_state_counts": {
+    "failed": 833,
+    "assigned": 57,
+    "queued": 1
+  },
+  "artifact_archive": "/home/player2/signal_experiments/qa_lab/releases/run-20260215-201632.tar.gz",
+  "artifact_delta": {
+    "timestamp": "2026-02-07T01:00:11.932738",
+    "added_count": 1,
+    "removed_count": 0,
+    "modified_count": 0,
+    "added": [
+      "artifacts/ingestion/execution_grounded_automated_ai_research_ANALYSIS.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "spine_hygiene": {
+    "command": [
+      "/usr/bin/python",
+      "/home/player2/signal_experiments/qa_alphageometry_ptolemy/qa_meta_validator.py",
+      "--strict"
+    ],
+    "mode": {
+      "fast": false,
+      "strict": true
+    },
+    "returncode": 0,
+    "started_utc": "2026-02-16T01:16:37Z",
+    "stderr": {
+      "path": null,
+      "sha256": null
+    },
+    "stdout": {
+      "path": "logs/spine_hygiene_20260215-201632.stdout.txt",
+      "sha256": "b091163a61e34a0d06391a229ea978629a8054e8f6fb0caa3b2ecfce91c69777"
+    },
+    "summary": {
+      "stdout_head": [
+        "=== META-VALIDATOR SELF-TEST (TETRAD + CONJECTURES) ===",
+        "",
+        "[1] GENERATOR_INJECTION: valid=True hash=b3d96a41a14828ae",
+        "[2] DIVERSITY_COLLAPSE_OBSTRUCTION: valid=True hash=2c50aac2114aff8b",
+        "[3] FIELD_COMPUTATION_CERT: valid=True hash=fab3526d5cab19f4"
+      ],
+      "tail_marker": "[PASS]"
+    },
+    "validated": true
+  },
+  "run_artifact_cert": {
+    "validated": true,
+    "cert_dir": "/home/player2/signal_experiments/qa_lab/certs/run_artifact/20260216-011653-579e0925-f38f9b7d537a",
+    "validator_stdout": "OK"
+  }
+}

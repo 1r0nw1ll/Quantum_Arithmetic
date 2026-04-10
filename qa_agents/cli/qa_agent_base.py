@@ -10,6 +10,7 @@ Provides real-time communication, state sharing, and event handling
 """
 
 import json
+import sys
 import time
 import threading
 import uuid
@@ -60,8 +61,14 @@ class CollaborativeAgent:
 
         # ZMQ
         if not ZMQ_AVAILABLE:
-            print(f"⚠️  {self.name}: ZeroMQ not available, running in standalone mode")
+            # Log to stderr so this does NOT contaminate the stdio JSON-RPC
+            # stream when this class is used from inside an MCP server.
+            print(
+                f"⚠️  {self.name}: ZeroMQ not available, running in standalone mode",
+                file=sys.stderr,
+            )
             self.collaborative = False
+            self.connected = False
             return
 
         self.collaborative = True
@@ -75,7 +82,6 @@ class CollaborativeAgent:
 
         # QA Swarm Protocol
         try:
-            import sys
             sys.path.append(str(Path(__file__).parent))
             from qa_swarm_protocol import QASwarmProtocol
             self.swarm_protocol = QASwarmProtocol(name)
@@ -132,12 +138,18 @@ class CollaborativeAgent:
                 self.listener_thread = threading.Thread(target=self._event_listener, daemon=True)
                 self.listener_thread.start()
 
-                print(f"✅ {self.name} connected to collaboration bus (ID: {self.agent_id})")
+                print(
+                    f"✅ {self.name} connected to collaboration bus (ID: {self.agent_id})",
+                    file=sys.stderr,
+                )
             else:
-                print(f"❌ {self.name} registration failed: {response.get('error')}")
+                print(
+                    f"❌ {self.name} registration failed: {response.get('error')}",
+                    file=sys.stderr,
+                )
 
         except Exception as e:
-            print(f"❌ {self.name} connection failed: {e}")
+            print(f"❌ {self.name} connection failed: {e}", file=sys.stderr)
             self.collaborative = False
 
     def disconnect(self):
@@ -165,7 +177,7 @@ class CollaborativeAgent:
             self.state_socket.close()
 
         self.connected = False
-        print(f"👋 {self.name} disconnected")
+        print(f"👋 {self.name} disconnected", file=sys.stderr)
 
     def _send_request(self, data: Dict) -> Dict:
         """Send request to bus and wait for response"""

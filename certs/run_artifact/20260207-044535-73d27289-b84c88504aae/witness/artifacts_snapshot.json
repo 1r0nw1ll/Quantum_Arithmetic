@@ -1,0 +1,67 @@
+{
+  "artifacts/evals/audio_qa_summary_T-004.json": {
+    "size": 1052,
+    "mtime": 1763764338,
+    "sha256": "a10e7464096844181e7b5a07789b7de9c0b5f63fb030148f7057799594aa0d67"
+  },
+  "artifacts/evals/e8_exploration_T-003.json": {
+    "size": 939,
+    "mtime": 1763764338,
+    "sha256": "1e132ca1ab2c47f8e7db3bc710f8515487daf29166641690e4a0e6ba785135c3"
+  },
+  "artifacts/evals/qalm_eval_baseline_T-010.json": {
+    "size": 180,
+    "mtime": 1763761562,
+    "sha256": "b01f769f33b440e6dd719e4f068fc78698775caadf720cb58ad0118dfb5aaf9c"
+  },
+  "artifacts/plots/agent_workflow.dot": {
+    "size": 75,
+    "mtime": 1763759481,
+    "sha256": "47d08ea4566e376d70e66781e8cc4db5fc82becd45d6f76be13d5fae5d7af1fc"
+  },
+  "artifacts/plots/qa_dataset_summary.txt": {
+    "size": 259,
+    "mtime": 1763759481,
+    "sha256": "841b6438eabe9c21a8bfab188c4ca3d1c44a4bb8f08070ec67f3efc0d698fbaa"
+  },
+  "artifacts/plots/volk_geometry_sample.json": {
+    "size": 5325,
+    "mtime": 1763759481,
+    "sha256": "c138a24f75a1dc86bb57a3300737ccad01da76c9fd873d8c0679bc8eeac83725"
+  },
+  "artifacts/plots/volk_triangle_summary.json": {
+    "size": 227,
+    "mtime": 1763759481,
+    "sha256": "83123c5c6b2d7a964ed53e726d362e5eba429d9ecfbf142a334ffe91d986b1a0"
+  },
+  "artifacts/proofs/dataset_index_T-006.json": {
+    "size": 167,
+    "mtime": 1763764338,
+    "sha256": "98ec67c8283e04f91c844e0a46fd7fd4c5984661d493fbbaaf4cca6c1c6235cf"
+  },
+  "artifacts/proofs/pipeline_status_T-008.json": {
+    "size": 129,
+    "mtime": 1763764338,
+    "sha256": "1b0f46dec022c72d84d9ff918a9962592ab9d2ece2acea8016b0336de309c38b"
+  },
+  "artifacts/proofs/qa_model_recommendation_T-007.json": {
+    "size": 255,
+    "mtime": 1763764338,
+    "sha256": "c8f16940921ec6785e60f174987ec52cba37b276db4aa72c1b7ecec084b90620"
+  },
+  "artifacts/proofs/qalm_integration_T-009.json": {
+    "size": 117,
+    "mtime": 1763764338,
+    "sha256": "d1a1e4fe0faed3f6398790778fbd27d0133b54bf1b269f8800a6aca4f0de1e01"
+  },
+  "qa_data/qa_training_dataset.json": {
+    "size": 238241,
+    "mtime": 1761777169,
+    "sha256": "b69227b938b936c2ee06bcf82be06e4214a3cf85852777ab8c75a4d091507010"
+  },
+  "qa_data/volk_triangle_dataset.jsonl": {
+    "size": 2990,
+    "mtime": 1763758340,
+    "sha256": "a0f20854ffc40562435252ae77b92e79f260d38e4baa3e3d3c573d0dc69a2d36"
+  }
+}

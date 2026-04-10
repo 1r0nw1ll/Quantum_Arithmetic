@@ -8,19 +8,19 @@
       "purity": 0.9412,
       "ARI": 0.7717,
       "NMI": 0.7324,
-      "elapsed_s": 0.002
+      "elapsed_s": 0.011
     },
     "X": {
       "purity": 0.7059,
       "ARI": 0.1528,
       "NMI": 0.2859,
-      "elapsed_s": 0.002
+      "elapsed_s": 0.003
     },
     "G": {
       "purity": 0.7059,
       "ARI": 0.1528,
       "NMI": 0.2859,
-      "elapsed_s": 0.003
+      "elapsed_s": 0.002
     },
     "F": {
       "purity": 0.7059,
@@ -64,7 +64,7 @@
       "purity": 0.9217,
       "ARI": 0.8499,
       "NMI": 0.9178,
-      "elapsed_s": 0.012
+      "elapsed_s": 0.011
     },
     "X": {
       "purity": 0.9043,
@@ -76,19 +76,19 @@
       "purity": 0.9043,
       "ARI": 0.8363,
       "NMI": 0.9081,
-      "elapsed_s": 0.012
+      "elapsed_s": 0.014
     },
     "F": {
       "purity": 0.9043,
       "ARI": 0.8363,
       "NMI": 0.9081,
-      "elapsed_s": 0.014
+      "elapsed_s": 0.021
     },
     "full": {
       "purity": 0.9304,
       "ARI": 0.9063,
       "NMI": 0.9308,
-      "elapsed_s": 0.015
+      "elapsed_s": 0.023
     },
     "delta_X": {
       "purity": -0.0174,

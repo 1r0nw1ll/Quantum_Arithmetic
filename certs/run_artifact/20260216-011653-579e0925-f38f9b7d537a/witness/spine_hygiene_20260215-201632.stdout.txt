@@ -1,0 +1,228 @@
+=== META-VALIDATOR SELF-TEST (TETRAD + CONJECTURES) ===
+
+[1] GENERATOR_INJECTION: valid=True hash=b3d96a41a14828ae
+[2] DIVERSITY_COLLAPSE_OBSTRUCTION: valid=True hash=2c50aac2114aff8b
+[3] FIELD_COMPUTATION_CERT: valid=True hash=fab3526d5cab19f4
+[4] BEYOND_NEURONS_INTELLIGENCE_CERT: valid=True hash=9c5b6d129d25074e
+[5] BEYOND_NEURONS_INTELLIGENCE_CERT: valid=True hash=953e44a43edaf256
+[6] BEYOND_NEURONS_INTELLIGENCE_CERT: valid=True hash=724aa4e04aed7acf
+[7] QA_CONJECTURE (CONJ_SUBSTRATE_INVARIANCE): valid=True hash=fece48d3dc68b3e9
+[8] QA_CONJECTURE (CONJ_HORIZON_HIERARCHY): valid=True hash=4a5669e422aab6b9
+[9] QA_CONJECTURE (CONJ_GOAL_COLLAPSE_EQUIVALENCE): valid=True hash=bfd44751f07311b0
+[10] INVALID (missing fields): valid=False fail_type=FailType.STRUCTURAL_ERROR
+[11] UNKNOWN type: valid=False fail_type=FailType.STRUCTURAL_ERROR
+[12] BAD JSON: valid=False fail_type=FailType.INVALID_JSON
+
+Results: 9 valid, 3 invalid (expected 9 valid, 3 invalid)
+
+All meta-validator self-tests PASSED (TETRAD + CONJECTURES)
+
+--- FST MODULE (subprocess, two-phase) ---
+[13a] FST manifest integrity: PASS (hash_spec=qa.hash_spec.v1)
+[13b] FST behavioral: PASS_WITH_WARNINGS (warnings=1) -> PASS
+
+--- AGENT SECURITY KERNEL (subprocess) ---
+[14] Agent Security Kernel: PASS (14 tests) -> PASS
+
+--- QA_OS_SPEC UNIFICATION ARTIFACT ---
+[15] QA_OS_SPEC: PASS (3 checks, hash=97f7e63f86047028...)
+
+--- KAYSER HARMONIC CORRESPONDENCE MODULE (subprocess) ---
+[16a] Kayser manifest integrity: PASS (13 checks)
+[16b] Kayser behavioral: PASS (28/28 verified, merkle=03a686456b2349cf...)
+
+--- QA GUARDRAIL MVP ---
+[17a] Guardrail self-tests: PASS (55 tests)
+[17b] Guardrail golden fixtures: PASS (18 fixtures)
+[17c] Guardrail E2E tests: PASS (12 tests, 4 ALLOW, 8 DENY)
+
+--- POLICY GUARD: SHARED FAMILY ROOTS ---
+[WARN] family_root_rel=.: [18] QA Datastore family, [19] QA Topology Resonance bundle, [20] QA Datastore view family, [21] QA A-RAG interface family, [22] QA ingest->view bridge family, [23] QA ingestion family, [24] QA SVP-CMC family, [26] QA Competency Detection family, [27] QA Elliptic Correspondence bundle, [28] QA Graph Structure bundle, [29] QA Agent Trace family, [30] QA Agent Trace Competency Cert family, [31] QA Math Compiler Stack family, [32] QA Conjecture-Prove Control Loop family, [33] QA Discovery Pipeline family, [34] QA Rule 30 Certified Discovery
+
+--- QA DATASTORE FAMILY ---
+[18] Gate 0 mapping protocol: PASS (mode=ref, resolved=/home/player2/signal_experiments/qa_mapping_protocol/canonical_mapping_protocol.json)
+[18] QA Datastore family: PASS (semantics + witness + counterexamples)
+
+--- QA TOPOLOGY RESONANCE BUNDLE ---
+[19] Gate 0 mapping protocol: PASS (cached mode=ref)
+[19] QA Topology Resonance bundle: PASS (bundle manifest verified)
+
+--- QA DATASTORE VIEW FAMILY ---
+[20] Gate 0 mapping protocol: PASS (cached mode=ref)
+[20] QA Datastore view family: PASS (semantics + witness + counterexamples)
+
+--- QA A-RAG INTERFACE FAMILY ---
+[21] Gate 0 mapping protocol: PASS (cached mode=ref)
+[21] QA A-RAG interface family: PASS (semantics + witness + counterexamples)
+
+--- QA INGEST->VIEW BRIDGE FAMILY ---
+[22] Gate 0 mapping protocol: PASS (cached mode=ref)
+[22] QA ingest->view bridge family: PASS (semantics + witness + counterexamples)
+
+--- QA INGESTION FAMILY ---
+[23] Gate 0 mapping protocol: PASS (cached mode=ref)
+[23] QA ingestion family: PASS (semantics + witness + counterexamples)
+
+--- QA SVP-CMC FAMILY ---
+[24] Gate 0 mapping protocol: PASS (cached mode=ref)
+[24] QA SVP-CMC family: PASS (ledger sanity + validator demo)
+
+--- QA COMPETENCY DETECTION FAMILY ---
+[26] Gate 0 mapping protocol: PASS (cached mode=ref)
+[Competency] Validated bundle: 1 cert(s), metrics recomputed, manifest ok
+[Competency] Reference sets: 9 bundle(s) validated
+[26] QA Competency Detection family: PASS (bundle + metrics recompute + fixtures)
+
+--- QA ELLIPTIC CORRESPONDENCE BUNDLE ---
+[27] Gate 0 mapping protocol: PASS (cached mode=ref)
+[27] QA Elliptic Correspondence bundle: PASS (bundle manifest verified)
+
+--- QA GRAPH STRUCTURE BUNDLE ---
+[28] Gate 0 mapping protocol: PASS (cached mode=ref)
+[28] QA Graph Structure bundle: PASS (bundle manifest verified)
+
+--- QA AGENT TRACE FAMILY ---
+[29] Gate 0 mapping protocol: PASS (cached mode=ref)
+--- qa_agent_trace_validator self-test ---
+  [PASS] valid trace accepted
+  [PASS] missing schema_id -> SCHEMA_INVALID
+  [PASS] swapped indices -> NONDETERMINISTIC_EVENT_ORDER
+  [PASS] missing invariant_diff -> SCHEMA_INVALID
+  [PASS] wrong events_sha256 -> HASH_MISMATCH
+  [PASS] broken chain link -> HASH_CHAIN_BROKEN
+  [PASS] bad event_count -> SUMMARY_MISMATCH
+  [PASS] long raw string in hash_only -> REDACTION_POLICY_VIOLATION
+
+  8/8 self-tests passed
+[29] QA Agent Trace family: PASS (schema + validator + fixtures (1 valid, 2 negative))
+
+--- QA AGENT TRACE COMPETENCY CERT FAMILY ---
+[30] Gate 0 mapping protocol: PASS (cached mode=ref)
+--- qa_agent_trace_competency_cert_validator self-test ---
+  [PASS] valid cert accepted
+  [PASS] missing invariant_diff -> MISSING_INVARIANT_DIFF
+  [PASS] wrong trace hash -> TRACE_REF_HASH_MISMATCH
+  [PASS] agency_index=1.5 -> METRIC_OUT_OF_BOUNDS
+  [PASS] dims_won mismatch -> NONDETERMINISTIC_DERIVATION
+  [PASS] 1/4 wins with 3of4 rule -> DOMINANCE_FAILURE
+  [PASS] passed+DOMINANCE_FAILURE -> NONDETERMINISTIC_DERIVATION
+  [PASS] dominance recomputation mismatch -> NONDETERMINISTIC_DERIVATION
+
+  8/8 self-tests passed
+[30] QA Agent Trace Competency Cert family: PASS (schema + validator + fixtures (1 valid, 3 negative))
+
+--- QA MATH COMPILER STACK FAMILY ---
+[31] Gate 0 mapping protocol: PASS (cached mode=ref)
+--- qa_math_compiler_validator self-test ---
+  [PASS] valid trace accepted
+  [PASS] trace missing invariant_diff -> MISSING_INVARIANT_DIFF
+  [PASS] same-layer trace -> LAYER_VIOLATION
+  [PASS] FAIL without result.invariant_diff -> RESULT_INCOMPLETE
+  [PASS] valid FAIL trace accepted
+  [PASS] valid pair accepted
+  [PASS] human==formal hash -> HASH_SELF_BINDING
+  [PASS] bad binding_signature -> BINDING_SIGNATURE_MISMATCH
+  [PASS] coverage 0.3 -> COVERAGE_BELOW_THRESHOLD
+  [PASS] valid task accepted
+  [PASS] empty formal_goal -> SCHEMA_INVALID
+  [PASS] valid replay bundle accepted
+  [PASS] hash mismatch replay -> DETERMINISM_MISMATCH
+  [PASS] valid pair_v1 accepted
+  [PASS] PROVED with replay FAIL -> PROVED_PAIR_REPLAY_MISMATCH
+  [PASS] valid lemma mining pack accepted
+  [PASS] low median compression -> COMPRESSION_BELOW_TARGET
+
+  17/17 self-tests passed
+[31] QA Math Compiler Stack family: PASS (validator + fixtures (6 valid, 6 negative) + optional demo_pack_v1)
+
+--- QA CONJECTURE-PROVE CONTROL LOOP FAMILY ---
+[32] Gate 0 mapping protocol: PASS (cached mode=ref)
+--- qa_conjecture_prove_validator self-test ---
+  [PASS] valid episode accepted
+  [PASS] episode missing invariant_diff -> MISSING_INVARIANT_DIFF
+  [PASS] duplicate step_index -> DUPLICATE_STEP_INDEX
+  [PASS] FAIL step without result.invariant_diff -> RESULT_INCOMPLETE
+  [PASS] bad trace_ref.family -> INVALID_TRACE_REF
+  [PASS] valid frontier accepted
+  [PASS] empty this_snapshot_hash -> HASH_CHAIN_INVALID
+  [PASS] duplicate frontier entry -> DUPLICATE_FRONTIER_ENTRY
+  [PASS] valid bounded-return receipt accepted
+  [PASS] NO_RETURN without fail_type -> RESULT_INCOMPLETE
+  [PASS] path length > k -> PATH_EXCEEDS_K
+
+  11/11 self-tests passed
+[32] QA Conjecture-Prove Control Loop family: PASS (validator + fixtures (3 valid, 3 negative))
+
+--- QA DISCOVERY PIPELINE FAMILY ---
+[33] Gate 0 mapping protocol: PASS (cached mode=ref)
+--- qa_discovery_pipeline_validator self-test ---
+  [PASS] valid run accepted
+  [PASS] run wrong schema_id -> SCHEMA_INVALID -> SCHEMA_INVALID
+  [PASS] run missing determinism field -> DETERMINISM_MISSING -> DETERMINISM_MISSING
+  [PASS] run duplicate step_index -> DUPLICATE_STEP_INDEX -> DUPLICATE_STEP_INDEX
+  [PASS] run FAIL step without invariant_diff -> RESULT_INCOMPLETE -> RESULT_INCOMPLETE
+  [PASS] run top FAIL without fail_type -> RESULT_INCOMPLETE -> RESULT_INCOMPLETE
+  [PASS] run empty merkle_parent -> MERKLE_PARENT_MISSING -> MERKLE_PARENT_MISSING
+  [PASS] valid plan accepted
+  [PASS] plan canonical_json=false -> NONDETERMINISTIC_PLAN -> NONDETERMINISTIC_PLAN
+  [PASS] plan missing seed_policy -> DETERMINISM_MISSING -> DETERMINISM_MISSING
+  [PASS] valid bundle accepted
+  [PASS] bundle empty hash -> HASH_CHAIN_INVALID -> HASH_CHAIN_INVALID
+
+  12/12 self-tests passed
+[33] QA Discovery Pipeline family: PASS (validator + fixtures (3 valid, 3 negative) + E2E ci_check)
+
+--- QA RULE 30 CERTIFIED DISCOVERY ---
+[34] Gate 0 mapping protocol: PASS (cached mode=ref)
+--- qa_rule30_cert_validator self-test ---
+  [PASS] valid cert accepted
+  [PASS] missing invariant_diff -> MISSING_INVARIANT_DIFF
+  [PASS] P_max < P_min -> SCOPE_INVALID
+  [PASS] aggregate mismatch -> AGGREGATE_MISMATCH
+  [PASS] zero hash accepted (valid hex64)
+  [PASS] failure_count > 0 -> FAILURE_DETECTED
+  [PASS] valid manifest accepted
+  [PASS] wrong manifest schema_id -> SCHEMA_INVALID
+  [PASS] manifest with failures -> FAILURE_DETECTED
+
+  9/9 self-tests passed
+  [PASS] QA_RULE30_NONPERIODICITY_CERT.v1.json: valid (CERT-RULE30-NONPERIOD-V1-P256-T65536)
+  Cert pack rule30_nonperiodicity_v1: 1280 periods verified across 5 T values, 0 failures
+  [PASS] QA_RULE30_NONPERIODICITY_CERT.v1.json: valid (CERT-RULE30-NONPERIOD-V1-P1024-T65536)
+  Cert pack rule30_nonperiodicity_v2: 5120 periods verified across 5 T values, 0 failures
+  [PASS] QA_RULE30_NONPERIODICITY_CERT.v1.json: valid (CERT-RULE30-NONPERIOD-V1-P4096-T65536)
+  Cert pack rule30_nonperiodicity_v3: 16384 periods verified across 4 T values, 0 failures
+  [PASS] QA_RULE30_NONPERIODICITY_CERT.v1.json: valid (CERT-RULE30-NONPERIOD-V1-P8192-T65536)
+  Cert pack rule30_nonperiodicity_v4: 24576 periods verified across 3 T values, 0 failures
+[34] QA Rule 30 Certified Discovery: PASS (self-tests + cert pack + manifests + cert negatives + hash-mismatch + independent verifier + verifier negative)
+
+--- QA MAPPING PROTOCOL FAMILY ---
+[35] Gate 0 mapping protocol: PASS (mode=inline, resolved=/home/player2/signal_experiments/qa_mapping_protocol/mapping_protocol.json)
+[35] QA Mapping Protocol family: PASS (schema + validator + fixtures)
+
+--- QA MAPPING PROTOCOL REF FAMILY ---
+[36] Gate 0 mapping protocol: PASS (mode=ref, resolved=/home/player2/signal_experiments/qa_mapping_protocol/canonical_mapping_protocol.json)
+[36] QA Mapping Protocol REF family: PASS (schema + validator + fixtures)
+
+--- QA EBM NAVIGATION CERT FAMILY ---
+[37] Gate 0 mapping protocol: PASS (mode=ref, resolved=/home/player2/signal_experiments/Documents/QA_MAPPING_PROTOCOL__EBM_REASONING_KONA_PODCAST.v1.json)
+[37] QA EBM Navigation Cert family: PASS (schema + validator + fixtures)
+
+--- QA ENERGY-CAPABILITY SEPARATION CERT FAMILY ---
+[38] Gate 0 mapping protocol: PASS (mode=ref, resolved=/home/player2/signal_experiments/Documents/QA_MAPPING_PROTOCOL__EBM_REASONING_KONA_PODCAST.v1.json)
+[38] QA Energy-Capability Separation Cert family: PASS (schema + validator + fixtures)
+
+--- QA EBM VERIFIER BRIDGE CERT FAMILY ---
+[39] Gate 0 mapping protocol: PASS (mode=ref, resolved=/home/player2/signal_experiments/Documents/QA_MAPPING_PROTOCOL__EBM_REASONING_KONA_PODCAST.v1.json)
+[39] QA EBM Verifier Bridge Cert family: PASS (schema + validator + fixtures)
+
+--- EXTERNAL VALIDATION ---
+[40] Level 3 recompute (external): PASS
+      [PASS] Level 3 recompute (n=512, epochs=15) L2=6/6 L3=3/3
+[41] Prompt injection (external): PASS
+      [PASS] Prompt injection external validation (n=30, eval=29, src=deepset/prompt-injections) acc=1.000 p=1.000 r=1.000 f1=1.000 fp=0 fn=0 typed_mismatch=0
+[42] SWE-bench competency (external): PASS
+      [PASS] SWE-bench competency (n=30, repos=12, src=princeton-nlp/SWE-bench_Lite) separation=30/30 gold_wins=36.7% mean_gap=0.0120
+
+--- HUMAN-TRACT DOC GATE ---
+[43] Human-tract doc gate: PASS (21 families documented)

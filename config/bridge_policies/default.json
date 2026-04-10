@@ -1,0 +1,28 @@
+{
+  "$schema": "BRIDGE_POLICY.v1",
+  "description": "Default bridge agent capability constraints. Each bridge reads this at startup to mint its CapabilityToken. Per-agent overrides go in <agent_name>.json.",
+
+  "command_allowlist": [
+    "codex exec",
+    "gemini",
+    "cat",
+    "echo"
+  ],
+
+  "command_denylist_regex": [],
+
+  "prompt_denylist_regex": [
+    "\\brm\\s+-rf\\s+/",
+    "\\bmkfs\\b",
+    "\\bdd\\s+if=.*of=/dev/",
+    "\\b(curl|wget)\\s+.*\\|\\s*(sh|bash)\\b",
+    "\\bchmod\\s+777\\s+/",
+    "\\b(passwd|shadow)\\b.*\\b(cat|less|head|tail)\\b",
+    "\\biptables\\s+-F\\b",
+    "\\bsystemctl\\s+(stop|disable)\\s+(firewall|ufw|iptables)"
+  ],
+
+  "token_ttl_seconds": 86400,
+
+  "notes": "command_allowlist: only these CLI commands may be invoked. prompt_denylist_regex: defense-in-depth patterns blocked even if guardrail passes. Per-agent files (e.g. codex_bridge.json) override these defaults."
+}

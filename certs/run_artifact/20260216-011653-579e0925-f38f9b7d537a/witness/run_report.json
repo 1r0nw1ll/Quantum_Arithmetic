@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-02-15T20:16:37.361638",
+  "completed_count": 2512,
+  "active_state_counts": {
+    "failed": 833,
+    "assigned": 57,
+    "queued": 1
+  },
+  "artifact_archive": "/home/player2/signal_experiments/qa_lab/releases/run-20260215-201632.tar.gz",
+  "artifact_delta": {
+    "timestamp": "2026-02-07T01:00:11.932738",
+    "added_count": 1,
+    "removed_count": 0,
+    "modified_count": 0,
+    "added": [
+      "artifacts/ingestion/execution_grounded_automated_ai_research_ANALYSIS.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "ebm_certs": {
+    "source": "artifacts/evals/fastpath_eval.json",
+    "enabled": true,
+    "run_id": "fastpath-20260216-011613",
+    "requested_verifier_bridge": true,
+    "accepted_by_verifier": false,
+    "cases": {
+      "default": {
+        "ok": true,
+        "run_id": "fastpath-20260216-011613",
+        "case_name": "default",
+        "navigation_cert": "artifacts/certs/fastpath-20260216-011613/ebm_nav_fastpath-20260216-011613_default.json",
+        "navigation_sha256": "ede198517024b33540d86345dd11998734c5f8c6977a5a34fd7647e30cae333a",
+        "bridge_cert": "artifacts/certs/fastpath-20260216-011613/ebm_bridge_fastpath-20260216-011613_default.json",
+        "accepted_by_verifier": false,
+        "bridge_emitted": true,
+        "bridge_navigation_digest_match": true,
+        "navigation_valid": true,
+        "bridge_valid": true,
+        "manifest": "artifacts/certs/fastpath-20260216-011613/manifest.json"
+      },
+      "numpy_pref": {
+        "ok": true,
+        "run_id": "fastpath-20260216-011613",
+        "case_name": "numpy_pref",
+        "navigation_cert": "artifacts/certs/fastpath-20260216-011613/ebm_nav_fastpath-20260216-011613_numpy_pref.json",
+        "navigation_sha256": "59485a9e262d4721fbb71a7f3fd5cfe41a889a8c2d95c9e5dc94837801b53ca3",
+        "bridge_cert": "artifacts/certs/fastpath-20260216-011613/ebm_bridge_fastpath-20260216-011613_numpy_pref.json",
+        "accepted_by_verifier": false,
+        "bridge_emitted": true,
+        "bridge_navigation_digest_match": true,
+        "navigation_valid": true,
+        "bridge_valid": true,
+        "manifest": "artifacts/certs/fastpath-20260216-011613/manifest.json"
+      },
+      "rust_disabled": {
+        "ok": true,
+        "run_id": "fastpath-20260216-011613",
+        "case_name": "rust_disabled",
+        "navigation_cert": "artifacts/certs/fastpath-20260216-011613/ebm_nav_fastpath-20260216-011613_rust_disabled.json",
+        "navigation_sha256": "9c792d2ba045cf596808d23f094b74e919b60d12a20ecef948bdcf820e0c7433",
+        "bridge_cert": "artifacts/certs/fastpath-20260216-011613/ebm_bridge_fastpath-20260216-011613_rust_disabled.json",
+        "accepted_by_verifier": false,
+        "bridge_emitted": true,
+        "bridge_navigation_digest_match": true,
+        "navigation_valid": true,
+        "bridge_valid": true,
+        "manifest": "artifacts/certs/fastpath-20260216-011613/manifest.json"
+      }
+    }
+  },
+  "spine_hygiene": {
+    "command": [
+      "/usr/bin/python",
+      "/home/player2/signal_experiments/qa_alphageometry_ptolemy/qa_meta_validator.py",
+      "--strict"
+    ],
+    "mode": {
+      "fast": false,
+      "strict": true
+    },
+    "returncode": 0,
+    "started_utc": "2026-02-16T01:16:37Z",
+    "stderr": {
+      "path": null,
+      "sha256": null
+    },
+    "stdout": {
+      "path": "logs/spine_hygiene_20260215-201632.stdout.txt",
+      "sha256": "b091163a61e34a0d06391a229ea978629a8054e8f6fb0caa3b2ecfce91c69777"
+    },
+    "summary": {
+      "stdout_head": [
+        "=== META-VALIDATOR SELF-TEST (TETRAD + CONJECTURES) ===",
+        "",
+        "[1] GENERATOR_INJECTION: valid=True hash=b3d96a41a14828ae",
+        "[2] DIVERSITY_COLLAPSE_OBSTRUCTION: valid=True hash=2c50aac2114aff8b",
+        "[3] FIELD_COMPUTATION_CERT: valid=True hash=fab3526d5cab19f4"
+      ],
+      "tail_marker": "[PASS]"
+    },
+    "validated": true
+  }
+}

@@ -1,0 +1,1315 @@
+{
+  "harness_version": "1.0.0",
+  "timestamp": "2026-04-03T11:06:36.604042+00:00",
+  "config": {
+    "modulus": 24,
+    "n_clusters": 6,
+    "qci_window": 63,
+    "standardize_window": 63,
+    "seed": 42,
+    "train_fraction": 0.5,
+    "cmap": null,
+    "sample_rate": 1.0,
+    "default_state": 5
+  },
+  "cmap": {
+    "0": 4,
+    "1": 8,
+    "2": 12,
+    "3": 16,
+    "4": 20,
+    "5": 24
+  },
+  "svp_correspondence_key": {
+    "outward": "cosmos \u2014 centrifugal / radiant / expansive",
+    "equilibrium": "satellite \u2014 balanced toroidal circulation",
+    "inward": "singularity \u2014 centripetal / convergent / collapsed"
+  },
+  "signals": {
+    "sine_5hz": {
+      "n_samples": 1000,
+      "n_channels": 1,
+      "signal_hash": "1c49fe73324e8706",
+      "qci": {
+        "mean": 0.14743990077756744,
+        "std": 0.011569799830925098,
+        "median": 0.14285714285714285
+      },
+      "orbit_distribution": {
+        "counts": {
+          "satellite": 494,
+          "cosmos": 504,
+          "singularity": 1
+        },
+        "fractions": {
+          "satellite": 0.4944944944944945,
+          "cosmos": 0.5045045045045045,
+          "singularity": 0.001001001001001001
+        },
+        "sequence_length": 999,
+        "dominant_family": "cosmos"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "equilibrium": 494,
+          "outward": 504,
+          "inward": 1
+        },
+        "fractions": {
+          "equilibrium": 0.4944944944944945,
+          "outward": 0.5045045045045045,
+          "inward": 0.001001001001001001
+        },
+        "dominant_flow": "outward",
+        "flow_score_stats": {
+          "mean": 0.7793478239355595,
+          "std": 0.1653290395202949,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.7063492063492064,
+              "satellite": 0.2916666666666667,
+              "singularity": 0.001984126984126984
+            },
+            "satellite": {
+              "cosmos": 0.3002028397565923,
+              "satellite": 0.6997971602434077,
+              "singularity": 0.0
+            },
+            "singularity": {
+              "cosmos": 0.0,
+              "satellite": 1.0,
+              "singularity": 0.0
+            }
+          },
+          "n_transitions": 297,
+          "rate": 0.29759519038076154,
+          "stability_index": 0.7024048096192385,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 3.4054054054054053,
+              "median": 2.0,
+              "max": 12,
+              "count": 148
+            },
+            "satellite": {
+              "mean": 3.315436241610738,
+              "median": 2.0,
+              "max": 6,
+              "count": 149
+            },
+            "singularity": {
+              "mean": 1.0,
+              "median": 1.0,
+              "max": 1,
+              "count": 1
+            }
+          },
+          "satellite_streak_max": 6
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 281,
+          "instability_fraction": 0.2905894519131334
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.7063492063492064,
+              "equilibrium": 0.2916666666666667,
+              "inward": 0.001984126984126984
+            },
+            "equilibrium": {
+              "outward": 0.3002028397565923,
+              "equilibrium": 0.6997971602434077,
+              "inward": 0.0
+            },
+            "inward": {
+              "outward": 0.0,
+              "equilibrium": 1.0,
+              "inward": 0.0
+            }
+          },
+          "n_transitions": 297,
+          "dominant": {
+            "name": "expansion",
+            "count": 148
+          },
+          "type_counts": {
+            "expansion": 148,
+            "containment": 147,
+            "collapse": 1,
+            "revival": 1
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    },
+    "two_tone": {
+      "n_samples": 1000,
+      "n_channels": 1,
+      "signal_hash": "92e01fc606bd0172",
+      "qci": {
+        "mean": 0.10155255435145673,
+        "std": 0.023150006939945476,
+        "median": 0.1111111111111111
+      },
+      "orbit_distribution": {
+        "counts": {
+          "cosmos": 445,
+          "satellite": 474,
+          "singularity": 80
+        },
+        "fractions": {
+          "cosmos": 0.44544544544544545,
+          "satellite": 0.4744744744744745,
+          "singularity": 0.08008008008008008
+        },
+        "sequence_length": 999,
+        "dominant_family": "satellite"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "outward": 445,
+          "equilibrium": 474,
+          "inward": 80
+        },
+        "fractions": {
+          "outward": 0.44544544544544545,
+          "equilibrium": 0.4744744744744745,
+          "inward": 0.08008008008008008
+        },
+        "dominant_flow": "equilibrium",
+        "flow_score_stats": {
+          "mean": 0.78999062377923,
+          "std": 0.14787234819537962,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.6216216216216216,
+              "satellite": 0.3783783783783784,
+              "singularity": 0.0
+            },
+            "satellite": {
+              "cosmos": 0.35443037974683544,
+              "satellite": 0.6033755274261603,
+              "singularity": 0.04219409282700422
+            },
+            "singularity": {
+              "cosmos": 0.0,
+              "satellite": 0.25,
+              "singularity": 0.75
+            }
+          },
+          "n_transitions": 376,
+          "rate": 0.37675350701402804,
+          "stability_index": 0.623246492985972,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 2.633136094674556,
+              "median": 1.0,
+              "max": 6,
+              "count": 169
+            },
+            "satellite": {
+              "mean": 2.521276595744681,
+              "median": 2.0,
+              "max": 7,
+              "count": 188
+            },
+            "singularity": {
+              "mean": 4.0,
+              "median": 4.0,
+              "max": 4,
+              "count": 20
+            }
+          },
+          "satellite_streak_max": 7
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 117,
+          "instability_fraction": 0.19958634953464321
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.6216216216216216,
+              "equilibrium": 0.3783783783783784,
+              "inward": 0.0
+            },
+            "equilibrium": {
+              "outward": 0.35443037974683544,
+              "equilibrium": 0.6033755274261603,
+              "inward": 0.04219409282700422
+            },
+            "inward": {
+              "outward": 0.0,
+              "equilibrium": 0.25,
+              "inward": 0.75
+            }
+          },
+          "n_transitions": 376,
+          "dominant": {
+            "name": "containment",
+            "count": 168
+          },
+          "type_counts": {
+            "containment": 168,
+            "expansion": 168,
+            "decay": 20,
+            "revival": 20
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    },
+    "chirp": {
+      "n_samples": 1000,
+      "n_channels": 1,
+      "signal_hash": "ad891edcc5c8c617",
+      "qci": {
+        "mean": 0.15543085338536863,
+        "std": 0.06271764548652956,
+        "median": 0.14285714285714285
+      },
+      "orbit_distribution": {
+        "counts": {
+          "cosmos": 520,
+          "satellite": 452,
+          "singularity": 27
+        },
+        "fractions": {
+          "cosmos": 0.5205205205205206,
+          "satellite": 0.45245245245245247,
+          "singularity": 0.02702702702702703
+        },
+        "sequence_length": 999,
+        "dominant_family": "cosmos"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "outward": 520,
+          "equilibrium": 452,
+          "inward": 27
+        },
+        "fractions": {
+          "outward": 0.5205205205205206,
+          "equilibrium": 0.45245245245245247,
+          "inward": 0.02702702702702703
+        },
+        "dominant_flow": "outward",
+        "flow_score_stats": {
+          "mean": 0.8277553042861123,
+          "std": 0.10496350746804595,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.7942307692307692,
+              "satellite": 0.20576923076923076,
+              "singularity": 0.0
+            },
+            "satellite": {
+              "cosmos": 0.23503325942350334,
+              "satellite": 0.7184035476718403,
+              "singularity": 0.04656319290465632
+            },
+            "singularity": {
+              "cosmos": 0.0,
+              "satellite": 0.7777777777777778,
+              "singularity": 0.2222222222222222
+            }
+          },
+          "n_transitions": 255,
+          "rate": 0.25551102204408815,
+          "stability_index": 0.7444889779559118,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 4.859813084112149,
+              "median": 4.0,
+              "max": 28,
+              "count": 107
+            },
+            "satellite": {
+              "mean": 3.53125,
+              "median": 3.0,
+              "max": 16,
+              "count": 128
+            },
+            "singularity": {
+              "mean": 1.2857142857142858,
+              "median": 1.0,
+              "max": 3,
+              "count": 21
+            }
+          },
+          "satellite_streak_max": 16
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 224,
+          "instability_fraction": 0.2626680455015512
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.7942307692307692,
+              "equilibrium": 0.20576923076923076,
+              "inward": 0.0
+            },
+            "equilibrium": {
+              "outward": 0.23503325942350334,
+              "equilibrium": 0.7184035476718403,
+              "inward": 0.04656319290465632
+            },
+            "inward": {
+              "outward": 0.0,
+              "equilibrium": 0.7777777777777778,
+              "inward": 0.2222222222222222
+            }
+          },
+          "n_transitions": 255,
+          "dominant": {
+            "name": "containment",
+            "count": 107
+          },
+          "type_counts": {
+            "containment": 107,
+            "decay": 21,
+            "revival": 21,
+            "expansion": 106
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    },
+    "am_modulated": {
+      "n_samples": 1000,
+      "n_channels": 1,
+      "signal_hash": "0c9b296966abdda0",
+      "qci": {
+        "mean": 0.10012376900664759,
+        "std": 0.015274050544672587,
+        "median": 0.10230245944531659
+      },
+      "orbit_distribution": {
+        "counts": {
+          "cosmos": 722,
+          "satellite": 198,
+          "singularity": 79
+        },
+        "fractions": {
+          "cosmos": 0.7227227227227228,
+          "satellite": 0.1981981981981982,
+          "singularity": 0.07907907907907907
+        },
+        "sequence_length": 999,
+        "dominant_family": "cosmos"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "outward": 722,
+          "equilibrium": 198,
+          "inward": 79
+        },
+        "fractions": {
+          "outward": 0.7227227227227228,
+          "equilibrium": 0.1981981981981982,
+          "inward": 0.07907907907907907
+        },
+        "dominant_flow": "outward",
+        "flow_score_stats": {
+          "mean": 0.8597512108603721,
+          "std": 0.12973799120824372,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.724376731301939,
+              "satellite": 0.1925207756232687,
+              "singularity": 0.08310249307479224
+            },
+            "satellite": {
+              "cosmos": 0.6040609137055838,
+              "satellite": 0.29949238578680204,
+              "singularity": 0.09644670050761421
+            },
+            "singularity": {
+              "cosmos": 1.0,
+              "satellite": 0.0,
+              "singularity": 0.0
+            }
+          },
+          "n_transitions": 416,
+          "rate": 0.4168336673346693,
+          "stability_index": 0.5831663326653307,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 3.628140703517588,
+              "median": 4.0,
+              "max": 9,
+              "count": 199
+            },
+            "satellite": {
+              "mean": 1.4244604316546763,
+              "median": 1.0,
+              "max": 3,
+              "count": 139
+            },
+            "singularity": {
+              "mean": 1.0,
+              "median": 1.0,
+              "max": 1,
+              "count": 79
+            }
+          },
+          "satellite_streak_max": 3
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 150,
+          "instability_fraction": 0.15718717683557393
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.724376731301939,
+              "equilibrium": 0.1925207756232687,
+              "inward": 0.08310249307479224
+            },
+            "equilibrium": {
+              "outward": 0.6040609137055838,
+              "equilibrium": 0.29949238578680204,
+              "inward": 0.09644670050761421
+            },
+            "inward": {
+              "outward": 1.0,
+              "equilibrium": 0.0,
+              "inward": 0.0
+            }
+          },
+          "n_transitions": 416,
+          "dominant": {
+            "name": "containment",
+            "count": 139
+          },
+          "type_counts": {
+            "containment": 139,
+            "expansion": 119,
+            "collapse": 60,
+            "eruption": 79,
+            "decay": 19
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    },
+    "ar1_high": {
+      "n_samples": 1000,
+      "n_channels": 1,
+      "signal_hash": "e68b0233dcaf38b3",
+      "qci": {
+        "mean": 0.14721177919131087,
+        "std": 0.06122644862774874,
+        "median": 0.14285714285714285
+      },
+      "orbit_distribution": {
+        "counts": {
+          "cosmos": 674,
+          "satellite": 246,
+          "singularity": 79
+        },
+        "fractions": {
+          "cosmos": 0.6746746746746747,
+          "satellite": 0.24624624624624625,
+          "singularity": 0.07907907907907907
+        },
+        "sequence_length": 999,
+        "dominant_family": "cosmos"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "outward": 674,
+          "equilibrium": 246,
+          "inward": 79
+        },
+        "fractions": {
+          "outward": 0.6746746746746747,
+          "equilibrium": 0.24624624624624625,
+          "inward": 0.07907907907907907
+        },
+        "dominant_flow": "outward",
+        "flow_score_stats": {
+          "mean": 0.848634320204474,
+          "std": 0.13390142873709712,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.8380386329866271,
+              "satellite": 0.10401188707280833,
+              "singularity": 0.05794947994056464
+            },
+            "satellite": {
+              "cosmos": 0.2967479674796748,
+              "satellite": 0.6991869918699187,
+              "singularity": 0.0040650406504065045
+            },
+            "singularity": {
+              "cosmos": 0.45569620253164556,
+              "satellite": 0.05063291139240506,
+              "singularity": 0.4936708860759494
+            }
+          },
+          "n_transitions": 223,
+          "rate": 0.22344689378757515,
+          "stability_index": 0.7765531062124249,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 6.127272727272727,
+              "median": 5.0,
+              "max": 20,
+              "count": 110
+            },
+            "satellite": {
+              "mean": 3.324324324324324,
+              "median": 2.5,
+              "max": 16,
+              "count": 74
+            },
+            "singularity": {
+              "mean": 1.975,
+              "median": 1.0,
+              "max": 8,
+              "count": 40
+            }
+          },
+          "satellite_streak_max": 16
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 182,
+          "instability_fraction": 0.2533609100310238
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.8380386329866271,
+              "equilibrium": 0.10401188707280833,
+              "inward": 0.05794947994056464
+            },
+            "equilibrium": {
+              "outward": 0.2967479674796748,
+              "equilibrium": 0.6991869918699187,
+              "inward": 0.0040650406504065045
+            },
+            "inward": {
+              "outward": 0.45569620253164556,
+              "equilibrium": 0.05063291139240506,
+              "inward": 0.4936708860759494
+            }
+          },
+          "n_transitions": 223,
+          "dominant": {
+            "name": "expansion",
+            "count": 73
+          },
+          "type_counts": {
+            "containment": 70,
+            "expansion": 73,
+            "collapse": 39,
+            "revival": 4,
+            "eruption": 36,
+            "decay": 1
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    },
+    "ar1_low": {
+      "n_samples": 1000,
+      "n_channels": 1,
+      "signal_hash": "47da4712eaa976e6",
+      "qci": {
+        "mean": 0.15266863834492087,
+        "std": 0.044687971762425505,
+        "median": 0.14285714285714285
+      },
+      "orbit_distribution": {
+        "counts": {
+          "cosmos": 715,
+          "satellite": 270,
+          "singularity": 14
+        },
+        "fractions": {
+          "cosmos": 0.7157157157157157,
+          "satellite": 0.2702702702702703,
+          "singularity": 0.014014014014014014
+        },
+        "sequence_length": 999,
+        "dominant_family": "cosmos"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "outward": 715,
+          "equilibrium": 270,
+          "inward": 14
+        },
+        "fractions": {
+          "outward": 0.7157157157157157,
+          "equilibrium": 0.2702702702702703,
+          "inward": 0.014014014014014014
+        },
+        "dominant_flow": "outward",
+        "flow_score_stats": {
+          "mean": 0.8400317737053704,
+          "std": 0.1463372767522893,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.7857142857142857,
+              "satellite": 0.21008403361344538,
+              "singularity": 0.004201680672268907
+            },
+            "satellite": {
+              "cosmos": 0.5407407407407407,
+              "satellite": 0.42592592592592593,
+              "singularity": 0.03333333333333333
+            },
+            "singularity": {
+              "cosmos": 0.5,
+              "satellite": 0.35714285714285715,
+              "singularity": 0.14285714285714285
+            }
+          },
+          "n_transitions": 320,
+          "rate": 0.32064128256513025,
+          "stability_index": 0.6793587174348698,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 4.642857142857143,
+              "median": 3.0,
+              "max": 23,
+              "count": 154
+            },
+            "satellite": {
+              "mean": 1.7419354838709677,
+              "median": 1.0,
+              "max": 6,
+              "count": 155
+            },
+            "singularity": {
+              "mean": 1.1666666666666667,
+              "median": 1.0,
+              "max": 2,
+              "count": 12
+            }
+          },
+          "satellite_streak_max": 6
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 205,
+          "instability_fraction": 0.24612202688728024
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.7857142857142857,
+              "equilibrium": 0.21008403361344538,
+              "inward": 0.004201680672268907
+            },
+            "equilibrium": {
+              "outward": 0.5407407407407407,
+              "equilibrium": 0.42592592592592593,
+              "inward": 0.03333333333333333
+            },
+            "inward": {
+              "outward": 0.5,
+              "equilibrium": 0.35714285714285715,
+              "inward": 0.14285714285714285
+            }
+          },
+          "n_transitions": 320,
+          "dominant": {
+            "name": "containment",
+            "count": 150
+          },
+          "type_counts": {
+            "containment": 150,
+            "expansion": 146,
+            "decay": 9,
+            "eruption": 7,
+            "revival": 5,
+            "collapse": 3
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    },
+    "pink_noise": {
+      "n_samples": 1000,
+      "n_channels": 1,
+      "signal_hash": "c85fb167b99027de",
+      "qci": {
+        "mean": 0.14874800294095994,
+        "std": 0.055975527826307755,
+        "median": 0.14285714285714285
+      },
+      "orbit_distribution": {
+        "counts": {
+          "cosmos": 606,
+          "satellite": 350,
+          "singularity": 43
+        },
+        "fractions": {
+          "cosmos": 0.6066066066066066,
+          "satellite": 0.35035035035035034,
+          "singularity": 0.043043043043043044
+        },
+        "sequence_length": 999,
+        "dominant_family": "cosmos"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "outward": 606,
+          "equilibrium": 350,
+          "inward": 43
+        },
+        "fractions": {
+          "outward": 0.6066066066066066,
+          "equilibrium": 0.35035035035035034,
+          "inward": 0.043043043043043044
+        },
+        "dominant_flow": "outward",
+        "flow_score_stats": {
+          "mean": 0.837085657091977,
+          "std": 0.12287091476960296,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.7338842975206612,
+              "satellite": 0.2396694214876033,
+              "singularity": 0.026446280991735537
+            },
+            "satellite": {
+              "cosmos": 0.4228571428571429,
+              "satellite": 0.5314285714285715,
+              "singularity": 0.045714285714285714
+            },
+            "singularity": {
+              "cosmos": 0.3023255813953488,
+              "satellite": 0.4418604651162791,
+              "singularity": 0.2558139534883721
+            }
+          },
+          "n_transitions": 357,
+          "rate": 0.35771543086172347,
+          "stability_index": 0.6422845691382766,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 3.740740740740741,
+              "median": 3.0,
+              "max": 15,
+              "count": 162
+            },
+            "satellite": {
+              "mean": 2.1341463414634148,
+              "median": 2.0,
+              "max": 8,
+              "count": 164
+            },
+            "singularity": {
+              "mean": 1.34375,
+              "median": 1.0,
+              "max": 5,
+              "count": 32
+            }
+          },
+          "satellite_streak_max": 8
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 202,
+          "instability_fraction": 0.24715615305067218
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.7338842975206612,
+              "equilibrium": 0.2396694214876033,
+              "inward": 0.026446280991735537
+            },
+            "equilibrium": {
+              "outward": 0.4228571428571429,
+              "equilibrium": 0.5314285714285715,
+              "inward": 0.045714285714285714
+            },
+            "inward": {
+              "outward": 0.3023255813953488,
+              "equilibrium": 0.4418604651162791,
+              "inward": 0.2558139534883721
+            }
+          },
+          "n_transitions": 357,
+          "dominant": {
+            "name": "expansion",
+            "count": 148
+          },
+          "type_counts": {
+            "containment": 145,
+            "expansion": 148,
+            "decay": 16,
+            "revival": 19,
+            "collapse": 16,
+            "eruption": 13
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    },
+    "white_noise": {
+      "n_samples": 1000,
+      "n_channels": 1,
+      "signal_hash": "59cc0bd7448e6756",
+      "qci": {
+        "mean": 0.15431806401310422,
+        "std": 0.042425616901018086,
+        "median": 0.15873015873015872
+      },
+      "orbit_distribution": {
+        "counts": {
+          "cosmos": 849,
+          "satellite": 150
+        },
+        "fractions": {
+          "cosmos": 0.8498498498498499,
+          "satellite": 0.15015015015015015
+        },
+        "sequence_length": 999,
+        "dominant_family": "cosmos"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "outward": 849,
+          "equilibrium": 150
+        },
+        "fractions": {
+          "outward": 0.8498498498498499,
+          "equilibrium": 0.15015015015015015
+        },
+        "dominant_flow": "outward",
+        "flow_score_stats": {
+          "mean": 0.8810731349395219,
+          "std": 0.10543917901235489,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.8797169811320755,
+              "satellite": 0.12028301886792453,
+              "singularity": 0.0
+            },
+            "satellite": {
+              "cosmos": 0.68,
+              "satellite": 0.32,
+              "singularity": 0.0
+            },
+            "singularity": {
+              "cosmos": 0.0,
+              "satellite": 0.0,
+              "singularity": 0.0
+            }
+          },
+          "n_transitions": 204,
+          "rate": 0.20440881763527055,
+          "stability_index": 0.7955911823647295,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 8.242718446601941,
+              "median": 6.0,
+              "max": 44,
+              "count": 103
+            },
+            "satellite": {
+              "mean": 1.4705882352941178,
+              "median": 1.0,
+              "max": 5,
+              "count": 102
+            },
+            "singularity": {
+              "mean": 0,
+              "median": 0,
+              "max": 0,
+              "count": 0
+            }
+          },
+          "satellite_streak_max": 5
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 206,
+          "instability_fraction": 0.26370217166494314
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.8797169811320755,
+              "equilibrium": 0.12028301886792453,
+              "inward": 0.0
+            },
+            "equilibrium": {
+              "outward": 0.68,
+              "equilibrium": 0.32,
+              "inward": 0.0
+            },
+            "inward": {
+              "outward": 0.0,
+              "equilibrium": 0.0,
+              "inward": 0.0
+            }
+          },
+          "n_transitions": 204,
+          "dominant": {
+            "name": "containment",
+            "count": 102
+          },
+          "type_counts": {
+            "containment": 102,
+            "expansion": 102
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    },
+    "regime_switch": {
+      "n_samples": 1000,
+      "n_channels": 1,
+      "signal_hash": "386e6c09ee4ca0de",
+      "qci": {
+        "mean": 0.19003385484217095,
+        "std": 0.05718961908043608,
+        "median": 0.1746031746031746
+      },
+      "orbit_distribution": {
+        "counts": {
+          "cosmos": 789,
+          "satellite": 117,
+          "singularity": 93
+        },
+        "fractions": {
+          "cosmos": 0.7897897897897898,
+          "satellite": 0.11711711711711711,
+          "singularity": 0.09309309309309309
+        },
+        "sequence_length": 999,
+        "dominant_family": "cosmos"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "outward": 789,
+          "equilibrium": 117,
+          "inward": 93
+        },
+        "fractions": {
+          "outward": 0.7897897897897898,
+          "equilibrium": 0.11711711711711711,
+          "inward": 0.09309309309309309
+        },
+        "dominant_flow": "outward",
+        "flow_score_stats": {
+          "mean": 0.8926335658017629,
+          "std": 0.08030974508538212,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.8477157360406091,
+              "satellite": 0.09771573604060914,
+              "singularity": 0.05456852791878172
+            },
+            "satellite": {
+              "cosmos": 0.6666666666666666,
+              "satellite": 0.21367521367521367,
+              "singularity": 0.11965811965811966
+            },
+            "singularity": {
+              "cosmos": 0.45161290322580644,
+              "satellite": 0.16129032258064516,
+              "singularity": 0.3870967741935484
+            }
+          },
+          "n_transitions": 269,
+          "rate": 0.2695390781563126,
+          "stability_index": 0.7304609218436874,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 6.520661157024794,
+              "median": 5.0,
+              "max": 34,
+              "count": 121
+            },
+            "satellite": {
+              "mean": 1.2717391304347827,
+              "median": 1.0,
+              "max": 4,
+              "count": 92
+            },
+            "singularity": {
+              "mean": 1.631578947368421,
+              "median": 1.0,
+              "max": 6,
+              "count": 57
+            }
+          },
+          "satellite_streak_max": 4
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 248,
+          "instability_fraction": 0.3081695966907963
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.8477157360406091,
+              "equilibrium": 0.09771573604060914,
+              "inward": 0.05456852791878172
+            },
+            "equilibrium": {
+              "outward": 0.6666666666666666,
+              "equilibrium": 0.21367521367521367,
+              "inward": 0.11965811965811966
+            },
+            "inward": {
+              "outward": 0.45161290322580644,
+              "equilibrium": 0.16129032258064516,
+              "inward": 0.3870967741935484
+            }
+          },
+          "n_transitions": 269,
+          "dominant": {
+            "name": "expansion",
+            "count": 78
+          },
+          "type_counts": {
+            "containment": 77,
+            "expansion": 78,
+            "collapse": 43,
+            "eruption": 42,
+            "decay": 14,
+            "revival": 15
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    },
+    "multi_channel_4d": {
+      "n_samples": 1000,
+      "n_channels": 4,
+      "signal_hash": "211c8e36045b6678",
+      "qci": {
+        "mean": 0.17711813724409095,
+        "std": 0.032775661003943045,
+        "median": 0.1746031746031746
+      },
+      "orbit_distribution": {
+        "counts": {
+          "satellite": 360,
+          "cosmos": 619,
+          "singularity": 20
+        },
+        "fractions": {
+          "satellite": 0.36036036036036034,
+          "cosmos": 0.6196196196196196,
+          "singularity": 0.02002002002002002
+        },
+        "sequence_length": 999,
+        "dominant_family": "cosmos"
+      },
+      "toroidal_flow": {
+        "counts": {
+          "equilibrium": 360,
+          "outward": 619,
+          "inward": 20
+        },
+        "fractions": {
+          "equilibrium": 0.36036036036036034,
+          "outward": 0.6196196196196196,
+          "inward": 0.02002002002002002
+        },
+        "dominant_flow": "outward",
+        "flow_score_stats": {
+          "mean": 0.8346629899133262,
+          "std": 0.1267320271093383,
+          "min": 0.49012907173427356,
+          "max": 0.9215298636825694
+        },
+        "svp_correspondence": {
+          "outward": "cosmos (expansive, centrifugal, radiant)",
+          "equilibrium": "satellite (bounded, balanced circulation)",
+          "inward": "singularity (collapsed, centripetal, convergent)"
+        }
+      },
+      "transitions": {
+        "orbit": {
+          "matrix": {
+            "cosmos": {
+              "cosmos": 0.7415185783521809,
+              "satellite": 0.2520193861066236,
+              "singularity": 0.006462035541195477
+            },
+            "satellite": {
+              "cosmos": 0.42618384401114207,
+              "satellite": 0.5348189415041783,
+              "singularity": 0.03899721448467967
+            },
+            "singularity": {
+              "cosmos": 0.35,
+              "satellite": 0.55,
+              "singularity": 0.1
+            }
+          },
+          "n_transitions": 345,
+          "rate": 0.3456913827655311,
+          "stability_index": 0.654308617234469,
+          "dwell_times": {
+            "cosmos": {
+              "mean": 3.86875,
+              "median": 3.0,
+              "max": 16,
+              "count": 160
+            },
+            "satellite": {
+              "mean": 2.142857142857143,
+              "median": 2.0,
+              "max": 10,
+              "count": 168
+            },
+            "singularity": {
+              "mean": 1.1111111111111112,
+              "median": 1.0,
+              "max": 2,
+              "count": 18
+            }
+          },
+          "satellite_streak_max": 10
+        },
+        "qci_regime_shifts": {
+          "n_shifts": 226,
+          "instability_fraction": 0.27094105480868663
+        },
+        "svp_phase": {
+          "matrix": {
+            "outward": {
+              "outward": 0.7415185783521809,
+              "equilibrium": 0.2520193861066236,
+              "inward": 0.006462035541195477
+            },
+            "equilibrium": {
+              "outward": 0.42618384401114207,
+              "equilibrium": 0.5348189415041783,
+              "inward": 0.03899721448467967
+            },
+            "inward": {
+              "outward": 0.35,
+              "equilibrium": 0.55,
+              "inward": 0.1
+            }
+          },
+          "n_transitions": 345,
+          "dominant": {
+            "name": "containment",
+            "count": 156
+          },
+          "type_counts": {
+            "expansion": 153,
+            "containment": 156,
+            "decay": 14,
+            "eruption": 7,
+            "revival": 11,
+            "collapse": 4
+          }
+        }
+      },
+      "qa_state_sequence_length": 1000
+    }
+  }
+}

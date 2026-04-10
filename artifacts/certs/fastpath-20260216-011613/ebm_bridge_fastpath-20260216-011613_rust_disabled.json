@@ -1,0 +1,44 @@
+{
+  "cert_type": "QA_EBM_VERIFIER_BRIDGE_CERT.v1",
+  "schema_version": 1,
+  "cert_id": "ebm_bridge_fastpath-20260216-011613_rust_disabled",
+  "issued_utc": "2026-02-16T01:16:18Z",
+  "verifier": {
+    "verifier_id": "qa_fast_eval_constraint_gate",
+    "verifier_version": "v1",
+    "mode": "constraint_check",
+    "deterministic": true
+  },
+  "subject": {
+    "navigation_cert_ref": {
+      "ref_name": "artifacts/certs/fastpath-20260216-011613/ebm_nav_fastpath-20260216-011613_rust_disabled.json",
+      "sha256": "9c792d2ba045cf596808d23f094b74e919b60d12a20ecef948bdcf820e0c7433"
+    },
+    "state_after": "candidate:185113",
+    "state_sha256": "84bfdda36042bf610cd558995f1b68b8ee0c8111171ee2111b3b6f00f47a4242",
+    "target_ref": {
+      "ref_name": "qa_fast_eval_target:rust_disabled",
+      "sha256": "853108743e4af0a1af1982219dbb9c2cecd12a18a11be6acee9da5c241eec26a"
+    },
+    "note": "Verifier bridge uses a deterministic QA Lab constraint gate (not an external proof assistant)."
+  },
+  "verdict": {
+    "passed": true,
+    "fail_type": "OK",
+    "witness": "Lab-internal deterministic constraint gate accepted the top-ranked candidate; this is not a Lean/Coq proof verdict."
+  },
+  "invariant_diff": {
+    "witness": "state_after digest bound and verdict coherent.",
+    "state_sha256": "84bfdda36042bf610cd558995f1b68b8ee0c8111171ee2111b3b6f00f47a4242",
+    "verdict_fail_type": "OK"
+  },
+  "digests": {
+    "canonical_sha256": "505c89c01a8b353a4d454a575f512402ea11319a61dcf24c17c0bf61d2633a0c"
+  },
+  "inputs": {
+    "mapping_protocol_ref": {
+      "ref_name": "Documents/QA_MAPPING_PROTOCOL__EBM_REASONING_KONA_PODCAST.v1.json",
+      "sha256": "55cc98814e6b7a12b7e7ffa2598dc86dac9367182a12f7f1f77d1e348f203c09"
+    }
+  }
+}

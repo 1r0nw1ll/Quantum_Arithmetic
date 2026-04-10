@@ -1,0 +1,303 @@
+{
+  "cert_type": "QA_EBM_NAVIGATION_CERT.v1",
+  "schema_version": 1,
+  "cert_id": "ebm_nav_fastpath-hardfail-test_default",
+  "issued_utc": "2026-02-16T01:28:24Z",
+  "inputs": {
+    "problem_ref": {
+      "ref_name": "qa_fast_eval_case:default",
+      "sha256": "4518a64abc783a58c0d5f7ee00521dc66be79259c451fe6c9d2de2448badefdb"
+    },
+    "constraints_ref": {
+      "ref_name": "qa_lab/qa_fastpath.py",
+      "sha256": "c1c0e836327c3f9c2bd2ab3f0ce581b1a51c6af743bfb0451c28ed3f0ea8f57c"
+    },
+    "mapping_protocol_ref": {
+      "ref_name": "Documents/QA_MAPPING_PROTOCOL__EBM_REASONING_KONA_PODCAST.v1.json",
+      "sha256": "55cc98814e6b7a12b7e7ffa2598dc86dac9367182a12f7f1f77d1e348f203c09"
+    }
+  },
+  "navigation": {
+    "state_space": {
+      "state_type": "Fastpath candidate index state"
+    },
+    "generators": [
+      {
+        "name": "fastpath_rerank",
+        "kind": "ebm_meta_policy",
+        "transition_rule": "Select min-energy legal candidate from scored shortlist",
+        "invariant_effect": "Preserves deterministic tie-break and typed failure-complete contract"
+      }
+    ],
+    "energy": {
+      "scalar_type": "int",
+      "definition": "Lab-local deterministic ranking penalty: E=round((1-score)*1e6), monotone transform of score (not physical energy)",
+      "minimize": true,
+      "components": [
+        {
+          "name": "ranking_penalty",
+          "weight": {
+            "type": "int",
+            "value": "1"
+          },
+          "unit": "penalty"
+        }
+      ]
+    },
+    "policy": {
+      "selection": "min_energy_legal",
+      "tie_break": "lex_generator_then_state_after",
+      "declared_deterministic": true
+    },
+    "budgets": {
+      "max_steps": 1,
+      "max_millis": 5000
+    }
+  },
+  "trace": {
+    "steps": [
+      {
+        "t": 0,
+        "state_before": "pool:16",
+        "energy_before": {
+          "type": "int",
+          "value": "71424"
+        },
+        "violations_before": {
+          "violations_total": 71424
+        },
+        "candidates": [
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:3989",
+            "energy_after": {
+              "type": "int",
+              "value": "70043"
+            },
+            "violations_after": {
+              "violations_total": 70043
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:9261",
+            "energy_after": {
+              "type": "int",
+              "value": "70525"
+            },
+            "violations_after": {
+              "violations_total": 70525
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:2861",
+            "energy_after": {
+              "type": "int",
+              "value": "70541"
+            },
+            "violations_after": {
+              "violations_total": 70541
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:2742",
+            "energy_after": {
+              "type": "int",
+              "value": "70589"
+            },
+            "violations_after": {
+              "violations_total": 70589
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:2493",
+            "energy_after": {
+              "type": "int",
+              "value": "70599"
+            },
+            "violations_after": {
+              "violations_total": 70599
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:7372",
+            "energy_after": {
+              "type": "int",
+              "value": "70697"
+            },
+            "violations_after": {
+              "violations_total": 70697
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:7867",
+            "energy_after": {
+              "type": "int",
+              "value": "70804"
+            },
+            "violations_after": {
+              "violations_total": 70804
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:2838",
+            "energy_after": {
+              "type": "int",
+              "value": "70910"
+            },
+            "violations_after": {
+              "violations_total": 70910
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:4572",
+            "energy_after": {
+              "type": "int",
+              "value": "70926"
+            },
+            "violations_after": {
+              "violations_total": 70926
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:7345",
+            "energy_after": {
+              "type": "int",
+              "value": "70933"
+            },
+            "violations_after": {
+              "violations_total": 70933
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:6940",
+            "energy_after": {
+              "type": "int",
+              "value": "71126"
+            },
+            "violations_after": {
+              "violations_total": 71126
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:5395",
+            "energy_after": {
+              "type": "int",
+              "value": "71148"
+            },
+            "violations_after": {
+              "violations_total": 71148
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:7603",
+            "energy_after": {
+              "type": "int",
+              "value": "71302"
+            },
+            "violations_after": {
+              "violations_total": 71302
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:1376",
+            "energy_after": {
+              "type": "int",
+              "value": "71327"
+            },
+            "violations_after": {
+              "violations_total": 71327
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:8670",
+            "energy_after": {
+              "type": "int",
+              "value": "71358"
+            },
+            "violations_after": {
+              "violations_total": 71358
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:7359",
+            "energy_after": {
+              "type": "int",
+              "value": "71423"
+            },
+            "violations_after": {
+              "violations_total": 71423
+            }
+          }
+        ],
+        "chosen_idx": 0,
+        "result": "OK",
+        "state_after": "candidate:3989",
+        "energy_after": {
+          "type": "int",
+          "value": "70043"
+        },
+        "violations_after": {
+          "violations_total": 70043
+        },
+        "invariant_diff": {
+          "delta_energy": {
+            "type": "int",
+            "value": "-1381"
+          },
+          "delta_violations": {
+            "violations_total": -1381
+          },
+          "witness": "Deterministic min-energy legal successor under lex(generator,state_after) tie-break."
+        }
+      }
+    ],
+    "outcome": {
+      "status": "REACHED_TARGET",
+      "target_ref": {
+        "ref_name": "qa_fast_eval_target:default",
+        "sha256": "1799616b3d683d364b34d2bebdc7faf1d9fd645c112b552f1e985a75e5d05c9e"
+      },
+      "accepted_by_verifier": false
+    }
+  },
+  "determinism_contract": {
+    "invariant_diff_defined": true,
+    "failure_complete": true,
+    "tie_break_total": true,
+    "exact_energy_required": true
+  },
+  "digests": {
+    "canonical_sha256": "41c96887757e1c5c0fc294ddacaab755c932acac8d8b01ec12a2b3e56f946646"
+  }
+}

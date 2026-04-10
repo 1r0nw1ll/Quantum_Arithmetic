@@ -1,0 +1,37 @@
+{
+  "checked_pairs": 2,
+  "fail_records": [
+    {
+      "fail_type": "EBM_CROSSCHECK_DIGEST_MISMATCH",
+      "invariant_diff": {
+        "bridge_navigation_digest": "0000000000000000000000000000000000000000000000000000000000000000",
+        "bridge_path": "/home/player2/signal_experiments/qa_lab/artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_default.json",
+        "case_name": "default",
+        "nav_digest": "41c96887757e1c5c0fc294ddacaab755c932acac8d8b01ec12a2b3e56f946646",
+        "nav_path": "/home/player2/signal_experiments/qa_lab/artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_default.json",
+        "run_id": "fastpath-hardfail-test"
+      },
+      "move": "publish.ebm_crosscheck"
+    },
+    {
+      "fail_type": "EBM_CROSSCHECK_VALIDATOR_FAIL",
+      "invariant_diff": {
+        "bridge_path": "/home/player2/signal_experiments/qa_lab/artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_default.json",
+        "case_name": "default",
+        "cert_kind": "bridge",
+        "nav_path": "/home/player2/signal_experiments/qa_lab/artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_default.json",
+        "returncode": 1,
+        "run_id": "fastpath-hardfail-test",
+        "validator_output": "{\n  \"ok\": false,\n  \"results\": [\n    {\n      \"details\": null,\n      \"gate\": \"gate_1_schema_validity\",\n      \"message\": \"Schema valid\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"details\": {\n        \"got\": \"b5170e06bb23d2aaab6461de676d1bff01dcd79306c6f2b0044575b762b190c0\",\n        \"want\": \"f1a04a74e4b8af7cefdd1d1920450fa56bbcfaf4796348f8fb2cc1bd8cd2f29e\"\n      },\n      \"gate\": \"gate_2_canonical_hash\",\n      \"message\": \"canonical_sha256 mismatch\",\n      \"status\": \"FAIL\"\n    }\n  ]\n}"
+      },
+      "move": "publish.ebm_crosscheck"
+    }
+  ],
+  "mode": {
+    "required": true
+  },
+  "run_id": "fastpath-hardfail-test",
+  "run_report": "/home/player2/signal_experiments/qa_lab/logs/run_report_20260215-202824.json",
+  "started_utc": "2026-02-16T01:28:50Z",
+  "validated": false
+}

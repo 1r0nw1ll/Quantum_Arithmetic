@@ -6,6 +6,14 @@ set -e
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOGS_DIR="$BASE_DIR/logs"
 
+if [ -x "$BASE_DIR/qa_venv/bin/python" ]; then
+    PYTHON_BIN="$BASE_DIR/qa_venv/bin/python"
+elif [ -x "$BASE_DIR/.venv/bin/python" ]; then
+    PYTHON_BIN="$BASE_DIR/.venv/bin/python"
+else
+    PYTHON_BIN="python3"
+fi
+
 mkdir -p "$LOGS_DIR"
 
 echo "🚀 Starting QA Collaboration System..."
@@ -43,7 +51,7 @@ start_service() {
 }
 
 # Start collaboration bus
-start_service "collab-bus" "python3 $BASE_DIR/qa_agents/cli/qa_collab_bus.py"
+start_service "collab-bus" "$PYTHON_BIN $BASE_DIR/qa_agents/cli/qa_collab_bus.py"
 
 # Wait for bus to initialize
 echo ""
@@ -52,7 +60,7 @@ sleep 2
 
 # Start REST API (optional)
 if [ "$1" == "--with-api" ]; then
-    start_service "collab-api" "python3 $BASE_DIR/qa_agents/cli/qa_collab_api.py --port 8080"
+    start_service "collab-api" "$PYTHON_BIN $BASE_DIR/qa_agents/cli/qa_collab_api.py --port 8080"
 fi
 
 echo ""

@@ -298,20 +298,34 @@ class CollabMCPServer:
             }
         }
 
+    def _try_reconnect(self) -> bool:
+        """Attempt to (re)connect to the collaboration bus."""
+        try:
+            self.agent = CollaborativeAgent(
+                name=self.agent_name,
+                auto_connect=True,
+                metadata={"type": "mcp", "client": self.agent_name}
+            )
+            return self.agent.connected
+        except Exception:
+            return False
+
     def handle_tool_call(self, params: dict) -> dict:
         """Handle tool calls"""
         tool_name = params.get("name")
         arguments = params.get("arguments", {})
 
         if not self.agent or not self.agent.connected:
-            return {
-                "jsonrpc": "2.0",
-                "id": self.request_id,
-                "error": {
-                    "code": -32603,
-                    "message": "Not connected to collaboration bus"
+            # Auto-reconnect: bus may have started after this MCP server
+            if not self._try_reconnect():
+                return {
+                    "jsonrpc": "2.0",
+                    "id": self.request_id,
+                    "error": {
+                        "code": -32603,
+                        "message": "Not connected to collaboration bus"
+                    }
                 }
-            }
 
         try:
             if tool_name == "collab_broadcast":
@@ -527,7 +541,15 @@ class CollabMCPServer:
 
                 try:
                     request = json.loads(line)
+                    # JSON-RPC 2.0: a notification has no "id" field.
+                    # Notifications MUST NOT receive a response.
+                    is_notification = "id" not in request
                     self.request_id = request.get("id", 0)
+                    if is_notification:
+                        # Process side effects for known notifications, but
+                        # never emit a response. Unknown notifications are
+                        # silently ignored per spec.
+                        continue
                     response = self.handle_request(request)
                     print(json.dumps(response), flush=True)
 

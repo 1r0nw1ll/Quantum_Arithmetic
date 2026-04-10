@@ -1,0 +1,12 @@
+{
+  "run_id": "fastpath-smoke-20260216-014811",
+  "generated_utc": "2026-02-16T01:48:12Z",
+  "cases": {
+    "default": {
+      "navigation_cert": "artifacts/certs/fastpath-smoke-20260216-014811/ebm_nav_fastpath-smoke-20260216-014811_default.json",
+      "bridge_cert": "artifacts/certs/fastpath-smoke-20260216-014811/ebm_bridge_fastpath-smoke-20260216-014811_default.json",
+      "accepted_by_verifier": true,
+      "bridge_emitted": true
+    }
+  }
+}

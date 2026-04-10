@@ -1,3 +1,7 @@
+"""
+Auto-refactor: normalize formatting for qa_plot_jepa.py
+"""
+
 #!/usr/bin/env python3
 import argparse
 import csv

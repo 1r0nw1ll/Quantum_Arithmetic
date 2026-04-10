@@ -1,0 +1,149 @@
+{
+  "9": {
+    "modulus": 9,
+    "total_states": 81,
+    "max_orbit_length": 24,
+    "cross_tab": {
+      "cosmos": {
+        "outward": 72
+      },
+      "satellite": {
+        "equilibrium": 8
+      },
+      "singularity": {
+        "inward": 1
+      }
+    },
+    "aspect_summary": {
+      "cosmos": {
+        "count": 72,
+        "mean": 1.615327380952381,
+        "std": 0.8976882384022417,
+        "min": 1.0,
+        "max": 4.555555555555555,
+        "median": 1.213888888888889
+      },
+      "satellite": {
+        "count": 8,
+        "mean": 1.25,
+        "std": 0.2568505834570407,
+        "min": 1.0,
+        "max": 1.6666666666666667,
+        "median": 1.1666666666666665
+      },
+      "singularity": {
+        "count": 1,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "median": 1.0
+      }
+    },
+    "winding_summary": {
+      "cosmos": {
+        "count": 72,
+        "mean": 2.1968930375180373,
+        "std": 3.1989704931351723,
+        "min": 0.09523809523809523,
+        "max": 18.0
+      },
+      "satellite": {
+        "count": 8,
+        "mean": 2.4583333333333335,
+        "std": 2.4148700218070167,
+        "min": 0.3333333333333333,
+        "max": 8.0
+      },
+      "singularity": {
+        "count": 1,
+        "mean": 2.0,
+        "std": 0.0,
+        "min": 2.0,
+        "max": 2.0
+      }
+    },
+    "default_agreement": 1.0,
+    "optimal_threshold": 1.0,
+    "optimal_agreement": 1.0,
+    "svp_mapping": {
+      "outward": "cosmos",
+      "equilibrium": "satellite",
+      "inward": "singularity"
+    }
+  },
+  "24": {
+    "modulus": 24,
+    "total_states": 576,
+    "max_orbit_length": 24,
+    "cross_tab": {
+      "cosmos": {
+        "outward": 504
+      },
+      "satellite": {
+        "outward": 48,
+        "equilibrium": 23
+      },
+      "singularity": {
+        "inward": 1
+      }
+    },
+    "aspect_summary": {
+      "cosmos": {
+        "count": 504,
+        "mean": 2.0226383361642384,
+        "std": 1.9142407852877852,
+        "min": 1.0,
+        "max": 11.521739130434783,
+        "median": 1.2332251082251082
+      },
+      "satellite": {
+        "count": 71,
+        "mean": 1.4690811535881958,
+        "std": 0.6704168370660871,
+        "min": 1.0,
+        "max": 3.5714285714285716,
+        "median": 1.25
+      },
+      "singularity": {
+        "count": 1,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "median": 1.0
+      }
+    },
+    "winding_summary": {
+      "cosmos": {
+        "count": 504,
+        "mean": 2.1857588306730658,
+        "std": 4.214368199007884,
+        "min": 0.08333333333333333,
+        "max": 24.0
+      },
+      "satellite": {
+        "count": 71,
+        "mean": 1.5873910127431252,
+        "std": 1.1669493076899775,
+        "min": 0.25,
+        "max": 4.0
+      },
+      "singularity": {
+        "count": 1,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      }
+    },
+    "default_agreement": 0.9166666666666666,
+    "optimal_threshold": 0.8399702239118352,
+    "optimal_agreement": 0.9166666666666666,
+    "svp_mapping": {
+      "outward": "cosmos",
+      "equilibrium": "satellite",
+      "inward": "singularity"
+    }
+  }
+}

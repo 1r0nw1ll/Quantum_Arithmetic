@@ -1,0 +1,11 @@
+{
+  "checked_pairs": 3,
+  "fail_records": [],
+  "mode": {
+    "required": true
+  },
+  "run_id": "fastpath-20260216-012900",
+  "run_report": "/home/player2/signal_experiments/qa_lab/logs/run_report_20260215-202910.json",
+  "started_utc": "2026-02-16T01:29:33Z",
+  "validated": true
+}

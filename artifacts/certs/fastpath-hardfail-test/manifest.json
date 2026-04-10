@@ -1,0 +1,24 @@
+{
+  "run_id": "fastpath-hardfail-test",
+  "generated_utc": "2026-02-16T01:28:24Z",
+  "cases": {
+    "default": {
+      "navigation_cert": "artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_default.json",
+      "bridge_cert": "artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_default.json",
+      "accepted_by_verifier": false,
+      "bridge_emitted": true
+    },
+    "numpy_pref": {
+      "navigation_cert": "artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_numpy_pref.json",
+      "bridge_cert": "artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_numpy_pref.json",
+      "accepted_by_verifier": false,
+      "bridge_emitted": true
+    },
+    "rust_disabled": {
+      "navigation_cert": "artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_rust_disabled.json",
+      "bridge_cert": "artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_rust_disabled.json",
+      "accepted_by_verifier": false,
+      "bridge_emitted": true
+    }
+  }
+}

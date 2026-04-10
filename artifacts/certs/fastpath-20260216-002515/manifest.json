@@ -1,0 +1,21 @@
+{
+  "run_id": "fastpath-20260216-002515",
+  "generated_utc": "2026-02-16T00:25:21Z",
+  "cases": {
+    "default": {
+      "navigation_cert": "artifacts/certs/fastpath-20260216-002515/ebm_nav_fastpath-20260216-002515_default.json",
+      "bridge_cert": "artifacts/certs/fastpath-20260216-002515/ebm_bridge_fastpath-20260216-002515_default.json",
+      "accepted_by_verifier": true
+    },
+    "numpy_pref": {
+      "navigation_cert": "artifacts/certs/fastpath-20260216-002515/ebm_nav_fastpath-20260216-002515_numpy_pref.json",
+      "bridge_cert": "artifacts/certs/fastpath-20260216-002515/ebm_bridge_fastpath-20260216-002515_numpy_pref.json",
+      "accepted_by_verifier": true
+    },
+    "rust_disabled": {
+      "navigation_cert": "artifacts/certs/fastpath-20260216-002515/ebm_nav_fastpath-20260216-002515_rust_disabled.json",
+      "bridge_cert": "artifacts/certs/fastpath-20260216-002515/ebm_bridge_fastpath-20260216-002515_rust_disabled.json",
+      "accepted_by_verifier": true
+    }
+  }
+}

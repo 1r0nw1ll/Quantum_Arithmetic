@@ -1,0 +1,44 @@
+{
+  "cert_type": "QA_EBM_VERIFIER_BRIDGE_CERT.v1",
+  "schema_version": 1,
+  "cert_id": "ebm_bridge_fastpath-20260216-002515_numpy_pref",
+  "issued_utc": "2026-02-16T00:25:19Z",
+  "verifier": {
+    "verifier_id": "qa_fast_eval_constraint_gate",
+    "verifier_version": "v1",
+    "mode": "constraint_check",
+    "deterministic": true
+  },
+  "subject": {
+    "navigation_cert_ref": {
+      "ref_name": "artifacts/certs/fastpath-20260216-002515/ebm_nav_fastpath-20260216-002515_numpy_pref.json",
+      "sha256": "61f38f9860da32f646bd9ac60f497b0aac44eb14b3de22eeb9cc5a906323543d"
+    },
+    "state_after": "candidate:17828",
+    "state_sha256": "11110b94a773b197913dbb67dd83e6ada16fee2af9e4dcfd4d504eb629d1eae1",
+    "target_ref": {
+      "ref_name": "qa_fast_eval_target:numpy_pref",
+      "sha256": "dad683cf77d38632b75b30ff4c26ed3921da9f83363ea5b8112c76e65cac79bb"
+    },
+    "note": "Fastpath acceptance bridge for deterministic ranked candidate selection."
+  },
+  "verdict": {
+    "passed": true,
+    "fail_type": "OK",
+    "witness": "Constraint gate accepted top-ranked candidate."
+  },
+  "invariant_diff": {
+    "witness": "state_after digest bound and verdict coherent.",
+    "state_sha256": "11110b94a773b197913dbb67dd83e6ada16fee2af9e4dcfd4d504eb629d1eae1",
+    "verdict_fail_type": "OK"
+  },
+  "digests": {
+    "canonical_sha256": "b256e002b2f6807647004d828734e8a8f273311b2d4ae52aab08386c7012f455"
+  },
+  "inputs": {
+    "mapping_protocol_ref": {
+      "ref_name": "Documents/QA_MAPPING_PROTOCOL__EBM_REASONING_KONA_PODCAST.v1.json",
+      "sha256": "55cc98814e6b7a12b7e7ffa2598dc86dac9367182a12f7f1f77d1e348f203c09"
+    }
+  }
+}

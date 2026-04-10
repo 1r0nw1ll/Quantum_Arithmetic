@@ -9,6 +9,10 @@ vault/
 *.env.*
 *.pem
 *.key
+*.zip
+
+# --- Rust Build Artifacts ---
+target/
 
 # --- Python / Build Artifacts ---
 __pycache__/

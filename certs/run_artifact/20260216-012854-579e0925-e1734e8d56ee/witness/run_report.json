@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-02-15T20:28:29.825107",
+  "completed_count": 2512,
+  "active_state_counts": {
+    "failed": 833,
+    "assigned": 57,
+    "queued": 1
+  },
+  "artifact_archive": "/home/player2/signal_experiments/qa_lab/releases/run-20260215-202824.tar.gz",
+  "artifact_delta": {
+    "timestamp": "2026-02-07T01:00:11.932738",
+    "added_count": 1,
+    "removed_count": 0,
+    "modified_count": 0,
+    "added": [
+      "artifacts/ingestion/execution_grounded_automated_ai_research_ANALYSIS.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "ebm_certs": {
+    "source": "artifacts/evals/fastpath_eval.json",
+    "enabled": true,
+    "run_id": "fastpath-hardfail-test",
+    "requested_verifier_bridge": true,
+    "accepted_by_verifier": false,
+    "cases": {
+      "default": {
+        "ok": true,
+        "run_id": "fastpath-hardfail-test",
+        "case_name": "default",
+        "navigation_cert": "artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_default.json",
+        "navigation_sha256": "41c96887757e1c5c0fc294ddacaab755c932acac8d8b01ec12a2b3e56f946646",
+        "bridge_cert": "artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_default.json",
+        "accepted_by_verifier": false,
+        "bridge_emitted": true,
+        "bridge_navigation_digest_match": true,
+        "manifest": "artifacts/certs/fastpath-hardfail-test/manifest.json"
+      },
+      "numpy_pref": {
+        "ok": true,
+        "run_id": "fastpath-hardfail-test",
+        "case_name": "numpy_pref",
+        "navigation_cert": "artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_numpy_pref.json",
+        "navigation_sha256": "a2602443657d8ee20ef9cef8cc82b8a5082a4ece3ecfd723c0ffb1f0eb6639af",
+        "bridge_cert": "artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_numpy_pref.json",
+        "accepted_by_verifier": false,
+        "bridge_emitted": true,
+        "bridge_navigation_digest_match": true,
+        "manifest": "artifacts/certs/fastpath-hardfail-test/manifest.json"
+      },
+      "rust_disabled": {
+        "ok": true,
+        "run_id": "fastpath-hardfail-test",
+        "case_name": "rust_disabled",
+        "navigation_cert": "artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_rust_disabled.json",
+        "navigation_sha256": "efd219c236223f3ce1cd3e259ced9acbfac863e7e13ac5648fb0a800f9dfc561",
+        "bridge_cert": "artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_rust_disabled.json",
+        "accepted_by_verifier": false,
+        "bridge_emitted": true,
+        "bridge_navigation_digest_match": true,
+        "manifest": "artifacts/certs/fastpath-hardfail-test/manifest.json"
+      }
+    }
+  },
+  "spine_hygiene": {
+    "command": [
+      "/usr/bin/python",
+      "/home/player2/signal_experiments/qa_alphageometry_ptolemy/qa_meta_validator.py",
+      "--strict"
+    ],
+    "mode": {
+      "fast": false,
+      "strict": true
+    },
+    "returncode": 0,
+    "started_utc": "2026-02-16T01:28:30Z",
+    "stderr": {
+      "path": null,
+      "sha256": null
+    },
+    "stdout": {
+      "path": "logs/spine_hygiene_20260215-202824.stdout.txt",
+      "sha256": "11741f4141cabc3f97b9ca57c15ea534afc9d00988a5ebbc7f5757c53889bcbe"
+    },
+    "summary": {
+      "stdout_head": [
+        "=== META-VALIDATOR SELF-TEST (TETRAD + CONJECTURES) ===",
+        "",
+        "[1] GENERATOR_INJECTION: valid=True hash=3f11d9291bdfc482",
+        "[2] DIVERSITY_COLLAPSE_OBSTRUCTION: valid=True hash=57aa26cb7b11e3e2",
+        "[3] FIELD_COMPUTATION_CERT: valid=True hash=80a6cfb059dd74d6"
+      ],
+      "tail_marker": "[PASS]"
+    },
+    "validated": true
+  },
+  "ebm_crosscheck": {
+    "checked_pairs": 2,
+    "fail_records": [
+      {
+        "fail_type": "EBM_CROSSCHECK_DIGEST_MISMATCH",
+        "invariant_diff": {
+          "bridge_navigation_digest": "0000000000000000000000000000000000000000000000000000000000000000",
+          "bridge_path": "/home/player2/signal_experiments/qa_lab/artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_default.json",
+          "case_name": "default",
+          "nav_digest": "41c96887757e1c5c0fc294ddacaab755c932acac8d8b01ec12a2b3e56f946646",
+          "nav_path": "/home/player2/signal_experiments/qa_lab/artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_default.json",
+          "run_id": "fastpath-hardfail-test"
+        },
+        "move": "publish.ebm_crosscheck"
+      },
+      {
+        "fail_type": "EBM_CROSSCHECK_VALIDATOR_FAIL",
+        "invariant_diff": {
+          "bridge_path": "/home/player2/signal_experiments/qa_lab/artifacts/certs/fastpath-hardfail-test/ebm_bridge_fastpath-hardfail-test_default.json",
+          "case_name": "default",
+          "cert_kind": "bridge",
+          "nav_path": "/home/player2/signal_experiments/qa_lab/artifacts/certs/fastpath-hardfail-test/ebm_nav_fastpath-hardfail-test_default.json",
+          "returncode": 1,
+          "run_id": "fastpath-hardfail-test",
+          "validator_output": "{\n  \"ok\": false,\n  \"results\": [\n    {\n      \"details\": null,\n      \"gate\": \"gate_1_schema_validity\",\n      \"message\": \"Schema valid\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"details\": {\n        \"got\": \"b5170e06bb23d2aaab6461de676d1bff01dcd79306c6f2b0044575b762b190c0\",\n        \"want\": \"f1a04a74e4b8af7cefdd1d1920450fa56bbcfaf4796348f8fb2cc1bd8cd2f29e\"\n      },\n      \"gate\": \"gate_2_canonical_hash\",\n      \"message\": \"canonical_sha256 mismatch\",\n      \"status\": \"FAIL\"\n    }\n  ]\n}"
+        },
+        "move": "publish.ebm_crosscheck"
+      }
+    ],
+    "mode": {
+      "required": true
+    },
+    "run_id": "fastpath-hardfail-test",
+    "run_report": "/home/player2/signal_experiments/qa_lab/logs/run_report_20260215-202824.json",
+    "started_utc": "2026-02-16T01:28:50Z",
+    "validated": false,
+    "returncode": 1
+  }
+}

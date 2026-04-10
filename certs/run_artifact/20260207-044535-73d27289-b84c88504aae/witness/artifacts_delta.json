@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-11-21T17:32:26.033782",
+  "added_count": 13,
+  "removed_count": 0,
+  "modified_count": 0,
+  "added": [
+    "artifacts/evals/audio_qa_summary_T-004.json",
+    "artifacts/evals/e8_exploration_T-003.json",
+    "artifacts/evals/qalm_eval_baseline_T-010.json",
+    "artifacts/plots/agent_workflow.dot",
+    "artifacts/plots/qa_dataset_summary.txt",
+    "artifacts/plots/volk_geometry_sample.json",
+    "artifacts/plots/volk_triangle_summary.json",
+    "artifacts/proofs/dataset_index_T-006.json",
+    "artifacts/proofs/pipeline_status_T-008.json",
+    "artifacts/proofs/qa_model_recommendation_T-007.json",
+    "artifacts/proofs/qalm_integration_T-009.json",
+    "qa_data/qa_training_dataset.json",
+    "qa_data/volk_triangle_dataset.jsonl"
+  ],
+  "removed": [],
+  "modified": []
+}

@@ -1,0 +1,7544 @@
+# QA Agent Runs
+
+
+### 2026-04-04T23:55:20.632135
+- **t-153354-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-13** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-11** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143659-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173216-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-10** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165126-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-185918-0f4f15** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_jepa.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-14** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-11** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-12** (green lane, prio: 0.5): Address TODO/FIXME in core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-15** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172746-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-19** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-12** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-10** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-45** (green lane, prio: 2.0): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-15** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172640-05** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-49** (green lane, prio: 2.0): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-31** (green lane, prio: 2.0): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-145902-6577d4** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_pcn.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-14** (green lane, prio: 2.0): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-18** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-11** (green lane, prio: 0.5): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-14** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-99** (green lane, prio: 2.0): Address TODO/FIXME in test_core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-67** (green lane, prio: 2.0): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-14** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-19** (green lane, prio: 2.0): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-11** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144651-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-09** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-52** (green lane, prio: 2.0): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-82** (green lane, prio: 2.0): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-14** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-46** (green lane, prio: 2.0): Address TODO/FIXME in adapters.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-15** (green lane, prio: 2.0): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-47** (green lane, prio: 2.0): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-79** (green lane, prio: 2.0): Address TODO/FIXME in _add_newdocs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-08** (green lane, prio: 0.5): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-14** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-10** (green lane, prio: 0.5): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-13** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-78** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-81** (green lane, prio: 2.0): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-88** (green lane, prio: 2.0): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-09** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-09** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-13** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-104** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-15** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-14** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-76** (green lane, prio: 2.0): Address TODO/FIXME in _dtype_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-19** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-12** (green lane, prio: 0.5): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-14** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-16** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-09** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153700-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-13** (green lane, prio: 0.5): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-10** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-13** (green lane, prio: 0.5): Address TODO/FIXME in _nanfunctions_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173216-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-71** (green lane, prio: 2.0): Address TODO/FIXME in mixins.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164326-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151337-04** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-09** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-104** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-11** (green lane, prio: 2.0): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-14** (green lane, prio: 2.0): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145127-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-10** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150548-01** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-16** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172530-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-19** (green lane, prio: 2.0): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-11** (green lane, prio: 2.0): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153950-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161422-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-16** (green lane, prio: 0.5): Address TODO/FIXME in test_array_coercion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-13** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-26** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-71** (green lane, prio: 2.0): Address TODO/FIXME in mixins.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-10** (green lane, prio: 0.5): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-28** (green lane, prio: 2.0): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-11** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150807-01** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-12** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **T-001** (red lane, prio: 0.0): Prove inner vs quantum ellipse equivalence under division by d (fractional tuples)
+  - Assigned to: claude_code
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-140325-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-17** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-11** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-12** (green lane, prio: 0.5): Address TODO/FIXME in mixins.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-08** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163044-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-27** (green lane, prio: 0.5): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-14** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-02** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-09** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-57** (green lane, prio: 2.0): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-16** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-17** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-19** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-15** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-33** (green lane, prio: 2.0): Address TODO/FIXME in factory.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-93** (green lane, prio: 2.0): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-14** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-09** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-12** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-81** (green lane, prio: 2.0): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-42** (green lane, prio: 2.0): Address TODO/FIXME in lexer.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-66** (green lane, prio: 2.0): Address TODO/FIXME in _polybase.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-40** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-12** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172853-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-17** (green lane, prio: 0.5): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-12** (green lane, prio: 0.5): Address TODO/FIXME in capi_maps.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-11** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-02** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-13** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-36** (green lane, prio: 2.0): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-13** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-06** (green lane, prio: 0.5): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-10** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-12** (green lane, prio: 0.5): Address TODO/FIXME in connectionpool.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-49** (green lane, prio: 2.0): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154452-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-15** (green lane, prio: 2.0): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-11** (green lane, prio: 0.5): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-56** (green lane, prio: 2.0): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150657-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-64** (green lane, prio: 2.0): Address TODO/FIXME in f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-55** (green lane, prio: 2.0): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172746-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162101-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173359-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-45** (green lane, prio: 2.0): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-13** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-29** (green lane, prio: 2.0): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-59** (green lane, prio: 2.0): Address TODO/FIXME in symbolic.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-12** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151337-01** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163146-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-79** (green lane, prio: 2.0): Address TODO/FIXME in _add_newdocs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-09** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-14** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-15** (green lane, prio: 0.5): Address TODO/FIXME in subversion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-16** (green lane, prio: 0.5): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-14** (green lane, prio: 0.5): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-08** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-09** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-13** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-68** (green lane, prio: 2.0): Address TODO/FIXME in polyutils.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-15** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-36** (green lane, prio: 2.0): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-12** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-09** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-17** (green lane, prio: 2.0): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-172005-901537** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_raman.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172853-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-91** (green lane, prio: 2.0): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173359-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-33** (green lane, prio: 0.5): Address TODO/FIXME in f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-14** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150514-02** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-27** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-08** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-50** (green lane, prio: 2.0): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-20** (green lane, prio: 2.0): Address TODO/FIXME in req_install.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-140005-901537** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_raman.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-09** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-223858-901537** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_raman.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-23** (green lane, prio: 2.0): Address TODO/FIXME in installation_report.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-10** (green lane, prio: 0.5): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-15** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-11** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-73** (green lane, prio: 2.0): Address TODO/FIXME in _function_base_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-80** (green lane, prio: 2.0): Address TODO/FIXME in fromnumeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173359-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164117-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-14** (green lane, prio: 0.5): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-13** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-140616-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-37** (green lane, prio: 2.0): Address TODO/FIXME in connectionpool.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-18** (green lane, prio: 2.0): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145528-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150842-01** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-12** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153731-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173359-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-08** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173108-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-16** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-09** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150548-04** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-16** (green lane, prio: 0.5): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161848-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-10** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-11** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-24** (green lane, prio: 2.0): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-12** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-08** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-14** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-13** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-11** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-10** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-14** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-90** (green lane, prio: 2.0): Address TODO/FIXME in test_array_coercion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-85** (green lane, prio: 2.0): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160509-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-90** (green lane, prio: 2.0): Address TODO/FIXME in test_array_coercion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-10** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-13** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-11** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-12** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-172005-0ceb42** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_benchmarks.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-08** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151100-03** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143918-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-15** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164254-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172640-02** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-11** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-08** (green lane, prio: 0.5): Address TODO/FIXME in _function_base_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-83** (green lane, prio: 2.0): Address TODO/FIXME in getlimits.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-70** (green lane, prio: 2.0): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-46** (green lane, prio: 2.0): Address TODO/FIXME in adapters.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-09** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-12** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-003426-0ceb42** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_benchmarks.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-23** (green lane, prio: 2.0): Address TODO/FIXME in installation_report.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-220202-901537** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_raman.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-17** (green lane, prio: 0.5): Address TODO/FIXME in _array_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-99** (green lane, prio: 2.0): Address TODO/FIXME in test_core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-11** (green lane, prio: 0.5): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-16** (green lane, prio: 0.5): Address TODO/FIXME in test_f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-38** (green lane, prio: 2.0): Address TODO/FIXME in connection.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-10** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-51** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-140433-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172746-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-14** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-15** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-51** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-31** (green lane, prio: 2.0): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172424-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-52** (green lane, prio: 2.0): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162736-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-10** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-13** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-09** (green lane, prio: 0.5): Address TODO/FIXME in symbolic.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-12** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172105-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-14** (green lane, prio: 0.5): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-58** (green lane, prio: 2.0): Address TODO/FIXME in url.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143550-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-11** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-11** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-13** (green lane, prio: 0.5): Address TODO/FIXME in capi_maps.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-12** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-30** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-41** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-12** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-05** (green lane, prio: 0.5): Address TODO/FIXME in req_install.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-65** (green lane, prio: 2.0): Address TODO/FIXME in core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-10** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-11** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163910-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-10** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150514-01** (green lane, prio: 0.5): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-08** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-11** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-15** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-10** (green lane, prio: 0.5): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-48** (green lane, prio: 2.0): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-12** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-10** (green lane, prio: 0.5): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-10** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-08** (green lane, prio: 0.5): Address TODO/FIXME in cache.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-83** (green lane, prio: 2.0): Address TODO/FIXME in getlimits.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172530-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-03** (green lane, prio: 5.0): E8 alignment benchmark (test 3/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-13** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-32** (green lane, prio: 2.0): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-71** (green lane, prio: 2.0): Address TODO/FIXME in mixins.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164357-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-13** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-09** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-10** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-11** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153617-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-08** (green lane, prio: 0.5): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-14** (yellow lane, prio: 0.5): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162633-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-13** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-16** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-88** (green lane, prio: 2.0): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172317-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-72** (green lane, prio: 2.0): Address TODO/FIXME in _nanfunctions_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173108-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-40** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-47** (green lane, prio: 2.0): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-56** (green lane, prio: 2.0): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172424-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-09** (green lane, prio: 0.5): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-58** (green lane, prio: 2.0): Address TODO/FIXME in url.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-35** (green lane, prio: 2.0): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163942-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-54** (green lane, prio: 2.0): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-13** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-08** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-17** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-35** (green lane, prio: 2.0): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144028-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-15** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-27** (green lane, prio: 2.0): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144908-02** (green lane, prio: 0.5): Address TODO/FIXME in test_array_coercion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-11** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171959-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-91** (green lane, prio: 2.0): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-14** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-02** (green lane, prio: 5.0): E8 alignment benchmark (test 2/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-08** (green lane, prio: 0.5): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-13** (green lane, prio: 0.5): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-52** (green lane, prio: 2.0): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-10** (green lane, prio: 0.5): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-13** (yellow lane, prio: 0.5): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-42** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-25** (green lane, prio: 2.0): Address TODO/FIXME in subversion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143952-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155157** (green lane, prio: 4): Volk–Grant triangle dataset generation (QALM)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-14** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-11** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163736-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-16** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-13** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-51** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-231118-debc5e** (yellow lane, prio: 3.0): Refactor qa_agents/cli/qa_swarm_protocol.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-12** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-26** (green lane, prio: 2.0): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-12** (green lane, prio: 0.5): Address TODO/FIXME in installation_report.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-23** (green lane, prio: 0.5): Address TODO/FIXME in lexer.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-84** (green lane, prio: 2.0): Address TODO/FIXME in arrayprint.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-67** (green lane, prio: 2.0): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-10** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144506-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-18** (green lane, prio: 2.0): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-104** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-83** (green lane, prio: 2.0): Address TODO/FIXME in getlimits.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-13** (green lane, prio: 0.5): Address TODO/FIXME in test_umath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-10** (green lane, prio: 5.0): E8 alignment benchmark (test 10/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145202-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-59** (green lane, prio: 2.0): Address TODO/FIXME in symbolic.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-13** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-79** (green lane, prio: 2.0): Address TODO/FIXME in _add_newdocs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150255-02** (green lane, prio: 0.5): Address TODO/FIXME in _nanfunctions_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-18** (green lane, prio: 0.5): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171959-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-10** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-13** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-31** (green lane, prio: 0.5): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-12** (green lane, prio: 0.5): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172105-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-99** (green lane, prio: 2.0): Address TODO/FIXME in test_core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-13** (green lane, prio: 0.5): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151244-01** (green lane, prio: 0.5): Address TODO/FIXME in core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-26** (green lane, prio: 2.0): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-14** (green lane, prio: 0.5): Address TODO/FIXME in _polybase.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-12** (green lane, prio: 0.5): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-14** (green lane, prio: 0.5): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151209-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-15** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-95** (green lane, prio: 2.0): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160257-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-11** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172317-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-17** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-12** (green lane, prio: 0.5): Address TODO/FIXME in subversion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-12** (green lane, prio: 0.5): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-11** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-05** (green lane, prio: 0.5): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-140217-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-09** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-13** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-14** (green lane, prio: 2.0): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-16** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-12** (green lane, prio: 0.5): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-08** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-14** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-13** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-13** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-09** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-27** (green lane, prio: 2.0): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-01** (green lane, prio: 5.0): E8 alignment benchmark (test 1/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150548-03** (green lane, prio: 0.5): Address TODO/FIXME in test_multiarray.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-10** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-15** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-73** (green lane, prio: 2.0): Address TODO/FIXME in _function_base_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-13** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172640-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-48** (green lane, prio: 2.0): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-86** (green lane, prio: 2.0): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-61** (green lane, prio: 2.0): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-11** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-10** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161211-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-12** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-09** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151337-05** (green lane, prio: 0.5): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-135357-d5d4da** (yellow lane, prio: 3.0): Refactor qa_agents/cli/cim_qalm_agent.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-12** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-94** (green lane, prio: 2.0): Address TODO/FIXME in test_multiarray.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-10** (green lane, prio: 0.5): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-05** (green lane, prio: 0.5): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-72** (green lane, prio: 2.0): Address TODO/FIXME in _nanfunctions_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171959-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-08** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-21** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173000-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-10** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-10** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164100-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172105-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145018-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-08** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-13** (green lane, prio: 0.5): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-10** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173108-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-11** (green lane, prio: 0.5): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-67** (green lane, prio: 2.0): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-60** (green lane, prio: 2.0): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145236-03** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-94** (green lane, prio: 2.0): Address TODO/FIXME in test_multiarray.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-29** (green lane, prio: 0.5): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-14** (green lane, prio: 0.5): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-140005-6577d4** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_pcn.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-15** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161317-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-14** (green lane, prio: 0.5): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162910-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-08** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-12** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-89** (green lane, prio: 2.0): Address TODO/FIXME in test_scalarmath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-16** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-12** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-10** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-85** (green lane, prio: 2.0): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-20** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-16** (green lane, prio: 0.5): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-11** (green lane, prio: 0.5): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-33** (green lane, prio: 2.0): Address TODO/FIXME in factory.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172105-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-08** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171959-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163839-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-13** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-142652-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-13** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-63** (green lane, prio: 2.0): Address TODO/FIXME in _isocbind.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-124910-0ceb42** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_benchmarks.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-78** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163602-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-35** (green lane, prio: 2.0): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163218-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150038-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-16** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-15** (green lane, prio: 0.5): Address TODO/FIXME in mixins.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-20** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-16** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150147-01** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-39** (green lane, prio: 2.0): Address TODO/FIXME in metadata.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151100-02** (green lane, prio: 0.5): Address TODO/FIXME in test_docs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-12** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-08** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172530-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-15** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-13** (green lane, prio: 0.5): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-77** (green lane, prio: 2.0): Address TODO/FIXME in _array_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-15** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-10** (green lane, prio: 0.5): Address TODO/FIXME in polyutils.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-51** (green lane, prio: 0.5): Address TODO/FIXME in test_core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-13** (green lane, prio: 0.5): Address TODO/FIXME in adapters.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172424-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-14** (green lane, prio: 0.5): Address TODO/FIXME in polyutils.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-13** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-10** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150440-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-53** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-142709-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-12** (green lane, prio: 0.5): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-14** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-15** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145745-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172105-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154600** (green lane, prio: 5): E8 harmonic index integration
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150440-01** (green lane, prio: 0.5): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145820-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-14** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-11** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-09** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-12** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-142652-01** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153625-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-15** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172530-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-15** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-04** (green lane, prio: 5.0): E8 alignment benchmark (test 4/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-63** (green lane, prio: 2.0): Address TODO/FIXME in _isocbind.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-195816-699e39** (yellow lane, prio: 3.0): Refactor qa_agents/cli/executor.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143516-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-174716-c98f00** (yellow lane, prio: 3.0): Refactor qa_agents/cli/qa_vision_agent.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-10** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-09** (green lane, prio: 0.5): Address TODO/FIXME in req_install.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162941-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-16** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-13** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-14** (green lane, prio: 0.5): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-17** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-12** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-13** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-06** (green lane, prio: 0.5): Address TODO/FIXME in connection.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-08** (green lane, prio: 0.5): Address TODO/FIXME in req_install.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-25** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-09** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-11** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-13** (green lane, prio: 0.5): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173108-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-102** (green lane, prio: 2.0): Address TODO/FIXME in test_f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151100-01** (green lane, prio: 0.5): Address TODO/FIXME in test_stringdtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144616-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162317-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-13** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-38** (green lane, prio: 2.0): Address TODO/FIXME in connection.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-09** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-12** (green lane, prio: 0.5): Address TODO/FIXME in req_install.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-43** (green lane, prio: 2.0): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-11** (green lane, prio: 0.5): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-12** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-88** (green lane, prio: 2.0): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-14** (green lane, prio: 0.5): Address TODO/FIXME in _nanfunctions_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-42** (green lane, prio: 2.0): Address TODO/FIXME in lexer.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-13** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-14** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-30** (green lane, prio: 2.0): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-11** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145602-01** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-11** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-11** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-13** (green lane, prio: 0.5): Address TODO/FIXME in _nanfunctions_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-10** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-94** (green lane, prio: 2.0): Address TODO/FIXME in test_multiarray.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-13** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-53** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150950-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-97** (green lane, prio: 2.0): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143416-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-10** (green lane, prio: 0.5): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-14** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-18** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-32** (green lane, prio: 2.0): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-10** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144247-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-10** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-09** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-11** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173325-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-62** (green lane, prio: 2.0): Address TODO/FIXME in capi_maps.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-10** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-16** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-13** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-18** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172746-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-10** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-09** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-87** (green lane, prio: 2.0): Address TODO/FIXME in test_umath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150330-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-14** (green lane, prio: 0.5): Address TODO/FIXME in _isocbind.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-64** (green lane, prio: 2.0): Address TODO/FIXME in f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-14** (green lane, prio: 0.5): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173216-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144908-03** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-08** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-10** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-13** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-13** (yellow lane, prio: 0.5): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-17** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-09** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-15** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-75** (yellow lane, prio: 2.0): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160010-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-29** (green lane, prio: 2.0): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-12** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-14** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-98** (green lane, prio: 2.0): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-17** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163529-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-37** (green lane, prio: 2.0): Address TODO/FIXME in connectionpool.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144137-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-15** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-16** (green lane, prio: 0.5): Address TODO/FIXME in arrayprint.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-105** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-90** (green lane, prio: 2.0): Address TODO/FIXME in test_array_coercion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-28** (green lane, prio: 2.0): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172317-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-28** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164222-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-16** (green lane, prio: 0.5): Address TODO/FIXME in test_f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-16** (green lane, prio: 2.0): Address TODO/FIXME in cache.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-145902-0ceb42** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_benchmarks.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145345-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-12** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-14** (green lane, prio: 0.5): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-24** (green lane, prio: 2.0): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-26** (green lane, prio: 2.0): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-11** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-17** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-18** (green lane, prio: 2.0): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151244-03** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-14** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-20** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143843-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-15** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-10** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-145610-51109c** (yellow lane, prio: 3.0): Refactor qa_agents/cli/qalm_data_collector.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-16** (green lane, prio: 0.5): Address TODO/FIXME in test_core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-11** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-90** (green lane, prio: 2.0): Address TODO/FIXME in test_array_coercion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-25** (green lane, prio: 2.0): Address TODO/FIXME in subversion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-16** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173359-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160043-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150004-02** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-45** (green lane, prio: 2.0): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-13** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-34** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151135-02** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-15** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-83** (green lane, prio: 2.0): Address TODO/FIXME in getlimits.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-39** (green lane, prio: 2.0): Address TODO/FIXME in metadata.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-92** (green lane, prio: 2.0): Address TODO/FIXME in test_stringdtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-08** (green lane, prio: 5.0): E8 alignment benchmark (test 8/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-15** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-60** (green lane, prio: 2.0): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **T-TEST-001** (green lane, prio: unknown): Analyze QA tuple harmonic properties
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173108-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144322-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172211-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-12** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151704-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-34** (green lane, prio: 2.0): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-15** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-65** (green lane, prio: 2.0): Address TODO/FIXME in core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-45** (green lane, prio: 0.5): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172317-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-13** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-13** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-65** (green lane, prio: 2.0): Address TODO/FIXME in core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-93** (green lane, prio: 2.0): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-57** (green lane, prio: 2.0): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-12** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-16** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-04** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-14** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-25** (green lane, prio: 2.0): Address TODO/FIXME in subversion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144357-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-14** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145855-01** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-44** (green lane, prio: 2.0): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145236-01** (green lane, prio: 0.5): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150842-04** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-17** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-12** (green lane, prio: 0.5): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-59** (green lane, prio: 2.0): Address TODO/FIXME in symbolic.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-223858-6577d4** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_pcn.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-12** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-68** (green lane, prio: 2.0): Address TODO/FIXME in polyutils.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163115-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-10** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173325-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-43** (green lane, prio: 2.0): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-09** (green lane, prio: 0.5): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-17** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-08** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-003426-6577d4** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_pcn.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-80** (green lane, prio: 2.0): Address TODO/FIXME in fromnumeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164150-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-43** (green lane, prio: 2.0): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-174716-b5dee5** (yellow lane, prio: 3.0): Refactor qa_agents/cli/qa_lidar_agent.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-38** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-11** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-14** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-87** (green lane, prio: 2.0): Address TODO/FIXME in test_umath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-64** (green lane, prio: 2.0): Address TODO/FIXME in f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-49** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-17** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144725-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-08** (green lane, prio: 0.5): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163705-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-32** (green lane, prio: 0.5): Address TODO/FIXME in _isocbind.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-12** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-11** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-11** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-17** (green lane, prio: 0.5): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-11** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-101** (green lane, prio: 2.0): Address TODO/FIXME in test_docs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172424-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-17** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173325-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-45** (green lane, prio: 2.0): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-17** (green lane, prio: 2.0): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143624-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162209-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-14** (green lane, prio: 0.5): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-15** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-39** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-18** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161349-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-71** (green lane, prio: 2.0): Address TODO/FIXME in mixins.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-14** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-09** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-15** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151135-04** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-10** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-12** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160116-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-66** (green lane, prio: 2.0): Address TODO/FIXME in _polybase.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-223858-0f4f15** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_jepa.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-10** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-44** (green lane, prio: 2.0): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-75** (yellow lane, prio: 2.0): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-16** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-11** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160614-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172853-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-15** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-220202-0f4f15** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_jepa.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-44** (green lane, prio: 0.5): Address TODO/FIXME in test_array_coercion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-07** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-14** (green lane, prio: 0.5): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-41** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-27** (green lane, prio: 2.0): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172105-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-15** (green lane, prio: 2.0): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173216-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-72** (green lane, prio: 2.0): Address TODO/FIXME in _nanfunctions_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-98** (green lane, prio: 2.0): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-13** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-38** (green lane, prio: 2.0): Address TODO/FIXME in connection.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-09** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-11** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153635-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-13** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171959-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173359-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144943-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-08** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-17** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-44** (green lane, prio: 2.0): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-07** (green lane, prio: 0.5): Address TODO/FIXME in connectionpool.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-21** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-14** (green lane, prio: 0.5): Address TODO/FIXME in _array_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-003426-0f4f15** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_jepa.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-80** (green lane, prio: 2.0): Address TODO/FIXME in fromnumeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-15** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-13** (green lane, prio: 0.5): Address TODO/FIXME in arrayprint.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151135-03** (green lane, prio: 0.5): Address TODO/FIXME in _add_newdocs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-16** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165126-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-223858-0ceb42** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_benchmarks.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-14** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-11** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-24** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-13** (green lane, prio: 0.5): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151337-06** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-11** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160719-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150038-01** (green lane, prio: 0.5): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-70** (green lane, prio: 2.0): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-20** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-15** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-12** (green lane, prio: 2.0): Address TODO/FIXME in scanner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-220202-6577d4** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_pcn.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-10** (green lane, prio: 0.5): Address TODO/FIXME in test_scalarmath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-09** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-11** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-13** (green lane, prio: 0.5): Address TODO/FIXME in _function_base_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-101** (green lane, prio: 2.0): Address TODO/FIXME in test_docs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-34** (green lane, prio: 2.0): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-12** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-47** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-14** (green lane, prio: 0.5): Address TODO/FIXME in _nanfunctions_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-63** (green lane, prio: 2.0): Address TODO/FIXME in _isocbind.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-08** (green lane, prio: 2.0): Address TODO/FIXME in metadata.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-16** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151244-02** (yellow lane, prio: 0.5): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160541-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172746-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-86** (green lane, prio: 2.0): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-15** (green lane, prio: 2.0): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-01** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-08** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-12** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173216-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-14** (green lane, prio: 0.5): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-13** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150112-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171959-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-49** (green lane, prio: 2.0): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-12** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-13** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173359-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-57** (green lane, prio: 2.0): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-14** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172424-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160149-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-12** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172746-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162704-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-12** (green lane, prio: 2.0): Address TODO/FIXME in scanner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-09** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-16** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-15** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-31** (green lane, prio: 2.0): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-17** (green lane, prio: 0.5): Address TODO/FIXME in arrayprint.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-16** (yellow lane, prio: 0.5): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-09** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-12** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-11** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-13** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-81** (green lane, prio: 2.0): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173000-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145310-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-13** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-74** (green lane, prio: 2.0): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-15** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173000-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-06** (green lane, prio: 5.0): E8 alignment benchmark (test 6/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-13** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-12** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-12** (green lane, prio: 0.5): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-13** (green lane, prio: 0.5): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-08** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-14** (green lane, prio: 0.5): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-12** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-15** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-11** (green lane, prio: 0.5): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-51** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-16** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-15** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-11** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160751-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161528-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-10** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-66** (green lane, prio: 2.0): Address TODO/FIXME in _polybase.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173000-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153731-03** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-140359-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-08** (green lane, prio: 0.5): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-17** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-15** (green lane, prio: 0.5): Address TODO/FIXME in test_scalarmath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-18** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-17** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172105-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-58** (green lane, prio: 2.0): Address TODO/FIXME in url.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172746-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-14** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-52** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-48** (green lane, prio: 2.0): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-82** (green lane, prio: 2.0): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-35** (green lane, prio: 2.0): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-08** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-69** (green lane, prio: 2.0): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-12** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-40** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150221-01** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-54** (green lane, prio: 2.0): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-19** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-12** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-11** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161635-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-12** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-12** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-140143-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-77** (green lane, prio: 2.0): Address TODO/FIXME in _array_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172211-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-12** (green lane, prio: 0.5): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-13** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163352-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153638-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172424-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-17** (green lane, prio: 0.5): Address TODO/FIXME in _polybase.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-10** (green lane, prio: 0.5): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-17** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-17** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-26** (green lane, prio: 2.0): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-12** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-70** (green lane, prio: 2.0): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162428-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-60** (green lane, prio: 2.0): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-11** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-15** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-15** (yellow lane, prio: 0.5): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164127-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-14** (green lane, prio: 0.5): Address TODO/FIXME in test_multiarray.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161139-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-54** (green lane, prio: 2.0): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-12** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-04** (green lane, prio: 0.5): Address TODO/FIXME in cache.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-80** (green lane, prio: 2.0): Address TODO/FIXME in fromnumeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-11** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-12** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160437-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-15** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-40** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-09** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-21** (green lane, prio: 2.0): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150004-01** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-12** (green lane, prio: 0.5): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163012-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-13** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-54** (green lane, prio: 2.0): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-16** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172853-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-12** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-98** (green lane, prio: 2.0): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-140005-0ceb42** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_benchmarks.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145236-02** (green lane, prio: 0.5): Address TODO/FIXME in mixins.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-11** (green lane, prio: 0.5): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-08** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-14** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161244-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-10** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-15** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-13** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-18** (green lane, prio: 0.5): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-14** (green lane, prio: 2.0): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-140541-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-47** (green lane, prio: 2.0): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-13** (green lane, prio: 0.5): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-14** (green lane, prio: 0.5): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-10** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145419-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-22** (green lane, prio: 2.0): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-49** (green lane, prio: 2.0): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-09** (green lane, prio: 0.5): Address TODO/FIXME in _dtype_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-16** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-31** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-03** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-08** (green lane, prio: 0.5): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-41** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-15** (green lane, prio: 0.5): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-08** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-09** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-15** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-91** (green lane, prio: 2.0): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-10** (green lane, prio: 0.5): Address TODO/FIXME in arrayprint.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-10** (green lane, prio: 0.5): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-24** (green lane, prio: 2.0): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-17** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172530-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-12** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-84** (green lane, prio: 2.0): Address TODO/FIXME in arrayprint.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-19** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-13** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-20** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-12** (green lane, prio: 2.0): Address TODO/FIXME in scanner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-21** (green lane, prio: 2.0): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-48** (green lane, prio: 2.0): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-14** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-09** (green lane, prio: 0.5): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-11** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-50** (green lane, prio: 2.0): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-12** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161742-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-02** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-103** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-12** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160331-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-08** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-11** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-11** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450** (green lane, prio: 2.0): QAViT hybrid (ARC vision + QA-JEPA)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-09** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-15** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-12** (green lane, prio: 0.5): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-14** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-22** (green lane, prio: 2.0): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173216-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-24** (green lane, prio: 2.0): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145855-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-10** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-03** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-10** (green lane, prio: 0.5): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150405-01** (green lane, prio: 0.5): Address TODO/FIXME in _isocbind.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-72** (green lane, prio: 2.0): Address TODO/FIXME in _nanfunctions_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-15** (green lane, prio: 0.5): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150842-03** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-17** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-11** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163249-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-62** (green lane, prio: 2.0): Address TODO/FIXME in capi_maps.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-13** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145710-01** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-37** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162530-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-36** (green lane, prio: 2.0): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-16** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-12** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-140005-0f4f15** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_jepa.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-17** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143808-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173108-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-77** (green lane, prio: 2.0): Address TODO/FIXME in _array_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-100** (green lane, prio: 2.0): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-19** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-12** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-41** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162028-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-11** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-16** (green lane, prio: 2.0): Address TODO/FIXME in cache.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-28** (green lane, prio: 2.0): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-92** (green lane, prio: 2.0): Address TODO/FIXME in test_stringdtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-17** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-14** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-13** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172211-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-13** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-13** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-15** (green lane, prio: 0.5): Address TODO/FIXME in test_f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-140251-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-11** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-19** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-18** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-08** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160222-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-09** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172640-06** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-10** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160929-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-63** (green lane, prio: 2.0): Address TODO/FIXME in _isocbind.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-08** (green lane, prio: 0.5): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-08** (green lane, prio: 0.5): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-14** (green lane, prio: 0.5): Address TODO/FIXME in _isocbind.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-103** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-17** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-13** (green lane, prio: 0.5): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-69** (green lane, prio: 2.0): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161815-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-12** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153922** (green lane, prio: 2.0): Build Agent: volk_geometry_agent
+  - Assigned to: builder
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-18** (green lane, prio: 2.0): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-11** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-100** (green lane, prio: 2.0): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-86** (green lane, prio: 2.0): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-16** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-16** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-70** (green lane, prio: 2.0): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-23** (green lane, prio: 2.0): Address TODO/FIXME in installation_report.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-81** (green lane, prio: 2.0): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-12** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-36** (green lane, prio: 0.5): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-34** (green lane, prio: 2.0): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-36** (green lane, prio: 2.0): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173325-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-14** (green lane, prio: 0.5): Address TODO/FIXME in fallback.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-105** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160013-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-143504-2685a5** (yellow lane, prio: 3.0): Refactor qa_agents/cli/qalm_multimodal_agent.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-94** (green lane, prio: 2.0): Address TODO/FIXME in test_multiarray.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-13** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-14** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173325-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-14** (green lane, prio: 0.5): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-100** (green lane, prio: 2.0): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-09** (green lane, prio: 0.5): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-105** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-14** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-15** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-16** (green lane, prio: 0.5): Address TODO/FIXME in f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-21** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-13** (green lane, prio: 0.5): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-140507-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-08** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-10** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-40** (green lane, prio: 0.5): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-18** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164045-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-21** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-11** (green lane, prio: 2.0): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-12** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-09** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-12** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-27** (green lane, prio: 2.0): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-55** (green lane, prio: 2.0): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-12** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173216-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173108-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-89** (green lane, prio: 2.0): Address TODO/FIXME in test_scalarmath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172317-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-09** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-101** (green lane, prio: 2.0): Address TODO/FIXME in test_docs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-01** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-74** (green lane, prio: 2.0): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-08** (green lane, prio: 0.5): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162459-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-91** (green lane, prio: 2.0): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-62** (green lane, prio: 2.0): Address TODO/FIXME in capi_maps.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-93** (green lane, prio: 2.0): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-32** (green lane, prio: 2.0): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-10** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-14** (green lane, prio: 0.5): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-98** (green lane, prio: 2.0): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150732-01** (green lane, prio: 0.5): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-12** (green lane, prio: 0.5): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164500-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144432-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-42** (green lane, prio: 2.0): Address TODO/FIXME in lexer.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-57** (green lane, prio: 2.0): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-92** (green lane, prio: 2.0): Address TODO/FIXME in test_stringdtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-15** (green lane, prio: 0.5): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-15** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172713-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-17** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150514-03** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-08** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151025-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153731-04** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160857-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-165914-ba502c** (yellow lane, prio: 3.0): Refactor qa_agents/cli/qa_spectral_agent.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-30** (green lane, prio: 2.0): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160824-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-145902-901537** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_raman.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-42** (green lane, prio: 2.0): Address TODO/FIXME in lexer.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-21** (green lane, prio: 2.0): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-56** (green lane, prio: 2.0): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-11** (green lane, prio: 0.5): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-99** (green lane, prio: 2.0): Address TODO/FIXME in test_core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-03** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-09** (green lane, prio: 0.5): Address TODO/FIXME in _polybase.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-78** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-171004-901537** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_raman.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160405-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-89** (green lane, prio: 2.0): Address TODO/FIXME in test_scalarmath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-103** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-11** (green lane, prio: 0.5): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-13** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172211-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-13** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-15** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-14** (green lane, prio: 0.5): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161106-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-11** (green lane, prio: 0.5): Address TODO/FIXME in adapters.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-25** (green lane, prio: 0.5): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153548-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-16** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-11** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172317-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172853-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-74** (green lane, prio: 2.0): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-85** (green lane, prio: 2.0): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143733-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-84** (green lane, prio: 2.0): Address TODO/FIXME in arrayprint.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162243-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-20** (green lane, prio: 2.0): Address TODO/FIXME in req_install.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-12** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-76** (green lane, prio: 2.0): Address TODO/FIXME in _dtype_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150548-02** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-19** (green lane, prio: 2.0): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-12** (green lane, prio: 0.5): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173359-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-101** (green lane, prio: 2.0): Address TODO/FIXME in test_docs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-09** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-11** (green lane, prio: 0.5): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-13** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152315-15** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-08** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-19** (green lane, prio: 2.0): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-24** (green lane, prio: 0.5): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-15** (green lane, prio: 0.5): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-12** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-20** (green lane, prio: 2.0): Address TODO/FIXME in req_install.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-92** (green lane, prio: 2.0): Address TODO/FIXME in test_stringdtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-14** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-10** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-14** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165126-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-79** (green lane, prio: 2.0): Address TODO/FIXME in _add_newdocs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-07** (green lane, prio: 0.5): Address TODO/FIXME in capi_maps.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173325-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-15** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144506-01** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172105-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-17** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-12** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-61** (green lane, prio: 2.0): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154930-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-10** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-13** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-11** (green lane, prio: 0.5): Address TODO/FIXME in installation_report.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171959-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-06** (green lane, prio: 0.5): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-75** (yellow lane, prio: 2.0): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-16** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-13** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-69** (green lane, prio: 2.0): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-14** (green lane, prio: 0.5): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-14** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-09** (green lane, prio: 5.0): E8 alignment benchmark (test 9/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-15** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-13** (green lane, prio: 0.5): Address TODO/FIXME in exceptions.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-14** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-08** (green lane, prio: 2.0): Address TODO/FIXME in metadata.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-102** (green lane, prio: 2.0): Address TODO/FIXME in test_f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150732-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-28** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150147-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161454-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-75** (yellow lane, prio: 2.0): Address TODO/FIXME in _char_codes.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-15** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-65** (green lane, prio: 2.0): Address TODO/FIXME in core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-97** (green lane, prio: 2.0): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-16** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-17** (green lane, prio: 0.5): Address TODO/FIXME in test_docs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-11** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-96** (green lane, prio: 2.0): Address TODO/FIXME in test_random.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-76** (green lane, prio: 2.0): Address TODO/FIXME in _dtype_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173216-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-73** (green lane, prio: 2.0): Address TODO/FIXME in _function_base_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-09** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-97** (green lane, prio: 2.0): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154450-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-26** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-74** (green lane, prio: 2.0): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-13** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151318-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165512-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151135-01** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152436-17** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-22** (green lane, prio: 2.0): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150916-01** (green lane, prio: 0.5): Address TODO/FIXME in test_core.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152409-09** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-08** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-09** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144759-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-104** (green lane, prio: 2.0): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-08** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-143829-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162807-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-10** (green lane, prio: 0.5): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-11** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163456-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-60** (green lane, prio: 2.0): Address TODO/FIXME in crackfortran.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-37** (green lane, prio: 2.0): Address TODO/FIXME in connectionpool.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-16** (green lane, prio: 0.5): Address TODO/FIXME in f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-172005-0f4f15** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_jepa.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-10** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152815-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-07** (green lane, prio: 5.0): E8 alignment benchmark (test 7/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-06** (green lane, prio: 0.5): Address TODO/FIXME in subversion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173000-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **test-e8-week1-05** (green lane, prio: 5.0): E8 alignment benchmark (test 5/10)
+  - Assigned to: e8_benchmark
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-78** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-15** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-12** (green lane, prio: 2.0): Address TODO/FIXME in scanner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-13** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-56** (green lane, prio: 2.0): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164428-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-95** (green lane, prio: 2.0): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-62** (green lane, prio: 2.0): Address TODO/FIXME in capi_maps.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165618-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150623-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-15** (green lane, prio: 0.5): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-09** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-73** (green lane, prio: 2.0): Address TODO/FIXME in _function_base_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152940-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-39** (green lane, prio: 2.0): Address TODO/FIXME in metadata.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-08** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150255-01** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-03** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-16** (green lane, prio: 0.5): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-76** (green lane, prio: 2.0): Address TODO/FIXME in _dtype_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163808-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-33** (green lane, prio: 2.0): Address TODO/FIXME in factory.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-89** (green lane, prio: 2.0): Address TODO/FIXME in test_scalarmath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-08** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155414-14** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-13** (green lane, prio: 0.5): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-16** (green lane, prio: 2.0): Address TODO/FIXME in cache.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-10** (green lane, prio: 0.5): Address TODO/FIXME in req_uninstall.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-59** (green lane, prio: 2.0): Address TODO/FIXME in symbolic.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-12** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-19** (green lane, prio: 0.5): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-10** (green lane, prio: 0.5): Address TODO/FIXME in connectionpool.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173000-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-14** (green lane, prio: 0.5): Address TODO/FIXME in _dtype.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-04** (green lane, prio: 0.5): Address TODO/FIXME in factory.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151337-02** (green lane, prio: 0.5): Address TODO/FIXME in tags.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153859-08** (green lane, prio: 0.5): Address TODO/FIXME in conftest.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-01** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-33** (green lane, prio: 2.0): Address TODO/FIXME in factory.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-14** (green lane, prio: 0.5): Address TODO/FIXME in _datasource.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172317-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-34** (green lane, prio: 2.0): Address TODO/FIXME in candidates.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-08** (green lane, prio: 0.5): Address TODO/FIXME in metadata.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144834-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-30** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-12** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-15** (green lane, prio: 0.5): Address TODO/FIXME in pyopenssl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-124910-0f4f15** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_jepa.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150004-03** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-10** (green lane, prio: 0.5): Address TODO/FIXME in collector.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-30** (green lane, prio: 2.0): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-12** (green lane, prio: 0.5): Address TODO/FIXME in build_env.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-29** (green lane, prio: 2.0): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162135-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-09** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145636-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-32** (green lane, prio: 2.0): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-11** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152503-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152128-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-14** (green lane, prio: 0.5): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-96** (green lane, prio: 2.0): Address TODO/FIXME in test_random.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-61** (green lane, prio: 2.0): Address TODO/FIXME in cfuncs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-14** (green lane, prio: 0.5): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-13** (green lane, prio: 0.5): Address TODO/FIXME in test_array_coercion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172746-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-220202-0ceb42** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_benchmarks.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172211-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154554-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-17** (green lane, prio: 2.0): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165126-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-10** (green lane, prio: 0.5): Address TODO/FIXME in retry.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172640-03** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165126-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-16** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-14** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172424-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150255-03** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-50** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-47** (green lane, prio: 2.0): Address TODO/FIXME in hooks.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150657-01** (green lane, prio: 0.5): Address TODO/FIXME in base_command.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-13** (green lane, prio: 0.5): Address TODO/FIXME in f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-38** (green lane, prio: 2.0): Address TODO/FIXME in connection.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144908-01** (green lane, prio: 0.5): Address TODO/FIXME in getlimits.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-18** (green lane, prio: 0.5): Address TODO/FIXME in _npyio_impl.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-16** (green lane, prio: 0.5): Address TODO/FIXME in test_scalarmath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-22** (green lane, prio: 2.0): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-23** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150405-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172820-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155657-10** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-16** (green lane, prio: 0.5): Address TODO/FIXME in test_datetime.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144103-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152009-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-15** (green lane, prio: 0.5): Address TODO/FIXME in controller.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151612-15** (green lane, prio: 0.5): Address TODO/FIXME in test_random.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154758-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150842-02** (green lane, prio: 0.5): Address TODO/FIXME in lexer.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154218-13** (green lane, prio: 0.5): Address TODO/FIXME in util.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161034-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-68** (green lane, prio: 2.0): Address TODO/FIXME in polyutils.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144357-01** (green lane, prio: 0.5): Address TODO/FIXME in chebyshev.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152248-11** (green lane, prio: 0.5): Address TODO/FIXME in cache.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-100** (green lane, prio: 2.0): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153047-01** (green lane, prio: 2.0): E8 alignment analysis for mod 24 QA system
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152720-14** (green lane, prio: 0.5): Address TODO/FIXME in _isocbind.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-44** (green lane, prio: 2.0): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151638-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-69** (green lane, prio: 2.0): Address TODO/FIXME in polynomial.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-88** (green lane, prio: 2.0): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-82** (green lane, prio: 2.0): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-16** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-15** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-87** (green lane, prio: 2.0): Address TODO/FIXME in test_umath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152035-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151429-07** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-22** (green lane, prio: 0.5): Address TODO/FIXME in connectionpool.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-37** (green lane, prio: 2.0): Address TODO/FIXME in connectionpool.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-14** (green lane, prio: 0.5): Address TODO/FIXME in _array_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173000-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-32** (green lane, prio: 0.5): Address TODO/FIXME in test_function_base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-13** (green lane, prio: 0.5): Address TODO/FIXME in polyutils.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150807-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-11** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154122-15** (green lane, prio: 0.5): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-11** (green lane, prio: 0.5): Address TODO/FIXME in constructors.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164013-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152222-11** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135314-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155239-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-13** (green lane, prio: 0.5): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161601-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165126-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151659-10** (green lane, prio: 0.5): Address TODO/FIXME in selection_prefs.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-124910-901537** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_raman.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-09** (green lane, prio: 0.5): Address TODO/FIXME in installation_report.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150221-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-15** (green lane, prio: 0.5): Address TODO/FIXME in _methods.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-10** (green lane, prio: 0.5): Address TODO/FIXME in filewrapper.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-28** (green lane, prio: 2.0): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-11** (green lane, prio: 0.5): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-20** (green lane, prio: 2.0): Address TODO/FIXME in req_install.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-102** (green lane, prio: 2.0): Address TODO/FIXME in test_f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-33** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-14** (green lane, prio: 0.5): Address TODO/FIXME in test_old_ma.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-15** (green lane, prio: 0.5): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-11** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-150916-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172530-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-19** (green lane, prio: 0.5): Address TODO/FIXME in inspect.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-17** (green lane, prio: 2.0): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163424-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-160646-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153257-06** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-46** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **None** (green lane, prio: 2.0): Integrate Volk Grant QA Triangle
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145929-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-25** (green lane, prio: 2.0): Address TODO/FIXME in subversion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-55** (green lane, prio: 2.0): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-15** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161954-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152625-13** (green lane, prio: 0.5): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-11** (green lane, prio: 0.5): Address TODO/FIXME in securetransport.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154523-15** (green lane, prio: 0.5): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-11** (green lane, prio: 0.5): Address TODO/FIXME in test_casting_unittests.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153519-10** (green lane, prio: 0.5): Address TODO/FIXME in response.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153104-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-10** (green lane, prio: 0.5): Address TODO/FIXME in subversion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155342-16** (green lane, prio: 0.5): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-11** (green lane, prio: 0.5): Address TODO/FIXME in req_set.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-50** (green lane, prio: 2.0): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151520-05** (green lane, prio: 0.5): Address TODO/FIXME in installation_report.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151849-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151730-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172853-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-53** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-08** (green lane, prio: 0.5): Address TODO/FIXME in subversion.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-11** (green lane, prio: 0.5): Address TODO/FIXME in unpacking.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-84** (green lane, prio: 2.0): Address TODO/FIXME in arrayprint.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161921-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153008-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161001-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165723-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-66** (green lane, prio: 2.0): Address TODO/FIXME in _polybase.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-39** (green lane, prio: 2.0): Address TODO/FIXME in metadata.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151916-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-95** (green lane, prio: 2.0): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154829-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-124910-6577d4** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_pcn.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145710-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152747-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **T-VOLK-TRIANGLE** (green lane, prio: 2.0): Integrate Volk Grant QA Triangle
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-97** (green lane, prio: 2.0): Address TODO/FIXME in test_io.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-87** (green lane, prio: 2.0): Address TODO/FIXME in test_umath.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165126-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-23** (green lane, prio: 2.0): Address TODO/FIXME in installation_report.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154625-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153422-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155310-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-31** (green lane, prio: 2.0): Address TODO/FIXME in prepare.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172211-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-52** (green lane, prio: 2.0): Address TODO/FIXME in python.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-46** (green lane, prio: 2.0): Address TODO/FIXME in adapters.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-102** (green lane, prio: 2.0): Address TODO/FIXME in test_f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-08** (green lane, prio: 2.0): Address TODO/FIXME in metadata.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151454-01** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172032-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-172005-6577d4** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_pcn.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153451-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155156** (green lane, prio: 4): Volk–Grant geometric renderer (bipolar + torus)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152155-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172853-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173143-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155729-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-46** (green lane, prio: 2.0): Address TODO/FIXME in adapters.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172530-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171959-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-53** (green lane, prio: 2.0): Address TODO/FIXME in __init__.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144212-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154655-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-16** (green lane, prio: 2.0): Address TODO/FIXME in cache.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155905-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145820-01** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165829-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155103-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162601-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165052-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154859-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155625-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155938-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-85** (green lane, prio: 2.0): Address TODO/FIXME in numeric.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-161708-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152530-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153829-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145453-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151930-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172138-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173325-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-96** (green lane, prio: 2.0): Address TODO/FIXME in test_random.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155520-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-68** (green lane, prio: 2.0): Address TODO/FIXME in polyutils.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153731-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152912-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163321-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-164113-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-95** (green lane, prio: 2.0): Address TODO/FIXME in test_linalg.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151942-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172853-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152844-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145053-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172604-09** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172317-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-93** (green lane, prio: 2.0): Address TODO/FIXME in test_umath_complex.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173000-07** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-15** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-08** (green lane, prio: 2.0): Address TODO/FIXME in metadata.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151757-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155134-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172927-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172351-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173359-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155801-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153354-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-11** (green lane, prio: 2.0): Address TODO/FIXME in _bdist_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163535-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-105** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154051-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-21** (green lane, prio: 2.0): Address TODO/FIXME in req_file.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135314-01** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165126-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151546-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-30** (green lane, prio: 2.0): Address TODO/FIXME in lazy_wheel.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153036-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153132-16** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155553-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172424-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-11** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153200-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172640-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155833-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-50** (green lane, prio: 2.0): Address TODO/FIXME in _macos.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155001-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-58** (green lane, prio: 2.0): Address TODO/FIXME in url.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152558-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-64** (green lane, prio: 2.0): Address TODO/FIXME in f2py2e.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-02** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153800-07** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151823-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-144541-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155032-09** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154319-18** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-77** (green lane, prio: 2.0): Address TODO/FIXME in _array_like.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152652-17** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173251-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152342-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-29** (green lane, prio: 2.0): Address TODO/FIXME in base.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173108-06** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-152102-05** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131553-43** (green lane, prio: 2.0): Address TODO/FIXME in text.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-163634-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153047-01** (green lane, prio: 2.0): E8 alignment analysis for mod 24 QA system
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172530-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-10** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172244-07** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154021-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-165935-08** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162839-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172211-08** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153928-08** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154249-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-145602-02** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154351-02** (green lane, prio: 2.0): Address TODO/FIXME in qa_e8_alignment.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173325-04** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153712-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-135106-82** (green lane, prio: 2.0): Address TODO/FIXME in _add_newdocs_scalars.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-171925-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-131537-103** (green lane, prio: 2.0): Address TODO/FIXME in requirements.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154421-07** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153228-05** (green lane, prio: 2.0): Address TODO/FIXME in planner.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155206-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-si-145902-0f4f15** (yellow lane, prio: 3.0): Refactor scripts/qa_plot_jepa.py (normalize header/whitespace)
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-133823-96** (green lane, prio: 2.0): Address TODO/FIXME in test_random.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-155447-04** (green lane, prio: 2.0): Address TODO/FIXME in server.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154152-06** (green lane, prio: 2.0): Address TODO/FIXME in scout.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172211-05** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-162352-01** (green lane, prio: 2.0): Initialize project documentation
+  - Assigned to: qalm
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-154726-01** (yellow lane, prio: 2.0): Address TODO/FIXME in qa_jepa_encoder.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-172457-06** (green lane, prio: 2.0): Address TODO/FIXME in clean_backlog.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-173034-03** (yellow lane, prio: 2.0): Address TODO/FIXME in CODEX_JEPA_IMPL.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-153325-04** (green lane, prio: 2.0): Address TODO/FIXME in executor.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+- **t-151403-03** (green lane, prio: 2.0): Address TODO/FIXME in scout_collaborative.py
+  - Assigned to: opencode
+  - Completed: 2026-04-04T23:55:20.632135
+

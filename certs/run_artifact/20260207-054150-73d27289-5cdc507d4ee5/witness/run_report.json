@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-02-07T00:41:49.734332",
+  "completed_count": 2512,
+  "active_state_counts": {
+    "failed": 830,
+    "assigned": 57,
+    "queued": 1
+  },
+  "artifact_archive": "/home/player2/signal_experiments/qa_lab/releases/run-20260207-004145.tar.gz",
+  "artifact_delta": {
+    "timestamp": "2026-02-07T00:41:44.819393",
+    "added_count": 1,
+    "removed_count": 0,
+    "modified_count": 0,
+    "added": [
+      "artifacts/ingestion/impact of proprocessing_ANALYSIS.md"
+    ],
+    "removed": [],
+    "modified": []
+  }
+}

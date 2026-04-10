@@ -1,0 +1,157 @@
+{
+  "cert_type": "QA_EBM_NAVIGATION_CERT.v1",
+  "schema_version": 1,
+  "cert_id": "ebm_nav_fastpath-smoke-20260216-014811_default",
+  "issued_utc": "2026-02-16T01:48:11Z",
+  "inputs": {
+    "problem_ref": {
+      "ref_name": "qa_fast_eval_case:default",
+      "sha256": "eef85dc390e7b7389598f62ed07d9b98b4df538cf77d9328f107cbfdf598875d"
+    },
+    "constraints_ref": {
+      "ref_name": "qa_lab/qa_fastpath.py",
+      "sha256": "c1c0e836327c3f9c2bd2ab3f0ce581b1a51c6af743bfb0451c28ed3f0ea8f57c"
+    },
+    "mapping_protocol_ref": {
+      "ref_name": "Documents/QA_MAPPING_PROTOCOL__EBM_REASONING_KONA_PODCAST.v1.json",
+      "sha256": "55cc98814e6b7a12b7e7ffa2598dc86dac9367182a12f7f1f77d1e348f203c09"
+    }
+  },
+  "navigation": {
+    "state_space": {
+      "state_type": "Fastpath candidate index state"
+    },
+    "generators": [
+      {
+        "name": "fastpath_rerank",
+        "kind": "ebm_meta_policy",
+        "transition_rule": "Select min-energy legal candidate from scored shortlist",
+        "invariant_effect": "Preserves deterministic tie-break and typed failure-complete contract"
+      }
+    ],
+    "energy": {
+      "scalar_type": "int",
+      "definition": "Lab-local deterministic ranking penalty: E=round((1-score)*1e6), monotone transform of score (not physical energy)",
+      "minimize": true,
+      "components": [
+        {
+          "name": "ranking_penalty",
+          "weight": {
+            "type": "int",
+            "value": "1"
+          },
+          "unit": "penalty"
+        }
+      ]
+    },
+    "policy": {
+      "selection": "min_energy_legal",
+      "tie_break": "lex_generator_then_state_after",
+      "declared_deterministic": true
+    },
+    "budgets": {
+      "max_steps": 1,
+      "max_millis": 5000
+    }
+  },
+  "trace": {
+    "steps": [
+      {
+        "t": 0,
+        "state_before": "pool:3",
+        "energy_before": {
+          "type": "int",
+          "value": "130001"
+        },
+        "violations_before": {
+          "violations_total": 130001
+        },
+        "candidates": [
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:1",
+            "energy_after": {
+              "type": "int",
+              "value": "90000"
+            },
+            "violations_after": {
+              "violations_total": 90000
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:2",
+            "energy_after": {
+              "type": "int",
+              "value": "130000"
+            },
+            "violations_after": {
+              "violations_total": 130000
+            }
+          },
+          {
+            "generator": "fastpath_rerank",
+            "legal": true,
+            "state_after": "candidate:3",
+            "energy_after": {
+              "type": "int",
+              "value": "130000"
+            },
+            "violations_after": {
+              "violations_total": 130000
+            }
+          }
+        ],
+        "chosen_idx": 0,
+        "result": "OK",
+        "state_after": "candidate:1",
+        "energy_after": {
+          "type": "int",
+          "value": "90000"
+        },
+        "violations_after": {
+          "violations_total": 90000
+        },
+        "invariant_diff": {
+          "delta_energy": {
+            "type": "int",
+            "value": "-40001"
+          },
+          "delta_violations": {
+            "violations_total": -40001
+          },
+          "witness": "Deterministic min-energy legal successor under lex(generator,state_after) tie-break."
+        }
+      }
+    ],
+    "outcome": {
+      "status": "REACHED_TARGET",
+      "target_ref": {
+        "ref_name": "qa_fast_eval_target:default",
+        "sha256": "1799616b3d683d364b34d2bebdc7faf1d9fd645c112b552f1e985a75e5d05c9e"
+      },
+      "accepted_by_verifier": true,
+      "verifier_bridge_ref": {
+        "ref_name": "qa_lab/artifacts/certs/fastpath-smoke-20260216-014811/ebm_bridge_fastpath-smoke-20260216-014811_default.json",
+        "sha256": "68cfcc072975805ba4455065f86676e59c07372375726783268becebd23dc16a"
+      }
+    }
+  },
+  "determinism_contract": {
+    "invariant_diff_defined": true,
+    "failure_complete": true,
+    "tie_break_total": true,
+    "exact_energy_required": true
+  },
+  "digests": {
+    "canonical_sha256": "6bb748af612f5c2b4cf2ac9f6648651696e7764d413b80960a215c7e6950fd68",
+    "refs": [
+      {
+        "ref_name": "qa_lab/artifacts/certs/fastpath-smoke-20260216-014811/ebm_bridge_fastpath-smoke-20260216-014811_default.json",
+        "sha256": "68cfcc072975805ba4455065f86676e59c07372375726783268becebd23dc16a"
+      }
+    ]
+  }
+}
