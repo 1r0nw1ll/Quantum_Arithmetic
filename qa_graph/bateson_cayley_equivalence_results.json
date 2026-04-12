@@ -1,0 +1,71 @@
+{
+  "m": 9,
+  "tiers": {
+    "L1": {
+      "generators": [
+        "T"
+      ],
+      "num_components": 5,
+      "component_sizes": [
+        24,
+        24,
+        24,
+        8,
+        1
+      ],
+      "cumulative_pair_count": 1793,
+      "components_sum_of_squares_formula": "sum |C|^2 over components C",
+      "expected_cumulative_S9": 1793,
+      "match": true
+    },
+    "L2a": {
+      "generators": [
+        "T",
+        "scalar_2",
+        "scalar_4",
+        "scalar_5",
+        "scalar_7",
+        "scalar_8",
+        "swap"
+      ],
+      "num_components": 3,
+      "component_sizes": [
+        72,
+        8,
+        1
+      ],
+      "cumulative_pair_count": 5249,
+      "components_sum_of_squares_formula": "sum |C|^2 over components C",
+      "expected_cumulative_S9": 5249,
+      "match": true
+    },
+    "L2b": {
+      "generators": [
+        "T",
+        "const_singularity",
+        "scalar_2",
+        "scalar_3",
+        "scalar_4",
+        "scalar_5",
+        "scalar_6",
+        "scalar_7",
+        "scalar_8",
+        "swap"
+      ],
+      "num_components": 1,
+      "component_sizes": [
+        81
+      ],
+      "cumulative_pair_count": 6561,
+      "components_sum_of_squares_formula": "sum |C|^2 over components C",
+      "expected_cumulative_S9": 6561,
+      "match": true
+    }
+  },
+  "tier_differences": {
+    "1": 1712,
+    "2a": 3456,
+    "2b": 1312
+  },
+  "matches_191_counts": true
+}
