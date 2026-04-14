@@ -20,6 +20,7 @@ Protocol:
 from __future__ import annotations
 
 import argparse
+import fcntl
 import hashlib
 import json
 import os
@@ -153,7 +154,22 @@ class BridgeExecutionCerts:
         self.trace_path = self.out_dir / "trace.jsonl"
         self.out_dir.mkdir(parents=True, exist_ok=True)
         self.artifacts_dir.mkdir(parents=True, exist_ok=True)
-        self._last_trace_hash = "sha256:GENESIS"
+        self._last_trace_hash = self._load_last_trace_hash()
+
+    def _load_last_trace_hash(self) -> str:
+        if not self.trace_path.exists():
+            return "sha256:GENESIS"
+        try:
+            for line in reversed(self.trace_path.read_text(encoding="utf-8").splitlines()):
+                if not line.strip():
+                    continue
+                row = json.loads(line)
+                event_hash = str(row.get("event_hash") or "").strip()
+                if event_hash:
+                    return event_hash
+        except Exception:
+            pass
+        return "sha256:GENESIS"
 
     def _write_artifact(self, filename: str, payload: Dict[str, Any]) -> Path:
         path = self.artifacts_dir / filename
@@ -360,6 +376,48 @@ class BridgeHeartbeat:
             _canonical_json_dumps(payload) + "\n",
             encoding="utf-8",
         )
+
+
+class BridgeInstanceLock:
+    """Single-writer lock for one bridge name/topic/artifact directory."""
+
+    def __init__(self, out_dir: Path, *, agent_name: str):
+        self.path = Path(out_dir) / "bridge_instance.lock"
+        self.agent_name = agent_name
+        self.handle = None
+
+    def acquire(self) -> tuple[bool, str]:
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        self.handle = self.path.open("a+", encoding="utf-8")
+        try:
+            fcntl.flock(self.handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            self.handle.seek(0)
+            holder = self.handle.read().strip()
+            self.handle.close()
+            self.handle = None
+            return False, holder
+
+        holder = {
+            "agent": self.agent_name,
+            "pid": os.getpid(),
+            "started_at": _now_rfc3339(),
+        }
+        self.handle.seek(0)
+        self.handle.truncate()
+        self.handle.write(_canonical_json_dumps(holder) + "\n")
+        self.handle.flush()
+        os.fsync(self.handle.fileno())
+        return True, _canonical_json_dumps(holder)
+
+    def release(self) -> None:
+        if self.handle is None:
+            return
+        try:
+            fcntl.flock(self.handle.fileno(), fcntl.LOCK_UN)
+        finally:
+            self.handle.close()
+            self.handle = None
 
 
 def _sanitize_stderr(stderr: str) -> str:
@@ -857,6 +915,19 @@ def main() -> int:
 
     guardrail_active = GUARDRAIL_AVAILABLE and not args.no_guardrail
     cert_dir = Path(args.cert_dir) if args.cert_dir else _default_cert_dir(args.name)
+    instance_lock: Optional[BridgeInstanceLock] = None
+
+    if not args.self_test:
+        instance_lock = BridgeInstanceLock(cert_dir, agent_name=str(args.name))
+        lock_ok, holder = instance_lock.acquire()
+        if not lock_ok:
+            print(
+                f"FATAL: bridge name {args.name!r} is already active. "
+                f"Use a unique --name/--in-topic/--out-topic for parallel bridges "
+                f"or stop the existing bridge first. Holder: {holder}",
+                file=sys.stderr,
+            )
+            return 2
 
     # --- Load policy and mint capability token ---
     policy = _load_bridge_policy(args.name)
@@ -866,6 +937,8 @@ def main() -> int:
     allowed = policy.get("command_allowlist", [])
     if allowed and str(args.cmd) not in allowed:
         print(f"FATAL: command {args.cmd!r} not in policy allowlist {allowed!r}", file=sys.stderr)
+        if instance_lock is not None:
+            instance_lock.release()
         return 1
     print(f"🔑 {args.name}: CapabilityToken minted (expires {cap_token.expires_at})", file=sys.stderr)
 
@@ -873,6 +946,8 @@ def main() -> int:
         return _run_self_test(args.name, str(args.cmd), float(args.timeout_s), cert_dir, cap_token, policy)
 
     if not args.in_topic or not args.out_topic:
+        if instance_lock is not None:
+            instance_lock.release()
         ap.error("--in-topic and --out-topic are required unless --self-test is used")
 
     if not GUARDRAIL_AVAILABLE:
@@ -952,6 +1027,8 @@ def main() -> int:
             bus_connected=bool(getattr(agent, "connected", False)),
         )
         agent.disconnect()
+        if instance_lock is not None:
+            instance_lock.release()
     return 0
 
 

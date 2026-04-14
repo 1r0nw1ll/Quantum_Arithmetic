@@ -51,6 +51,8 @@ class CollaborationBus:
         self.base_dir = base_dir or Path(__file__).parent.parent.parent
         self.logs_dir = self.base_dir / "logs"
         self.logs_dir.mkdir(exist_ok=True)
+        self.event_log_path = self.logs_dir / "collab_events.jsonl"
+        self._event_log_lock = threading.Lock()
 
         # ZMQ context and sockets
         self.context = zmq.Context()
@@ -364,10 +366,23 @@ class CollaborationBus:
             if len(self.message_history) > self.max_history:
                 self.message_history.pop(0)
 
+            self._append_event_log(message)
+
             # Send on ZMQ
             self.pub_socket.send_string(
                 f"{topic} {json.dumps(message)}"
             )
+
+    def _append_event_log(self, message: Dict) -> None:
+        """Persist broadcast events so MCP read_events reflects live ZMQ traffic."""
+        try:
+            line = json.dumps(message, ensure_ascii=False, separators=(",", ":"))
+            with self._event_log_lock:
+                with self.event_log_path.open("a", encoding="utf-8") as handle:
+                    handle.write(line + "\n")
+        except Exception as e:
+            if self.running:
+                print(f"⚠️  Event log write error: {e}")
 
     def _query_agents(self, filters: Dict) -> Dict:
         """Query registered agents"""
