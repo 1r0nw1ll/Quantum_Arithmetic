@@ -226,6 +226,90 @@ def observer_project_out(
 
 
 # -----------------------------------------------------------------------------
+# Generator-pattern training — discrete search on integer path time
+# -----------------------------------------------------------------------------
+#
+# "Training" in the QA-native architecture is identification of the integer
+# generator pattern whose T-orbit matches a target trace. There is no float
+# policy, no gradient, no optimizer state (Adam m/v). Moves are discrete hops
+# in a finite generator space; evaluation is exact orbit-trace match, not a
+# scalar loss.
+#
+# The generator space on S_m is all 81 starting tuples (b, e) in {1..m}^2 (m=9).
+# Given a target sequence of observed tuples, the trained generator is the
+# starting (b_0, e_0) whose T-orbit best matches under exact-match count.
+#
+# This is the structural replacement for PPO / IS / trust regions / optimizer
+# resets: a finite discrete search produces a deterministic integer pattern.
+# No float policy exists to drift; no "staleness" can occur.
+
+
+def identify_generator(
+    target_trace: Sequence[Tuple[int, int]],
+    m: int = 9,
+) -> Tuple[Tuple[int, int], int]:
+    """Discrete-search training: find the starting (b_0, e_0) whose T-orbit
+    best matches the target trace under exact tuple-equality count.
+
+    Returns (best_start_tuple, match_count). Ties are broken by lexicographic
+    order on (b, e) to guarantee bitwise determinism across invocations.
+
+    Integer-only, no gradients, no optimizer state. Bitwise reproducible.
+    """
+    if not target_trace:
+        raise ValueError("target_trace must be non-empty")
+    n = len(target_trace)
+    # Coerce to tuple-of-tuples for exact comparison
+    target = [tuple(t) for t in target_trace]
+
+    best_start: Tuple[int, int] = (1, 1)
+    best_score: int = -1
+
+    # Exhaustive search over 81 starting tuples in {1..m}^2
+    for b0 in range(1, m + 1):
+        for e0 in range(1, m + 1):
+            state = (b0, e0)
+            score = 0
+            for k in range(n):
+                if state == target[k]:
+                    score += 1
+                state = T_step(state[0], state[1], m)
+            if score > best_score:
+                best_score = score
+                best_start = (b0, e0)
+            # else: tie — keep earlier (lexicographic determinism)
+    return best_start, best_score
+
+
+def identify_family(
+    target_trace: Sequence[Tuple[int, int]],
+    m: int = 9,
+) -> Tuple[str, int]:
+    """Coarser generator identification: which of the five T-orbit families
+    best matches the target trace, by plurality of family classifications.
+
+    Returns (best_family_name, count_in_trace).
+    """
+    if not target_trace:
+        raise ValueError("target_trace must be non-empty")
+    if m != 9:
+        raise NotImplementedError("identify_family currently only for m=9")
+
+    counts = {
+        "fibonacci": 0,
+        "lucas": 0,
+        "phibonacci": 0,
+        "tribonacci": 0,
+        "ninbonacci": 0,
+    }
+    for (b, e) in target_trace:
+        counts[orbit_family_s9(b, e)] += 1
+    # Deterministic tie-break: ordering of the dict above (stable insertion order)
+    best_family = max(counts, key=lambda k: (counts[k], -list(counts).index(k)))
+    return best_family, counts[best_family]
+
+
+# -----------------------------------------------------------------------------
 # Self-tests
 # -----------------------------------------------------------------------------
 
@@ -388,6 +472,46 @@ def _test_singularity_is_fixed_under_T() -> None:
         assert state == [(9, 9)], f"singularity drifted: {state}"
 
 
+def _test_identify_generator_recovers_starting_tuple() -> None:
+    """Generate a trace from a known starting tuple, then train to identify it.
+    The trained generator should recover the starting tuple exactly (score=len)."""
+    for start in [(1, 1), (1, 3), (1, 4), (3, 3), (9, 9), (2, 5), (7, 2)]:
+        traj = [start]
+        s = start
+        for _ in range(24):
+            s = T_step(s[0], s[1])
+            traj.append(s)
+        found, score = identify_generator(traj)
+        assert found == start, f"identify_generator recovered {found}, expected {start}"
+        assert score == len(traj), f"score={score}, expected {len(traj)} for exact match"
+
+
+def _test_identify_generator_deterministic() -> None:
+    """Repeated training calls on identical trace produce bitwise-identical output.
+    No stochastic sampling, no random restarts."""
+    traj = [(1, 1), (1, 2), (2, 3), (3, 5), (5, 8), (8, 4), (4, 3)]
+    r1 = identify_generator(traj)
+    r2 = identify_generator(traj)
+    assert r1 == r2, "identify_generator non-deterministic"
+
+
+def _test_identify_family_returns_correct_family() -> None:
+    """A trace entirely on the Fibonacci cosmos orbit identifies as fibonacci."""
+    traj = evolve([(1, 1)], steps=23)
+    flat = [state[0] for state in traj]
+    found, count = identify_family(flat)
+    assert found == "fibonacci", f"expected fibonacci, got {found}"
+    assert count == 24, f"expected all 24 steps fibonacci, got {count}"
+
+
+def _test_identify_generator_no_float_state() -> None:
+    """The returned generator is an integer tuple — no Fraction, no float."""
+    found, score = identify_generator([(1, 1), (1, 2), (2, 3)])
+    b, e = found
+    assert isinstance(b, int) and isinstance(e, int), f"non-int result: {found}"
+    assert isinstance(score, int), f"non-int score: {score}"
+
+
 def _run_tests() -> None:
     _test_determinism()
     _test_reflexivity()
@@ -402,6 +526,10 @@ def _run_tests() -> None:
     _test_observer_project_out_raw()
     _test_evolve_preserves_integers()
     _test_singularity_is_fixed_under_T()
+    _test_identify_generator_recovers_starting_tuple()
+    _test_identify_generator_deterministic()
+    _test_identify_family_returns_correct_family()
+    _test_identify_generator_no_float_state()
 
 
 # -----------------------------------------------------------------------------
@@ -457,6 +585,24 @@ def _demo() -> None:
     print()
     print("Pipeline: input tuples -> attention (integer) -> evolve (integer) -> output observer.")
     print("No learned parameters, no float state, no stochastic selection.")
+
+    # --- Generator-pattern training demo ---
+    print()
+    print("-" * 60)
+    print("Generator-pattern training (discrete search, no gradients):")
+    # Simulate: we observed a partial trace and want to identify its source
+    target_start = (2, 5)
+    observed = []
+    s = target_start
+    for _ in range(12):
+        observed.append(s)
+        s = T_step(s[0], s[1])
+    print(f"  Observed trace (12 steps from unknown start): {observed}")
+    found, score = identify_generator(observed)
+    print(f"  Identified starting tuple: {found}  (match score: {score}/{len(observed)})")
+    family, fam_count = identify_family(observed)
+    print(f"  Identified family: {family!r}  ({fam_count}/{len(observed)} tokens)")
+    print(f"  Ground truth: start={target_start}, family={orbit_family_s9(*target_start)!r}")
 
 
 if __name__ == "__main__":
